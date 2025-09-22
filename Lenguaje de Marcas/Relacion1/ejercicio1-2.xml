@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+<alumno>
+    <nombre>Rocio</nombre>
+    <apellido> gauna</apellido>
+    <edad> 25 </edad>
+    <email> lala@gmail.com </email>
+</alumno>
+<alumno>
+    <nombre>anahi</nombre>
+    <apellido> gauna</apellido>
+    <edad> 30 </edad>
+    <email> lalaaa@gmail.com </email>
+</alumno>
+</alumnos>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recetas>
+    <receta>
+        <nombre>torta</nombre>
+        <ingredientes>
+            <ingrediente>leche 250ml</ingrediente>
+            <ingrediente>huevos 2</ingrediente>
+            <ingrediente>harina 500g</ingrediente>
+        </ingredientes>
+        <tiempoPreparacion>15min</tiempoPreparacion>
+    </receta>
+    <receta>
+        <nombre>asado</nombre>
+        <ingredientes>
+            <ingrediente>Carne</ingrediente>
+            <ingrediente>achuras</ingrediente>
+        </ingredientes>
+        <tiempoPreparacion>2horas</tiempoPreparacion>
+    </receta>
+</recetas>
