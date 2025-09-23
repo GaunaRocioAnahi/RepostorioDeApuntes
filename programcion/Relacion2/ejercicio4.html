@@ -1,0 +1,23 @@
+<script>//Cálculo de Tiempo Restante
+//Pregunta al usuario su edad y calcula 
+//cuántos días le quedan para cumplir 80 años (usa una estimación de días).
+
+
+
+//Pedimos la edad del usuario usando prompt, y como estamos pidiendo 
+//numero vamos a poner un parseInt ya que hablamos de numero entero y de edad.
+    let edad = parseInt(prompt("ingresar edad:"));
+
+//calculamos los años que faltan para cumplir los 80. Llamando a una variable
+//y haciendo una operacion aritmetica.
+    let restoDeAño = 80- edad;
+
+
+    // Convertimos años en dias. con una operacion aritmetica tambien.
+    let restoDeDias= restoDeAño * 365;
+
+//Mostramos el resultado.
+    console.log("resto de dias" + restoDeDias + "Días a cumplir 80"  );
+
+    
+</script>
