@@ -3,9 +3,12 @@
     <receta>
         <nombre>torta</nombre>
         <ingredientes>
-            <ingrediente>leche 250ml</ingrediente>
-            <ingrediente>huevos 2</ingrediente>
-            <ingrediente>harina 500g</ingrediente>
+            <Nombre>leche 250ml</Nombre>
+            <cantidad>250ml</cantidad>
+            <nombre>huevos</nombre>
+            <cantidad>3</cantidad>
+            <nombre>harina</nombre>
+            <cantidad>500g</cantidad>
         </ingredientes>
         <tiempoPreparacion>15min</tiempoPreparacion>
     </receta>
