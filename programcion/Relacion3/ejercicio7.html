@@ -1,0 +1,30 @@
+<script>
+    //Simular una calculadora simple:
+    // Pide dos números y una operación (+, -, *, /) e imprime el resultado correspondiente.
+    // pedimos dos numeros en una variable
+    let numero1 = parseFloat(prompt("indica el primer numero"));
+    let numero2 = parsefloat(prompt("indicar un segundo numero"));
+    let operacion = prompt("escribe la opecion");
+    let resultado;
+    if (operacion == "+") {
+        resultado = numero1 + numero2;
+
+    } else if (operacion == "-") {
+        resultado = numero1 - numero2;
+    }
+    else if (operacion == "*") {
+        resultado = numero1 * numero2;
+    } else if (operacion == "/") {
+    if (numero2 !== 0) {
+            resultado = numero1 / numero2
+        } else {
+            resultado = "No se puede devidir a cero";
+
+        } else {
+            resultado = "No valido";
+        }
+    } console.log(resultado
+
+    );
+
+</script>
