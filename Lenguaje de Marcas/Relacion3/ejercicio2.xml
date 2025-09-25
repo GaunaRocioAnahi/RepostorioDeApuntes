@@ -1,0 +1,12 @@
+<!DOCTYPE equipo [
+    <!ELEMENT equipo (nombre, tipo, nivel)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT nivel (#PCDATA)>
+]>
+
+<pokemon>
+    <nombre> snorlax</nombre>
+    <tipo> Normal</tipo>
+    <nivel>No evoluciona </nivel>
+</pokemon>
