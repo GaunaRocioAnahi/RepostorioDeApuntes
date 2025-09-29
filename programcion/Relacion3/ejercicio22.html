@@ -1,0 +1,22 @@
+<script>
+    //Determinar el ganador de un juego de piedra, papel o tijera:
+    // Pide a dos jugadores que ingresen "piedra", "papel" o "tijera"
+    //  y determina el ganador según las reglas del juego.
+
+
+
+    //llamamos a a dos jugadores y hacemos una variable
+    let jugador1 = prompt("Piedra, papel o tijera");
+    let jugador2 = prompt("piedra, papel o tijera");
+    //usamos como el el triangulo, comparamos y declaramos un ganador en cada if y cuando es "empate" lo mostramos en consola
+    if (jugador1 == "piedra" && jugador2 == "tijera" || jugador1 == "tijera" && jugador2 == "papel" ||
+        jugador1 == "papel" && jugador2 == "piedra") {
+        console.log("Ganador jugador1");
+    } else if (jugador2 == "piedra" && jugador2 == "tijera" || jugador2 == "tijera" && jugador1 == "papel" ||
+        jugador2 == "papel" && jugador1 == "piedra") {
+        console.log("ganador Jugador2");
+    } else {
+        console.log("Es Empate");
+
+    }
+</script>
