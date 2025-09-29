@@ -4,16 +4,16 @@
 
     //hacemos una variable para hacer comparacion
     let anio = parseInt(prompt("Ingresar año"))
-      let divisible4 = (anio % 4 == 0)
+    let divisible4 = (anio % 4 == 0)
     let divisible100 = (anio % 100 == 0)
     let divisible400 = (anio % 400 == 0)
 
     let esBisiesto = ((divisible4 && !divisible100) || divisible400)
     if (esBisiesto) {
-        console.log("Es año biciesto" );
+        console.log("Es año biciesto");
 
     } else {
-        console.log("No es año biciesto") ;
+        console.log("No es año biciesto");
 
     }
 

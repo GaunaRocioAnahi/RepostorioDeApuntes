@@ -1,0 +1,7 @@
+<!ELEMENT liga (entrenador+)>
+<!ELEMENT entrenador (nombre, pokemon+ )>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT pokemon( nombre+, tipo, nivel?)>
+<!ELEMENT nombre(#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT nivel (#PCDATA)>
