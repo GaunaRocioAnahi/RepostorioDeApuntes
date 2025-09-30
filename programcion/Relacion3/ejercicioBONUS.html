@@ -7,11 +7,13 @@
     // Los siguientes 20.000 € (de 20.001 € a 40.000 €) pagan el 20%.
     // Todo lo que supere los 40.000 € paga el 30%.
 
-    let salarioAnual = parseFloat(prompr("ingrese su salario anual"));
-    if (salarioAnual <= 10000€ ) {
-        console.log("No paga impuesto");
-    }else if (salarioAnual > 10000€ && salarioAnual <= 20000€) {
-
+    let salario = prompt("Introduzca un numero");
+    let salarioAnual = Number (salario)
+    let impuesto =0
+    let mensaje= ""
+    if(!(impuesto >= 10000)) {
+     mensaje ="No paga impuesto"
     }
+    
 
 </script>
