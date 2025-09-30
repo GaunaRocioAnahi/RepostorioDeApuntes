@@ -6,14 +6,24 @@
     // De 3 a 10 minutos cuesta 0.50€ por minuto.
     // Más de 10 minutos cuesta 0.30€ por minuto adicional.
 
-    let llamadaEnMinutos = parseInt(prompt("duracion de la llamada"));
-    let costo = 0
-    if (llamadaEnMinutos <= 3) {
-        costo = 0;
-    } else if (llamadaEnMinutos <= 10) {
-        costo = (llamadaEnMinutos - 3) * 0.5;
+    let entrada = prompt("Ingrese un numero en minutos");
+    let duracion = Number(entrada)
+    let precio = 0
+    let mensaje = ""
+    if (!(duracion >= 0)) {
+        mensaje = "entrada no valida. Introduzca un numero mayor o igual a 0"
     } else {
-        costo = (7 * 0.5) + (llamadaEnMinutos - 10) * 0.3;
+        const PRIMEROSGRATIS = 3
+        const LIMITESEGUNDOTRAMO = 10
+        const PRECIOSSEGUNDOTRAMO = 0.5
+        const PRECIOTERCERTRAMO = 0.3
+        if (duracion > LIMITESEGUNDOTRAMO) {
+            precio = (duracion - LIMITESEGUNDOTRAMO) * PRECIOTERCERTRAMO
+            duracion = LIMITESEGUNDOTRAMO
+        } if (duracion > PRIMEROSGRATIS) {
+            precio = precio + (duracion - PRIMEROSGRATIS) * PRECIOSSEGUNDOTRAMO
+        }
+mensaje = "El precio de la llamada de "+ entrada + "minutos es:"+ precio.toFixed(2) + "€"
     }
-    console.log("El costo de llamada es:" + costo);
+    console.log(mensaje)
 </script>
