@@ -7,13 +7,26 @@
     // Los siguientes 20.000 € (de 20.001 € a 40.000 €) pagan el 20%.
     // Todo lo que supere los 40.000 € paga el 30%.
 
-    let salario = prompt("Introduzca un numero");
-    let salarioAnual = Number (salario)
-    let impuesto =0
-    let mensaje= ""
-    if(!(impuesto >= 10000)) {
-     mensaje ="No paga impuesto"
+    let salarioAnual = numbrer(prompt("Introduzca un numero"));
+    let impuesto = 0
+    let mensaje = ""
+    const primerTramo = 10000
+    const segundoTramo =20000
+    const tercerTramo= 40000
+    const porcentajeDePrimerTramo =0.1
+    const porcentajeDeSegundoTramo = 0.2
+    const PorcentajeDeTercerTramo = 0.3
+    if (!(impuesto <= primerTramo)) {
+        mensaje = "No paga impuesto"
+    } else if(salarioAnual<=segundoTramo){ 
+        impuesto = (salarioanual -primerTramo)* porcentajeDePrimerTramo
+        mensaje="Paga un 10% del salario "
+    } else if(salarioAnual<= tercerTramo){
+impuesto = (primerTramo * porcentajeDePrimerTramo) + ((salarioAnual - segundoTramo)* 0.20);
+mensaje = "Paga un 20% "
+    } else {
+        impuesto (primerTramo * porcentajeDePrimerTramo) + (segundoTramo*porcentajeDeSegundoTramo)+ ((salarioAnual-tercerTramo)*PorcentajeDeTercerTramo);
     }
-    
+    console.log
 
 </script>
