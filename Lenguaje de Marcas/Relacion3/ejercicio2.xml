@@ -4,9 +4,10 @@
     <!ELEMENT tipo (#PCDATA)>
     <!ELEMENT nivel (#PCDATA)>
 ]>
-
+<equipo>
 <pokemon>
     <nombre> snorlax</nombre>
     <tipo> Normal</tipo>
     <nivel>No evoluciona </nivel>
 </pokemon>
+</equipo>
