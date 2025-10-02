@@ -8,40 +8,60 @@
                         <xs:sequence>
                             <xs:element name="cliente">
                                 <xs:complexType>
-                                <xs:sequence>
-                                <xs:element name="nombre">
-                                    <xs:simpleType>
-                                        <xs:restriction base="xs:string">
-                                            <xs:maxLength value="100" />
-                                        </xs:restriction>
-                                    </xs:simpleType>
-                                </xs:element>
-                                <xs:element name="mail">
-                                    <xs:simpleType>
-                                        <xs:restriction base="xsd:string">
-                                            <xs:pattern
-                                                value="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" />
-                                        </xs:restriction>
-                                    </xs:simpleType>
-                                </xs:element>
-
-                                <xs:element name="telefono" type="xs:string">
-                                    </xs:simpleType>
-                                    <xs:restriction>
-                                        <xs:pattern value="/d{3}-/d{3}-/d{3}" />
+                                    <xs:sequence>
+                                        <xs:element name="nombre">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:maxLength value="100" />
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="email">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="telefono">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="\d{3}-\d{3}-\d{3}" />
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="productos">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="producto" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="nombre" type="xs:string" />
+                                                    <xs:element name="precio" type="xs:decimal" />
+                                                    <xs:element name="cantidad" type="xs:positiveInteger" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="estado">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Enviado" />
+                                        <xs:enumeration value="Pendiente" />
+                                        <xs:enumeration value="Cancelado" />
                                     </xs:restriction>
-                                    </xs:simpleType>
-                                </xs:element>
-                                </xs:restriction>
                                 </xs:simpleType>
                             </xs:element>
                         </xs:sequence>
+                        <xs:attribute name="codigo" type="xs:string" use="required" />
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
-    </xs:element>
-    </xs:sequence>
-    </xs:complexType>
     </xs:element>
 </xs:schema>
