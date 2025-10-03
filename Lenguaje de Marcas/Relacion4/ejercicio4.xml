@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="ejercicio4.xsd">
+    <alumno id="011">
+        <nombre></nombre>
+        <edad></edad>
+        <notas>
+            <nota></nota>
+            <nota></nota>
+            <nota></nota>
+            <nota></nota>
+            <nota></nota>
+        </notas>
+        <dni></dni>
+    </alumno>
+    <alumno id="012">
+        <nombre></nombre>
+        <edad></edad>
+        <notas>
+            <nota></nota>
+            <nota></nota>
+            <nota></nota>
+            <nota></nota>
+            <nota></nota>
+        </notas>
+        <dni></dni>
+    </alumno>
+</clase>

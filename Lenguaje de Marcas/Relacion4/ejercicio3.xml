@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<calendario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="ejercicio3.xsd">
+    <evento id="001">
+        <titulo>conferencia</titulo>
+        <fecha>2025-06-30</fecha>
+        <hora>20:00:00</hora>
+        <ubicacion>lisboa</ubicacion>
+        <codigoPostal>18100</codigoPostal>
+    </evento>
+    <evento id="002">
+        <titulo>concierto</titulo>
+        <fecha>2026-02-22</fecha>
+        <hora>19:30:00</hora>
+        <ubicacion>Berlin</ubicacion>
+        <codigoPostal>18101</codigoPostal>
+    </evento>
+    <evento id="003">
+        <titulo>reunion de trabajo</titulo>
+        <fecha>2025-10-15</fecha>
+        <hora>09:30:00</hora>
+        <ubicacion>España</ubicacion>
+        <codigoPostal>18007</codigoPostal>
+    </evento>
+</calendario>
