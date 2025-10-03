@@ -1,1 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name= clase>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:sequence>
+                <xs:element name="alumno">
+                <xs:complexType>
+                <xs:element name="edad"></xs:element>
+                <xs:element name="notas">
+                    <xs:complexType>
+                        <xs:element name="nota"></xs:element>
+                        <xs:element name="nota"></xs:element>
+                        <xs:element name="nota"></xs:element>
+                        <xs:element name="nota"></xs:element>
+                        <xs:element name="nota"></xs:element>
+                    </xs:complexType>
+                    <xs:atributte name="id"/>
+                </xs:element>
+                </xs:sequence>
+                </xs:complexType>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
