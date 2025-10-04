@@ -2,27 +2,27 @@
 <clase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="ejercicio4.xsd">
     <alumno id="011">
-        <nombre></nombre>
-        <edad></edad>
+        <nombre>leo</nombre>
+        <edad>18</edad>
         <notas>
-            <nota></nota>
-            <nota></nota>
-            <nota></nota>
-            <nota></nota>
-            <nota></nota>
+            <nota>10</nota>
+            <nota>10</nota>
+            <nota>5</nota>
+            <nota>5</nota>
+            <nota>5</nota>
         </notas>
-        <dni></dni>
+        <dni>12345678l</dni>
     </alumno>
     <alumno id="012">
-        <nombre></nombre>
-        <edad></edad>
+        <nombre>rocio</nombre>
+        <edad>12</edad>
         <notas>
-            <nota></nota>
-            <nota></nota>
-            <nota></nota>
-            <nota></nota>
-            <nota></nota>
+            <nota>10</nota>
+            <nota>10</nota>
+            <nota>10</nota>
+            <nota>3</nota>
+            <nota>6</nota>
         </notas>
-        <dni></dni>
+        <dni>12345678p</dni>
     </alumno>
 </clase>

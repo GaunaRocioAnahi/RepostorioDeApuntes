@@ -1,24 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name= clase>
+    <xs:element name="clase">
         <xs:complexType>
             <xs:sequence>
-                <xs:sequence>
-                <xs:element name="alumno">
-                <xs:complexType>
-                <xs:element name="edad"></xs:element>
-                <xs:element name="notas">
+                <xs:element name="alumno" maxOccurs="unbounded">
                     <xs:complexType>
-                        <xs:element name="nota"></xs:element>
-                        <xs:element name="nota"></xs:element>
-                        <xs:element name="nota"></xs:element>
-                        <xs:element name="nota"></xs:element>
-                        <xs:element name="nota"></xs:element>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="edad">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:minInclusive value="6" />
+                                        <xs:maxInclusive value="18" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="notas">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nota" maxOccurs="unbounded">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:decimal">
+                                                    <xs:minInclusive value="1" />
+                                                    <xs:maxInclusive value="10" />
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="dni">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="[0-9]{8}[A-Za-z]" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" use="required" />
                     </xs:complexType>
-                    <xs:atributte name="id"/>
                 </xs:element>
-                </xs:sequence>
-                </xs:complexType>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+</xs:schema>
