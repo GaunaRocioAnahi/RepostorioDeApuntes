@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agencia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="ejercicio5.xsd">
+    <paquetes>
+        <paquete codigo="PKT-1234">
+            <destino></destino>
+            <precio></precio>
+            <fechaInicio></fechaInicio>
+            <tipo></tipo>
+            <clientes>
+                <cliente>
+                    <nombre></nombre>
+                    <dni></dni>
+                    <edad></edad>
+                    <email></email>
+                </cliente>
+            </clientes>
+        </paquete>
+    </paquetes>
+</agencia>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schemma xmlns="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="agencia">
+        <xs:complexStyle>
+            <xs:sequence>
+                <xs:element name="paquetes">
+                    <xs:complexStyle>
+                        <xs:sequence>
+
+                        </xs:sequence>
+                    </xs:complexStyle>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexStyle>
+    </xs:element>
+</xs:schemma>
