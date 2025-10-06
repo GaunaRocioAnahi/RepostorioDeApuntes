@@ -6,6 +6,7 @@
             <destino></destino>
             <precio></precio>
             <fechaInicio></fechaInicio>
+            <fechafin></fechafin>
             <tipo></tipo>
             <clientes>
                 <cliente>

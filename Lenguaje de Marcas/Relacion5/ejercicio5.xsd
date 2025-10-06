@@ -6,7 +6,34 @@
                 <xs:element name="paquetes">
                     <xs:complexStyle>
                         <xs:sequence>
-
+                            <xs:element name="paquete" type="xs:string">
+                                <xs:complextype>
+                                    <xs:sequence>
+                                        <xs:element name="destino" type="xs:string">
+                                        <xs:element name="precio" type="xs:decimal">
+                                            <xs:simpleStyle>
+                                                <xs:restriction>
+                                                        <xs:minExclusive value="0" />
+                                                </xs:restriction>
+                                            </xs:simpleStyle>
+                                        </xs:element>
+                                        </xs:element>
+                                        <xs:element name="fechaInicio" type="xs:date"/>
+                                        <xs:element name="fechafin" type="date"/>
+                                        <xs:element name="tipo">
+                                            <xs:simpleType>
+                                                <xs:restriction value="xs:string">
+                                                    <xs:enumeration value="aventure"/>
+                                                    <xs:enumeration value="relax"/>
+                                                    <xs:enumeration value="cultural"/>
+                                                    <xs:enumeration value="familiar"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        
+                                    </xs:sequence>
+                                </xs:complextype>
+                            </xs:element>
                         </xs:sequence>
                     </xs:complexStyle>
                 </xs:element>
