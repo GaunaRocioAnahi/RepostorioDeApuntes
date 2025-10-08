@@ -13,10 +13,16 @@
                                         <xs:element name="email">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:string">
+                                                    <xs:pattern
+                                                        value="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}" />
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
-                                        <xs:element name="seguidores"></xs:element>
+                                        <xs:element name="seguidores">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:positiveInteger" />
+                                            </xs:simpleType>
+                                        </xs:element>
                                         <xs:element name="publicacion">
                                             <xs:complexType>
                                                 <xs:sequence>
@@ -34,7 +40,8 @@
                                                             <xs:sequence>
                                                                 <xs:element name="autor"></xs:element>
                                                                 <xs:element name="contenido"></xs:element>
-                                                                <xs:element name="fecha" type="xs:date" />
+                                                                <xs:element name="fecha"
+                                                                    type="xs:date" />
 
 
                                                             </xs:sequence>
