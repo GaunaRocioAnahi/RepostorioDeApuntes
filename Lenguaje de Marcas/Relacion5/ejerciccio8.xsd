@@ -1,1 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="redSocial">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="usuarios">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="usuario">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombreUsuario"></xs:element>
+                                        <xs:element name="email">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="seguidores"></xs:element>
+                                        <xs:element name="publicacion">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="titulo"></xs:element>
+                                                    <xs:element name="fecha" type="xs:date" />
+                                                    <xs:element name="like">
+                                                        <xs:simpleType>
+                                                            <xs:restriction>
+                                                                
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+
+    </xs:element>
+</xs:schema>
