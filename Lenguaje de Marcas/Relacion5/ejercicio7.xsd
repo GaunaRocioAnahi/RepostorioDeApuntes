@@ -12,7 +12,7 @@
                                         <xs:element name="nombre">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:string">
-                                                    <xs:pattern value="[A-Za-zÁÉÍÓÚáéíóúÑñ \-]+"/>
+                                                    <xs:pattern value="[A-z].*"/>
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
@@ -37,8 +37,8 @@
                             <xs:element name="precioTotal">
                                 <xs:simpleType>
                                     <xs:restriction base="xs:decimal">
-                                        <xs:minInclusive value="0.01" />
-                                        <xs:maxInclusive value=" 999.99" />
+                                        <xs:minInclusive value="50" />
+                                        <xs:maxInclusive value=" 5000" />
                                         <xs:pattern value="\d+\.\d{2}" />
                                     </xs:restriction>
                                 </xs:simpleType>

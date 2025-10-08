@@ -136,4 +136,17 @@ Eso no se puede hacer al mismo tiempo: un elemento solo puede tener un tipo, y s
       </xs:restriction>
   </xs:simpleType>
   </xs:element>
-                                                            ```
+  
+  ```
+
+  * un posible nombre:
+   
+   ```
+   <xs:element name="nombre">
+         <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[A-Za-zÁÉÍÓÚáéíóúÑñ \-]+"/>
+            </xs:restriction>
+         </xs:simpleType>
+   </xs:element>
+                                        ```

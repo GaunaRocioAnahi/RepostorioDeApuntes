@@ -3,7 +3,7 @@
     xsi:noNamespaceSchemaLocation="ejercicio7.xsd">
     <reserva codigo="R001">
         <cliente>
-            <nombre>Lucía Martínez</nombre>
+            <nombre>Lucia Martinez</nombre>
             <dni>12345678Z</dni>
         </cliente>
         <habitacion tipo="Doble" numero="202"/>
