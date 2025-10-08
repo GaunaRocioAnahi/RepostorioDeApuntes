@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hospital xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation="ejercicio9.xsd">
-
+    xsi:noNamespaceSchemaLocation="ejercicio9.xsd">
+    <nombre></nombre>
+<departamentos>
+        <departamento>
+            <nombre></nombre>
+            <medicoJefe></medicoJefe>
+            <pacientes>
+                <paciente>
+                    <dni></dni>
+                    <edad></edad>
+                    <fechaIngreso></fechaIngreso>
+                    <diagnostico></diagnostico>
+                    <tratamiento></tratamiento>
+                </paciente>
+                <paciente>
+                    <dni></dni>
+                    <edad></edad>
+                    <fechaIngreso></fechaIngreso>
+                    <diagnostico></diagnostico>
+                    <tratamiento></tratamiento>
+                </paciente>
+            </pacientes>
+        </departamento>
+        <departamento>
+            <nombre></nombre>
+            <medicoJefe></medicoJefe>
+            <pacientes>
+                <paciente>
+                    <dni></dni>
+                    <edad></edad>
+                    <fechaIngreso></fechaIngreso>
+                    <diagnostico></diagnostico>
+                    <tratamiento></tratamiento>
+                </paciente>
+                <paciente>
+                    <dni></dni>
+                    <edad></edad>
+                    <fechaIngreso></fechaIngreso>
+                    <diagnostico></diagnostico>
+                    <tratamiento></tratamiento>
+                </paciente>
+            </pacientes>
+        </departamento>
+    </departamentos>
 
 </hospital>
