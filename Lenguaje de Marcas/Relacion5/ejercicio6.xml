@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="ejercicio6.xsd">
+    <productos>
+        <producto id="101">
+            <nombre>cloro</nombre>
+            <categoria>accesorio</categoria>
+            <precio>19.30</precio>
+            <stock>10</stock>
+            <proveedor>
+                <nombre>emilio</nombre>
+                <telefono>123-123-123</telefono>
+                <pais>españa</pais>
+            </proveedor>
+        </producto>
+        <producto id="102">
+            <nombre>jabon</nombre>
+            <categoria>periferico</categoria>
+            <precio>3.25</precio>
+            <stock>30</stock>
+            <proveedor>
+                <nombre>leonardo</nombre>
+                <telefono>123-123-123</telefono>
+                <pais>argentina</pais>
+            </proveedor>
+        </producto>
+        <producto id="103">
+            <nombre>detergente</nombre>
+            <categoria>movil</categoria>
+            <precio>2.50</precio>
+            <stock>60</stock>
+            <proveedor>
+                <nombre>saboi</nombre>
+                <telefono>123-123-123</telefono>
+                <pais></pais>
+            </proveedor>
+        </producto>
+    </productos>
+</inventario>

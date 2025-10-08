@@ -2,18 +2,18 @@
 <agencia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="ejercicio5.xsd">
     <paquetes>
-        <paquete codigo="PKT-1234">
-            <destino></destino>
-            <precio></precio>
-            <fechaInicio></fechaInicio>
-            <fechafin></fechafin>
-            <tipo></tipo>
+        <paquete id="PKT-0123">
+            <destino>uruguay</destino>
+            <precio>35.50</precio>
+            <fechaInicio>2025-10-12</fechaInicio>
+            <fechaFin>2028-12-20</fechaFin>
+            <tipo>aventura</tipo>
             <clientes>
                 <cliente>
-                    <nombre></nombre>
-                    <dni></dni>
-                    <edad></edad>
-                    <email></email>
+                    <nombre>Elias</nombre>
+                    <dni>12345678l</dni>
+                    <edad>19</edad>
+                    <email>aa@jjj.es</email>
                 </cliente>
             </clientes>
         </paquete>
