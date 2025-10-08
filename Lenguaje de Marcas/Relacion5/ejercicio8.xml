@@ -6,16 +6,16 @@
             <nombreUsuario>pepita10_10</nombreUsuario>
             <email>pepita@hotmail.com</email>
             <seguidores>123</seguidores>
-            <puclicacion>
+            <publicacion>
                 <titulo>lo mejor</titulo>
                 <fecha>2025-12-30</fecha>
                 <like>123</like>
                 <comentario>
                     <autor>esteban</autor>
                     <contenido>humor</contenido>
-                    <fecha>2025-21-28</fecha>
+                    <fecha>2025-11-28</fecha>
                 </comentario>
-            </puclicacion>
+            </publicacion>
         </usuario>
     </usuarios>
 </redSocial>

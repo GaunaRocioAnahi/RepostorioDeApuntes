@@ -6,10 +6,16 @@
                 <xs:element name="usuarios">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="usuario">
+                            <xs:element name="usuario" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="nombreUsuario"></xs:element>
+                                        <xs:element name="nombreUsuario">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="[A-Za-z0-9_]{3,15}" />
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
                                         <xs:element name="email">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:string">
@@ -23,16 +29,15 @@
                                                 <xs:restriction base="xs:positiveInteger" />
                                             </xs:simpleType>
                                         </xs:element>
-                                        <xs:element name="publicacion">
+                                        <xs:element name="publicacion" maxOccurs="unbounded">
                                             <xs:complexType>
                                                 <xs:sequence>
-                                                    <xs:element name="titulo"></xs:element>
+                                                    <xs:element name="titulo" type="xs:string" />
                                                     <xs:element name="fecha" type="xs:date" />
                                                     <xs:element name="like">
                                                         <xs:simpleType>
-                                                            <xs:restriction base="xs:integer">
-
-                                                            </xs:restriction>
+                                                            <xs:restriction
+                                                                base="xs:positiveInteger" />
                                                         </xs:simpleType>
                                                     </xs:element>
                                                     <xs:element name="comentario">
@@ -42,8 +47,6 @@
                                                                 <xs:element name="contenido"></xs:element>
                                                                 <xs:element name="fecha"
                                                                     type="xs:date" />
-
-
                                                             </xs:sequence>
                                                         </xs:complexType>
                                                     </xs:element>
@@ -51,7 +54,9 @@
                                             </xs:complexType>
                                         </xs:element>
                                     </xs:sequence>
-                                    <xs:attribute name="id" />
+
+                                    <xs:attribute name=" id" type="xs:positiveInteger"
+                                        use="required" />
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
@@ -59,6 +64,5 @@
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
-
     </xs:element>
 </xs:schema>
