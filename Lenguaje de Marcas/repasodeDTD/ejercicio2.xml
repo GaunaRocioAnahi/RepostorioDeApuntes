@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE alumno [
+    <!ELEMENT alumno (nombre, apellido, edad?)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT edad (#PCDATA)>
+]>
+
+<alumno>
+    <nombre>emilio</nombre>
+    <apellido>martinez</apellido>
+    <edad>30</edad>
+</alumno>

@@ -37,6 +37,10 @@
     </xs:schema>
 ```
 
+
+*En un ``<xs:complexType> `` no podemos ponerle un `` Type``
+Eso no se puede hacer al mismo tiempo: un elemento solo puede tener un tipo, y si lo defines como xs:string, no puede contener subelementos (como <cliente>, <habitacion>, etc.).*
+
 # ATRIBUTOS/REQUERIMIENTOS: 
 
    + para cuando te piden el **email**
@@ -63,3 +67,73 @@
 ```
 
 
+* cuando te piden un precio con decimales de dos en regex - decimal, con 2 decimales exactos → regex \d+\.\d{2}.
+  
+  ```
+
+   <xs:element name="precio">
+     <xs:simpleType>
+        <xs:restriction base="xs:decimal">
+               <xs:minInclusive value="0.01" />
+               <xs:maxInclusive value=" 999.99"/>
+               <xs:pattern value="\d+\.\d{2}"/>
+        </xs:restriction>
+    </xs:simpleType>
+     </xs:element>  
+  ```
+
+* cuando te piden un telefono.
+   
+   ```
+   <xs:element name="nombre" type="xs:string" />
+        <xs:element name="telefono">
+         <xs:simpleType>
+         <xs:restriction base="xs:string">
+            <xs:pattern value="\d{3}-\d{3}-\d{3}">
+         </xs:restriction>
+         </xs:simpleType>             
+  </xs:element>
+  ```
+
+* para enumerdad o hace listas -EJEMPLO-
+
+
+  ```
+   <xs:element name="categoria">
+      <xs:simpleType>
+          <xs:restriction base="xs:string">
+          <xs:enumeration value="periferico" />
+          <xs:enumeration value="movil" />
+          <xs:enumeration value="ordenador" />
+          <xs:enumeration value="accesorio" />
+        </xs:restriction>
+     </xs:simpleType>
+  </xs:element>
+  ```
+
+
+ * cuando nos piden un **ID** con resquerimientos:
+
+```
+  <xs:attribute name="codigo" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+               <!-- Patrón: A seguido de 3dígitos -->
+          <xs:pattern value="PKT-\d{4}" />
+          </xs:restriction>
+           </xs:simpleType>
+   </xs:attribute>
+   ``` 
+
+* Para la edad la requerimiento de rango usamos el  ``xs:minInclusive `` y el `` xs:maxInclusive``
+  
+
+* Para los nombres con mayusculas:
+   ```
+  <xs:element name="nombre">                                        <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern  value="[A-Z].*" />
+      </xs:restriction>
+  </xs:simpleType>
+  </xs:element>
+                                                            ```

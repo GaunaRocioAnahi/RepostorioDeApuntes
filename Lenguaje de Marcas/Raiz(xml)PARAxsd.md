@@ -30,4 +30,13 @@
    
 <edad>...</edad>
 
-</persona>```
+</persona>
+
+```
+* "Tener en cuenta el enunciado. que requiere. si me dicen ejemplo un almacen tiene producto con id blabla... hacer un padre con el nombre productos y luego producto, al igual que si dice cada producto tiene su cliente, hacer una raiz con un padre clientes y luego cliente "
+
+* **fijarte cerrar todas las palabras que sean necesarias**
+
+
+
+
