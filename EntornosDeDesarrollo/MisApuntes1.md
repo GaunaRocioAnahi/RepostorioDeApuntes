@@ -57,3 +57,6 @@
 - `git checkout` :  "Nombre-rama"  cambia una rama existente.
   
 - `git diff` :  muestra los cambios realizados en los archivos.-
+
+-`git branch` : me crea ramas
+
