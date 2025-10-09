@@ -150,3 +150,26 @@ Eso no se puede hacer al mismo tiempo: un elemento solo puede tener un tipo, y s
          </xs:simpleType>
    </xs:element>
                                         ```
+
+
+* otro id y tener en cuenta que cuando me dicen entero positivo en el id poner un `` Type = xs:positiveInteger" `` el atrubito siempre después del complex del que lleva el 
+* nombre con rangos ejemplo 3 -15 alfanuméricos y guiones bajos
+```  <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:pattern value="[A-Za-z0-9_]{3,15}" />
+      </xs:restriction>
+     </xs:simpleType>
+```
+* si me solo entero en alguna tengo que poner la estructura siguiente: 
+
+```
+<xs:simpleType>
+    <xs:restriction base="xs:positiveInteger"/>
+ </xs:simpleType>
+
+
+## ** Usa tipos complejos anidados y minOccurs/maxOccurs para controlar la cantidad.**
+
+
+## ** en elementos simples va el type="xs:string" **
+
