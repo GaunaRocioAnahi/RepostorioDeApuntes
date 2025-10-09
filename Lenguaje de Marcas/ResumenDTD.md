@@ -33,6 +33,16 @@ Este es un archivo aparte de un "**X.dtd**"  'ejemplo'
   ]> 
   -- el resto del XML--
 ```
+* cuando hay un atributo y hay o id
+  ```
+  <!ATTLIST alumno
+    matricula CDATA #REQUIRED>
+ + otro
+```
+ <!ATTLIST jugador
+    titular (sí | no) #REQUIRED>
+```
+
 # REGEX
 
 ## Expresion para encontrer patrones en un texto
