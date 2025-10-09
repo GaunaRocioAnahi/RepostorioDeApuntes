@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name=" hospital">
+    <xs:element name="hospital">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="nombre" type="xs:string" />
+                <xs:element name="nombre" />
                 <xs:element name="departamentos">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="departamento" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name=" nombre">
+                                        <xs:element name="nombre">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:string">
-                                                    <xs:enumeration value="urgencias" />
-                                                    <xs:enumeration value="pediatria" />
-                                                    <xs:enumeration value="traumatologia" />
-                                                    <xs:enumeration value="oncologia" />
+                                                    <xs:enumeration value="Urgencias" />
+                                                    <xs:enumeration value="Pediatria" />
+                                                    <xs:enumeration value="Traumatologia" />
+                                                    <xs:enumeration value="Oncologia" />
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
@@ -38,30 +38,24 @@
                                                                         <xs:restriction
                                                                             base="xs:string">
                                                                             <xs:pattern
-                                                                                value="\d{8}[a-z]" />
+                                                                                value="\d{8}[A-Za-z]" />
                                                                         </xs:restriction>
                                                                     </xs:simpleType>
                                                                 </xs:element>
                                                                 <xs:element name="edad">
                                                                     <xs:simpleType>
-                                                                        <xs:restriction base="xs:string">
-                                                                            <xs:minInclusive
-                                                                                value="0" />
-                                                                            <xs:maxInclusive
-                                                                                value="120" />
+                                                                        <xs:restriction base="xs:integer">
+                                                                            <xs:minInclusive value="0"/>
+                                                                            <xs:maxInclusive value="120"/>
                                                                         </xs:restriction>
                                                                     </xs:simpleType>
                                                                 </xs:element>
-                                                                <xs:element name="fechaIngreso"
-                                                                    type="xs:date">
-
-                                                                </xs:element>
+                                                                <xs:element name="fechaIngreso" type="xs:date"/>
+                                                                <xs:element name="diagnostico" type="xs:string"/>
+                                                                <xs:element name="tratamiento" type="xs:string" minOccurs="0" />
                                                             </xs:sequence>
                                                         </xs:complexType>
                                                     </xs:element>
-                                                    <xs:element name="diagnostico" type="xs:string">
-                                                    </xs:element>
-                                                    <xs:element name="tratamiento"></xs:element>
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>

@@ -60,14 +60,14 @@ Eso no se puede hacer al mismo tiempo: un elemento solo puede tener un tipo, y s
 <xs:element name="dni">
    <xs:simpleType>
        <xs:restriction base="xs:string">
-             <xs:pattern value="\d{8}[a-z]" />
+             <xs:pattern value="\d{8}[A-Za-z]" />
        </xs:restriction>
   </xs:simpleType>
 </xs:element>
 ```
 
 
-* cuando te piden un precio con decimales de dos en regex - decimal, con 2 decimales exactos → regex \d+\.\d{2}.
+* cuando te piden un **precio** con decimales de dos en regex - decimal, con 2 decimales exactos → regex \d+\.\d{2}.
   
   ```
 
@@ -82,7 +82,7 @@ Eso no se puede hacer al mismo tiempo: un elemento solo puede tener un tipo, y s
      </xs:element>  
   ```
 
-* cuando te piden un telefono.
+* cuando te piden un **telefono**.
    
    ```
    <xs:element name="nombre" type="xs:string" />
@@ -95,7 +95,7 @@ Eso no se puede hacer al mismo tiempo: un elemento solo puede tener un tipo, y s
   </xs:element>
   ```
 
-* para enumerdad o hace listas -EJEMPLO-
+* para **enumerdaR** o hace listas -EJEMPLO-
 
 
   ```
@@ -125,10 +125,10 @@ Eso no se puede hacer al mismo tiempo: un elemento solo puede tener un tipo, y s
    </xs:attribute>
    ``` 
 
-* Para la edad la requerimiento de rango usamos el  ``xs:minInclusive `` y el `` xs:maxInclusive``
+* Para la **edad** la requerimiento de rango usamos el  ``xs:minInclusive `` y el `` xs:maxInclusive``
   
 
-* Para los nombres con mayusculas:
+* Para los **nombres** con mayusculas:
    ```
   <xs:element name="nombre">                                        <xs:simpleType>
       <xs:restriction base="xs:string">
@@ -137,6 +137,8 @@ Eso no se puede hacer al mismo tiempo: un elemento solo puede tener un tipo, y s
   </xs:simpleType>
   </xs:element>
   
+  para nombre y apellidos
+  <xs:pattern value="[A-Z][a-z]+ [A-Z][a-z]+"/>
   ```
 
   * un posible nombre:
@@ -149,27 +151,35 @@ Eso no se puede hacer al mismo tiempo: un elemento solo puede tener un tipo, y s
             </xs:restriction>
          </xs:simpleType>
    </xs:element>
-                                        ```
-
+   
+                                        
+   ```
 
 * otro id y tener en cuenta que cuando me dicen entero positivo en el id poner un `` Type = xs:positiveInteger" `` el atrubito siempre después del complex del que lleva el 
-* nombre con rangos ejemplo 3 -15 alfanuméricos y guiones bajos
+*  **nombre con rangos** ejemplo 3 -15 alfanuméricos y guiones bajos
 ```  <xs:simpleType>
         <xs:restriction base="xs:string">
           <xs:pattern value="[A-Za-z0-9_]{3,15}" />
       </xs:restriction>
      </xs:simpleType>
 ```
-* si me solo entero en alguna tengo que poner la estructura siguiente: 
+
+
+
+* si me solo  **enteros positivos** en alguna tengo que poner la estructura siguiente: 
 
 ```
 <xs:simpleType>
     <xs:restriction base="xs:positiveInteger"/>
  </xs:simpleType>
 
+```
 
-## ** Usa tipos complejos anidados y minOccurs/maxOccurs para controlar la cantidad.**
 
 
-## ** en elementos simples va el type="xs:string" **
+
+## **Usa tipos complejos anidados y minOccurs/maxOccurs para controlar la cantidad.**
+    cuando es opcional va minOccurs="0"
+
+## **en elementos simples va el type="xs:string"**
 

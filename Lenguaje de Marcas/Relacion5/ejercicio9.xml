@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hospital xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="ejercicio9.xsd">
-    <nombre></nombre>
+    <nombre>Ìtaliano</nombre>
 <departamentos>
         <departamento>
-            <nombre></nombre>
-            <medicoJefe></medicoJefe>
+            <nombre>Urgencias</nombre>
+            <medicoJefe>Diego Iraola</medicoJefe>
             <pacientes>
                 <paciente>
-                    <dni></dni>
-                    <edad></edad>
-                    <fechaIngreso></fechaIngreso>
-                    <diagnostico></diagnostico>
-                    <tratamiento></tratamiento>
+                    <dni>12345678l</dni>
+                    <edad>18</edad>
+                    <fechaIngreso>2025-04-09</fechaIngreso>
+                    <diagnostico>reservado</diagnostico>
+                    <tratamiento>critico</tratamiento>
                 </paciente>
                 <paciente>
-                    <dni></dni>
-                    <edad></edad>
-                    <fechaIngreso></fechaIngreso>
-                    <diagnostico></diagnostico>
-                    <tratamiento></tratamiento>
+                    <dni>32165487m</dni>
+                    <edad>17</edad>
+                    <fechaIngreso>2026-06-23</fechaIngreso>
+                    <diagnostico>malo</diagnostico>
+                    <tratamiento>efectivo</tratamiento>
                 </paciente>
             </pacientes>
         </departamento>
         <departamento>
-            <nombre></nombre>
-            <medicoJefe></medicoJefe>
+            <nombre>Urgencias</nombre>
+            <medicoJefe>Fernando Hernandez</medicoJefe>
             <pacientes>
                 <paciente>
-                    <dni></dni>
-                    <edad></edad>
-                    <fechaIngreso></fechaIngreso>
-                    <diagnostico></diagnostico>
-                    <tratamiento></tratamiento>
+                    <dni>78456123m</dni>
+                    <edad>30</edad>
+                    <fechaIngreso>2025-03-03</fechaIngreso>
+                    <diagnostico>critico</diagnostico>
+                    <tratamiento>bien</tratamiento>
                 </paciente>
                 <paciente>
-                    <dni></dni>
-                    <edad></edad>
-                    <fechaIngreso></fechaIngreso>
-                    <diagnostico></diagnostico>
-                    <tratamiento></tratamiento>
+                    <dni>13211126l</dni>
+                    <edad>40</edad>
+                    <fechaIngreso>2520-12-21</fechaIngreso>
+                    <diagnostico>reservado</diagnostico>
+                    <tratamiento>transplante</tratamiento>
                 </paciente>
             </pacientes>
         </departamento>
