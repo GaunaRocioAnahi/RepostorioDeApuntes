@@ -182,4 +182,14 @@ Eso no se puede hacer al mismo tiempo: un elemento solo puede tener un tipo, y s
     cuando es opcional va minOccurs="0"
 
 ## **en elementos simples va el type="xs:string"**
-
+ + para saber el año
+ ```
+  <xs:element name="anio">
+    <xs:simpleType>
+        <xs:restriction base="xs:gYear">
+            <xs:minInclusive value="1900"/>
+            <xs:maxInclusive value="2100"/>
+        </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  ```
