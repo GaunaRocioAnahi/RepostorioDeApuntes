@@ -1,0 +1,50 @@
+<script>
+    //crea un programa que reciba las calificaciones de N estudiantes
+    //(se piden calificaciones hasta que el usuario introduzca un"-1")
+    //y calcule el promedio. luego muestra cuantos estudiantes estan aporbados
+    //(>=5) y cuantos suspenso.
+
+    //mensaje de bienvenida
+    console.log("introduce hasta que introduzcas -1");
+
+
+    //Declaracion de variables
+
+    let notaAlumno = Number(prompt("introduce la calificacion del alumno"))
+    let numeroAlumno = 0
+    let sumario = 0
+    let promedio = 0
+    let numeroAprobados = 0
+    let numeroSuspenso = 0
+
+
+    // pido notas hasta que el usuario meta -1
+
+    while (notaAlumno != -1 ) {
+        //Manejo de errores rango [0-10]
+        while (notaAlumno < 0 || notaAlumno > 10) {
+            notaAlumno = Number(prompt("valor fuera del intervalo de calificacion del alumno"
+                + (numeroAlumno + 1) + ":"))
+        }
+        //Actualizado nuemro de alumnos y suma total de las notas
+        numeroAlumno++
+        sumario += notaAlumno
+        //Realizo conteo de alumnos aprobados y suspenso 
+        if (notaAlumno >= 5) {
+            numeroAprobados++
+        } else {
+            numeroSuspenso++
+        }
+        //pido nota del siquiente alumno
+        notaAlumno = Number(prompt("introduce la calificacion del alumno" + (numeroAlumno + 1) + ": "))
+    }
+    //calculo el promedio 
+    promedio = sumatorio / numeroAlumno
+    //Muestro el resultado de mi programa
+    console.log("hay" + numeroAprobados + "alumnos aprobados y "
+        + numeroSuspenso + "alumnos suspensos.");
+    console.log("calificacion media es" + promedio);
+
+
+
+</script>
