@@ -29,14 +29,61 @@
  ``nano`` *archivo* me habre un centro de edicion para el archivo
  ``cat`` *archivo* me meustra el contenido del archivo. sin necesidad de abrirlo  
 
- 
+
+ ## Armado de directorios:
+  ### - en 1 sola linea- 
+  sin espacio, o sino rompe el codigo
+
+  ```bash
+  mkdir -p nombre-de-la-carpeta-principal/{carpetas,que,contiene/otrasdentro}
+  ```
+
+
+ ### Para crear archivos dentro de esa carpeta
+
+ utilizamos el ``touch`` crea archivos vacios, primero nombramos la carpeta padre creando la ruta, luego esa carpeta padre tiene un directorio padre con archivos, lo cual ponemos un ejemplo :
+ ```bash
+ touch ~/home/padre/{archivo.txt,archivo2.txt} \
+ ``` 
+el espacio y contra barra al final y puedo hacelo o con cada una o al final de la contra barra continuar con ,las demas.
+o posicionarte en la carpeta y continuar con la carpetaseleccionada/{...} \carpeta/{...,../...}
+
+### para copiar (cp)
+
+```bash
+cp [opciones] origen/archivo... destino/
+```
+ó varios
+
+```bash
+cp [opciones] origen/archivo1...origen/archivo2... destino/
+```
+```bash
+cp docs/{manual.txt,guia.txt} backup_docs/
+
+```
+para copiar toda la carpeta con los archivos dentro se usa: ``cp`` ``-r`` carpeta de origen espacio carpeta destino barra, como en el *ejemplo:*
+```bash
+cp -r docs backup_docs/
+```
+
+
 ## ``find`` explicacion 
 
- `` find`` es muy flexible, la sintaxis es 
+   `` find`` es muy flexible, la sintaxis es:
 
- ```bash
+
+
+
+
+```bash
  find <ruta> <condicion> -print
 ```
+
+
+
+
+
   **condiciones**
   * ``-type f`` ficheros o ``-type d`` directorios.
   * ``-name`` *".conf"* 
@@ -108,13 +155,54 @@ para indicarle la RUTA ejemplo: el ultimo es el directorio al cual hacemos la ru
 
 
 
+## PruebaT1
+*ejercicio1:* hacer una series de archivos. un arbol...
+
+1️⃣ Crear toda la estructura de carpetas de una sola vez con mkdir -p
+(-p crea carpetas intermedias automáticamente)
+
+```bash
+mkdir -p ~/proyecto/{docs,src/modulos,config,logs/backup,test/resultados}
+
+```
+Creaste dentro de proyecto todas las carpetas necesarias de un solo golpe.
+
+2️⃣ Crear todos los archivos vacíos dentro de esas carpetas:
+
+```bash
+touch ~/proyecto/docs/{manual.txt,guia.txt,referencias.txt} \
+~/proyecto/src/{script1.sh,script2.sh,modulos/modulo1.py} \
+~/proyecto/config/{app.cfg,db.cfg} \
+~/proyecto/logs/{access.log,error.log,backup/backup1.log} \
+~/proyecto/test/{test1.txt,test2.txt,resultados/resultados1.txt}
 
 
+```
+*ejercicio2:*
+-Copia los archivos ``manual.txt`` y ``guia.txt``desde el subdirectorio ``docs``a un nuevo subdirectorio llamado ``backup_docs``dentro de ``proyecto.``
+```bash
+cp docs/{manual.txt,guia.txt} backup_docs/
+```
+-Copia de forma recursiva el directorio ``config`` completo junto con su contenido a un subdirectorio llamado  ``config_backup `` dentro de *proyecto.*
+ 
+ ```bash
+ cp -r config config_backup/
+ ```
+ *ejerccicio3*
 
+Mueve el archivo ``script1.shdes``de el subdirectorio ``src``a ``test/resultados.``
+```bash
+mv scr/script1.sh test/resultados
+```
+Renombra ``script2.sh`` a ``script_final.sh``dentro del subdirectorio ``src``.
+```bash
+mv src/script2.sh src/script_final.sh
+```
+Mueve el directorio ``backup``completo desde ``logs``a test.
 
-
-
-
+```bash
+mv logs/backup test
+```
 
 
 
