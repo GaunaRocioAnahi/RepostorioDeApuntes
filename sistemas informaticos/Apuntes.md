@@ -151,8 +151,15 @@ para indicarle la RUTA ejemplo: el ultimo es el directorio al cual hacemos la ru
  mkdir /home/wsl/Dir3/Dir4 
 ```
 
-
-
+``head`` : muestra las primeras lineas (10 por defecto) de uno o varios archivos, para previsualizar archivos grandes sin abrirlo.
+```bash
+head [opciones] [archivo...]
+```
+**ejemplo**
+*muestra las primeras 5 lineas* 
+```bash
+head -n 5 sample.txt
+```
 
 
 ## PruebaT1
@@ -203,18 +210,49 @@ Mueve el directorio ``backup``completo desde ``logs``a test.
 ```bash
 mv logs/backup test
 ```
+*Ejercicio4:*
+-Abra el archivo ``manual.txt``dentro de ``docs``y agregue las siguientes líneas de texto.
+
+``` bash
+echo " capitulo 1= introduccion
+capitulo 2 = instalacion
+capitulo 3 = uso basico" > docs/manual.txt
+
+```
+-Visualice el contenido del archivo editado.
+```bash
+cat docs/manual.txt
+```
+-muestra las primeras 10 lineas del archivo 
+```bash
+head -n 10 docs/manual.txt
+```
+-Muestra als primeras dos lineas 
+```bash
+head -n 2 docs/manual.txt
+```
+*ejercicio5*:
+-busca todos los archivos con extension ``.txt`` dentro del directorio ``proyectos`` y sus subdirectorios. 
+```bash
+find -name ".txt" 
+```
+ó
+```bash
+find -type f -name " *.txt"
+```
+-Encuentra todos los directorios cuyo nombre contiene la palabra ``backup`` dentro ``proyecto``
+
+```bash
+find -type d -name "backup*"
+```
+-Busque todos los archivos que hayan sido modificados en las últimas 24 horas.
+
+```bash
+find -type f -mtime -1
+```
 
 
-
-
-
-
-
-
-
-
-
-
+ejercicio
 
 
  ## ordenes de linux con archivos y directorios
