@@ -160,7 +160,23 @@ head [opciones] [archivo...]
 ```bash
 head -n 5 sample.txt
 ```
+## PuebaT0
 
+*Ejercicio2*:
+-Mueve el directorio ``dir3``dentro del directorio ``dir1``y renombrarlo como ``newDir3``:
+```bash
+mv dir1/dir2/dir3 dir1/newDir3
+```
+-Busca archivos ``.conf``que sean mayores a 5 KB y que hayan sido modificados en los últimos 7 días:
+```bash
+find . -name "*.conf" -type f -size +5k -mtime -7
+```
+-Busca archivos .logde entre 1 y 5 MB que no se hayan modificado en los últimos 30 días:
+```bash
+find . -name "*.log" -size +1M -size -5M -mtime +30
+```
+---
+---
 
 ## PruebaT1
 *ejercicio1:* hacer una series de archivos. un arbol...
@@ -252,9 +268,33 @@ find -type f -mtime -1
 ```
 
 
-ejercicio
+*ejercicio6*
 
+ - Busque en todos los archivos .logdentro de proyectolas líneas que contienen la palabra "ERROR" (sin importar mayúsculas o minúsculas).
+```bash
+grep -r -i "error" | grep .log
+```
+-Encuentra las líneas que contienen números (dígitos) dentro de los archivos .logdentro de la estructura proyecto.
 
+```bash
+grep -r "[0-9]" --include="*.log" 
+```
+*ejercicio7*
+
+-elimina los archivos ``app.cfg`` y ``db.cfg`` del subdirectorio ``config`` 
+```bash
+rm config/{app.cfg,db.cfg}
+```
+  -Borra de forma recursiva el subdirectorio ``backup_docs``junto con su contenido.
+```bash
+rm -r backup_docs
+```
+Elimina el subdirectorio ``modulos``(que contiene el archivo ``modulo1.py``) dentro de ``src``.
+```bash
+rm -r src/modulos
+```
+---
+---
  ## ordenes de linux con archivos y directorios
 
 1. Crea un archivo de tamaño 0
@@ -271,7 +311,7 @@ ejercicio
  ```bash
    ls -r/etc/t*
 ```
-4. Listar todos los archivos del directorio devque comienzan por tty y tengan 5 caracteres.
+4. Listar todos los archivos del directorio ``dev``que comienzan por tty y tengan 5 caracteres.
  ```bash
  ls /dev /tyy??
  ```
