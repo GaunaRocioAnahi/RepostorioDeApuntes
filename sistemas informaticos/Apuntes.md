@@ -160,6 +160,26 @@ head [opciones] [archivo...]
 ```bash
 head -n 5 sample.txt
 ```
+---
+ejemplo: 
+```bash
+touch archivo.txt 
+nano archivo.txt
+wc -l archivo.txt (para ver nro de archivos)
+cat archivo.txt (visualizo lo de adentro)
+
+head -n 2 archivo.txt (veo la promera dos lineas)
+tail -n 2 archivo.txt (veo la ultimas dos linas)
+(head - n 2 archivo.txt; echo "papasfritas"; tail -n 2 archivo.txt) > archivo1.txt (archivo nuevo)
+mv archivo1.txt archivo.txt
+ls archivo.txt
+cat archivo.txt ( muestra el agredado del echo)
+```
+
+
+
+
+---
 ## PuebaT0
 
 *Ejercicio2*:
@@ -270,7 +290,7 @@ find -type f -mtime -1
 
 *ejercicio6*
 
- - Busque en todos los archivos .logdentro de proyectolas líneas que contienen la palabra "ERROR" (sin importar mayúsculas o minúsculas).
+- Busque en todos los archivos .logdentro de proyectolas líneas que contienen la palabra "ERROR" (sin importar mayúsculas o minúsculas).
 ```bash
 grep -r -i "error" | grep .log
 ```
@@ -316,4 +336,149 @@ rm -r src/modulos
  ls /dev /tyy??
  ```
 
-5.
+5. Listar todos los archivos del directorio devque empiezan por tty y acaben en 1,2,3 ó 4 .
+   ```bash
+   ls /dev/tyy *[1-4]
+   ó
+   ls /dev/tyy*[1,2,3,4]
+   ```
+
+6. Listar todos los archivos, incluidos los ocultos, del directorio raíz.
+```bash
+ls -a /
+```
+7.  Listar todos los archivos del directorio ``usr``y sus subdirectorios.
+```bash
+ls -R /usr
+```
+
+9. Cambiarse al directorio tmp y verificarlo.
+```bash
+cd /tmp
+pwd
+```
+10. Mostrar dia y hora.
+```bash
+date
+```
+11. Con un solo comando posicionarse en $HOME y verificarlo.
+```bash
+cd ~ ;pwd
+```
+12. Crear los directorios dir1, dir2y dir3en el directorio PRUEBA. Dentro de dir1crear el directorio dir11. Dentro del directorio dir3crear el directorio dir31Dentro del directorio dir31, crear los directorios dir311y dir312.
+```bash
+ mkdir -p PRUEBA/{dir1/dir11,dir2,dir3/{dir311,dir32}}
+```
+13. Copiar un archivo ``/etc/magica`` un archivo llamado mensajede su directorio ``PRUEBA.``
+```bash
+cp /etc/mensaje PRUEBA/mensaje
+cp mensaje dir2
+```
+14.  Copiar mensaje en dir1y dir2, y verificarlo.
+```bash
+cp mensaje dir1
+cp mensaje dir2
+```
+
+15. Copiar en el directorio ``dir3``11los archivos de ``/bin``que tengan una como segunda letra y su nombre tenga cuatro letras.
+```bash
+cp /bin/?a?? dir311/
+```
+16.  Mueva el directorio ``dir31``y sus subdirectorios debajo de ``dir2``
+  ```bash
+  mv PRUEBA/dir1/dir31 PRUEBA/dir2
+  ```
+17.Mostrar por pantalla los archivos ordinarios del directorio HOMEy sus subdirectorios.
+```bash
+ls -R ~
+```
+18.  Ocultar el archivo mensaje del directorio ``dir2.``
+  ```bash
+  mv PRUEBA/dir2/mensaje PRUEBA/dir2/.mensaje
+  ```
+  t1. Situate en tu HOME.
+  ```bash
+  cd ~
+  ```
+  t2. Crea un directorio examen.
+  ```bash
+  mkdir examen
+  ```
+  t3. Dentro de examen, crea los directorios ejercicio1 y ejercicio2
+   ```bash
+   mkdir examen/ejercicio1 examen/ejercicio2
+   ```
+   ó
+   ```bash
+   cd examen
+   mkdir ejercicio1 ejercicio2
+   ```
+   t4. crea un fichero llamado ``file1.dat`` en ``ejercicio1``
+   ```bash
+   touch examen/ejercicio1/file1.dat
+   ```
+   t5.Haga una copia del fichero file1.datdentro de ejercicios2.
+   ```bash 
+ cp examen/ejercicio1/file1.dat examen/ejercicio2
+   ``` 
+   t6. situate en ejercicio2
+   ```bash
+ cd examen/ejercicio2
+   ```
+t7.  Mueve el archivo file1.dathasta ejercicios2/mover, poniendo como nombre de destino file1_movido.dat. Ten en cuenta que, posiblemente, tendrás que crear antes el directorio.
+```bash
+mkdir -p examen/ejercicio2/mover
+mv examen/ejercicio2/file1.dat examen/ejercicio2/mover/file1_movido.dat 
+```
+ó
+```bash
+/home/alumnoT/examen/ejercicios2
+mkdir mover
+mv file1.dat mover/file1_movido.dat
+
+```
+t8.Copia el archivo /etc/crontaba un archivo llamado copia_crontabde tu directorio examen
+```bash
+~/examen/
+cp/etc/crontab copia_contrab
+```
+t9.  Copiar en el directorio ejercicios1los archivos de /binque tengan una "a" como segunda letra y su nombre termine en "o" ó en "e" .
+```bash
+cp /bin/?a*[o,e] ejercicio1
+```
+t10. Situate en tu HOME y elimina el directorio examen.
+```bash
+cd ~ -r examen
+rm -r examen
+```
+19. Borrar los archivos y directorios de ``dir1``, incluido el propio directorio.
+  ```bash
+rm -r PRUEBA/dir1
+   ```
+20- Copiar al directorio dir312los ficheros del directorio /devque empiezan por t , acaben en un número del 5 al 8 y tengan cinco letras en su nombre.
+```bash
+cp /dev/t???[5-8]
+PRUEBA/dir2/dir31/dir312
+```
+21. Mueva el directorio dir312debajo de dir3. 
+```bash
+mv PRUEBA/dir2/dir31/dir312 PRUEBA/dir3
+```
+22. Borrar todos los archivos y directorios creados en el directorio PRUEBA
+  ```bash
+rm -r PRUEBA/*
+  ```
+ 23. Crear el directorio dir2 y dir3 en el directorio PRUEBA.
+```bash
+mkdir PRUEBA/dir2 PRUEBA/dir3
+```
+25.Cambiar el directorio actual al directorio dir3, y crear cuatro nuevos directorios llamados dira, dirb, dirc, y dirdbajo el directorio actual.
+
+```bash
+cd PRUEBA/dir3
+mkdir dira dirb dirc dird
+```
+26.Comprobar los permisos de acceso de los directorios recién creados.
+```bash
+ls -l
+```
