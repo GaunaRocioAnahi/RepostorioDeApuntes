@@ -2,7 +2,9 @@
     //Determinar si un número es múltiplo de 5:
     // Solicita un número y determina si es múltiplo de 5.
     let numero = parseInt(prompt("ingresar un numero"))
-    if (numero % 5) {
+    let multiplo = (numero % 5 == 0)
+    // la palabra determina me indica que aca esta el if con la condicion 
+    if (multiplo ) {
         console.log("Es multiplo de 5:"+ numero)
     } else {
         console.log("No es multiplo")

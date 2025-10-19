@@ -11,23 +11,15 @@
     // Te has quedado sin saldo ¡A trabajar!
 
     let saldo = 1000; // saldo inicial
-
+    let retiro = 0
     while (saldo > 0) {
-        console.log("Saldo:€"+saldo );
+        console.log("Saldo:€" + saldo);
         let retiro = parseFloat(prompt("Introduzca saldo a retirar:"));
-
         if (retiro > saldo) {
             console.log("Saldo insuficiente.");
-        } else if (retiro <= 0) {
-            console.log("Cantidad inválida.");
         } else {
             saldo -= retiro;
-            if (saldo == 0) {
-                console.log("Te has quedado sin saldo ¡A trabajar!");
-            } else {
-                console.log("");
-            }
         }
-    }
+    } console.log("Te has quedado sin saldo ¡A trabajar!");
 
 </script>

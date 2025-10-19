@@ -5,10 +5,13 @@
     let numero1 = Number(prompt("indica el primer numero"));
     let numero2 = Number(prompt("indicar un segundo numero"));
     let operacion = prompt("escribe la operacioncion (+,-,/,*)");
-    let resultado
+    let resultado= 0
+    //lo planteamos con 4 condiciones entonces procedemos a hacer lo siguiente:
+
     if (operacion == "+") {
         resultado = numero1 + numero2;
-
+ //se lee si la operaccion es igual a mas, entonces el resultado es numero1 + numero2 
+ //y asi con el resto de los operadores.
     } else if (operacion == "-") {
         resultado = numero1 - numero2;
     }
@@ -17,7 +20,7 @@
     } else if (operacion == "/"){
         resultado = numero1 / numero2;
     } else {
-        console.log("incorrecto0")
+        console.log("incorrecto")
     }
     console.log("resultado:" + numero1 + operacion + numero2+ "es"+ resultado );
     

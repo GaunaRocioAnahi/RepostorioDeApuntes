@@ -1,0 +1,51 @@
+>
+<script>
+    //Crea un programa para dividir cuentas y calcular propinas.
+    //  El programa debe pedir productos de una cuenta hasta que el usuario introduzca un 0.
+    //  El programa pide personas a repartir y porcentaje de propina que quieren dejar.
+    //Ejemplo:
+    // Precio del producto 1: 10
+    // Precio del producto 2: 20
+    // Precio del producto 3: 15
+    // Precio del producto 4: 35
+    // Precio del producto 5: 0
+    // ¿Cuánta propina quieres dejar?: 5
+    // ¿Cúantas personas sois?: 
+    // 4Total sin propina: 80€
+    // Total con propina del 5%: 84€
+    // Precio por cabeza: 21€
+
+
+
+    //Declaramos variables
+
+    let numeroDeProductos = 1
+    let precioDelProducto = 1
+    let totalDeCuenta = 0
+    let propina = 0
+    let personas = 0
+    let totalPorCabeza = 0
+    let totalDelCuentaConPropina = 0
+
+    // utilizamos el while hasta que el usurio introduzaca un 0
+    while (precioDelProducto != 0) {
+        precioDelProducto = prompt("precio del producto" + numeroDeProductos);
+        precioDelProducto = Number(precioDelProducto)
+        totalDeCuenta += precioDelProducto
+        numeroDeProductos++
+    }
+    //calculamos total de la cuenta y la propina.
+    propina = Number(prompt("¿cuantas propina queres dejar?"));
+    personas = Number(prompt("cuantas personas sois?"));
+    totalDelCuentaConPropina = totalDeCuenta + totalDeCuenta * propina / 100
+    totalPorCabeza = totalDelCuentaConPropina / personas
+
+    //mostramos el resultado pedido
+    console.log("total sin propina" + totalDeCuenta + "€");
+    console.log("total con propina " + propina + "%:" + totalDelCuentaConPropina + "€");
+    console.log("precio por cabeza" + totalPorCabeza + "€");
+
+
+
+
+</script>

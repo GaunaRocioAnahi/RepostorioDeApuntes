@@ -1,0 +1,14 @@
+<script>
+    //Solicitar un número entero. Mostrar el siguiente número
+    //  múltiplo de 2 y 3 a partir del número. 
+
+    let numero = Number(prompt("ingrese numero entero"))
+    let multiploDe2 = numero % 2 != 0
+    let multiploDe3 = numero % 3 != 0
+    numero++
+    while ((multiploDe2) || (multiploDe3)) {
+        numero++
+    }
+    console.log("el siguiente numero de 2 y 3 es:" + numero);
+
+</script>

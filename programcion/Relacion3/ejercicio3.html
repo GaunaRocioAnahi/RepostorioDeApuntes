@@ -1,8 +1,20 @@
 <script>
     //Calcular el promedio de tres números 
     // Solicita tres números y calcula el promedio.
-    let numeros = parseFloat(prompt("ingresar tres numeros"));
-    let promedio = numeros / 3;
+
+
+
+    //Pedimos el prompt como el anunciado dice 3 numeros, colocamos 
+    //el prompt 3 veces.
+    let numero1 = parseFloat(prompt("ingresar tres numeros"));
+    let numero2 = parseFloat(prompt("ingresar tres numeros"));
+    let numero3 = parseFloat(prompt("ingresar tres numeros"));
+
+    //como queremos calcular el promedio hacemos la suma y lo dividimos
+    //por la misma cantidad
+    let suma = (numero1 + numero2 + numero3);
+    let promedio = suma / 3;
+    //mostramos el promedio
     console.log("El promedio es:" + promedio);
 
 </script>
