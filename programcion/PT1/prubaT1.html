@@ -1,0 +1,45 @@
+<script>
+
+
+    //  Declaración de variables
+    let cantidad;
+    let precioKwh;
+    let potenciaContratada;
+    let potencia;
+    let horas;
+    let consumoDiario;
+    let consumoMensual;
+    let costeMensual;
+    let totalConsumo = 0;
+    let totalCoste = 0;
+
+    //  Solicitar datos iniciales
+    cantidad = Number(prompt("Introduce el número de electrodomésticos a registrar:"));
+    precioKwh = Number(prompt("Introduce el precio por kilovatio-hora (kWh):"));
+    potenciaContratada = Number(prompt("Introduce la potencia total contratada (en vatios):"));
+
+    //  Repetir para cada electrodoméstico
+    for (let i = 1; i <= cantidad; i++) {
+        potencia = Number(prompt("Introduce la potencia del electrodoméstico " + i + "en vatios:"))
+        horas = Number(prompt("Introduce el número de horas de uso diario: "))
+
+
+        // Aviso si la potencia del aparato supera la contratada 
+        if (potencia > potenciaContratada) {
+            alert(" El electrodoméstico " + i + " supera la potencia contratada de " + potenciaContratada + " W.");
+        }
+
+        // Calcular consumo diario, mensual y coste
+        consumoDiario = (potencia / 1000) * horas;
+        consumoMensual = consumoDiario * 30;
+        costeMensual = consumoMensual * precioKwh;
+
+        // Acumular totales
+        totalConsumo = totalConsumo + consumoMensual;
+        totalCoste = totalCoste + costeMensual;
+    }
+
+    //  Mostrar resultados finales
+    alert("Consumo total mensual: " + totalConsumo + " kWh");
+    alert("Coste total mensual: " + totalCoste + " €");
+</script>
