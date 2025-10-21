@@ -87,9 +87,12 @@ si tu configuracion de correo o nombre es incorrecta, vuelve a ejecutar ``git co
 ## Ejemplo de PT1. 
 
  **#1 repositorio local** 
+
+ 
  usamos el `git config --global con user.email`- y en la siguiente linea `git config --global -- list` para que me liste mi user name introducido y mi user.email.
 
  **#2 Primer Repositorio Local**
+
  . nos pide crear un directorio llamado `git-workshop`
  lo creamos con `mkdir`que justamente crea directorios.
  ```bash
@@ -114,6 +117,7 @@ si tu configuracion de correo o nombre es incorrecta, vuelve a ejecutar ``git co
  git commit -m "mensaje descriptivo y nombre en infinitivo"
   ```
   **#3 correcciones basicas**
+
 para cambiar el nombre de un archivo.
 y asi reescribir el commit anterior 
  ```bash
@@ -127,6 +131,7 @@ y asi reescribir el commit anterior
  luego hace el `git add` . , luego hacer el `git commit -m" mensaje"`
 
 **#4 crea una rama**
+
 se cambia a la rama y se posiciona en ella.
 ```bash
 git checkout -b nombre de la rama
@@ -146,7 +151,19 @@ git checkout -b taller-info
 vuelve a escribir algo en el README.md
 
 ```bash
-echo " hola mundo soy README.MD" > REAMDE.md
+echo " hola mundo soy README.MD" > README.md
 ```
-
+ lo vuelves a guardar con `git add` README.md 
+ y hacer el commit con `git commit -m "mensaje"`  
+para inspeccionar el estado actual del repositorio `git log --oneline --all --graph`el repositorio tiene ahora contiene tres commtis: uno apuntado por `master`, otro por `taller-info`
+ **#5 fusionar avance rapido de ramas**
+ nos pide que nos coloquemos en la rama master, e incorporemos  cambios de la rama `taller-info` mediante un `merge` 
+ ```bash
+ git checkout master 
+ ```
+ luego 
+ ```bash
+ git merge yo++ 
+ ```
+ **#6 fusionar ramas recursivas**
 
