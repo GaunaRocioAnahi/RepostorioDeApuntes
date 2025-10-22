@@ -167,3 +167,31 @@ para inspeccionar el estado actual del repositorio `git log --oneline --all --gr
  ```
  **#6 fusionar ramas recursivas**
 
+para fucionar ramas, tenemos que hacer un `git merge` con el nombre de la rama existente.
+```bash
+git merge taller-info
+```
+**#7 Aparicione de conflicto al realizar el merge**
+
+en la rama master modifica la primera linea del archivo README.md, agrega los cambios del git add *staging area* Y realiza un commmit
+
+```bash
+git checkout master
+# Modifica el archivo README.md
+git add README.md
+git commit -m "Cambia README desde master"
+```
+ahora colocate ennla rama taller-info, modifica la primer linea del README.md(de frma distinta a la anterios)  agrega los cambbios al `git add` *staging area * y realiza un commit.
+
+```bash
+git checkout taller-info
+# Modifica el archivo README.md
+git add README.md
+git commit -m "Cambia README desde taller-info"
+```
+luego regrresa a la rama master e incorpora los cambios de taller-info mediante un merge. git deberia informar que ha ocurrido un conflicto que requiere ser resuelto manualmente.
+
+```bash
+git checkout master
+git merge taller-info
+```
