@@ -195,3 +195,4 @@ luego regrresa a la rama master e incorpora los cambios de taller-info mediante 
 git checkout master
 git merge taller-info
 ```
+git clone <url>
