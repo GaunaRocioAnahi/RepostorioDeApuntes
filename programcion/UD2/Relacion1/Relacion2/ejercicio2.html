@@ -1,0 +1,36 @@
+<script>
+    //Escribe un programa que permita al usuario ingresar 
+    //las temperaturas registradas. Durante una semana (7dias)
+    //una vez ingresadas las temperaturas, el programa debe mostrar
+    // el usuario, el programa debe mostrar al usuario al usuario
+    // un menu con las siguientes opciones.
+    //
+
+    // 1. Mostrar la temperatura mas alta registrada
+    // 2. Mostrar la temperatura mas baja registrada
+    // 3. Calcular la temperatura promedio de la semanas
+    // 4. salir del Programa. 
+
+    let temperaturaDia = 0
+    const diaDeLaSemana = 7
+    let temperaturas = []
+    let temperaturaMaxima = 0
+    let temperatura = 0
+    let temperaturaPromedio = temperaturaDia * 7
+    let opcion = 0
+    for (let i = 0; i < diaDeLaSemana; i++) {
+        temperaturaDia = Number(prompt("temperatura del dia"))
+        temperaturas.push(temperaturaDia)
+
+    }
+    while (opcion != 4) {
+        console.log("Mostrar la temperatura mas alta");
+    }
+    console.log(temperaturas);
+
+
+
+
+
+
+</script>
