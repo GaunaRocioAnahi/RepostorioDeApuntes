@@ -18,17 +18,46 @@
     let temperatura = 0
     let temperaturaPromedio = temperaturaDia * 7
     let opcion = 0
+    let TemperaturaMax = temperaturas[0]
+    let temperaturaMin = temperaturas[0]
+    let tempertaturaTotal = 0
     for (let i = 0; i < diaDeLaSemana; i++) {
         temperaturaDia = Number(prompt("temperatura del dia"))
         temperaturas.push(temperaturaDia)
 
     }
     while (opcion != 4) {
-        console.log("Mostrar la temperatura mas alta");
+        opcion = Number(prompt("elige una opcion: 1.Mostrar la temperatura mas alta, 2.mostrar temperatura mas baja 3.mostrar temperatura promedio. 4 salir"))
     }
-    console.log(temperaturas);
 
+    if (opcion == 1) {
+        temperaturaMaxima
+        for (let i = 1; i < temperaturas.length; i++) {
+            if (temperaturas[i] > temperaturaMaxima) {
+                TemperaturaMax = temperaturas[i]
+            }
+        }
+        console.log("temperatura mas alta" + TemperaturaMax);
+    } else if (opcion == 2) {
+        temperaturaMin
+        for (let i = 1; i < temperaturas.legth; i++) {
+            if (temperaturas < temperaturaMin) {
+                temperaturaMin = temperaturas[i]
+            }
+        }
+        console.log("la temperatura mas baja es:" + temperaturaMin);
 
+    } else if (opcion = 3) {
+        for (let i = 0; i < temperaturas.length; i++) {
+            tempertaturaTotal += temperaturas[i]
+
+        }
+        let promedio = tempertaturaTotal / temperaturas.length
+        console.log("el Promedio es " + promedio)
+    } else if (opcion == 4) {
+        console.log("saliendo del programa");
+
+    } console.log("opcion no valida, intentaa de nuevo")
 
 
 
