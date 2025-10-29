@@ -1,0 +1,77 @@
+<script>
+    //Escribe un programa que permita al usuario ingresar 
+    //las temperaturas registradas. Durante una semana (7dias)
+    //una vez ingresadas las temperaturas, el programa debe mostrar
+    // el usuario, el programa debe mostrar al usuario al usuario
+    // un menu con las siguientes opciones.
+    //
+
+    // 1. Mostrar la temperatura mas alta registrada
+    // 2. Mostrar la temperatura mas baja registrada
+    // 3. Calcular la temperatura promedio de la semanas
+    // 4. salir del Programa. 
+
+    let temperaturaDia = 0
+    const diaDeLaSemana = 7
+    let temperaturas = []
+    let temperaturaMaxima = 0
+    let temperatura = 0
+    let temperaturaPromedio = temperaturaDia * 7
+    let opcion = 0
+    let TemperaturaMax = temperaturas[0]
+    let temperaturaMin = temperaturas[0]
+    let tempertaturaTotal = 0
+
+
+    // TEMPERATURA POR DIA
+    for (let i = 0; i < diaDeLaSemana; i++) {
+        temperaturaDia = Number(prompt("temperatura del dia"))
+        temperaturas.push(temperaturaDia)
+    }
+    // BUCLE  QUE MUESTRA LA OPCION HASTA QUE INGRESE 4   
+    opcion = Number(prompt("elige una opcion: 1.Mostrar la temperatura mas alta, 2.mostrar temperatura mas baja 3.mostrar temperatura promedio. 4 salir"))
+
+    while (opcion != 4) {
+
+        // COMPARAMOS TEMPERATURAS, MAXIMA, MINIMA, Y PROMEDIO.
+        if (opcion == 1) {
+            temperaturaMaxima
+            for (let i = 1; i < temperaturas.length; i++) {
+                if (temperaturas[i] > temperaturaMaxima) {
+                    TemperaturaMax = temperaturas[i]
+                }
+                console.log("temperatura mas alta" + TemperaturaMax)
+            }
+
+        } else if (opcion == 2) {
+            temperaturaMin
+            for (let i = 1; i < temperaturas.length; i++) {
+                if (temperaturas < temperaturaMin) {
+                    temperaturaMin = temperaturas[i]
+                }
+            }
+            console.log("la temperatura mas baja es:" + temperaturaMin);
+
+        } else if (opcion = 3) {
+            for (let i = 0; i < temperaturas.length; i++) {
+                tempertaturaTotal += temperaturas[i]
+
+            }
+            //PROMEDIO TOTAL 
+            let promedio = tempertaturaTotal / temperaturas.length
+            console.log("el Promedio es " + promedio)
+        } else if (opcion == 4) {
+            console.log("saliendo del programa");
+
+        } 
+        //console.log("opcion no valida, intentaa de nuevo")
+
+        opcion = Number(prompt("elige una opcion: 1.Mostrar la temperatura mas alta, 2.mostrar temperatura mas baja 3.mostrar temperatura promedio. 4 salir"))
+
+
+    }
+
+
+
+
+</script>
