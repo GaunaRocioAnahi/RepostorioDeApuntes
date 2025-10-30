@@ -11,28 +11,47 @@
     // Ejecución continua : El programa debe seguir ejecutándose hasta que el usuario seleccione la opción de salir.
 
 
-    let nombresJugadores []
-    let puntuaciones[]
-    let opcion;
+    let nombresJugadores = ["", "", "", "", ""]
+    let puntuaciones = ["0", "0", "0", "0", "0"]
+    let opcion = ""
     let nombreNuevo;
     let puntuacionNueva;
+    let jugadoresActuales = ""
+
+    // repetimos hasta que la opcion sea salir.
+    while (opcion != "salir") {
+        opcion = (prompt("elegir una opcion:1,2 o salir"));
 
 
+        // agrego una condicion, en el cual la opcion sea "1". para agregar la jugadores nuevos, y su puntuacion. 
 
-    while (opcion != salir) {
-        opcion = Number(prompt("elegir opciones"));
         if (opcion == "1") {
             nombreNuevo = prompt("ingresa el nombre del jugador");
-            puntuacionNueva = prompt("ingresa la puntuacion");
+            puntuacionNueva = Number(prompt("ingresa la puntuacion"));
+
+
+            //elimina el primer jugador 
             nombresJugadores.shift();
-            puntuacionNueva.shift();
+            puntuaciones.shift();
+
+
+            // elimina el segundo jugador        
             nombresJugadores.push(nombreNuevo);
             puntuaciones.push(puntuacionNueva);
-            console.log("jugador añadido correctamente");
-            
+            console.log("jugador añadido correctamente", nombreNuevo, "puntuacion", puntuacionNueva);
+            //
         } else if (opcion == "2") {
+            // Mostrar los jugadores actuales
+            console.log("=== Jugadores actuales ===");
+            for (let i = 0; i < nombresJugadores.length; i++) {
+                console.log((i + 1) + ") " + nombresJugadores[i] + " - " + puntuaciones[i]);
+            }
+            console.log( nombresJugadores);
+            console.log( puntuaciones);
 
 
+        } else {
+            console.log("programa terminado");
 
         }
     }
