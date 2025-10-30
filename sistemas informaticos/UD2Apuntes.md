@@ -35,4 +35,4 @@ sudo groupadd [nombre del grupo]
 
 
 
- 0
+ 
