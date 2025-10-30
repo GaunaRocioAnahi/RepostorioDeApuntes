@@ -1,0 +1,3 @@
+SEDE(ID_Sede, pais, ciudad, direccion, telefono, director)
+Proyecto(Codigo, titulo, f_inicio,f_fin, presupuesto, responsable, CODIGO_ACTUACION_FK)
+Actuacion (CODIGO_ACTUACION_PK, descripcion,inversion, CODIGO_proyecto )

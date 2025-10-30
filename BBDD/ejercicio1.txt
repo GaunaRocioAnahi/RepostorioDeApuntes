@@ -1,0 +1,9 @@
+clientes (ID_cliente, saldos, decuentos)
+direccion_cliente (direccion,ID_clientes_FK )
+Direccion ( Direcciones_PK,numero, calle, pueblo,cuidad, ID_clientes_FK)
+Pedidos (ID_pedidos, descripcion, F_pedidos, ID_CLIENTES_FK)
+Pedidos_Direccion_Envio (direccion_envio_PK, fecha, hora, ID_pedidos_FK)
+cantidad(ID_articulo_FK, ID_pedidos_FK, cantidad)
+Articulos(ID_articulos_PK,descripcion)
+Provee(stock,ID_articulo_FK,ID_Fabrica_FK);
+Fabrica(ID_Fabrica_PK, telefono, total_Articulo)

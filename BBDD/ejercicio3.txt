@@ -1,0 +1,7 @@
+Ciclista( DNI_PK, nombre, nacionalidad, f_nacimiento )
+CICLISTA_Participa_EQUIPO (F_inicio, F_FinDeContrsto, DNI_CICLISTA_FK, Nombre_Equipo_FK)
+Equipo(Nombre_PK, nacionalidad, director)
+participa(puesto_win, Nombre_Equipo_FK, Nombre_Prueba_FK)
+EQUIPO_PARTICIPA_Prueba (NOMBRE_PRUEBAS_PK, ANIO_Pueba_PK, año, clasificacion, kilometrosTotal,DNI_CICLISTA_FK)
+
+----- recordar las relaciones muchos a muchos, hacer tablas con ambos nombres que la relacionan.

@@ -1,0 +1,3 @@
+Titular (DNI_Titular_PK, domicilio, telefono)
+Tarjeta (Numero_tarjeta_PK, tipo, DNI_TITULAR_FK, Numero_Cuenta_FK )
+Cuenta (Numero_Cuenta_Pk, saldo, Fecha_Apertura,DNI_TITULAR_FK) 
