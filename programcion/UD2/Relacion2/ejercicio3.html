@@ -1,29 +1,53 @@
 <script>
-//  Sistema de Compras en Almacén
-//Desarrolla un programa que gestiona las compras en un almacén. Para esto:
-//Crea una matriz que contiene los nombres de 10 productos disponibles en el almacén.
-//Crea otra matriz que contiene los precios correspondientes a esos 10 productos.
-//El programa debe permitir al usuario realizar una compra solicitando el nombre del producto y la cantidad deseada.
-//El programa debe el precio del producto seleccionado, multiplicarlo por la cantidad y buscarlo al total de la compra.
-//Si el usuario escribe "FIN", el programa debe finalizar la compra, mostrando un resumen con todos los productos adquiridos, sus cantidades y el costo total a pagar.
+    //  Sistema de Compras en Almacén
+    //Desarrolla un programa que gestiona las compras en un almacén. Para esto:
+    //Crea una matriz que contiene los nombres de 10 productos disponibles en el almacén.
+    //Crea otra matriz que contiene los precios correspondientes a esos 10 productos.
+    //El programa debe permitir al usuario realizar una compra solicitando el nombre del producto y la cantidad deseada.
+    //El programa debe el precio del producto seleccionado, multiplicarlo por la cantidad y buscarlo al total de la compra.
+    //Si el usuario escribe "FIN", el programa debe finalizar la compra, mostrando un resumen con todos los productos adquiridos, sus cantidades y el costo total a pagar.
 
-1. Crear arrays productos y precios con 10 elementos.
-2. Inicializar arrays para la compra:
-   - productosComprados = []
-   - cantidadesCompradas = []
-   - subtotales = []
-3. Inicializar totalCompra = 0
-4. Mientras usuario no escriba "FIN":
-   a) Pedir nombre del producto
-   b) Si nombre no está en productos → mostrar mensaje "Producto no disponible"
-   c) Si nombre está:
-       i) Pedir cantidad
-       ii) Calcular subtotal = cantidad * precio
-       iii) Guardar nombre, cantidad y subtotal en arrays de compra
-       iv) Sumar subtotal al totalCompra
-5. Cuando usuario escriba "FIN":
-   a) Mostrar resumen: productos, cantidades, subtotal de cada uno
-   b) Mostrar totalCompra 
+    //1. Crear arrays productos y precios con 10 elementos.
+    //2. Inicializar arrays para la compra:
+    //   - productosComprados = []
+    //   - cantidadesCompradas = []
+    // - subtotales = []
+    //3. Inicializar totalCompra = 0
+    //4. Mientras usuario no escriba "FIN":
+    //  a) Pedir nombre del producto
+    //   b) Si nombre no está en productos → mostrar mensaje "Producto no disponible"
+    //   c) Si nombre está:
+    //     i) Pedir cantidad
+    //   ii) Calcular subtotal = cantidad * precio
+    //    iii) Guardar nombre, cantidad y subtotal en arrays de compra
+    //     iv) Sumar subtotal al totalCompra
+    //5. Cuando usuario escriba "FIN":
+    //a) Mostrar resumen: productos, cantidades, subtotal de cada uno
+    //b) Mostrar totalCompra 
+
+    // ---crear un array de productos y precio.---
+
+    const productos = ["leche", "huevos", "arroz", "fideos", "harina", "pan", "bebida", "tomates", "agua", "papa"]
+    const precios = [2, 1.5, 6, 1, 2, 4, 5, 6, 3, 8]
+    let productosComprados =[]
+    let cantidadesCompradas=[]
+    let totalesPorProductos=[]
+    let compraTotal = 0
+    let cantidadDeProducto = ""
+
+
+// --- Pedir nombre del producto hasta que no escriba fin.----
+
+while (producto != "FIN") {
+
+} if (producto != productos ){
+    
+}
+
+
+
+
+
 
 
 
