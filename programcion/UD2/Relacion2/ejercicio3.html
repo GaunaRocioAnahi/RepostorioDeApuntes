@@ -7,7 +7,23 @@
 //El programa debe el precio del producto seleccionado, multiplicarlo por la cantidad y buscarlo al total de la compra.
 //Si el usuario escribe "FIN", el programa debe finalizar la compra, mostrando un resumen con todos los productos adquiridos, sus cantidades y el costo total a pagar.
 
-const PRODUCTOS = 10 
+1. Crear arrays productos y precios con 10 elementos.
+2. Inicializar arrays para la compra:
+   - productosComprados = []
+   - cantidadesCompradas = []
+   - subtotales = []
+3. Inicializar totalCompra = 0
+4. Mientras usuario no escriba "FIN":
+   a) Pedir nombre del producto
+   b) Si nombre no está en productos → mostrar mensaje "Producto no disponible"
+   c) Si nombre está:
+       i) Pedir cantidad
+       ii) Calcular subtotal = cantidad * precio
+       iii) Guardar nombre, cantidad y subtotal en arrays de compra
+       iv) Sumar subtotal al totalCompra
+5. Cuando usuario escriba "FIN":
+   a) Mostrar resumen: productos, cantidades, subtotal de cada uno
+   b) Mostrar totalCompra 
 
 
 
