@@ -1,0 +1,95 @@
+<script>
+    // ----------------------------------------------------
+    // A. INICIALIZACIÓN DE MATRICES Y VARIABLES (let y const)
+    // ----------------------------------------------------
+
+    // Arrays con productos y precios
+    const productosDisponibles = ["leche", "huevos", "arroz", "fideos", "harina", "pan", "bebida", "tomates", "agua", "papa"];
+    const preciosDeProductos = [2, 1.5, 6, 1, 2, 4, 5, 6, 3, 8];
+
+    // Array para almacenar el resumen de los productos comprados (el "carrito")
+    let resumenCompra = [];
+    let compraTotal = 0;
+    let cantidadDeProducto = 0;
+    let nombreDeProducto = ""; // Variable de control para el bucle while
+
+    console.log("¡Sistema de compras iniciado! Escriba 'FIN' para terminar.");
+
+    // ---------------------------------------------------------------------------------------
+    // B. BUCLE PRINCIPAL DE COMPRA (WHILE)
+    // ---------------------------------------------------------------------------------------
+    while (nombreDeProducto !== "FIN") {
+
+        // 1. Pedir el nombre del producto y convertir a MAYÚSCULAS
+        // Esto asegura que la comparación contra "FIN" y contra el array sea consistente.
+        nombreDeProducto = prompt("🛒 Ingrese un producto (o escriba FIN para terminar):").toUpperCase();
+
+        if (nombreDeProducto !== "FIN") {
+
+            // 2. Pedir la cantidad
+            cantidadDeProducto = Number(prompt("Ingrese la cantidad del producto " + nombreDeProducto + ":"));
+
+            if (cantidadDeProducto > 0) {
+
+                let ProductoEncontrado = false;
+
+                // 3. Bucle FOR: Recorre los productos disponibles
+                for (let i = 0; i < productosDisponibles.length; i++) {
+
+                    // 4. Comparación: Convertir el producto del array a mayúsculas para que coincida.
+                    if (productosDisponibles[i].toUpperCase() === nombreDeProducto) {
+
+                        ProductoEncontrado = true; // Se encontró el producto
+
+                        let precioUnitario = preciosDeProductos[i];
+                        let subtotalProductos = precioUnitario * cantidadDeProducto; // Multiplicación
+
+                        compraTotal = compraTotal + subtotalProductos;
+
+                        // Almacenar en el carrito (resumenCompra)
+                        resumenCompra.push({
+                            nombre: productosDisponibles[i],
+                            cantidad: cantidadDeProducto,
+                            subtotal: subtotalProductos
+                        });
+
+                        console.log("✅ AGREGADO: " + cantidadDeProducto + " x " + productosDisponibles[i] + " | Subtotal: $" + subtotalProductos.toFixed(2));
+
+                        // Salir del FOR sin usar break
+                        i = productosDisponibles.length;
+                    }
+                }
+
+                // 5. CORRECCIÓN CRÍTICA: Solo actuamos si NO se encontró el producto (ProductoEncontrado es FALSE).
+                if (ProductoEncontrado === false) {
+                    console.log("❌ ERROR: El producto '" + nombreDeProducto + "' no se encuentra disponible.");
+                }
+                // ¡IMPORTANTE! Eliminamos el bloque 'else' incorrecto que causaba el doble mensaje de error.
+
+            } else if (cantidadDeProducto <= 0) {
+                console.log("⚠️ Cantidad inválida. Debe ser un número positivo.");
+            }
+        }
+    }
+
+    console.log("Fin de compra");
+
+    // ---------------------------------------------------------------------------------------
+    // C. RESUMEN FINAL
+    // ---------------------------------------------------------------------------------------
+    // Esta parte se ejecuta una vez que el bucle 'while' termina.
+    console.log("----------------------------");
+    console.log("🧾 RESUMEN FINAL DE COMPRA");
+    console.log("----------------------------");
+
+    // Bucle FOR para recorrer el resumen de la compra
+    for (let i = 0; i < resumenCompra.length; i++) {
+        let item = resumenCompra[i];
+        // Usamos las propiedades correctas del objeto: nombre, cantidad, subtotal
+        console.log("* Producto: " + item.nombre + " (Cant: " + item.cantidad + ") - Costo: $" + item.subtotal.toFixed(2));
+    }
+
+    console.log("----------------------------");
+    console.log("💰 TOTAL A PAGAR: $" + compraTotal.toFixed(2));
+    console.log("¡Gracias por su compra!");
+</script>

@@ -7,46 +7,71 @@
     //El programa debe el precio del producto seleccionado, multiplicarlo por la cantidad y buscarlo al total de la compra.
     //Si el usuario escribe "FIN", el programa debe finalizar la compra, mostrando un resumen con todos los productos adquiridos, sus cantidades y el costo total a pagar.
 
-    //1. Crear arrays productos y precios con 10 elementos.
-    //2. Inicializar arrays para la compra:
-    //   - productosComprados = []
-    //   - cantidadesCompradas = []
-    // - subtotales = []
-    //3. Inicializar totalCompra = 0
-    //4. Mientras usuario no escriba "FIN":
-    //  a) Pedir nombre del producto
-    //   b) Si nombre no está en productos → mostrar mensaje "Producto no disponible"
-    //   c) Si nombre está:
-    //     i) Pedir cantidad
-    //   ii) Calcular subtotal = cantidad * precio
-    //    iii) Guardar nombre, cantidad y subtotal en arrays de compra
-    //     iv) Sumar subtotal al totalCompra
-    //5. Cuando usuario escriba "FIN":
-    //a) Mostrar resumen: productos, cantidades, subtotal de cada uno
-    //b) Mostrar totalCompra 
-
-    // ---crear un array de productos y precio.---
-
-    const productos = ["leche", "huevos", "arroz", "fideos", "harina", "pan", "bebida", "tomates", "agua", "papa"]
-    const precios = [2, 1.5, 6, 1, 2, 4, 5, 6, 3, 8]
-    let productosComprados =[]
-    let cantidadesCompradas=[]
-    let totalesPorProductos=[]
+    let productosDisponibles = ["leche", "papa", "harina", "huevos", "manteca", "queso", "limon", "azucar", "levadura", "cebolla"];
+    let preciosDeProductos = [1.50, 2, 3, 5, 2.3, 6, 3.5, 1.08, 0.60, 1.20]
+    let nombreDeProducto = ""
+    let cantidadDeProducto = 0
+    let precioPorUnidad = 0
+    let subtotalProductos
     let compraTotal = 0
-    let cantidadDeProducto = ""
+    let productosAdquiridos = []
 
 
-// --- Pedir nombre del producto hasta que no escriba fin.----
+    while (nombreDeProducto != "fin") {
 
-while (producto != "FIN") {
+        //---- pido el nombre del producto---
 
-} if (producto != productos ){
-    
-}
+        nombreDeProducto = prompt("ingrese un nombre de producto");
 
 
+        if (cantidadDeProducto != "fin") {
+
+            // --- pedir la cantidad de producto
+            cantidadDeProducto = Number(prompt("ingrese la cantidad de producto"))
+
+            //---- demostrar producto encontrado
+            if (cantidadDeProducto > 0) {
+                let productoEncontrado = false
+                // ----- bucle for recorre los productos disponibles
+                for (let i = 0; i < productosDisponibles.length; i++) {
+                    //------comparamos 
+                    if (productosDisponibles[i].toUpperCase() == nombreDeProducto.toLocaleUpperCase()) {
+                        productoEncontrado = true // encontro el producto
+
+                        //----calculamos la compra
+                        precioPorUnidad = preciosDeProductos[i];
+                        subtotalProductos = precioPorUnidad * cantidadDeProducto
+                        compraTotal = compraTotal + subtotalProductos;
+
+                        //---- agrega a un nuevo array
+                        productosAdquiridos.push({
+                            nombre: productosDisponibles[i],
+                            cantidad: cantidadDeProducto,
+                            subtotal: subtotalProductos
+                        });
+                        console.log("producto agregado:" + cantidadDeProducto + " " + productosDisponibles[i] +" "+ "subtotal De productos " + " "+ " €" +subtotalProductos.toFixed(2));
+                        // salimos del for 
+                        i = productosDisponibles.length;
+                    }
+                }
+                if (productoEncontrado == false) {
+                    console.log("ERROR" + nombreDeProducto + " no se encunetra el produucto");
 
 
+                } else if (cantidadDeProducto <= 0) {
+                    console.log("cantidad debe ser positivo.");
+                    cantidadDeProducto = Number(prompt("volver a ingresar la cantidad de producto"))
+                }
+            }
+        }
+    }
+    console.log("fin de la compra");
+    for (let i = 0; i < productosAdquiridos.length; i++) {
+        let indice = productosAdquiridos[i];
+        console.log("producto:" + indice.nombre +" "+ "cantidad:"+" " + indice.cantidad+ " " + "subtotal:" + indice.subtotal);
+
+    }
+    console.log("Total a pagar" + " " + compraTotal.toFixed(2));
 
 
 
