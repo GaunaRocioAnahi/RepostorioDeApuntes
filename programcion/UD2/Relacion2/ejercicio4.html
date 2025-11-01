@@ -1,0 +1,116 @@
+<script>
+    //4. Gestión de Inventario de una Librería
+    // Escribe un programa que permita al usuario gestionar el inventario de una librería. El programa debe usar dos arrays: uno para almacenar los títulos de los libros y otro para almacenar las cantidades disponibles de cada libro. El usuario debe poder realizar las siguientes acciones a través de un menú:
+    //     Añadir un nuevo libro al inventario (con su título y cantidad).
+    // Actualizar la cantidad de un libro existente.
+    // Ver el inventario completo (título y cantidad de cada libro).
+    // Salir del programa.
+    // El programa debe actualizar el inventario según las acciones del usuario y seguir ejecutándose hasta que se elija la opción de salir.
+
+
+
+    //--- declaramos variables--
+
+
+    let titulosDeLibros = []
+    let cantidadDeLibros = []
+    let opcion = 0;
+
+
+    //--- como el menu no cambia, lo podemos guardar en una constante
+
+
+
+    const menu = "1. Añadir un nuevo libro y cantidad\n" +
+        "2. Actualizar la cantidad de libro existente\n" +
+        "3. ver el inventario completo.\n" +
+        "4. Salir del programa\n\nIngrese su opción:";
+
+
+    //--- Iniciamos el bucle mientras la opcion sea distinto a 4, ya que al ingresar el 4 sale del programa    
+
+
+    while (opcion != 4) {
+
+        //--- incovamos para ingresar un numero. 
+
+
+        opcion = Number(prompt(menu));
+
+
+        //---- primera condicion, opcion ==1
+
+
+        if (opcion == 1) {
+
+            //--- Pedimos un titulo del libro y la cantidad     
+
+            let titulos = prompt("ingrese un titulo un libro");
+            let cantidad = Number(prompt("ingrese la cantidad de libros"));
+
+            //----- la cantidad tiene que existir ya sea un numero mayor a "0"     
+            //----- y si es >0  introducimos esos titulos en un array con .push()
+            if (cantidad > 0) {
+                titulosDeLibros.push(titulos)
+                cantidadDeLibros.push(cantidad)
+                console.log("titulo de libro" + " " + titulos + "  " + " cantidad " + " " + cantidad + "unidad");
+            } else {
+                console.log("error es mayor que cero");
+
+            }
+
+        } else if (opcion == 2) {
+
+            let tituloBusqueda = prompt("Ingrese el título del libro a actualizar:");
+            let encontrado = false;
+
+            // --- Bucle FOR: SIN punto y coma ---
+            for (let i = 0; i < titulosDeLibros.length; i++) {
+
+                if (titulosDeLibros[i].toLocaleUpperCase() === tituloBusqueda.toLocaleUpperCase()) {
+                    encontrado = true;
+
+                    let nuevaCantidad = Number(prompt(`Cantidad actual de "${titulosDeLibros[i]}": ${cantidadDeLibros[i]}\nIngrese la nueva cantidad:`));
+
+                    if (nuevaCantidad >= 0) {
+                        cantidadDeLibros[i] = nuevaCantidad;
+                        console.log(`✅ Cantidad de "${titulosDeLibros[i]}" actualizada a ${nuevaCantidad}.`);
+                    } else {
+                        console.log("❌ Error: La cantidad debe ser un número positivo o cero.");
+                    }
+
+                    // Salida correcta del for
+                    i = titulosDeLibros.length;
+                }
+            }
+
+            if (!encontrado) {
+                console.log(`❌ Error: "${tituloBusqueda}" no fue encontrado en el inventario.`);
+            }
+
+            // ---- OPCIÓN 3: VER INVENTARIO (CORREGIDA) ----
+        } else if (opcion === 3) {
+
+            if (titulosDeLibros.length === 0) {
+                console.log("El inventario está vacío.");
+            } else {
+                // --- Bucle FOR: Condición de parada correcta (.length) ---
+                for (let i = 0; i < titulosDeLibros.length; i++) {
+                    console.log(`* ${titulosDeLibros[i]}: ${cantidadDeLibros[i]} unidades`);
+                }
+            }
+
+            // ---- OPCIÓN 4: SALIR ----
+        } else if (opcion === 4) {
+            console.log("¡Saliendo del programa de gestión de inventario!");
+
+            // ---- OPCIÓN INVÁLIDA ----
+        } else {
+            console.log(" Opción inválida. Ingrese un número del 1 al 4.");
+        }
+    }
+
+
+
+
+</script>
