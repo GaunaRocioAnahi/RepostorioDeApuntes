@@ -1,0 +1,99 @@
+<script>
+    //. Sistema de Registro de Calificaciones
+    //Desarrolla un programa que permita registrar y gestionar las calificaciones de los estudiantes en una clase. Usa dos arrays: uno para los nombres de los estudiantes y otro para sus calificaciones. El programa debe ofrecer al usuario un menú con las siguientes opciones:
+
+    //1.Añadir un estudiante y su calificación.
+    //2.Mostrar la calificación promedio de la clase.
+    //3.Mostrar la calificación más alta y el nombre del estudiante correspondiente.
+    //4.Mostrar la calificación más baja y el nombre del estudiante correspondiente.
+    //5.Salir del programa.
+
+    let nombresEstudiantes = []
+    let calificaciones = []
+    let opcion = 0;
+    let calificacionTotal = 0
+
+    // mostramos el menu
+    const menu = "1.Añadir un estudiante y su calificación.\n" + "2.Mostrar la calificación promedio de la clase.\n" + "3.Mostrar la calificación más alta y el nombre del estudiante correspondiente.\n" + "4.Mostrar la calificación más baja y el nombre del estudiante correspondiente.\n" + "5. salir del programa\n"
+
+    while (opcion != 5) {
+        //-----mostramos el menu y pedimos par ingresar en una de las opciones 
+        opcion = Number(prompt(menu));
+        //---------pedimos el nombre y calificacion y lo agregamos al array
+        if (opcion == 1) {
+            let nombre = prompt("ingrese el nombre del estudiante");
+            let calificacion = Number(prompt("ingrese nota del estudiande"));
+            nombresEstudiantes.push(nombre);
+            calificaciones.push(calificacion);
+
+            //------calculamos el promedio. 
+        } else if (opcion == 2) {
+
+            for (let i = 0; i < calificaciones.length; i++) {
+                calificacionTotal += calificaciones[i];
+            }
+
+            let promedio = calificacionTotal / calificaciones.length
+            console.log("el promedio de la clase es de :" + promedio.toFixed(2));
+
+            //----- pedimos la calificacion mas alta
+
+        } else if (opcion == 3) {
+            let calificacionMax = -1
+            let indiceMax = -1
+
+
+            //---recorre con un for
+
+            for (let i = 0; i < calificaciones.length; i++) {
+
+                //--- si la calificacion actual es mayo que la calificiacion maxima
+                if (calificaciones[i] > calificacionMax) {
+
+                    //--- Actualizamos la calificacion max
+
+                    calificacionMax = calificaciones[i];
+                    //--- guardamos su posicion 
+                    indiceMax = i;
+                }
+            }
+
+            //--- usamos el indice guardado para obtener el nombre
+
+            let nombreMax = nombresEstudiantes[indiceMax]
+            //--- mostramos los resultados
+
+            console.log(" la calificacion maxima es:" + calificacionMax + " " + " pertenece a al estudiante :" + nombreMax);
+
+            //--- averiguamos la opcion 4 calificaciion minima
+
+        } else if (opcion == 4) {
+            let calificacionMin = calificaciones[0];
+            let indiceMin = 0
+
+            for (let i = 1; i < calificaciones.length; i++) {
+
+                if (calificaciones[i] < calificacionMin) {
+                    calificacionMin = calificaciones[i];
+                    indiceMin = i;
+
+                }
+            }
+            let nombreMin = nombresEstudiantes[indiceMin]
+
+            console.log("la calificacion minima es:" + calificacionMin + "  " + "pertece a :" + nombreMin);
+
+        } else if (opcion == 5) {
+            console.log("sale del programa")
+        } else {
+            console.log(" opcion no valida");
+
+        }
+
+
+    }
+
+
+
+
+</script>
