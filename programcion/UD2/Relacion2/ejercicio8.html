@@ -30,10 +30,10 @@
             } console.log("reservas actuales:" + nombresClientes);
             console.log("numero de reserva:" + numeroDeClientes);
         } else if (opcion == 3) {
-            for (let i = 0; i <numeroDeClientes.length; i++) {
-                reservaTotal += numeroDeClientes[i]
-            } console.log("la reserva total para ese dia es :" + reservaTotal);
-
+            reservaTotal = numeroDeClientes.length;
+            console.log("el total de reserva es : " + reservaTotal)
+        }else if ( opcion == 4){
+            // cancelar reserva. preguntar....indexOf() (para buscar) y .splice() (para eliminar)
         }
     }
 
