@@ -1,0 +1,74 @@
+<script>
+
+    //Escribe un programa que permita al usuario llevar un control de sus gastos mensuales. Usa dos arrays: uno para los nombres de los gastos (por ejemplo, "comida", "transporte", etc.) y otro para las cantidades gastadas en cada categoría. El programa debe mostrar un menú con las siguientes opciones:
+
+    //1.Añadir un nuevo gasto (nombre y cantidad).
+    //2.Ver el total de gastos hasta el momento.
+    //3.Ver los gastos más altos y más bajos del mes.
+    //4.Ver el promedio de gasto diario (suponiendo un mes de 30 días).
+    //5.Salir del programa.
+
+    let nombreDeGastos = []
+    let cantidadGastada = []
+    let opcion = 0
+    let totalDeGastos = 0
+    const menu = ("1.Añadir un nuevo gasto (nombre y cantidad).\n" + "2.Ver el total de gastos hasta el momento.\n" + "3.Ver los gastos más altos y más bajos del mes.\n" + " 4. Ver el promedio de gasto diario (suponiendo un mes de 30 días).\n" + " 5. salir del programa \n")
+
+
+    while (opcion != 5) {
+        opcion = Number(prompt(menu));
+        if (opcion == 1) {
+            let nombreNuevoGatos = (prompt("ingrese un nombre de gastos"));
+            let cantidad = Number(prompt("ingrese una cantidad"));
+            //---- Lo agregamos al array
+            nombreDeGastos.push(nombreDeGastos);
+            cantidadGastada.push(cantidad);
+
+
+        } else if (opcion == 2) {
+            // ---- calculamos el gasto total 
+
+            for (let i = 0; i < cantidadGastada.length; i++) {
+                totalDeGastos += cantidadGastada[i];
+            }
+            console.log("cantidad de gasto en total es :" + totalDeGastos);
+        } else if (opcion == 3) {
+            // calculamos el gasto mas alto
+            let gastoAlto = -1
+            let indiceAlto = -1
+            let gastoBajo = cantidadGastada[0]
+            let indiceBajo = 0
+            //para recorrer el array usamos el for
+            for (let i = 0; i < cantidadGastada.length; i++) {
+
+                //-----recorremos y comparamos para ver cual es el gasto mas alto
+
+                if (cantidadGastada[i] > gastoAlto) {
+                    gastoAlto = cantidadGastada[i];
+                    i = indiceAlto;
+                }
+            }
+
+            //--- recorremos y comparamos para ver el cual es el gasto mas bajo
+
+
+            for (let i = 1; i < cantidadGastada.length; i++) {
+                if (cantidadGastada[i] < gastoBajo) {
+                    gastoBajo = cantidadGastada[i]
+                    i = indiceBajo;
+                }
+            }
+            console.log("Gasto mas alto es: " + gastoAlto + "\n" + "Gasto mas bajo es: " + gastoBajo);
+            //calculamos el promedio
+        } else if (opcion == 4) {
+            let promedio = totalDeGastos / 30
+            console.log("El promedio es aproximadamente en un mes es:" + promedio.toFixed(2));
+
+        } else if (opcion == 5) {
+            console.log("Fin");
+
+        } else {
+            console.log("Opcion no valida");
+        }
+    }
+</script>
