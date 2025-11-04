@@ -88,7 +88,7 @@ sudo passwd <nombre_del_usuario>
 
 
 
-
+![ejemplo de imagen](<creacion de grupos.png>)
 
 
 
