@@ -35,4 +35,65 @@ sudo groupadd [nombre del grupo]
 
 
 
+
+
+
+
+----
+ ## **crea grupos**
+  En resumen: Crear los grupos primero garantiza que la infraestructura tenga la base de roles lista antes de introducir a los miembros, haciéndolo más limpio y reduciendo pasos posteriores.
+
+ creamos los grupos. con  `sudo`
+
+ ```bash
+sudo groupadd <nombre_grupo> 
+
+ ```
+crea un nuevo grupo en el sistema.
+
+lo podemos verificar.
+
+```bash
+grep <nombre_del_grupo> /etc/group 
+```
+ si nos da una respuesta, esto nos indica que el grupo se creo correctamente, si no responde es por que no se ha creado grupo. 
+ o
+
+ ```bash
+getent group <nombre_del_grupo>
+ ```
+
+## **crea Usuarios**
+  Crea usuario con su grupo correspondiente.
+ ```bash
+sudo useradd -m -g <grupo> <nombre_usuario>
+```
+ para ponerle contraseña debemos poner el siguiente comando.
+
+ ```bash
+sudo passwd <nombre_usuario>
+```
+lo cual la terminal nos va a arrojar el espacio para agregar la contraseña dos veces.
+
+para verificar si existe el usuario.
+```bash
+id <nombre_usuario>
+```
+el siguiente comando crea la contraseña de ese usuario
+
+```bash
+sudo passwd <nombre_del_usuario>
+```
+
+
+
+
+
+
+
+
+
+
+
+
  
