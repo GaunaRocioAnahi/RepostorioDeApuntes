@@ -1,0 +1,20 @@
+<script>
+//Número al cuadrado
+//Haz una función llamada alCuadrado que reciba un número y devuelva su cuadrado.
+
+function esPar(numero) {
+    let numeroEsPar= false
+    if (numero %2==0){
+        numeroEsPar= true
+    }else{
+        numeroEsPar=false
+    }
+    return numeroEsPar
+}
+
+// ------MAIN-----
+let numeroUsuario = Number(prompt("ingrese un numero"))
+console.log(esPar(numeroUsuario));
+
+
+</script>
