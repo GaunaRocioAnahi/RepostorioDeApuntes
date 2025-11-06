@@ -84,16 +84,36 @@ el siguiente comando crea la contraseña de ese usuario
 ```bash
 sudo passwd <nombre_del_usuario>
 ```
+verificar usuario creado con su contraseña 
 
+```bash
+grep <nombre_de_usuario> /etc/passwd
 
+```
+nos devolveria 
 
+```bash
+tecnico1:x:1004:1001::/home/tecnico1:/bin/sh
+```
+**permisos importante** 
 
-![ejemplo de imagen](<creacion de grupos.png>)
+Esta es la parte más crítica, donde usarás los comandos `chown` (cambiar propietario/grupo) y `chmod` (cambiar permisos).
 
+el formato `chmod`que utiliza es octal (3 digitos: propietario, grupo, Otros)
 
+- 7(rwx): lectura, escritura y ejecucion/ acceso
+- 6(rw-):Lectura y escritura
+- 5 (r-x): Lectura y ejecucion/Acceso.
+- 4(r--):solo lectura.
+- 0(---): sin permisos.
 
+*pedimos o asignamos*
 
+```bash
+sudo chown: <nombre_grupo> /opt/compartido/config.
 
-
-
- 
+``` 
+```bash
+sudo chmood 750 /opt/compartido/config 
+``` 
+para grupo 
