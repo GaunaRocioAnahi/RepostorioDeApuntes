@@ -3,22 +3,37 @@
 
 // indicamos que es un array
 
-let array = [];
+
 
 
 // para rellenar usarmos el for. que va a recorrer todo ese array y un push que a medida que recorre agrega un valor dentro de ese array
+//let array = [];
 
-
-for (let i=1 ; i<= 10 ; i++){
-    array.push(i); //o array [i]= i
+//for (let i=1 ; i<= 10 ; i++){
+  //  array.push(i); //o array [i]= i
    
-}  console.log(array);
+//}  console.log(array);
 
 // lo mostramos con un console.log
 // si lo ponemos dentro del for el console.log. vemos que nos muestra 10 array con diez array dentro. 
 
+cantidadDeFelicidad=0
+felicidadDeAnimales= ["❤️","❤️"," "," "]
+if (cantidadDeFelicidad < 4) {
+    // Recorre el array para encontrar el primer espacio vacío (" ") y poner un corazón ("❤️")
+    for (let i = 0; i < felicidadDeAnimales.length; i++) {
+        if (felicidadDeAnimales[i] == " ") {
+            felicidadDeAnimales[i] = "❤️";
+            i = felicidadDeAnimales.length; 
+        }
+    }
+    
 
-
+    console.log("Felicidad actual:", felicidadDeAnimales);
+    
+} else {
+    console.log("🛑 La felicidad ya está al máximo.");
+}
 
 
 
