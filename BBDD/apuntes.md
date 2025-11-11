@@ -6,6 +6,18 @@ Identificar las relaciones entre entidades, armar las listas.
 la clave primaria de "1" la implemento como clave foranea de "N"
 
 ejemplo:
+
+ en las ralciones vamos a tener de la siguiente manera.
+
+
+  ejemplos
+
+
+Proveedor(1) (CUIT_PK, nombre, domicilio, telefono, mail)
+
+ pelicula(N) (cod_pel_PK, titulo, genero, CUIT_Prov_FK. )
+
+
 Estructura para listas foraneas
 
 N + FK --> 1 + PK ( a tener en cuenta que el + es un ".");
