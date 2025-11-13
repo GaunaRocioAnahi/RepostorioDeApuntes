@@ -27,8 +27,7 @@ sudo groupadd [nombre del grupo]
  - `echo` " *user :pass* "
  | sudo chpasswd, asigna la contraseña de forma no interactiva. 
  #
- volver a escribirlo del chat.
-
+ 
 
 
 
@@ -40,6 +39,10 @@ sudo groupadd [nombre del grupo]
 
 
 ----
+
+
+
+
  ## **crea grupos**
   En resumen: Crear los grupos primero garantiza que la infraestructura tenga la base de roles lista antes de introducir a los miembros, haciéndolo más limpio y reduciendo pasos posteriores.
 
