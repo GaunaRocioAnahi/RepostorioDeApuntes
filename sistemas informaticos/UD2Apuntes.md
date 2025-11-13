@@ -203,7 +203,7 @@ usuario debera cambiar esa contraseña cada 90 dias ( sobre escribe el valor glo
 Forzar el cambio en el primer inicio	`sudo` `passwd` `-e` nuevo_empleado
 
  2. la cuenta debe expirar automaticamente al iniciar sesion por primera vez.
-`sudo` `chage -E` 2026-04-30 nuevo_empleado
+`sudo` `chage -e` 2026-04-30 nuevo_empleado
 
  1. la contraseña debe durar un maximo de 120 dias. 
 Establecer duración máxima de contraseñasudo chage -M 120 nuevo_empleado
@@ -212,3 +212,19 @@ Comando	                  proposito
 crontab **-e**	:Editar el archivo de tareas crontab del usuario actual. (¡Es la forma correcta de agregar tareas!)
 crontab **-l**	:Listar las tareas cron ya programadas. (Así verificas que se guardó bien).
 crontab **-r**	:Eliminar todas las tareas cron del usuario. (¡Úsalo con precaución!)
+
+**crontab** :
+Función Principal: Garantiza que las tareas de mantenimiento, copias de seguridad, o como en tu caso, limpieza, se ejecuten de forma automática sin intervención humana.
+
+`tiene 5 campos de tiempo` 
+1-minuto 0-59
+2-hora 0-23
+3-dia del mes 1-31
+4- mes 1-12
+5-dia de la semana 0-7 (0=7)
+
+
+ejemplo de verificar `sudo tail` /var/log/limpieza_compartido.log 
+
+ejemplo de verificar el servicio CRON (diagnostico) 
+`sudo grep CRON`/var/log/syslog
