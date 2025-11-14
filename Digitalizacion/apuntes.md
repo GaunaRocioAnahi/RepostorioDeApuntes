@@ -1,13 +1,13 @@
 ## Digitalizacion. 
 
 
-aplicacion de las THD por sectores profesionales.
+Aplicacion de las THD por sectores profesionales.
 - Gobiernos y administracion publica, en el sector publico, 
 - seguridad y defensa : las THD  
 - medio y entreteniemiento: 
 - construccion y arquitectura:
  
- efecto positivos, -
+ Efecto positivos, -
 - disminuicion de papel
 - mayor eficiencia energitica:
   A medida que mas documentos se gestionan electronicamente, esto puede constribuir a la conservavion de los bosques.
@@ -87,3 +87,36 @@ monitoreo gracias a sensoles drones y herramientas digitales.
 
 impacto negativos generacion de residuos electronicos por el rapido ciclo de obsoluciencia de los dispositivos electronicos, huellas de carbono de dispositivos electronicos acausa de su distribucion y uso. incremento en el consumo energetico por la creciente demanda de servicio digitales, agotamiento de recursos naturales por la produccin y el uso de materiales necesarios, para la fabricacion de equipos electronicos. 
  imparto de la infraestructura digital por la construccion de centro de datos. y redes de comunicacion. 
+
+ transformacion digital de las empresas gracais a las THD.
+
+ Las tecnologia nos estas introducionedo enun mundo que parece el ecensario de una pelicula de de ciencia ficcion quizar no nos demos cuenta por que los cambios. 
+las tecnologia inteligentes son aquellas capaces de simular funciones cognitivas humanas.
+la combinacion de estas tecnologia (IoT, big data, la nube  o biometria)
+permite crear entornos mas eficientes. 
+
+empresas inteligentes 
+aprovechan tecnologias emergentes para mejorar su rendimientos y mantenerse competitivas en entornos, empresariales dinamicos. su objetivos en la tranformacion por procedimietnos digitales en todos los ambitos de actuacion.
+produccion atencion al cliente, gestion de recursos humanos.
+
+cuando estas tegnologia se aplican en procesos de facbricacion industrial se utiliza se utiliza el termino, industria 4.0 o fabricas intelentes 
+Ciudades intelegentes:
+
+conocidas como ciudades digitales o ciudades conectadas son aquellas que usan las tecnologias de la informacion y la comunicacion TIC, para mejorar la calidad de la vida de sus habitantes, impulsar el desarrollo sostenible gestionar eficientemente los recursos ( como energia sostenible gestionar eficientemente los recursos como enerfia guao paisaje naturales) y favorecer la participaciones ciudadana. mediante el voto electronico o plataformas digitales para participacion ciudadana
+
+sistemas de vigilacias inteligente 
+pueden monitorear las clales
+los sistemas de reconocimientos facial
+pueden rastrear sospechosos
+
+los sensores perimetrales, pueden alertar cuando alguien accede a zonas de acceso restringido
+y ante una emergencia como un incendio pueden activarse sistemas automaticos de apertura de puertas de dispersion de agua desde el techo o de llamada de 112; etc.
+
+tambein conocidos como ciciendas domoticas son espacios residenciales quipados con una variedad de dispositivos y sistemas electronicos conectados que se pueden ser controlados y monitoreado de forma remota. su objetivo es medjorar la comodidad y la seguradad. 
+
+
+
+el ambito instrial las empresas han ido incorporando las THD para crear fabricas inteligentes.
+utilidades de la THD.
+
+
