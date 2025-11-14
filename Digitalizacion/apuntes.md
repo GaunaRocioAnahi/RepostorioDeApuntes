@@ -24,8 +24,9 @@ practicas sostenibles. estas practicas estas diseñadas para minimizar el impact
 
 
 practicas empresariales sostenibles.
-- generacion de residuos electronicos: 
-  ejemplos autos electricos
+- generacion de residuos electronicos:
+  
+ejemplos autos electricos
 - Huella de carbono de dispositivos electronicos.
 - Incremento en el consumo energetico:
   La creciente, distribucion y uso dispositivos electricos, asi como el funcionamiento de centros de datos, contribuyen a la huella de carbono general de la industria digital, lo que puede afectar al cambio climatico y a la sostenibilidad ambiental  de carbono

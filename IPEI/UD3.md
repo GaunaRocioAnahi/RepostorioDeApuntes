@@ -21,7 +21,7 @@ dar una respuesta adecuada a posibles situcacion de riesgos
 coordinar el plan de acruacion de la empresa con el sistema de proteccion civil
 contenido de planes de autoproteccion:
 informacion de la empresa y evaluacion del riesgo, indetificar titulare, esplazamienteo. descripcion de la actividad. invetario y evaluacion de riesgo
-medios de proteccion disponibles: inverntaroip de descripcion de las medidad de auto proteccion medios humanos y tecnicos ante emergencia
+medios de proteccion disponibles: inverntario de descripcion de las medidad de auto proteccion medios humanos y tecnicos ante emergencia
 plan de emergencia; identificacion y clasificacion de las emergencias. procedimientos de actuacion, equipos de emergencia identidicacion responsable
 implementacion del plan de autoproteccion , identificar a las personas responsables, formacion del personal señalizacion medios materiales y recursos simulacros
 revision y mantenimiento formacion e informacion sustitucin de medios y resucrsos y realizacion de simulacros
@@ -29,7 +29,7 @@ revision y mantenimiento formacion e informacion sustitucin de medios y resucrso
 
 **¿que es el plan de emergencia?**
 
-el palna d emergencia es un documento que contiene las resspuestas antes situaciones de emergencia y las medias de proteccio  e intervencion que hay que adoptar en funcion de la empresa y de su localizacoin geografica.
+el palna de emergencia es un documento que contiene las resspuestas antes situaciones de emergencia y las medias de proteccio  e intervencion que hay que adoptar en funcion de la empresa y de su localizacoin geografica.
 debera contener como minimoos los siguientes apartados:
 identidicacion y clasificacion de emergencias.
   *segun el grado*
@@ -37,7 +37,7 @@ identidicacion y clasificacion de emergencias.
 - *conato de emergencia:*
 
   situacion que puede ser controlada por el personal de empresas mediante los medios de proteccion del centro de trabajo
-  - emergencia parcial: situacion que requiere la situacion de los equipos de especiales del sector de la empresa que se ve afetado. no perjudica a ptros sectores ni a terceras personas.
+  *emergencia parcial:* situacion que requiere la situacion de los equipos de especiales del sector de la empresa que se ve afetado. no perjudica a ptros sectores ni a terceras personas.
 - *emergencia general:*
 - situacion que prescisa la actuacion tanto de todos los medios humanos y materiales, del medicos externos. conflictiva la evacuacion de las personas ocupantes del centro de trabajo.
   
@@ -61,10 +61,11 @@ la asistencia a una victima se basa en tres pilares fundamentales:
 - limitada: solo haremos lo que sabemos y nunca lo que no sabemos hacer
 - temporal: realizaremos los primeros auxilios mientras esperamos la llegada de la asistencia medica o transporte al centro medico
 
-asistir a una perosna requiere de nuestra ayuda no es solo un obligacion moral, sino que la *omision del deber del socorro* es un delito recogido en el codigo penal y que conlleva pena de multa economica de tres a doce meses...
+asistir a una perosna requiere de nuestra ayuda no es solo un obligacion moral, sino que la *omision del deber del socorro* es un delito recogido en el codigo penal y que conlleva pena de multa economica de tres a doce meses... pensa prision de 6 a 4 años.
+hasta 2 años de pena si no tiene antecedentes penales. 
 
 
-¿que hacer ante una emergenica?
+*¿que hacer ante una emergenica?*
 
 caundo se produce una accidente en una empressa debe actuvarse la llamada conducta PAS (proteger, avisar, y socorrer) o cadena de socorro
 proteger tanto a la persona herida como a nosotros mismos
@@ -102,7 +103,7 @@ s:¿sale caminando? si o no tarjeta verde menos grave
 
 
 
-¿que es el soporte vital basico?
+*¿que es el soporte vital basico?*
 
 de todas las situaciones que podamos presenciar, la parada cardiorrespiratodia (PCR) es la de la maxima emergencia puesto que en este caso de la visa de accidentado de nosotroa por eso es importante conocer la tecnica del soporte vital basico (SVB)
 
@@ -112,7 +113,7 @@ de todas las situaciones que podamos presenciar, la parada cardiorrespiratodia (
  2 abrir las vias respiratorias
  3 ver oir y sentir VOS
  4 RCP
-
+ comprobar si respira no mas de 10' 
 vocabulario:
 parada cardiorrespiratoria (PCR)
 reanimacion cardiopulmonar (RCP)
@@ -137,3 +138,39 @@ hermorrgia interna: no se ve por que la sangre se va a parar a un organo interno
 
 
 hermorragia exteriorizadas: la sangre sale por un orificio natural.
+
+
+*¿como actuar ante una intoxicacion?*
+
+una persona puede perder la consciencia y no responder ante estimulos externos debidos a hbaer sufrido una lipotimia, un sincope o un ataque epileptico por ejemplo.
+
+*¿como actuar ante una intoxicacion?*
+
+en caso de que un compañero o una compañera sufra una intoxicacion en nuestra presencia, deberemos, primer lugar protegernos nosotros con una mascarilla o un pañuelo humedo sobre boca y nariz. sacaremos a la persona del ambiente y dejaremos que respiere. 
+
+
+
+*como debemos trasladar a un accidentado?*
+
+No se debe mover al accidentado salvo que este justificado; por ejemplo, para rescatar a la vistima del lugar del accidente por que peligro su vida o la persona que socorre o para transladar a un centro sanitario.
+existen dos tipos de traslados:
+1 una sola persona socorrista: en este caso se utilizara una tecnica diferente teniendo en cuenta si la vistima esta cinsciente y puede ayudar en la movilizacion
+
+2.varias personas socorristas: si estamos ante se ha herido la columna vertebral hay que moverla lo menos posibles.
+
+que debe contener un botiquin de primeros auxilios. 
+
+debe estar debidamente señalizado. 
+
+
+deben de disponer desinfectante, algodon, vendas, apositos esteriles, adesivos.
+
+se puede ir añadiendo dependiendo del plan de riesgo laboral.
+
+el botiquin y los locales de los primeros auxilios deben disponer como minimo de los siguientes elementos.
+
+
+
+*masaje cardiaco*
+
+
