@@ -1,0 +1,97 @@
+<script>
+    //1. Puntuaciones en una partida de bolos
+    //Escribe un programa que registre las evaluaciones de un jugador en 10 tiradas de bolos.
+    //El programa debe permitir:
+    //
+    //Guarde las 10 evaluaciones en una matriz.
+    //Mostrar un menú con opciones:
+    //1.Mostrar la puntuación más alta.
+    //2.Mostrar la puntuación más baja.
+    //3.Calcular la puntuación total.
+    //4.Calcular la media.
+    //5.Salir.
+
+
+
+
+    //declaramos variables.
+    let tiradas = 10
+    let puntuaciones = [];
+    let opcion = 0
+    let total = 0
+    let media = 0
+
+
+    // como tenemos un menu en el enunciado declaro la variable con un const Menu que me muestra las opciones.
+    const MENU = (" Elige una opcion \n" + "1.Mostrar la puntuacion mas alta \n" + "2.Mostrar la puntuacion mas baja\n" + "3.Calcular la puntuacion total\n" + "4.Calcular la puntuacion media\n" + "5.Salir");
+
+
+    // utilizo un for para añadir puntajes a mi array puntuaciones. 
+    for (let i = 0; i < tiradas; i++) {
+        let puntajes = Number(prompt("ingrese puntiacion"));
+        puntuaciones.push(puntajes);
+    }
+    let puntuacionMAX = puntuaciones[0]
+    let puntuacionMin = puntuaciones[0]
+
+
+    //Mostramos el Menu para que ingresar opciones
+    opcion = Number(prompt(MENU))
+    //Bucle While hasta que no sea 5, porque el 5 es la opcion de salir. 
+    while (opcion != 5) {
+
+        if (opcion == 1) {
+
+            //iniciamos con un for para recorrer todas las puntuaciones y un if par comparar la puntuacion maxima.
+
+            puntuacionMAX = puntuacionMAX
+            for (let i = 1; i < puntuaciones.length; i++) {
+
+                if (puntuaciones[i] > puntuacionMAX) {
+                    puntuacionMAX = puntuaciones[i];
+                }
+
+            } console.log("La temperatura maxima es de :" + puntuacionMAX);
+
+
+        } else if (opcion == 2) {
+            //al igual que la puntuacion Maxima comparamos la puntuacion minima
+            puntuacionMAX
+            for (let i = 0; i < puntuaciones.length; i++) {
+                if (puntuaciones[i] < puntuacionMin) {
+                    puntuacionMin = puntuaciones[i]
+                }
+
+            } console.log("La puntuacion Minima es de :", puntuacionMin)
+
+        } else if (opcion == 3) {
+            //hacemos al suma del array
+            total= 0
+            for (let i = 0 ; i < puntuaciones.length; i++) {
+                total = total + puntuaciones[i]
+            }
+            console.log("El total de la puntuacion es de :", total);
+
+
+        } else if (opcion == 4) {
+            // calculamos la puntuacion media
+            total = 0
+            for (let i = 0 ; i < puntuaciones.length; i++) {
+                total= total + puntuaciones[i]
+            }
+            media = total / puntuaciones.length
+            console.log("La puntuacion media es de :", media);
+
+        } else {
+            // Opción no válida
+            console.log("Opción no válida. Por favor, ingrese un número del 1 al 5.");
+        }
+
+        // ⬅️ ¡CORRECCIÓN! Pedir la opción de nuevo para evitar el bucle infinito.
+        opcion = Number(prompt(MENU));
+    }
+
+    // Se ejecuta al salir del while (cuando opcion es 5)
+    console.log(" Saliendo del programa.");
+
+</script>
