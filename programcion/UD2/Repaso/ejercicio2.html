@@ -1,0 +1,63 @@
+<script>
+    //Torneo de dados
+    //Crea dos arrays paralelos: uno con los nombres de los últimos 6 jugadores y otro con sus evaluaciones.
+    //El menú debe permitir:
+    //
+    //Añadir un nuevo jugador (eliminando al más antiguo).
+    //Mostrar jugadores y evaluación.
+    //Mostrar el jugador con mayor puntuación.
+    //Mostrar el jugador con menor puntuación.
+    //Salir.  
+
+
+    let jugadores = ["Jugador1", "Jugador2", "Jugador3", "Jugador4", "Jugador5", "Jugador6",]
+
+    let evaluaciones = ["10", "2", "12", "3", "1", "4"]
+    let jugadorNuevo
+    let opcion = 0
+    let puntuacionMAX = evaluaciones[0]
+    let puntuacionMin = evaluaciones[0]
+
+
+    const MENU = ("1.añadir Jugador\n" + "2.Mostrar jugadores y evaluacion\n" + "3.Mostrar el jugador con la mayo puntuacion\n" + " 4.Mostrar jugador con menor puntuacion.\n" + "5.SALIR")
+
+    opcion = Number(prompt("ingrese una opcion"))
+    while (opcion != 5) {
+
+        if (opcion == 1) {
+            // ingreao jugador nuevo
+            jugadoresNuevos = prompt("ingrese un nuevo jugador");
+            //elimino el primer jugador 
+            //------------------------------preguntar si en este ejercicio dice añadir evaluacion tambien eliminando el primero y agregando el numero evaluacion al final
+            jugadores.shift()
+            jugadores.push(jugadoresNuevos)
+
+            console.log(jugadores);
+
+        } else if (opcion == 2) {
+            //solo pide que muestre los array jugadores y evaluaciones. 
+            //-------------------------------preguntar si es asi o con las condiciones de la opcion 1
+            console.log(jugadores, evaluaciones);
+
+
+        } else if (opcion == 3) {
+            puntuacionMAX
+            for (let i = 1; i < evaluaciones.length; i++) {
+                if (evaluaciones[i] > puntuacionMAX) {
+                    puntuacionMAX = evaluaciones[i]
+                }
+            }
+            console.log("la puntuacion maxima es de :", puntuacionMAX);
+
+        } else if (opcion == 4) {
+            puntuacionMin
+            for (let i = 0; i<evaluaciones.length; i++) {
+                if (evaluaciones[i] < puntuacionMin) {
+                    puntuacionMin = evaluaciones[i]
+                }
+            } 
+            console.log("la puntuacion minima es de :", puntuacionMin);
+        }
+        opcion = Number(prompt("ingrese una opcion"))
+    }
+</script>
