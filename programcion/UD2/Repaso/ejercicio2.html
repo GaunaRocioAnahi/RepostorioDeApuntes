@@ -12,8 +12,9 @@
 
     let jugadores = ["Jugador1", "Jugador2", "Jugador3", "Jugador4", "Jugador5", "Jugador6",]
 
-    let evaluaciones = ["10", "2", "12", "3", "1", "4"]
+    let evaluaciones = [1, 2, 6, 4, 10, 3]
     let jugadorNuevo
+    let evaluacionNueva
     let opcion = 0
     let puntuacionMAX = evaluaciones[0]
     let puntuacionMin = evaluaciones[0]
@@ -25,38 +26,47 @@
     while (opcion != 5) {
 
         if (opcion == 1) {
-            // ingreao jugador nuevo
+            // ingresar jugador nuevo
             jugadoresNuevos = prompt("ingrese un nuevo jugador");
-            //elimino el primer jugador 
-            //------------------------------preguntar si en este ejercicio dice añadir evaluacion tambien eliminando el primero y agregando el numero evaluacion al final
+            evaluacionNueva = Number(prompt("ingrese su nueva evaluacion "))
+
+            // elimina el primer jugador y el coloca el nuevo jugador 
             jugadores.shift()
             jugadores.push(jugadoresNuevos)
+            //elimina e ingresa la nueva evaluacion correspondiente.
+            evaluaciones.shift()
+            evaluaciones.push(evaluacionNueva)
 
-            console.log(jugadores);
 
         } else if (opcion == 2) {
             //solo pide que muestre los array jugadores y evaluaciones. 
-            //-------------------------------preguntar si es asi o con las condiciones de la opcion 1
-            console.log(jugadores, evaluaciones);
+            for (let i = 0; i < jugadores.length; i++) {
+                console.log("jugadores -->",jugadores[i]+ " "+ "evaluacion-->",evaluaciones[i])
+
+            }
 
 
         } else if (opcion == 3) {
             puntuacionMAX
+            let indiceMax = 0
             for (let i = 1; i < evaluaciones.length; i++) {
                 if (evaluaciones[i] > puntuacionMAX) {
                     puntuacionMAX = evaluaciones[i]
+                    indiceMax=i
                 }
             }
-            console.log("la puntuacion maxima es de :", puntuacionMAX);
+            console.log("jugador con la puntuacion max",jugadores[indiceMax], "su puntuacion es:",puntuacionMAX);
 
         } else if (opcion == 4) {
             puntuacionMin
-            for (let i = 0; i<evaluaciones.length; i++) {
+            indiceMin=0
+            for (let i = 0; i < evaluaciones.length; i++) {
                 if (evaluaciones[i] < puntuacionMin) {
                     puntuacionMin = evaluaciones[i]
+                    indiceMin =i
                 }
-            } 
-            console.log("la puntuacion minima es de :", puntuacionMin);
+            }
+            console.log("jugador con la puntucion minima es:", jugadores[indiceMin], "su puntuacion es de: ",puntuacionMin );
         }
         opcion = Number(prompt("ingrese una opcion"))
     }
