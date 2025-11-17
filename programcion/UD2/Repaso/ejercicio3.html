@@ -10,16 +10,20 @@
     let precioCartas = [1.20, 3.00, 1.50, 2.00, 3.20, 1.60, 2.20, 1.40]
     let registoDeCompras = [];
     let cantidadCompradas = [];
-    let totalFinal = 0;
+    let totalFinal = 0; 
 
-    let opcion = Number(Prompt("ingrese un nombre de carta que desee comprar o escriba fin "));
+    let opcion = Number (prompt("ingrese un nombre d    e carta que desee comprar o escriba fin "));
 
-    while (opcion.toLowerCase() != "fin") {
+    while (opcion != "fin") {
+
         let nombreCarta = opcion;
         let indice = cartas.indexOf(nombreCarta);
+                    
+
         if (indice != -1) {
-            cantidadCompradas = Number(prompt("cuantas unidades desea comprar?"))
+            cantidadCompradas = Number(prompt("cuantas unidades desea comprar?"));
             if (cantidadCompradas > 0) {
+                
                 let precioUnidad = precioCartas[indice];
                 let subtotal = precioUnidad * cantidadCompradas;
 
@@ -28,18 +32,14 @@
                 totalFinal += subtotal;
 
             } else {
-               console.log("cantidad invalida");
-             
+                console.log("cantidad invalida");   
             }
         } else {
-
-
             let tiposComprados = [];
             for (let i = 0; i < registoDeCompras.length; i++) {
                 let indiceActual = registoDeCompras[i];
                 if (tiposComprados.indexOf(indiceActual) == -1) {
                     tiposComprados.push(indiceActual);
-
                 }
             }
         }

@@ -1,0 +1,75 @@
+<script>
+    //Gestor de rondas en un juego de dados
+    //Crea un sistema que gestione las puntuaciones de varios jugadores mediante arrays.
+    //El menú debe permitir:
+    //1.Añadir jugador.
+    //2.Registrar ronda (sumar puntos a cada jugador).
+    //3.Mostrar clasificación.
+    //4.Mostrar jugadores por encima de la media.
+    //5.Reiniciar puntuaciones
+    //6.Salir.
+
+    let jugadores = []
+    let puntuaciones = []
+    let opcion = 0
+
+    let suma = 0
+    const MENU = ("1.Añadir jugador\n" + "2.Ronda registrada\n" + "3.Mostrar clasificacion\n" + "4.Mostrar jugadores por encima de la media\n" + "5.Reinicar puntuaciones\n" + "6. Salir\n")
+
+    opcion = Number(prompt(MENU));
+
+    while (opcion !== 6) {
+
+        if (opcion == 1) {
+            let jugador = (prompt("ingrese un jugador"));
+            jugadores.push(jugador)
+            console.log("jugador añadido", jugadores);
+
+        } else if (opcion == 2) {
+            let puntos = Number(prompt("ingrese su puntaje"));
+            puntuaciones.push(puntos);
+            console.log("puntuacion registada", puntuaciones);
+
+        } else if (opcion == 3) {
+            let max;
+            let indiceMax;
+            for (let i = 0; i < jugadores.length; i++) {
+                max = -1
+                indiceMax = -1
+                for (let j = 0; j < puntuaciones.length; j++) {
+                    if (puntuaciones[j] > max) {
+                        max = puntuaciones[j];
+                        indiceMax = j;
+                    }
+                }
+            }
+            console.log("Clasificacion 1º" + jugadores[indiceMax] + " puntajes:" + puntuaciones[indiceMax]);
+            puntuaciones[indiceMax] = -1;
+
+        } else if (opcion == 4) {
+            for (let i = 0; i < puntuaciones.length; i++) {
+                suma += puntuaciones[i];
+
+            }
+            let media = suma / puntuaciones.length
+
+            for (let i = 0; i<puntuaciones.length; i++) {
+                if (puntuaciones[i] > media) {
+
+                    console.log("jugador mayor a la media" + jugadores[i] + "con el puntaje" + puntuaciones[i]);
+
+
+                }
+            }
+
+        } else if (opcion == 5) {
+            while (puntuaciones > 0) {
+                puntuaciones.pop()
+            }
+        }
+
+
+
+        opcion = Number(prompt(MENU));
+    }
+</script>
