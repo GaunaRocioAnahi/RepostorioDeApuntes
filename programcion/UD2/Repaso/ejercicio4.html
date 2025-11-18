@@ -1,11 +1,43 @@
 <script>
-//Buscaminas lineal
-//Crea un array de 10 posiciones indicando si hay mina o no, y otro array para marcar posiciones descubiertas.
-//El usuario introduce posiciones a descubrir hasta que:
-//
-//Encuentra una mina, o
-//Descubre todas las posiciones sin mina.
-//Al descubrir una casilla segura, debe mostrarse cuántas minas hay en sus casillas vecinas.
+    //Buscaminas lineal
+    //Crea un array de 10 posiciones indicando si hay mina o no, y otro array para marcar posiciones descubiertas.
+    //El usuario introduce posiciones a descubrir hasta que:
+    //
+    //Encuentra una mina, o
+    //Descubre todas las posiciones sin mina.
+    //Al descubrir una casilla segura, debe mostrarse cuántas minas hay en sus casillas vecinas.
+
+    let minas = [0, 1, 0, 0, 1, 0, 0, 0, 1, 0];
+    let descubiertas = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    let juegoTerminado = 0
+    while (juegoTerminado == 0) {
+        let posiciones = Number(prompt("Elige una posicion del 0 al 9"));
+        if (minas[posiciones] == 1) {
+            console.log("hay minas");
+            juegoTerminado = 1;
 
 
+        } else {
+            let minasAlrededor = 0;
+            descubiertas[posiciones] = 1;
+            if (posiciones > 0 && minas[posiciones - 1] == 1) {
+                minasAlrededor++
+            }
+            if (posiciones < 9 && minas[posiciones + 1] == 1) {
+                minasAlrededor++
+            }
+            console.log("Posicion segura. Minas alrededor " + minasAlrededor);
+            let totalSeguras = 0;
+            let descubiertasSeguras = 0;
+            for (let i = 0; i > minas.length; i++) {
+                if (minas[i] == 0) totalSeguras++;
+                if (minas[i] == 0 && descubiertas[i] == 1) descubiertasSeguras++;
+            }
+            if (totalSeguras == descubiertasSeguras) {
+                console.log("ganaste");
+                juegoTerminado = 1;
+            }
+        }
+
+    }
 </script>
