@@ -5,45 +5,71 @@
     //Debe sumar subtotales y terminar cuando el usuario escriba FIN, mostrando el total final y cuántos tipos distintos ha comprado.
 
 
-    let cartas = ["carta1", "carta2", "carta3", "carta4", "carta5", "carta6", "carta7", "carta8"]
+    let cartas = ["carta1", "carta2", "carta3", "carta4", "carta5", "carta6", "carta7", "carta8"];
+    let precioCartas = [1.20, 3.00, 1.50, 2.00, 3.20, 1.60, 2.20, 1.40];
+    let registroDeCompras = []; // Almacena el ÍNDICE de la carta comprada
+    let totalFinal = 0;
 
-    let precioCartas = [1.20, 3.00, 1.50, 2.00, 3.20, 1.60, 2.20, 1.40]
-    let registoDeCompras = [];
-    let cantidadCompradas = [];
-    let totalFinal = 0; 
+    // 1. Inicializa la variable de control 'opcion' con un string (la entrada del usuario)
+    let opcion = prompt("Ingrese un nombre de carta que desee comprar o escriba FIN para terminar:");
 
-    let opcion = Number (prompt("ingrese un nombre d    e carta que desee comprar o escriba fin "));
+    // 2. El bucle while debe continuar mientras 'opcion' NO sea "FIN" (en mayúsculas)
+    while (opcion !== "FIN") {
 
-    while (opcion != "fin") {
-
-        let nombreCarta = opcion;
+        let nombreCarta = opcion; // La opción es el nombre de la carta
         let indice = cartas.indexOf(nombreCarta);
-                    
 
-        if (indice != -1) {
-            cantidadCompradas = Number(prompt("cuantas unidades desea comprar?"));
+        // 3. Si la carta existe (índice es diferente de -1)
+        if (indice !== -1) {
+
+            // El prompt debe capturar la cantidad como un número
+            let cantidadCompradas = Number(prompt("¿Cuántas unidades desea comprar?"));
+
             if (cantidadCompradas > 0) {
-                
+
                 let precioUnidad = precioCartas[indice];
                 let subtotal = precioUnidad * cantidadCompradas;
 
-                registoDeCompras.push(indice);
-                cantidadesCompradas.push(cantidadCompradas);
+                // 4. Registramos el índice de la carta en el array de compras
+                registroDeCompras.push(indice);
+
+                // 5. Acumulamos el total final
                 totalFinal += subtotal;
 
+                // 6. Mensaje de confirmación de la compra
+                console.log(`¡Compra de ${cantidadCompradas} x ${nombreCarta} realizada! Subtotal: ${subtotal.toFixed(2)}`);
+
             } else {
-                console.log("cantidad invalida");   
+                console.log("Cantidad inválida. Debe comprar al menos una unidad.");
             }
         } else {
-            let tiposComprados = [];
-            for (let i = 0; i < registoDeCompras.length; i++) {
-                let indiceActual = registoDeCompras[i];
-                if (tiposComprados.indexOf(indiceActual) == -1) {
-                    tiposComprados.push(indiceActual);
-                }
-            }
+            // La carta no fue encontrada en el array
+            console.log(`La carta "${nombreCarta}" no existe en el catálogo.`);
+        }
+
+        // 7. Vuelve a pedir una nueva opción para la siguiente iteración
+        opcion = prompt("Ingrese otro nombre de carta o escriba FIN para terminar:");
+    }
+
+    // Lógica de finalización (solo se ejecuta cuando el bucle termina, es decir, 'opcion' es "FIN")
+    console.log("--- FINALIZANDO COMPRA ---");
+
+    // 8. Calcular tipos distintos comprados (se hace una vez al final)
+    let tiposComprados = [];
+    for (let i = 0; i < registroDeCompras.length; i++) {
+        let indiceActual = registroDeCompras[i];
+
+        // Si el índice de la carta actual NO está en el array de 'tiposComprados', lo añadimos
+        if (tiposComprados.indexOf(indiceActual) === -1) {
+            tiposComprados.push(indiceActual);
         }
     }
+
+    let numTiposDistintos = tiposComprados.length;
+
+    // 9. Mostrar resultados finales
+    console.log(`El total final de su compra es: ${totalFinal.toFixed(2)}`);
+    console.log(`Usted ha comprado ${numTiposDistintos} tipo(s) de cartas diferente(s).`);
 
 
 
