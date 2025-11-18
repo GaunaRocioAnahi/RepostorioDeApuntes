@@ -8,71 +8,65 @@
     //Si el usuario escribe "FIN", el programa debe finalizar la compra, mostrando un resumen con todos los productos adquiridos, sus cantidades y el costo total a pagar.
 
     let productosDisponibles = ["leche", "papa", "harina", "huevos", "manteca", "queso", "limon", "azucar", "levadura", "cebolla"];
-    let preciosDeProductos = [1.50, 2, 3, 5, 2.3, 6, 3.5, 1.08, 0.60, 1.20]
-    let nombreDeProducto = ""
-    let cantidadDeProducto = 0
-    let precioPorUnidad = 0
-    let subtotalProductos
-    let compraTotal = 0
-    let productosAdquiridos = []
+    let preciosDeProductos = [1.50, 2, 3, 5, 2.3, 6, 3.5, 1.08, 0.60, 1.20];
+    let nombreDeProducto = "";
+    let cantidadDeProducto = 0;
+    let compraTotal = 0;
+    let productosAdquiridos = [];
 
+    // La condición del while controla si seguimos comprando
+    while (nombreDeProducto.toLowerCase() != "fin") {
 
-    while (nombreDeProducto != "fin") {
+        // Pedimos el nombre del producto
+        nombreDeProducto = prompt("Ingrese un nombre de producto (o FIN para terminar):");
 
-        //---- pido el nombre del producto---
+        // Solo procesamos si no es "fin"
+        if (nombreDeProducto.toLowerCase() != "fin") {
 
-        nombreDeProducto = prompt("ingrese un nombre de producto");
+            // Pedimos la cantidad
+            cantidadDeProducto = Number(prompt("Ingrese la cantidad de producto:"));
 
+            if (cantidadDeProducto <= 0 || cantidadDeProducto != cantidadDeProducto) {
+                console.log("Cantidad debe ser un número positivo.");
+            } else {
 
-        if (cantidadDeProducto != "fin") {
-
-            // --- pedir la cantidad de producto
-            cantidadDeProducto = Number(prompt("ingrese la cantidad de producto"))
-
-            //---- demostrar producto encontrado
-            if (cantidadDeProducto > 0) {
-                let productoEncontrado = false
-                // ----- bucle for recorre los productos disponibles
+                // Buscamos el índice del producto
+                let indiceProducto = -1;
                 for (let i = 0; i < productosDisponibles.length; i++) {
-                    //------comparamos 
-                    if (productosDisponibles[i].toUpperCase() == nombreDeProducto.toLocaleUpperCase()) {
-                        productoEncontrado = true // encontro el producto
-
-                        //----calculamos la compra
-                        precioPorUnidad = preciosDeProductos[i];
-                        subtotalProductos = precioPorUnidad * cantidadDeProducto
-                        compraTotal = compraTotal + subtotalProductos;
-
-                        //---- agrega a un nuevo array
-                        productosAdquiridos.push({
-                            nombre: productosDisponibles[i],
-                            cantidad: cantidadDeProducto,
-                            subtotal: subtotalProductos
-                        });
-                        console.log("producto agregado:" + cantidadDeProducto + " " + productosDisponibles[i] +" "+ "subtotal De productos " + " "+ " €" +subtotalProductos.toFixed(2));
-                        // salimos del for 
-                        i = productosDisponibles.length;
+                    if (productosDisponibles[i].toLowerCase() == nombreDeProducto.toLowerCase()) {
+                        indiceProducto = i;
                     }
                 }
-                if (productoEncontrado == false) {
-                    console.log("ERROR" + nombreDeProducto + " no se encunetra el produucto");
 
+                // Si encontramos el producto, procesamos la compra
+                if (indiceProducto >= 0) {
+                    let subtotal = preciosDeProductos[indiceProducto] * cantidadDeProducto;
+                    compraTotal = compraTotal + subtotal;
 
-                } else if (cantidadDeProducto <= 0) {
-                    console.log("cantidad debe ser positivo.");
-                    cantidadDeProducto = Number(prompt("volver a ingresar la cantidad de producto"))
+                    productosAdquiridos.push({
+                        nombre: productosDisponibles[indiceProducto],
+                        cantidad: cantidadDeProducto,
+                        subtotal: subtotal
+                    });
+
+                    console.log("Producto agregado: " + cantidadDeProducto + " " + productosDisponibles[indiceProducto] + " - Subtotal: €" + subtotal.toFixed(2));
+                }
+                // Si no se encuentra el producto
+                else {
+                    console.log("ERROR: " + nombreDeProducto + " no se encuentra en el almacén.");
                 }
             }
         }
     }
-    console.log("fin de la compra");
+
+    // Resumen de compra
+    console.log("=== FIN DE LA COMPRA ===");
     for (let i = 0; i < productosAdquiridos.length; i++) {
-        let indice = productosAdquiridos[i];
-        console.log("producto:" + indice.nombre +" "+ "cantidad:"+" " + indice.cantidad+ " " + "subtotal:" + indice.subtotal);
-
+        console.log("Producto: " + productosAdquiridos[i].nombre +
+            ", Cantidad: " + productosAdquiridos[i].cantidad +
+            ", Subtotal: €" + productosAdquiridos[i].subtotal.toFixed(2));
     }
-    console.log("Total a pagar" + " " + compraTotal.toFixed(2));
-
+    console.log("Total a pagar: €" + compraTotal.toFixed(2));
 
 
 
