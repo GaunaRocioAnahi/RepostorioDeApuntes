@@ -12,6 +12,8 @@
     let juegoTerminado = 0
     while (juegoTerminado == 0) {
         let posiciones = Number(prompt("Elige una posicion del 0 al 9"));
+
+        
         if (minas[posiciones] == 1) {
             console.log("hay minas");
             juegoTerminado = 1;

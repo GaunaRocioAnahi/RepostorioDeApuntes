@@ -40,11 +40,74 @@
     //    console.log(`El número en el índice ${i} es: ${numeros[i]}`)
     //}
 
-let frutas = ['manzana', 'banana', 'naranja']
-let i = 0
-while (i < frutas.length) {
-  console.log(`Fruta en índice ${i}: ${frutas[i]}`)
-  i++
+//let frutas = ['manzana', 'banana', 'naranja']
+//let i = 0
+//while (i < frutas.length) {
+//  console.log(`Fruta en índice ${i}: ${frutas[i]}`)
+//  i++
+//}
+else if (opcion == 7) { // 🛒 MERCADO
+
+        // === [NUEVO: LÓGICA DEL MERCADO] ===
+        let menuMercado = "--- 🛒 Mercado (Productos disponibles) ---\n";
+        let indiceVenta = 0; // REEMPLAZA a 'm'
+        while (indiceVenta < productosEnVenta.length) {
+            let producto = productosEnVenta[indiceVenta];
+            // Verificar si el producto ya está en el inventario
+            let yaComprado = false;
+            let indiceInventario = 0; // REEMPLAZA a 'n'
+            while (indiceInventario < inventario.length) {
+                if (inventario[indiceInventario] == producto.emoji) {
+                    yaComprado = true;
+                }
+                indiceInventario++;
+            }
+            
+            menuMercado += ` ${indiceVenta + 1}. ${producto.emoji} ${producto.nombre} - ${producto.precio}G ${yaComprado ? "(¡YA COMPRADO!)" : ""}\n`;
+            indiceVenta++;
+        }
+        menuMercado += "\nElige un número para comprar o 0 para salir:\n";
+
+        let opcionCompra = Number(prompt(menuMercado));
+
+        if (opcionCompra >= 1 && opcionCompra <= productosEnVenta.length) {
+            let indice = opcionCompra - 1;
+            let productoElegido = productosEnVenta[indice];
+            let coste = productoElegido.precio;
+            let emoji = productoElegido.emoji;
+            let nombre = productoElegido.nombre;
+            
+            // 1. Verificar si ya fue comprado
+            let yaCompradoCheck = false;
+            let indiceRevision = 0; // REEMPLAZA a 'o'
+            while (indiceRevision < inventario.length) {
+                if (inventario[indiceRevision] == emoji) {
+                    yaCompradoCheck = true;
+                }
+                indiceRevision++;
+            }
+
+            if (yaCompradoCheck) {
+                console.log(`El producto ${nombre} ya está en tu inventario. Solo puedes comprarlo una vez.`);
+            } else if (dinero >= coste) {
+                // 2. Realizar la compra
+                dinero -= coste;
+                inventario.push(emoji);
+                console.log(`¡Compra exitosa! Has adquirido ${nombre} por ${coste}G.`);
+                console.log(`Dinero restante: ${dinero}G. Inventario: ${inventario.join(', ')}`);
+            } else {
+                // 3. Fondos insuficientes
+                console.log(`No tienes suficiente dinero para comprar ${nombre}. Necesitas ${coste}G y tienes ${dinero}G.`);
+            }
+
+        } else if (opcionCompra != 0) {
+            console.log("Opción de compra no válida.");
+        }
+        // ===================================
+
+    } else {
+        console.log("Opción no válida. Vuelve a intentarlo.");
+    }
 }
 
 

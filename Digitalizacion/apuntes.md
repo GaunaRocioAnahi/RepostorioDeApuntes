@@ -121,3 +121,20 @@ el ambito instrial las empresas han ido incorporando las THD para crear fabricas
 utilidades de la THD.
 
 
+LAS THD son versatiles y pueden aplicarse en multiples entornos productivas. Las THD mas utilizadas  ys us areas de aplicacion son:
+- inteligenia artificial capacidad de similar el pensamiento humano. de aprender por si mismo y de tomar decisiones de forma autonoma basandose en los datos disponibles
+  
+- robots inteligentes: Maquinas con capacidad para realidad tareas complejas de manera autonoma, utilizacion algoritmos y siempre avanzados de procesamiento de informacion. Estos reobots pueden ralizar una variedad de funciones en diferentes campos.
+  
+- impresion 3D: tambien conocida como fabricacion aditivas se basa en la construccion de objetos capa a capa a partir de modelos digitales tridimencionales con materiales que van desde plasticos y metales hasta materiales biologicos compuestos avanzados.
+  
+- internet de las coasa IOT: conexion de dispositivos a internet para intercambiar informacion controlar sistemas fisicos y automatizacion tareas.
+  
+- areas de aplicaion: big data asistentes virtuales chattvots, diagnosticos medicos conduccion autonoma, optimatizacion de la cadena de suministros.
+  
+- areasde aplicacion: robot-aspiradoras. robot-patrulla, brazos roboticos en la industria o en medicina robots colaborativo en frabricas. drones, autonomos, tutoes roboticos drones autonomos tutores roboticos en la educacion rovers de explotacion especial
+
+- areas de aplicacion:prototipado rapido fabricacion personalizada, medicina y odontologia a medida, industria aeroespacial, arquitectuta y construccion, educacion y arte
+  
+- areas de aplicacion: Domotica, fabricas inteligentes, monitoreo de salud gestion eficiente de energia ciudades conectadas agricultura de precision. 
+

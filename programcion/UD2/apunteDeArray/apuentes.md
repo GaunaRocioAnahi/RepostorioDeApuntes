@@ -1,5 +1,10 @@
 #ARRAYS EN JS
-
+- elimina
+ array.pop() --> elimina al ultimo
+ array.shift() --> elimina el primero.
+- añade al final:
+array.puch() --> añade a lo ultimo
+array.unshift() --> añade al principio 
 para una suma utilizaremos:
 
 - creamos una variable acumuladora (suma = 0) 
