@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Página web del restaurante Shushio</title>
@@ -8,24 +9,257 @@
             font-family: Arial, Helvetica, sans-serif;
             margin: 20px;
         }
-        table, th, td {
+
+        table,
+        th,
+        td {
             border: 1px solid black;
             border-collapse: collapse;
         }
-        th, td {
+
+        th,
+        td {
             padding: 6px 10px;
             text-align: left;
         }
-        h1, h2, h3 {
+
+        h1,
+        h2,
+        h3 {
             margin-top: 25px;
         }
     </style>
 </head>
+
 <body>
 
     <h1>Restaurante Shushio</h1>
-    <p>Bienvenido al restaurante japonés Shushio. A continuación se muestra el menú del día y la carta con sus precios.</p>
+    <p>Bienvenido al restaurante japonés Shushio. A continuación se muestra el menú del día y la carta con sus precios.
+    </p>
+    <h2> <strong>Shushio - Restaurante Japonés</strong> </h2>
+    
+    <h2> Normas del restaurante</h2>
+    <ul>
+        <li><b>Horario:</b> De martes a domingo, de 13:00h a 16:00h y de 20:00h a 23:30h.</li>
+        <li><b> de cocina:</b> Auténtica cocina japonesa con opciones veganas disponibles.</li>
+        <li><b>Reservas:</b> Se recomienda reservar, especialmente los fines de semana.</li>
+        <li><b>Pedidos para llevar:</b> Se aceptan pedidos para recoger hasta 30 minutos antes del cierre.</li>
+        <li><b>Formas de pago:</b> Aceptamos efectivo y tarjetas de crédito/débito.</li>
+    </ul>
 
+    <header>
+        <h2>Shushio</h2>
+    </header>
+    <section>
+        <h3>Menú del día</h3>
+        <ul>
+            <li>Entrante: Sopa miso o ensalada de algas</li>
+            <li>Plato principal: Sushi variado (nigiri, maki, sashimi)</li>
+            <li>Postre: Mochi o helado de té verde</li>
+            <li>Bebida: Té verde o refresco</li>
+        </ul>
+    </section>
+    <section>
+        <table>
+            <h3><strong>Menú</strong></h3>
+            <tr>
+                <th>Producto</th>
+                <th>Informacion</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Sopa miso</td>
+                <td>Sopa tradicional japonesa hecha con pasta de miso, tofu y algas.</td>
+                <td>3,50 €</td>
+
+            </tr>
+            <tr>
+                <td>Ensalada de algas</td>
+                <td>Ensalada fresca de algas marinas con vinagreta japonesa.</td>
+                <td>4,00 €</td>
+            </tr>
+            <tr>
+                <td>Sushi variado</td>
+                <td>Selección de nigiri, maki y sashimi preparados con pescado fresco.</td>
+                <td>12,00 €</td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <h3> <strong>Carta</strong></h3>
+        <table>
+            <tr>
+                <th>Plato</th>
+                <th>Informacion</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Mochi</td>
+                <td>Postre japonés hecho de arroz glutinoso relleno de helado o pasta de frijol dulce.</td>
+
+                <td>5,00 €</td>
+            <tr>
+                <td>Nigiri y Sashimi</td>
+                <td>Pescado fresco de lonja</td>
+                <td>2,50 € cada uno</td>
+            </tr>
+            <tr>
+                <td>Maki</td>
+                <td>Rollos de arroz rellenos de pescado y vegetales</td>
+                <td>3,00 € cada uno</td>
+            </tr>
+            <tr>
+                <td> Tempura</td>
+                <td>Verduras y mariscos rebozados y fritos</td>
+                <td>8,00 €</td>
+            </tr>
+
+            </tr>
+
+        </table>
+    </section>
+    <h2> Menú del día</h2>
+
+    <section id="menu-del-dia">
+
+        <ul>
+
+            <li>
+                <h3>Entrantes</h3>
+
+                <ul style="list-style-type: square;">
+                    <li><strong>Edamame</strong> (Vainas de soja al vapor con sal)</li>
+                    <li><strong>Gyozas de cerdo y verduras</strong></li>
+                    <li><strong>Sopa Miso</strong></li>
+                </ul>
+            </li>
+
+            <li>
+                <h3>Platos principales</h3>
+
+                <ol start="5">
+                    <li><strong>Ramen de Cerdo (Tonkotsu)</strong></li>
+                    <li><strong>Pollo Teriyaki</strong> (Con arroz blanco)</li>
+                    <li>
+                        <strong>Sushi Variado</strong>
+                        <ul>
+                            <li>Nigiri (salmón, atún, pez mantequilla)</li>
+                            <li>Maki (rollo de pepino y aguacate)</li>
+                            <li>Uramaki (California roll)</li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+
+            <li>
+                <h3>Postres</h3>
+
+                <ul>
+                    <li><strong>Dorayaki</strong> (Relleno de *anko* - pasta de judía roja)</li>
+                    <li><strong>Mochi</strong> (Sabores: té verde, sésamo negro o mango)</li>
+                    <li><strong>Helado de Sésamo Negro</strong></li>
+                </ul>
+            </li>
+
+        </ul>
+
+        <hr>
+
+        <p>Todos los menús incluyen té verde o agua.</p>
+
+    </section>
+    <table border="1" cellpadding="10" cellspacing="5">
+
+        <thead>
+            <tr>
+                <th>Categoría</th>
+                <th>Plato</th>
+                <th>Calorías</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr> <!---rowspan="n" en la columna Categoría para agrupar visualmente los elementos de la misma categoría-->
+                <td rowspan="2">Entrantes</td>
+                <td>Edamame</td>
+                <td>120 kcal</td>
+                <td>3,50 €</td>
+            </tr>
+            <tr>
+                <td>Gyozas (5 uds.)</td>
+                <td>280 kcal</td>
+                <td>5,90 €</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Platos Principales</td>
+                <td>Ramen Tonkotsu</td>
+                <td>650 kcal</td>
+                <td>12,90 €</td>
+            </tr>
+            <tr>
+                <td>Sushi Variado (10 pzas)</td>
+                <td>410 kcal</td>
+                <td>14,50 €</td>
+            </tr>
+            <tr>
+                <td>Pollo Teriyaki</td>
+                <td>550 kcal</td>
+                <td>10,90 €</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Postres</td>
+                <td>Dorayaki</td>
+                <td>190 kcal</td>
+                <td>3,00 €</td>
+            </tr>
+            <tr>
+                <td>Mochi (2 uds.)</td>
+                <td>150 kcal</td>
+                <td>4,50 €</td>
+            </tr>
+        </tbody>
+
+        <tfoot><!-- "tfoot" contiene informacion del menu-->
+            <tr>
+                <td><strong>Menú completo</strong></td>
+                <!--En la fila especial, la segunda celda utiliza colspan="2" para ocupar el espacio de las columnas "Plato" y "Calorías".-->
+                <td colspan="2">Incluye bebida y postre</td>
+                <td><strong>18,50 €</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+    <hr>
+    <section>
+        <table border="1" cellpadding="10" cellspacing="5">
+
+            <thead>
+                <tr>
+                    <th>Combinación</th>
+                    <th>Incluye</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td colspan="2" style="text-align: center;"><strong>Menú Sushi Deluxe</strong></td>
+                </tr>
+                <tr>
+                    <td>Platos:</td>
+                    <td>Sushi variado, Sopa de miso, Gyozas (3 uds.), Postre del día, Té verde</td>
+                </tr>
+
+                <tr>
+                    <td>Menú Ramen</td>
+                    <td>Ramen Tonkotsu, Edamame, Refresco o Cerveza Japonesa</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </section>
 
 </body>
+
 </html>
