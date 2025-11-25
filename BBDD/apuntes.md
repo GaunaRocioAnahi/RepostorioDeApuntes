@@ -50,3 +50,11 @@ O Tambien podemos implementar como los ejemplos dados en la actividad.
 Relaciones ternarias: 
 
 ![alt text](<Captura de pantalla 2025-11-11 105315.png>)
+
+
+
+
+
+
+SISTEMAS WORKBECH - COMMUTY SERVER
+
