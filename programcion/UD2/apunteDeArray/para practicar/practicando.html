@@ -48,14 +48,14 @@
 //}
 else if (opcion == 7) { // 🛒 MERCADO
 
-        // === [NUEVO: LÓGICA DEL MERCADO] ===
-        let menuMercado = "--- 🛒 Mercado (Productos disponibles) ---\n";
-        let indiceVenta = 0; // REEMPLAZA a 'm'
+        //mercado  de productos
+        let menuMercado = "";
+        let indiceVenta = 0; //
         while (indiceVenta < productosEnVenta.length) {
             let producto = productosEnVenta[indiceVenta];
             // Verificar si el producto ya está en el inventario
             let yaComprado = false;
-            let indiceInventario = 0; // REEMPLAZA a 'n'
+            let indiceInventario = 0; // 
             while (indiceInventario < inventario.length) {
                 if (inventario[indiceInventario] == producto.emoji) {
                     yaComprado = true;
