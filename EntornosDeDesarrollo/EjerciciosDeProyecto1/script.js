@@ -6,6 +6,10 @@ let g1 = 0;
 let g2 = 0;
 
 // Este es el juego
+/**
+ * @function juego
+ * @param {string} usu  el usuario elige 
+ */
 function juego(usu) {
     const ele = ['piedra', 'papel', 'tijera'];
     const maq = ele[Math.floor(Math.random() * ele.length)]; //a ver lo que elige la maquina
