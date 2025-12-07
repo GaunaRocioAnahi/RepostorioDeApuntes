@@ -1,0 +1,20 @@
+<script>
+    //Crea una función llamada capitalizarPrimeraLetraque reciba una palabra y devuelva la misma palabra con la primera letra en mayúscula. Investigue el uso de toUpperCase().
+
+    
+        function capitalizarPrimeraLetra(palabra) {
+        let palabraCapitalizada = ""
+
+        for (let i = 0; i < palabra.length; i++) {
+            if (i == 0) {
+                palabraCapitalizada += palabra[i].toUpperCase()
+            }
+            else {
+                palabraCapitalizada += palabra[i]
+            }
+        }
+        return palabraCapitalizada
+    }
+
+    alert(capitalizarPrimeraLetra("jaime"))
+</script>

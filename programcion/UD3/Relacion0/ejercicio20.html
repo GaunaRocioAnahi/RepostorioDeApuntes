@@ -1,0 +1,19 @@
+<script>
+    //Crea una función llamada contarPalabrasEnCadenaque reciba una cadena y devuelva el número de palabras que contiene, asumiendo que están separados por espacios. Investigue el uso de split().
+    function contarPalabrasEnCadena(cadena) {
+        let palabrasSeparadas = cadena.split(' ')
+        let numeroPalabras = palabrasSeparadas.length
+        return numeroPalabras
+    }
+
+    function contarPalabrasEnCadenaOptimizado(cadena) {
+        //NO HACER OPERACIONES EN UN RETURN
+        //Solucion mejor:
+        // let numeroPalabras = cadena.split(' ').length
+        // return numeroPalabras
+        return cadena.split(' ').length
+    }
+
+
+    alert(contarPalabrasEnCadena("ESTO ES UNA CADENA CON PALABRAS GUILLERMO"))
+</script>

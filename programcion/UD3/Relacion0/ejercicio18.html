@@ -1,0 +1,40 @@
+<script>
+    //Crea una función llamada contarVocalesEnCadenaque recibe una cadena de texto y devuelve la cantidad total de voces que contiene.
+
+    function contarVocalesEnCadenaForI(cadena) {
+        cadena = cadena.toUpperCase()
+        let cantidadTotalVocales = 0
+        for (let i = 0; i < cadena.length; i++) {
+            if (cadena[i] == "A" || cadena[i] == "E" || cadena[i] == "I" || cadena[i] == "O" || cadena[i] == "U") {
+                cantidadTotalVocales++
+            }
+        }
+        return cantidadTotalVocales
+    }
+
+    function contarVocalesEnCadenaForOf(cadena) {
+        cadena = cadena.toUpperCase()
+        let cantidadTotalVocales = 0
+        for (let letra of cadena) {
+            if (letra == "A" || letra == "E" || letra == "I" || letra == "O" || letra == "U") {
+                cantidadTotalVocales++
+            }
+        }
+        return cantidadTotalVocales
+    }
+
+    //--------------MAIN--------------
+
+    let cadenaTexto = "MURCIELAGO GALLEGO"
+
+    let numeroVocalesForI = contarVocalesEnCadenaForI(cadenaTexto)
+    let numeroVocalesForOf = contarVocalesEnCadenaForOf(cadenaTexto)
+
+    // Nueva variable: suma total de vocales de ambas funciones
+    let sumaTotalVocales = numeroVocalesForI + numeroVocalesForOf
+
+    console.log("Número de vocales usando for i:", numeroVocalesForI)
+    console.log("Número de vocales usando for of:", numeroVocalesForOf)
+    console.log("Suma total de vocales de ambas funciones:", sumaTotalVocales)
+
+</script>

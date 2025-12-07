@@ -1,0 +1,18 @@
+<script>
+
+    //Crea una función de llamada revertirCadenaque recibe una cadena de texto y devuelve la misma cadena con los caracteres en orden inverso. 
+
+        function revertirCadena(cadenaTexto) {
+        let cadenaTextoInversa = ""
+        for (let i = cadenaTexto.length; i > 0; i--) {
+            cadenaTextoInversa += cadenaTexto[i - 1]
+        }
+        return cadenaTextoInversa
+    }
+
+    //------------------MAIN----------------------
+    let cadenaUsuario = prompt("Introduce una cadena a revertir")
+    alert(revertirCadena(cadenaUsuario))
+
+
+</script>

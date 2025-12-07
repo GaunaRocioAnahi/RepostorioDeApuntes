@@ -1,0 +1,18 @@
+<script>
+    //Crea una función llamada filtrarNumerosMayoresque recibe una matriz de números y un valor, y devuelva una nueva matriz con los números mayores que el valor dado.
+function filtrarNumerosMayores (numeros, valor){
+    let resultado = []
+    for(let i = 0; i < numeros.length; i++){
+        if (numeros [i] > valor){
+            resultado.push(numeros[i])
+        }
+    }
+return resultado
+}
+//-------MAIN------
+
+let numeros = [5, 12, 8, 20, 3 ]
+let mayoresQue10 = filtrarNumerosMayores (numeros, 10)
+console.log(mayoresQue10);
+
+</script>

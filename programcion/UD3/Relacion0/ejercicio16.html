@@ -1,0 +1,18 @@
+<script>
+    //Crea una función llamada verificarNumeroEnArrayque recibe un número y un array, y devuelve truesi el número está presente en el array o falsesi no lo está
+    function verificarNumeroEnArray(numero, array) {
+        let encontrado = false
+        //recorremos el array usando indice
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] == numero) {
+                encontrado = true
+            }
+        }
+        return encontrado
+    }
+// ------ MAIN------
+let numero = [ 1, 3, 5, 7, 9]
+console.log(verificamosNumero(5,numeros));
+console.log(verificamosNumero(2,numeros));
+
+</script>
