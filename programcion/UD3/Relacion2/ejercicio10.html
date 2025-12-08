@@ -1,0 +1,35 @@
+<script>
+    // Distribuidor de tareas del hogar
+    //Crea una función que recibe una lista de nombres y una lista de tareas. Reparte las tareas equitativamente entre los nombres, asignando una lista de tareas a cada persona. Las tareas se distribuyen aleatoriamente y pueden repetirse o quedar sin asignar si hay más personas que tareas.
+
+
+    function distribuirTrareas(nombres, tareas) {
+        let asignaciones = [];
+        for (let i = 0; i < nombres.length; i++) {
+            asignaciones.push([])
+        }
+    }
+    // Repartimos tareas de forma aleatoria.
+    for (let i = 0; i < tareas.length; i++) {
+        //asigna personas al azar
+        let indicePersona = Math.florr(Math.random() * nombres.length)
+        asiganciones[indicePersona].push(tareas[i]);
+    }
+
+    //crea una matriz [nombre, tareas asignadas]
+    let resultado = [];
+    for (let i = 0; i < nombres.length; i++) {
+        resultado.push([nombres[i], asignaciones[i]]);
+
+    }
+    return resultado;
+    // ============================= MAIN =====
+
+    let nombres = ["Ana", "Juan", "Rocio", "Mateo"];
+    let tareas = ["Lavar platos", "Sacar basura", "Pasar aspiradora", "Tender camas", "Regar plantas"];
+
+    let reparto = distribuirTareas(nombres, tareas);
+
+    console.log(reparto);
+
+</script>
