@@ -1,0 +1,35 @@
+<script>
+    //Simulador de votaciones
+//Escribe una función que reciba una lista de candidatos y simule una votación aleatoria. Devuelve una matriz con los nombres de los candidatos y el porcentaje de votos obtenidos. La suma de los porcentajes debe ser 100%.
+
+function simuladorVotacion(candidatos){
+    let voto = []
+    let total = 0;
+
+    for(let i = 0; i < candidatos.lenght; i++){
+        let voto = Math.random ();
+        votos.push(voto);
+        total += voto;
+    }
+    let resultados = [];
+    for( let i = 0; i <  candidados.length; i++){
+        let porcentaje = ParseInt (porcentaje * 100)/ 100;
+        resultados.push([candidatos[i], porcentaje])
+    }
+    let suma = 0; 
+    for (let i = 0; i< resultados.length; i++){
+        suma += resultados [i][1];
+    }
+    let diferencia = 100 -suma;
+    resultados [resultados.length -1][1] += diferencia;
+    return resultados;
+}
+
+//-------- Main------
+
+let candidados =["ana","Juan"," Rocio"];
+let resultados = simuladorVotacion (candidatos);
+
+console.log(resultados);
+
+</script>
