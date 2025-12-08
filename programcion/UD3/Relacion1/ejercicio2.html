@@ -1,0 +1,22 @@
+<script>
+
+    //Crea una función llamada lanzarDosDadosque lanza dos dados, es decir, que genera dos números aleatorios entre 1 y 6 y los sume. La función debe devolver la suma de estos dos números. Por ejemplo, si los dados muestran 3 y 4, el resultado será 7.
+
+    // primero creamos la accion lanzar dado que podemos reutilizarla del ejercicio anterior.
+
+    function lanzarDado() {
+        let numeroDado = Math.floor(Math.random() * 6) + 1
+        return numeroDado
+    }
+    function lanzarDosDados() {
+        let dado1 = lanzarDado()
+        let dado2 = lanzarDado()
+        let suma = dado1 + dado2
+        return suma
+    }
+
+    ///-----------
+
+    let resultadoLanzarDosDados = lanzarDosDados()
+    console.log(resultadoLanzarDosDados)
+</script>

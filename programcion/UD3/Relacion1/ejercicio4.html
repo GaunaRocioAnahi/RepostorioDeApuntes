@@ -1,0 +1,15 @@
+<script>
+    //Generar un Array de Números Enteros Aleatorios en un Rango
+//Escribe una función arrayAleatorioEnRangoque recibe tres parámetros: cantidad(cuántos números generar), miny max(el rango de cada número). Esta función debe devolver un array que contenga cantidadnúmeros aleatorios entre miny max. Por ejemplo, si cantidades 4, mines 10 y maxes 30, el array podría ser [15, 22, 11, 29].
+
+
+function arrayAleatorio(cantidad, min, max) {
+    let resultado = []
+    for (let i= 0; i <cantidad; i++){
+        resultado.push(Math.floor(Math.random() * (max - min + 1)) + min)
+    }
+    return resultado
+}
+alert(arrayAleatorio(4, 5, 10))
+
+</script>

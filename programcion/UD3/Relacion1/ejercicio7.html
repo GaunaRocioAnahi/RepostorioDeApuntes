@@ -1,0 +1,30 @@
+<script>
+    //Crea una función juegoAdivinaNumeroque genere un número aleatorio entre 1 y 10. Pídele al usuario que adivine el número, y dile si el número que ingresó es menor, mayor o igual al número generado.
+
+
+    function juegoAdivinaNumero() {
+        let numeroAleatorio = Math.floor(Math.random() * 10) + 1
+        return numeroAleatorio
+    }
+
+    function jugar1Turno(numeroUsuario) {
+        let mensaje = ""
+        if (numeroAveriguar > numeroUsuario) {
+            mensaje = "Tu numero es menor"
+        } else if (numeroAveriguar < numeroUsuario) {
+            mensaje = "Tu numero es mayor"
+        } else {
+            mensaje = "Has averiguado el numero"
+        }
+        return mensaje
+    }
+
+    //----------------MAIN----------
+    let numeroAveriguar = juegoAdivinaNumero()
+    let resultado = ""
+    while (resultado != "Has averiguado el numero") {
+        resultado = jugar1Turno(Number(prompt("Introduce un numero a ver si lo averiguas")))
+    }
+    alert(resultado)
+
+</script>

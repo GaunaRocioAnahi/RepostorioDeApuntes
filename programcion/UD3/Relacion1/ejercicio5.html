@@ -1,0 +1,28 @@
+<script>
+    // Generar una Lista de 10 Caras o Cruces Aleatorios
+    //Escribe una función llamada caraOCruzque devuelva "Cara" o "Cruz" al azar. Luego, crea otra función llamada listaCarasOCrucesque usa caraOCruz10 veces para generar una lista de 10 resultados de "Cara" o "Cruz".
+
+    function caraOCruz() {
+        let aleatorio = Math.floor(Math.random() * 2)
+        let respuesta = ""
+        //if (!aleatorio) {
+        if (aleatorio == 0) {
+            respuesta = "Cara"
+        } else {
+            respuesta = "Cruz"
+        }
+        return respuesta
+    }
+    function listaCarasOCruces() {
+        let cantidad = 10
+        let listaResultados = []
+        for (let i = 0; i < cantidad; i++) {
+            listaResultados.push(caraOCruz())
+        }
+        return listaResultados
+    }
+    let arrayCarasoCruces = listaCarasOCruces()
+
+    alert(arrayCarasoCruces.join(' '))
+
+</script>
