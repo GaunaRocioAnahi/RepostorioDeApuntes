@@ -1,0 +1,174 @@
+<script>
+    // =======================================================
+    // I. DECLARACIÓN GLOBAL DE CONSTANTES (CONST)
+    // =======================================================
+
+    const EMOJI_CERRADO = '🟢';
+    const EMOJI_SEGURO = '◻️';
+    const EMOJI_BOMBA = '💥';
+    const TAMANO_TABLERO = 10;
+
+    // =======================================================
+    // II. DECLARACIÓN GLOBAL DE VARIABLES DE ESTADO (LET)
+    // =======================================================
+
+    let jugadorActual;
+    let juegoActivo;
+
+    // =======================================================
+    // III. DECLARACIÓN DE FUNCIONES (UN SOLO RETURN)
+    // =======================================================
+
+    function generarTableroInterno() {
+        let tablero = [];
+        for (let i = 0; i < TAMANO_TABLERO; i++) {
+            tablero.push(0);
+        }
+        const maxBombas = Math.floor(Math.random() * 5) + 1;
+        let bombasColocadas = 0;
+        while (bombasColocadas < maxBombas) {
+            const indice = Math.floor(Math.random() * TAMANO_TABLERO);
+            if (tablero[indice] === 0) {
+                tablero[indice] = 1;
+                bombasColocadas++;
+            }
+        }
+        return tablero;
+    }
+
+    function crearTableroVisible() {
+        let tablero = [];
+        for (let i = 0; i < TAMANO_TABLERO; i++) {
+            tablero.push(EMOJI_CERRADO);
+        }
+        return tablero;
+    }
+
+    function generarIndices(tamano) {
+        let indices = [];
+        for (let i = 0; i < tamano; i++) {
+            indices.push(i);
+        }
+        const cadenaIndices = indices.join(' ');
+        return cadenaIndices;
+    }
+
+    function mostrarTablero(tableroVisible) {
+        const indicesNumericos = generarIndices(tableroVisible.length);
+
+        console.log(`\n--- TABLERO ACTUAL ---`);
+        console.log(`Tubos:   ${tableroVisible.join(' ')}`);
+    }
+
+    // *** FUNCIÓN CORREGIDA: Se elimina el alert de tubería ya descubierta ***
+    function obtenerIndiceValido(jugador, tableroVisible) {
+        let indiceElegido;
+        let jugadaValida = false;
+        let entradaUsuario;
+
+        while (!jugadaValida) {
+
+            entradaUsuario = prompt(`[${jugador}] Elige el número de tubería (0 a ${TAMANO_TABLERO - 1})`);
+
+            if (entradaUsuario === null) {
+                alert("Ingresa un número válido para continuar.");
+            }
+
+            indiceElegido = parseInt(entradaUsuario);
+
+            if (
+                !isNaN(indiceElegido) &&
+                indiceElegido >= 0 &&
+                indiceElegido < TAMANO_TABLERO
+            ) {
+                if (tableroVisible[indiceElegido] === EMOJI_CERRADO) {
+                    console.log(` ${jugador} elige la tubería ${indiceElegido}.`);
+                    jugadaValida = true;
+                } else {
+                    // CORRECCIÓN: Quitamos el alert, solo mostramos en consola y se repite el prompt
+                    console.log(`Tubería ${indiceElegido} ya descubierta. Intenta de nuevo.`);
+                }
+            } else {
+                if (entradaUsuario !== null) {
+                    alert(`Entrada inválida. Debe ser un número entre 0 y ${TAMANO_TABLERO - 1}.`);
+                }
+            }
+        }
+
+        return indiceElegido;
+    }
+
+    function evaluarJugada(indice, tableroInterno, tableroVisible) {
+        let resultado;
+
+        if (tableroInterno[indice] === 1) {
+            tableroVisible[indice] = EMOJI_BOMBA;
+            resultado = 'PERDIDO';
+        } else {
+            tableroVisible[indice] = EMOJI_SEGURO;
+            resultado = 'CONTINUAR';
+        }
+
+        return resultado;
+    }
+
+    function comprobarVictoria(tableroInterno, tableroVisible) {
+        let victoria = true;
+
+        for (let i = 0; i < TAMANO_TABLERO; i++) {
+            if (tableroInterno[i] === 0 && tableroVisible[i] === EMOJI_CERRADO) {
+                victoria = false;
+            }
+        }
+
+        return victoria;
+    }
+
+    // =======================================================
+    // IV. FUNCIÓN PRINCIPAL (TERMINACIÓN CLARA GARANTIZADA)
+    // =======================================================
+
+    function iniciarJuego() {
+        console.log("¡Comienza la revisión de tuberías de Mario y Luigi!");
+
+        jugadorActual = 'Mario';
+        juegoActivo = true;
+
+        const tableroInterno = generarTableroInterno();
+        const tableroVisible = crearTableroVisible();
+
+        while (juegoActivo) {
+            mostrarTablero(tableroVisible);
+            console.log(`\nEs el turno de ${jugadorActual}.`);
+
+            const indiceElegido = obtenerIndiceValido(jugadorActual, tableroVisible);
+
+            const resultado = evaluarJugada(indiceElegido, tableroInterno, tableroVisible);
+
+            if (resultado === 'PERDIDO') {
+                // *** PUNTO CLAVE DE TERMINACIÓN: Establece false y muestra una ALERTA VISIBLE ***
+                mostrarTablero(tableroVisible);
+                console.log(`\n*** ¡BOOOM! ${jugadorActual} ha perdido. EL JUEGO SE DETIENE. ***`);
+                juegoActivo = false;
+                alert(`¡FIN DEL JUEGO! ${jugadorActual} ha perdido. Tubería ${indiceElegido} era una bomba. 💥`);
+
+            } else if (comprobarVictoria(tableroInterno, tableroVisible)) {
+                mostrarTablero(tableroVisible);
+                console.log(`\n🎉 ¡Felicidades! HAN GANADO! 🎉`);
+                juegoActivo = false;
+                alert("🎉 ¡VICTORIA! Han limpiado todas las tuberías seguras. 🎉");
+
+            } else {
+                // Alternancia de Turno (solo si el juego continúa)
+                jugadorActual = (jugadorActual === 'Mario') ? 'Luigi' : 'Mario';
+            }
+        }
+        console.log("\n--- JUEGO TERMINADO ---");
+    }
+
+    // =======================================================
+    // V. LLAMADA DE INICIO
+    // =======================================================
+
+    iniciarJuego();
+</script>

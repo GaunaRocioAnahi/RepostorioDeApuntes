@@ -1,8 +1,58 @@
 <script>
     //Emparejador de amigos invisibles
     //Crea una función que recibe una lista de nombres y genera emparejamientos aleatorios para un amigo invisible. Asegúrate de que nadie se asigne a sí mismo. La lista debe tener un número de amigos. Investigue el uso de splice().
-    
+    function generarAmigoInvisible(lista) {
+    let disponibles = [...lista];
+    let parejas = [];
+
+    for (let i = 0; i < lista.length; i++) {
+
+        let nombreActual = lista[i];
+
+        // Encontrar un índice válido sin break ni continue
+        let indiceValido = -1;
+        for (let j = 0; j < disponibles.length; j++) {
+
+            // Asignamos SOLO si aún no se asignó uno válido
+            if (disponibles[j] !== nombreActual && indiceValido === -1) {
+                indiceValido = j;
+            }
+        }
+
+        // Si no encontramos ninguno → reiniciar
+        if (indiceValido === -1) {
+            return generarAmigoInvisible(lista);
+        }
+
+        // Elegimos un índice aleatorio
+        let indiceRandom = Math.floor(Math.random() * disponibles.length);
+
+        // Si el aleatorio NO sirve (es él mismo), usamos el válido
+        if (disponibles[indiceRandom] === nombreActual) {
+            indiceRandom = indiceValido;
+        }
+
+        let elegido = disponibles[indiceRandom];
+
+        parejas.push(nombreActual + " → " + elegido);
+
+        // Eliminar al elegido de la lista
+        disponibles.splice(indiceRandom, 1);
+    }
+
+    return parejas;
+}
 
 
     
+// -------- MAIN --------
+
+let amigos = ["Rocio", "Gauna", "Carlos", "Marta", "Luis"];
+
+let emparejamientos = generarAmigoInvisible(amigos);
+
+console.log("RESULTADO DEL AMIGO INVISIBLE:");
+for (let pareja of emparejamientos) {
+    console.log(pareja);
+}
 </script>
