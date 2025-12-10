@@ -4,21 +4,22 @@
 
     function mayoresDeEdad(nombres, edades) {
         let resultado = [];
+        for (let i = 0; i < personas.length; i++) {
+            if (edades[i] > 18) {
+                resultado.push(personas[i]);
 
-        for (let i = 0; i < nombres.length; i++) {
-            if (edades[i] >= 18) {
-                resultado.push(nombres[i]);
             }
         }
+        return resultado
 
-        return resultado;
+
     }
 
     // ================= MAIN =================
-    let nombres = ["Rocio", "Juan", "Ana", "Mateo"];
-    let edades = [17, 22, 19, 15];
-    let mayores = mayoresDeEdad(nombres, edades);
-    console.log(mayores);
+    let personas = ["rocio", "leonardo", "kati", "karen"];
+    let edades = [20, 30, 6, 3];
+    let Mayores = mayoresDeEdad(personas, edades);
+    console.log(Mayores);
 
 
 </script>
