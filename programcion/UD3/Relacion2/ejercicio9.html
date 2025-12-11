@@ -1,26 +1,82 @@
 <script>
-//     Simulador de clima avanzado
-//Crea una función que recibe como parámetro la estación ( "verano"o "invierno") y genera los valores de clima para un día: temperatura máxima, temperatura mínima y probabilidad de lluvia. Asegúrate de que:
-//
-//La temperatura máxima no sea menor que la temperatura mínima .
-//Los valores están dentro de los rangos correspondientes a la estación:
-//Rangos según la estación:
-//Invierno:
-//
-//Temperatura máxima: entre -5°C y 15°C.
-//Temperatura mínima: entre -15°C y 5°C.
-//Probabilidad de lluvia: entre 50% y 100%.
-//Verano:
-//
-//Temperatura máxima: entre 25°C y 40°C.
-//Temperatura mínima: entre 15°C y 25°C.
-//Probabilidad de lluvia: entre 0% y 50%.
-//El resultado debe ser un array con los valores generados: [Máxima, Mínima, Lluvia].
-//
-//Además, crea una segunda función que simula los valores para una semana completa (7 días) de invierno o verano. Esta función debe llamar a la función del día y devolver un array con los valores generados para los 7 días.
+    //     Simulador de clima avanzado
+    //Crea una función que recibe como parámetro la estación ( "verano"o "invierno") y genera los valores de clima para un día: temperatura máxima, temperatura mínima y probabilidad de lluvia. Asegúrate de que:
+    //
+    //La temperatura máxima no sea menor que la temperatura mínima .
+    //Los valores están dentro de los rangos correspondientes a la estación:
+    //Rangos según la estación:
+    //Invierno:
+    //
+    //Temperatura máxima: entre -5°C y 15°C.
+    //Temperatura mínima: entre -15°C y 5°C.
+    //Probabilidad de lluvia: entre 50% y 100%.
+    //Verano:
+    //
+    //Temperatura máxima: entre 25°C y 40°C.
+    //Temperatura mínima: entre 15°C y 25°C.
+    //Probabilidad de lluvia: entre 0% y 50%.
+    //El resultado debe ser un array con los valores generados: [Máxima, Mínima, Lluvia].
+    //
+    //Además, crea una segunda función que simula los valores para una semana completa (7 días) de invierno o verano. Esta función debe llamar a la función del día y devolver un array con los valores generados para los 7 días.
 
+    // genramos un numero aleatorio dentro del un rango min y max
 
+  // ============================= FUNCIONES ============================= //
 
+// Genera un número aleatorio entre min y max
+function numeroAleatorio(min, max) {
+    return Math.random() * (max - min) + min;
+}
+
+// Función que genera los valores de un solo día según la estación
+function generarDia(estacion) {
+    let maxima, minima, lluvia;
+
+    if (estacion.toLowerCase() === "invierno") {
+        maxima = numeroAleatorio(-5, 15);
+        minima = numeroAleatorio(-15, 5);
+        lluvia = numeroAleatorio(50, 100);
+    } else if (estacion.toLowerCase() === "verano") {
+        maxima = numeroAleatorio(25, 40);
+        minima = numeroAleatorio(15, 25);
+        lluvia = numeroAleatorio(0, 50);
+    } else {
+        console.log("Estación inválida. Usa 'invierno' o 'verano'.");
+        return [];
+    }
+
+    // Redondeamos los valores
+    let dia = [Math.round(maxima), Math.round(minima), Math.round(lluvia)];
+    return dia;
+}
+
+// Función que genera una semana completa (7 días)
+function generarSemana(estacion) {
+    let semana = [];
+    for (let i = 0; i < 7; i++) {
+        let dia = generarDia(estacion);
+        semana.push(dia);
+    }
+    return semana;
+}
+
+// ============================= MAIN ============================= //
+
+// Pedimos la estación
+let estacion = prompt("Ingrese la estación (invierno o verano):");
+
+// Generamos un solo día
+let dia = generarDia(estacion);
+console.log("Valores de un día: " + dia); // [Max, Min, Lluvia]
+
+// Generamos una semana completa
+let semana = generarSemana(estacion);
+console.log("Valores de la semana:");
+for (let i = 0; i < semana.length; i++) {
+    console.log(
+        "Día " + (i + 1) + ": Máx " + semana[i][0] + "°C, Mín " + semana[i][1] + "°C, Lluvia " + semana[i][2] + "%"
+    );
+}
 
 
 

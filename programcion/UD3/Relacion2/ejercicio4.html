@@ -1,35 +1,68 @@
 <script>
-    //Simulador de votaciones
-//Escribe una función que reciba una lista de candidatos y simule una votación aleatoria. Devuelve una matriz con los nombres de los candidatos y el porcentaje de votos obtenidos. La suma de los porcentajes debe ser 100%.
+/**
+ * OBJETIVO: Simular una votación aleatoria, asegurar la suma al 100%, 
+ * y devolver una matriz con [candidato, porcentaje].
+ * * NOTA: La lógica interna es la misma que garantiza la suma al 100% 
+ * y la limpieza visual a dos decimales.
+ */
 
-function simuladorVotacion(candidatos){
-    let voto = []
-    let total = 0;
+function simuladorVotacion(candidatos) {
+    let resultadosFinales;
 
-    for(let i = 0; i < candidatos.lenght; i++){
-        let voto = Math.random ();
-        votos.push(voto);
-        total += voto;
+    // --- 1. SIMULACIÓN DE VOTOS Y SUMA TOTAL ---
+    let votosSimulados = []; 
+    let totalVotos = 0;       
+
+    for (let i = 0; i < candidatos.length; i++) {
+        let voto = Math.random();
+        votosSimulados.push(voto);
+        totalVotos += voto;
     }
-    let resultados = [];
-    for( let i = 0; i <  candidados.length; i++){
-        let porcentaje = ParseInt (porcentaje * 100)/ 100;
-        resultados.push([candidatos[i], porcentaje])
+
+    // --- 2. CÁLCULO DE PORCENTAJES Y REDONDEO INICIAL ---
+    let resultados = []; 
+    let sumaParcial = 0; 
+
+    for (let i = 0; i < candidatos.length; i++) {
+        let porcentajeBruto = (votosSimulados[i] / totalVotos) * 100;
+        
+        // Redondeo inicial a dos decimales
+        let porcentajeRedondeado = Math.round(porcentajeBruto * 100) / 100;
+
+        resultados.push([candidatos[i], porcentajeRedondeado]);
+        sumaParcial += porcentajeRedondeado;
     }
-    let suma = 0; 
-    for (let i = 0; i< resultados.length; i++){
-        suma += resultados [i][1];
-    }
-    let diferencia = 100 -suma;
-    resultados [resultados.length -1][1] += diferencia;
-    return resultados;
+
+    // --- 3. AJUSTE FINAL PARA GARANTIZAR EL 100% Y LIMPIAR LA VISUALIZACIÓN ---
+    let diferencia = 100 - sumaParcial;
+    let indiceUltimo = resultados.length - 1;
+    
+    // 3.1. Aplicamos el ajuste matemático
+    resultados[indiceUltimo][1] = resultados[indiceUltimo][1] + diferencia;
+    
+    // 3.2. Limpieza Visual: Forzamos el valor a dos decimales
+    let porcentajeAjustadoString = resultados[indiceUltimo][1].toFixed(2);
+    resultados[indiceUltimo][1] = parseFloat(porcentajeAjustadoString);
+    
+    // Asignamos el resultado a la variable de retorno
+    resultadosFinales = resultados;
+
+    return resultadosFinales; // ÚNICO RETURN
 }
 
-//-------- Main------
+// -------- Ejemplo de Uso (Main) con los nombres de la entrada) ------
 
-let candidados =["ana","Juan"," Rocio"];
-let resultados = simuladorVotacion (candidatos);
+const candidatos = ["Juan", "Sofía", "Carlos"];
+let resultados = simuladorVotacion(candidatos);
 
+console.log("--- Resultados de Votación Simulada ---");
 console.log(resultados);
 
+// Verificación de la suma total
+let sumaVerificacion = 0;
+for (let i = 0; i < resultados.length; i++) {
+    sumaVerificacion += resultados[i][1];
+}
+
+console.log(`\nVerificación de Suma Total (debe ser 100.00): ${sumaVerificacion.toFixed(2)}%`);
 </script>

@@ -1,4 +1,68 @@
 <script>
     //Simulador de clientes en cola
 //Crea una función que simula la llegada de clientes a una cola. Genera aleatoriamente el nombre, apellido (usa una matriz de nombres y otro de apellidos predefinidos) y tiempo de espera de cada cliente (entre 1 y 20 minutos). El número de clientes es el parámetro de la función.
+
+
+
+
+// ============================= FUNCIONES ============================= //
+
+// Función para generar un número aleatorio entre min y max
+function numeroAleatorio(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+// Función que simula la llegada de clientes a una cola
+function generarClientes(cantidad) {
+    // Nombres y apellidos predefinidos
+    let nombres = ["Ana", "Juan", "Luis", "Marta", "Carlos", "Lucia", "Pedro", "Sofía"];
+    let apellidos = ["García", "Pérez", "Rodríguez", "López", "Martínez", "Gómez", "Díaz", "Sánchez"];
+
+    let clientes = [];
+
+    for (let i = 0; i < cantidad; i++) {
+        // Elegir nombre y apellido aleatorio
+        let nombre = nombres[numeroAleatorio(0, nombres.length - 1)];
+        let apellido = apellidos[numeroAleatorio(0, apellidos.length - 1)];
+
+        // Generar tiempo de espera entre 1 y 20 minutos
+        let tiempoEspera = numeroAleatorio(1, 20);
+
+        // Guardamos el cliente como un objeto
+        let cliente = {
+            nombre: nombre,
+            apellido: apellido,
+            tiempoEspera: tiempoEspera
+        };
+
+        clientes.push(cliente);
+    }
+
+    return clientes;
+}
+
+// ============================= MAIN ============================= //
+
+// Pedimos al usuario la cantidad de clientes a generar
+let cantidadClientes = Number(prompt("Ingrese la cantidad de clientes:"));
+
+// Generamos los clientes
+let clientes = generarClientes(cantidadClientes);
+
+// Mostramos la información de cada cliente
+console.log("Clientes en la cola:");
+for (let i = 0; i < clientes.length; i++) {
+    console.log(
+        "Cliente " + (i + 1) + ": " +
+        clientes[i].nombre + " " + clientes[i].apellido +
+        ", Tiempo de espera: " + clientes[i].tiempoEspera + " minutos"
+    );
+}
+
+
+
+
+
+
+
 </script>

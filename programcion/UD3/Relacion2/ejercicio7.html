@@ -1,9 +1,61 @@
 <script>
     //Analizador de textos avanzado
-//Escribe una función que reciba un texto y devuelva las siguientes estadísticas:
-//Cantidad de palabras.
-//Cantidad de caracteres.
-//Longitud promedio de las palabras.
+    //Escribe una función que reciba un texto y devuelva las siguientes estadísticas:
+    //Cantidad de palabras.
+    //Cantidad de caracteres.
+    //Longitud promedio de las palabras.
+
+   function texto(texto) {
+    // Cantidad de caracteres
+    let cantidadDeCaracteres = texto.length;
+
+    // Separar palabras
+    let palabras = [];
+    let palabraActual = "";
+
+    for (let i = 0; i < texto.length; i++) {
+        let caracterActual = texto[i];
+
+        if (caracterActual !== " ") {
+            palabraActual += caracterActual; // vamos formando la palabra
+        } else if (palabraActual !== "") {
+            palabras.push(palabraActual);   // agregamos palabra al array
+            palabraActual = "";             // reiniciamos
+        }
+    }
+
+    // Agregar la última palabra si existe
+    if (palabraActual !== "") {
+        palabras.push(palabraActual);
+    }
+
+    // Cantidad de palabras
+    let cantidadDePalabras = palabras.length;
+
+    // Sumar longitudes de palabras
+    let sumaLongitudes = 0;
+    for (let i = 0; i < palabras.length; i++) {
+        sumaLongitudes += palabras[i].length;
+    }
+
+    // Promedio de longitud
+    let promedioLongitud;
+    if (cantidadDePalabras > 0) {
+        promedioLongitud = sumaLongitudes / cantidadDePalabras;
+    } else {
+        promedioLongitud = 0;
+    }
+
+    return [cantidadDePalabras, cantidadDeCaracteres, promedioLongitud];
+}
+
+// ------- MAIN -------
+let textoIngresado = prompt("Ingrese un texto:");
+let datos = texto(textoIngresado);
+
+console.log("Cantidad de palabras: " + datos[0]);
+console.log("Cantidad de caracteres: " + datos[1]);
+console.log("Promedio de longitud de palabras: " + datos[2].toFixed(2));
 
 
 </script>
