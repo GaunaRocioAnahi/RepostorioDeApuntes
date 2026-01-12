@@ -111,3 +111,8 @@ INSERT INTO venta VALUES
 
 
 -- 5. Encuentra los clientes que han realizado ventas superiores al promedio de todas las ventas.
+
+--1. 
+SELECT nombre, departamento FROM empleado WHERE departamento IN (SELECT NOMBRE FROM departamento);
+
+--2.
