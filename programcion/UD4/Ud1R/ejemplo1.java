@@ -1,4 +1,4 @@
-package programcion.UD4.Ud1R.R1;
+package programcion.UD4.Ud1R;
 
 public class ejemplo1 {
     public static void main(String[] args) {
