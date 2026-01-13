@@ -74,9 +74,10 @@ insert into jugadores values
 
 
 -- 1. 
-SELECT nombre AS nombre_equipo, ciudad AS ciudad_equipo. FROM equipoS;
+SELECT nombre AS nombre_equipo, ciudad AS ciudad_equipo. FROM equipos;
 -- 2. 
 SELECT nombre AS nombre_jugador, puntos_por_juego FROM jugadores ORDER BY puntos_por_juego DESC; 
 -- 3.
 SELECT NOMBRE AS nombre_equipo, LENGHT (nombre) AS longitud_nombre FROM equipos ORDER BY longitud_nombre DESC;
-
+--4
+SELECT ciudad AS ciudad_equipo, SUM(campeonatos) AS total_campeonatos FROM equipos GRUOUP BY ciudad ORDER BY total_campeonatos DESC; 

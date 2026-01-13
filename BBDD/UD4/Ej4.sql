@@ -112,7 +112,17 @@ INSERT INTO venta VALUES
 
 -- 5. Encuentra los clientes que han realizado ventas superiores al promedio de todas las ventas.
 
+
+
+
+
+
+-----------
 --1. 
 SELECT nombre, departamento FROM empleado WHERE departamento IN (SELECT NOMBRE FROM departamento);
 
---2.
+--2. Calcula el salario promedio por ciudad, mostrando solo las ciudades con un salario promedio mayor a 4000.
+SELECT salario, ciudad avg FROM empleado WHERE salario >4000;
+
+3. Encuentra el total de ventas por cada cliente
+SELECT cliente, SUM(importe) AS total_ventas FROM venta GROUP BY cliente; 
