@@ -62,3 +62,13 @@ container {
     max-width: 700px;
     display: flex;
 }
+
+
+
+Entonos de desarrollo: 14/02/2026:
+
+
+* Averiguar Notion y ver videos organizar y ver de que se trata y como utilizarlo. 
+
+* Repasar JSDocs. 
+  
