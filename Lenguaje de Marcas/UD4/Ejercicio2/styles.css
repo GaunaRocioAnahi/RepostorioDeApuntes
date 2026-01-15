@@ -1,0 +1,16 @@
+
+p {
+    color: rgb(34, 108, 140);
+}
+
+.destacado {
+    background-color:rgba(158, 217, 203, 0.585);
+    font-weight: bold;
+    padding : 10px; 
+}
+
+#accion {
+    font-size: 24px;
+    text-align: center;
+    color: rgb(112, 112, 186);
+}

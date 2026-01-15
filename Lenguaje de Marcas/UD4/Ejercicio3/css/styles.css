@@ -1,0 +1,11 @@
+ *{
+    margin: 2px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+div >ul > li{
+    color: red;
+}
+div + p {
+    color: blue;
+}
