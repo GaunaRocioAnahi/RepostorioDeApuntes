@@ -11,8 +11,8 @@ public class ejercicio9 {
         int restoDeCaramelos;
 
         System.out.print("Ingrese los numeros de caramelos :" );
-        
         numeroDeCaramelos = scanner.nextInt();
+        
         System.out.print("¿Cuantos niños hay?");
         numeroDeNinios = scanner.nextInt();
         
