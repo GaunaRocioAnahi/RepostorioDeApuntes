@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class pt1 {
+public class ejemplodePT1 {
 
     public static void main(String[] args) {
         // Herramienta para leer datos de la consola
