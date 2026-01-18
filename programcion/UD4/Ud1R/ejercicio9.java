@@ -10,18 +10,17 @@ public class ejercicio9 {
         int caramelosPorNinio;
         int restoDeCaramelos;
 
-        System.out.println("Ingrese los numeros de caramelos :");
-        System.out.println("¿Cuantos niños hay?");
+        System.out.print("Ingrese los numeros de caramelos :" );
         
         numeroDeCaramelos = scanner.nextInt();
+        System.out.print("¿Cuantos niños hay?");
         numeroDeNinios = scanner.nextInt();
         
         caramelosPorNinio = (numeroDeCaramelos / numeroDeNinios);
         restoDeCaramelos = numeroDeCaramelos % numeroDeNinios;
-        scanner.nextInt();
         scanner.close();
 
-        System.out.println("A cada niño le corresponden :" + caramelosPorNinio + "caramelos que han sobrado " + restoDeCaramelos);
+        System.out.println("A cada niño le corresponden : " +  caramelosPorNinio + "\n"+ "caramelos que han sobrado: " + restoDeCaramelos);
 
 
     }
