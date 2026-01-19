@@ -17,3 +17,32 @@ h2 {
 }
 
 /* Ejercicio1 */
+
+div{
+    width: 250px;
+    height: 150px;
+    padding: 15px;
+    border: 5px, solid red;
+    margin:  20px;
+}
+
+/* Ejercicio2 */
+
+.caja-1{
+    padding: 30px;
+    background-color: lightblue;
+}
+.caja-2{
+    margin : 30px;
+    background-color: lightgreen;
+}
+
+/* Ejercicio3 */
+
+.borde-personalizado{
+    border-top: 10xp solid blue;
+    border-right: 5xp dashed red;
+    border-bottom: 8px dotted green;
+    border-left: 3px double black;
+    padding: 20px; 
+}
