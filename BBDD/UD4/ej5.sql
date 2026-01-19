@@ -104,14 +104,26 @@ SELECT ingresos_anuales, (ingresos_anuales -( SELECT AVG (ingresos_anuales) FROM
 SELECT CONCAT ( nombre, ' ', apellido) AS nombre_completo FROM ciudadano; 
 -- 2. Obtener las primeras 3 letras de los nombres de los ciudadanos.
 SELECT LEFT (nombre,3) AS Pimeras_tres_letras FROM ciudadano;
+
+SELECT substring(nombre,0,3) from ciudadano;
+
 -- 3. Calcular la longitud de los nombres de los ciudadanos.
 SELECT LENGTH (nombre) AS longitud_nombre FROM ciudadano;
+SELECT nombre, char length(nombre) FROM ciudadano;
 -- 4. Reemplazar la palabra "hospitales" por "clínicas" en las descripciones de actividades.
-SELECT REPLACE (descripcion, 'hospitales', 'clinicas') AS descripcion_modificada FROM actividad; 
+SELECT REPLACE (descripcion, 'hospitales', 'clinicas') AS descripcion_modificada FROM actividad;
+SELECT replace(descripcion, "hospitales", "clinicas") FROM actividad;
+
+
 -- 5. Eliminar espacios al inicio y al final de los nombres de los ministerios.
 SELECT TRIM (nombre) AS nombre_sin_espacios FROM ministerio;
+SELECT TRIM (nombre) from ministerios;
+
 -- 6. Redondear el presupuesto de las actividades a millones.
 SELECT ROUND ( presupuesto_asignado,6) as presupuesto_redondeado FROM actividad; 
+-- 7 calcular la diferencia entre los incregos anuales cada ciudadano y el promedio  
+SELECT avg(ingresos_anuales) from ciudadanos;
+
 -- 8. Obtener el entero más cercano hacia abajo y hacia arriba de los presupuestos de los ministerios.
 SELECT FLOOR (presupuesto) AS presupuesto_hacia_abajo, CEIL (presupuesto) AS presupuesto_hacia_arriba FROM ministerio;
 -- 9. Generar un número aleatorio para asignar un identificador único temporal a cada actividad.
