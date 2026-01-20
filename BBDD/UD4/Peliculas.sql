@@ -147,3 +147,8 @@ SELECT titulo FROM pelicula WHERE genero = 'Drama';
 
 -- 20. Seleccionar las películas estrenadas en los últimos 10 años.
 
+-- 21. dime la mediana del año de estreno de las peliculas.
+
+-- 22 dime la moda del año de nacimiento de los actores.
+
+-- 23 dime la media de edad de los actores agrupados por pais de nacimiento.
