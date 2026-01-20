@@ -113,14 +113,17 @@ SELECT titulo FROM pelicula WHERE genero = 'Drama';
 -- 7. Mostrar los nombres de los actores que participan en la película 'Titanic'.
 -- Enunciado: Mostrar los nombres de los actores asociados con el id de 'Titanic'.
 
-
+SELECT  id_pelicula FROM reparto WHERE id_actor= 2;
 
 -- 8. Contar cuántas películas hay en cada género.
+SELECT genero, COUNT(*)  FROM pelicula GROUP BY genero;
+
 
 -- 9. Mostrar los directores nacidos después de 1950.
-
+SELECT nombre FROM director WHERE anio_nacimiento > 1950;
 
 -- 10. Listar los títulos de las películas y su duración ordenados de mayor a menor.
+
 
 -- 11. Mostrar los nombres de los actores y las películas en las que participan.
 -- Enunciado: Mostrar los nombres de los actores asociados con las películas mediante sus identificadores.
