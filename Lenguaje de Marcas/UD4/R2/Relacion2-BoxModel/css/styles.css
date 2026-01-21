@@ -57,14 +57,16 @@ div{
     
     border: 2px solid #333; /* Para visualizar el padding */
     background-color: #f0f0f0;
+
+    /*rehacer*/
 }
 
-.caja-em-rem h1 {
+.caja-em-rem>h1 {
     /* 2rem es relativo al elemento raíz <html>, NO al contenedor padre */
     font-size: 2rem; 
 }
 
-.caja-em-rem p {
+.caja-em-rem> p {
     /* 1.5em es relativo al font-size del padre (.caja-em-rem) */
     font-size: 1.5em;
 }
@@ -78,7 +80,7 @@ div{
             background-color: lightcoral;
 
             /* 3. Centrado del DIV (respecto a la ventana) */
-            margin: auto; /* Gracias al flex del body, esto centra horizontal y verticalmente */
+            /*margin: auto; /* Gracias al flex del body, esto centra horizontal y verticalmente */
 
             /* 4. Centra el CONTENIDO (texto interno) */
             display: flex;
@@ -86,8 +88,8 @@ div{
             align-items: center;     /* Alinea en vertical del texto */
 
             /* Estilos extra de texto */
-            font-family: sans-serif;
+           /* font-family: sans-serif;
             font-size: 1.5rem;
             color: white;
-            text-align: center;
+            text-align: center;*/
         }
