@@ -34,6 +34,5 @@ public class ejercicio7 {
             System.out.print("Operador incorrecto");
         }
 System.out.print("El resultado es de  "+ numero1 + operador + numero2 + " es "+ resultado );
-
     }
 }
