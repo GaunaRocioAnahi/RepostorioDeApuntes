@@ -78,17 +78,20 @@ INSERT INTO itinerario (id_procesion, punto, hora_paso) VALUES
 -- Soluciones a los ejercicios
 
 -- 1. Listar todos los nombres de las procesiones.
-
+SELECT nombres FROM procesion;
 
 -- 2. Mostrar los barrios donde se realizan las procesiones, sin repetir.
-
+SELECT DISTINCT barrio FROM procesion;
 
 -- 3. Obtener el nombre y la hora de inicio de todas las procesiones que comienzan después de las 18:00.
+SELECT NOMBRE, hora_inicio FROM procesion WHERE >18:00 ;
 
 -- 4. Seleccionar el nombre y estilo de todos los pasos.
+SELECT nombre, nombre, paso from paso; 
 
 
 -- 5. Mostrar el nombre de las hermandades que tienen más de 100 costaleros.
+SELECT nombre from hermandad where num_costaleros > 100
 
 
 -- 6. Listar las procesiones que ocurren el Viernes Santo.

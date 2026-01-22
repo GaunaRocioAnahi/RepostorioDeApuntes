@@ -124,18 +124,18 @@ SELECT nombre FROM director WHERE anio_nacimiento > 1950;
 
 -- 10. Listar los títulos de las películas y su duración ordenados de mayor a menor.
 
-
+SELECT titulo, duracion FROM pelicula ORDER BY duracion DESC;
 -- 11. Mostrar los nombres de los actores y las películas en las que participan.
 -- Enunciado: Mostrar los nombres de los actores asociados con las películas mediante sus identificadores.
 
 -- 12. Seleccionar las películas cuya duración está entre 120 y 180 minutos.
-
+Select titulo, duracion FROM pelicula WHERE duracion BETWEEN >120 AND <180;
 
 -- 13. Mostrar los títulos de las películas ordenados por año de estreno.
-
+SELECT titulo, anio FROM pelicula ORDER BY anio;
 
 -- 14. Calcular el promedio de duración de las películas.
-
+SELECT AVG (duracion) from pelicula;
 -- 15. Mostrar los actores que no nacieron en EE.UU.
 
 
