@@ -52,3 +52,27 @@ Es la nube mas adoptadas de completa del mundo que ofrece mas de 200 servicios i
 **Contenedores de la nube**
 
 Tipos de contenedores en la nube.
+
+Sistemas basados en la nube. 
+
+niveles en la nube. 
+Hay tre modelos diferentes para implementar el cloud computing:
+las *nuber publicas*: constan de proveedores de servicios en la nube externos y ajenos a la empresa, que puede acceder a estos recursos bajo demanda, segun sus necesidades
+las *nubes Privadas*: pertenecen a una sola organizacion, que cuenta con sus propios centros de datos. Proporcionan mas control y seguridad sobre datos.
+las *nubes hibridas*: Combinana modelos de nube publica y privada. Se puede aprovehar los servicios de nube publicas y mantener la seguridad en la arquitecturas de nube privada.
+
+Contenedores de la nube.
+son recursos que incluye todo lo necesario para ejecutar una aplicacion; los hacenn independiente, y trnaferible entre diferentes entornos de desarrollo, prubas, y produccion. 
+
+- Infraestructura como servicios (IaaS): Ofrece acceso bajo demanda a servicios de infraestructuta informatica (  computaion, almacenamiento, redes y virtualizacion). se asemeja a los recursos informaticos tradicionales. Ej. GOOGLE COMPUTE ENGINE, AZURE VIRTUAL MACHINES O AMAZON EC2. 
+
+- Plataformas como servicio (PaaS):ofrece todos los recursos de hardware y software necesarios para desarrollar aplicaciones en la nube, sin la carga que supone gestionar y mantener la infraestructura subyacente. Ej: Google App Engine, Azure APP Engine o Salesforce. 
+
+- Software como servicio (SaaS): proporciona un completo abanico de aplicaciones, desde la infraestructura subyacente hasta el amntenimiento y las actuailzaciones del propio software de aplicacion. Ej: Amazon Web Services, Google Workspace o Microsoft 365. 
+
+
+Sintesis. sistemas basados en la nube. 
+sistemas que utilizan recursos y servicios de computacion disponibles a traves de internet. Almacenan datos Ejecutan aplicaciones y acceden a recurso informaticos de manera remota. 
+
+tradicional vs. cloud computing. 
+grupos de digitalizacion. grupo 3. 
