@@ -1,0 +1,136 @@
+<script>
+    // sOLICITAR INFORMACION INICIAL:
+
+    let numeroDeEncargos = Number(prompt("Numero de encargo "));
+    while (numeroDeEncargos <= 0) {
+        numeroDeEncargos = Number(prompt("Numero de encargo "));
+    }
+
+    let stockDeMadera = Number(prompt("Ingrese el stock de madera"));
+    while (stockDeMadera <= 0) {
+        stockDeMadera = Number(prompt("Ingrese el stock de madera"));
+    }
+
+    let stockDeAcero = Number(prompt("ingrese el stock de Acero:"));
+    while (stockDeAcero <= 0) {
+        stockDeAcero = Number(prompt("ingrese el stock de Acero:"));
+    }
+
+    let maderaGastada = 0, maderaAcumulada = 0;
+    let aceroGastado = 0, aceroAcumulado = 0;
+    let importeCobrado = 0;
+    let encargoRegistrado = 0;
+    let flechaVendida = 0, escudoVendido = 0, espadaVendida = 0;
+    let stockAceroRestante = 0, stockMaderaRestante = 0;
+    let importeTotal = 0;
+
+
+    const PRECIOFLECHA = 2, PRECIOESCUDO = 30, PRECIOESPADA = 25;
+    const MADERAFLECHA = 1; MADERAESCUDO = 3, MADERAESPADA = 1;
+    const ACEROFLECHA = 0.05; ACEROESCUDO = 1.5, ACEROESPADA = 1.2;
+
+    let stockSuperado = false;
+
+    for (let i = 1; i <= numeroDeEncargos && !stockSuperado; i++) {
+
+        console.log("--- Encargo " + i + " ---");
+        let tipoArticulo = prompt("Tipo de artículo (flecha/escudo/espada):");
+        while(tipoArticulo != "flecha" && tipoArticulo != "escudo" && tipoArticulo != "espada"){
+            tipoArticulo = prompt("Tipo de articulo (flecha/escudo/espada)")
+        }
+        let unidades = Number(prompt("Unidades (≥ 0):"));
+        while(unidades <=0){
+            unidades = Number(prompt("Unidades (≥ 0):")); 
+
+        }
+
+        if (tipoArticulo == "flecha") {
+
+            maderaGastada = unidades * MADERAFLECHA;
+            aceroGastado = unidades * ACEROFLECHA;
+
+            if (maderaGastada + maderaAcumulada > stockDeMadera) {
+                stockSuperado = true
+                alert("¡Alerta! Has superado el stock de madera")
+            } else if (aceroGastado + aceroAcumulado > stockDeAcero) {
+                stockSuperado = true
+                alert("¡Alerta! Has superado el stock de acero");
+            } else {
+
+                maderaAcumulada += maderaGastada;
+                aceroAcumulado += aceroGastado;
+
+                importeCobrado = unidades * PRECIOFLECHA;
+                flechaVendida += unidades
+            }
+
+        } else if (tipoArticulo == "espada") {
+
+            aceroGastado = unidades * ACEROESPADA;
+            maderaGastada = unidades * MADERAESPADA;
+
+            if (maderaGastada + maderaAcumulada > stockDeMadera) {
+                stockSuperado = true
+                alert("¡Alerta! Has superado el stock de madera")
+            } else if (aceroGastado + aceroAcumulado > stockDeAcero) {
+                stockSuperado = true
+                alert("¡Alerta! Has superado el stock de acero");
+            } else {
+
+                maderaAcumulada += maderaGastada;
+                aceroAcumulado += aceroGastado;
+
+
+                importeCobrado = unidades * PRECIOESPADA;
+                espadaVendida += unidades
+            }
+
+        } else {
+            maderaGastada = unidades * MADERAESCUDO;
+            aceroGastado = unidades * ACEROESCUDO;
+
+            if (maderaGastada + maderaAcumulada > stockDeMadera) {
+                stockSuperado = true
+                alert("¡Alerta! Has superado el stock de madera")
+            } else if (aceroGastado + aceroAcumulado > stockDeAcero) {
+                stockSuperado = true
+                alert("¡Alerta! Has superado el stock de acero");
+            } else {
+
+                maderaAcumulada += maderaGastada;
+                aceroAcumulado += aceroGastado;
+
+
+                importeCobrado = unidades * PRECIOESCUDO;
+                escudoVendido += unidades
+            }
+
+        }
+
+        if (!stockSuperado) {
+            encargoRegistrado++
+            importeTotal += importeCobrado
+
+            console.log("Artículo: " + tipoArticulo + " | Unidades: " + unidades + " | Importe cobrado: " + importeCobrado);
+            console.log("Madera gastada:" + maderaGastada + " | Acumulada:" + maderaAcumulada);
+            console.log("Acero gastado:" + aceroGastado + " kg | Acumulada: " + aceroAcumulado);
+        }
+    }
+    stockMaderaRestante = stockDeMadera - maderaAcumulada;
+    stockAceroRestante = stockDeAcero - aceroAcumulado;
+
+    console.log("=== RESUMEN FINAL ===");
+    console.log("Encargos registrados: " + encargoRegistrado + " de " + numeroDeEncargos);
+    console.log("Unidades → Flecha: " + flechaVendida + " | Escudo: " + escudoVendido + " | Espada: " + espadaVendida);
+    console.log("Consumo total → Madera: " + maderaAcumulada + " varas | Acero: " + aceroAcumulado + " kg");
+    console.log("Stock restante → Madera: " + stockMaderaRestante + " varas | Acero: " + stockAceroRestante + " kg");
+    console.log("Importe total: " + importeTotal + " monedas");
+    if (!stockSuperado) {
+        console.log("Registro interrumpido por suèracion de stock");
+
+    } else {
+
+        console.log("Mensaje final: Registro completado con éxito");
+    }
+
+</script>
