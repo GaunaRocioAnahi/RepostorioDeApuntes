@@ -1,0 +1,18 @@
+*{
+    margin: 25xp;
+    padding: 50xp;
+    box-sizing: border-box;
+    background-color: rgb(249, 182, 249);
+}
+
+head{
+    font-family: 'Times New Roman', Times, serif ;
+}
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+head{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
