@@ -7,3 +7,7 @@ sudo mysql -u root < Ej4.sql
 sudo mysql -u root < Ej5.sql
 sudo mysql -u root < Peliculas.sql
 sudo mysql -u root < SemanaSanta.sql
+sudo cp andalucia.csv /var/lib/mysql-files/data_andalucia.csv
+
+sudo mysql -u root < ordenes.sql
+

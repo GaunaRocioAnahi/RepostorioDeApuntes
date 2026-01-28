@@ -15,10 +15,13 @@ CREATE TABLE personas (
     situacion_laboral VARCHAR(50),
     ingresos_anuales INT,
     estado_civil VARCHAR(20),
-    num_hijos INT,
+    num_hijos int,
     nivel_socioeconomico VARCHAR(20),
     ocupacion VARCHAR(50)
 );
 
+alter table personas add column madre INT;
+alter table personas add column padre INT;
+alter table personas add foreign key (padre) references personas(id);
+alter table personas add foreign key (madre) references personas(id);
 
-LOAD DATA INFILE '/var/lib/mysql-files/andalucia.csv' INTO TABLE personas FIELDS TERMINATED BY ','  ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
