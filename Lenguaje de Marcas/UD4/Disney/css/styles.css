@@ -1,18 +1,37 @@
 *{
-    margin: 25xp;
-    padding: 50xp;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-    background-color: rgb(249, 182, 249);
+   
+}
+body{
+     background-color: rgb(249, 182, 249);
+}
+.encabezado {
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  /* Flexbox para alinear Título a la izq y Menú a la der */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Borde decorativo inferior */
+  /*border-bottom: 4px solid #ffca28; /* Amarillo Mickey */
 }
 
-head{
-    font-family: 'Times New Roman', Times, serif ;
+.navegador ul {
+  list-style: none;
+  display: flex; /* Elementos del menú en línea */
+  gap: 20px; /* Espacio entre enlaces */
 }
-p{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+/* Cambio de color al pasar el ratón (Hover) */
+.navegador a:hover {
+  color: #e91e63; /* Rosa fuerte */
 }
-head{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+
+/* Clase active (añádela manualmente a un <a class="active"> en tu HTML) */
+.navegador a.active {
+  color: #0d47a1;
+  border-bottom: 2px solid #0d47a1;
 }

@@ -17,3 +17,12 @@ h2 {
 }
 
 /* Ejercicio 4 */
+.flex-container{
+    display: flex;
+}
+.flex-1{
+    flex: 1 1 auto;
+    flex: 2 1 150px;
+    flex: 1 0 100px;
+    flex: 0 1 200px;
+}
