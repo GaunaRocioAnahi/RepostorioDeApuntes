@@ -115,12 +115,15 @@ SELECT titulo FROM pelicula WHERE genero = 'Drama';
 
 SELECT  id_pelicula FROM reparto WHERE id_actor= 2;
 
+select id_actor from reparto where id_pelicula = (select id from pelicula where titulo = 'Titanic');-- valido.
+
 -- 8. Contar cuántas películas hay en cada género.
 SELECT genero, COUNT(*)  FROM pelicula GROUP BY genero;
+select count(id) from pelicula group by genero; -- valido. 
 
 
 -- 9. Mostrar los directores nacidos después de 1950.
-SELECT nombre FROM director WHERE anio_nacimiento > 1950;
+SELECT * FROM director WHERE anio_nacimiento > 1950;
 
 -- 10. Listar los títulos de las películas y su duración ordenados de mayor a menor.
 
@@ -132,18 +135,20 @@ SELECT titulo, duracion FROM pelicula ORDER BY duracion DESC;
 Select titulo, duracion FROM pelicula WHERE duracion BETWEEN >120 AND <180;
 
 -- 13. Mostrar los títulos de las películas ordenados por año de estreno.
-SELECT titulo, anio FROM pelicula ORDER BY anio;
+SELECT titulo FROM pelicula ORDER BY anio;
 
 -- 14. Calcular el promedio de duración de las películas.
 SELECT AVG (duracion) from pelicula;
 -- 15. Mostrar los actores que no nacieron en EE.UU.
-
+select actores from pelicula where not (pais_origen ="EE.UU.");
 
 -- 17. Mostrar el título de las películas que tienen más de un actor en su reparto.
 -- Enunciado: Listar películas con más de un registro en la tabla reparto.
 
--- 18. Calcular el número total de actores en la base de datos.
 
+
+-- 18. Calcular el número total de actores en la base de datos.
+SELECT COUNT (id) FROM pelicula;
 
 -- 19. Mostrar las películas que no tienen actores en el reparto.
 -- **Devolverá vacío.**
