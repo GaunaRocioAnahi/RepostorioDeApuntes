@@ -54,3 +54,25 @@ TCP. tiene 4 capa, la mas de abajo es la que esta cerca de hardware.
 Ejericio 2. 
 TRAMA A PAQUETES.
 mas abajo de las capas mas espacio cabe. (mas grande); 
+
+
+
+
+
+# lo visto en la unidad: 
+
+  ssh: Security shell.
+  scp: Secure copy protocol.
+  tcp: transmision control Protocol.
+  Ip:   Internet protocol.
+  udp:  User datagra,  protocol. 
+  ftp: file tranfer protocol. 
+  sql: Query lenguaje. 
+
+
+
+
+  ## FTP: 
+
+   en terminal `sudo atp install vsftpd` para instalar FTP. 
+
