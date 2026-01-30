@@ -179,3 +179,127 @@ JOIN personas AS hermanos ON (
 )
 WHERE malagueno.municipio = 'Málaga' 
 AND malagueno.id <> hermanos.id; -- Para no contarse a sí mismo como hermano.
+
+-- RESPUESTAS AL EXAMEN DE BASE DE DATOS
+-- Base de datos: examen_pt4
+
+USE examen_pt4;
+
+-- 1. Dime el nombre y apellido de los cinco malagueños (provincia) de más edad
+SELECT nombre, apellido
+FROM personas
+WHERE provincia = 'Málaga'
+ORDER BY fecha_nacimiento ASC
+LIMIT 5;
+
+-- 2. Dime el máximo de ingresos anuales que tiene una persona con estudios primarios
+SELECT MAX(ingresos_anuales) AS maximo_ingresos
+FROM personas
+WHERE nivel_estudios = 'Primarios';
+
+-- 3. Dime la edad media de las personas cuya ocupación comience por la letra A
+SELECT AVG(YEAR(CURDATE()) - YEAR(fecha_nacimiento)) AS edad_media
+FROM personas
+WHERE ocupacion LIKE 'A%';
+
+-- 4. Dime las 3 primeras letras del estado civil de las personas de Dos Hermanas (pueblo, no que tengan hermanas)
+SELECT DISTINCT LEFT(estado_civil, 3) AS tres_primeras_letras
+FROM personas
+WHERE municipio = 'Dos Hermanas';
+
+-- 5. Cuenta el número de personas que son padre siendo mujer o madre siendo hombre
+SELECT COUNT(*) AS total_personas
+FROM personas
+WHERE (sexo = 'M' AND padre IS NOT NULL AND id IN (SELECT DISTINCT padre FROM personas WHERE padre IS NOT NULL))
+   OR (sexo = 'H' AND madre IS NOT NULL AND id IN (SELECT DISTINCT madre FROM personas WHERE madre IS NOT NULL));
+
+-- 6. Dime la moda del estado civil
+SELECT estado_civil, COUNT(*) AS frecuencia
+FROM personas
+GROUP BY estado_civil
+ORDER BY frecuencia DESC
+LIMIT 1;
+
+-- 7. Dime cuantos municipios diferentes de la provincia de Cádiz aparecen en la base de datos
+SELECT COUNT(DISTINCT municipio) AS municipios_diferentes
+FROM personas
+WHERE provincia = 'Cádiz';
+
+-- 8. Dime la media de ingresos anuales agrupada por estado_civil
+SELECT estado_civil, AVG(ingresos_anuales) AS media_ingresos
+FROM personas
+GROUP BY estado_civil;
+
+-- 9. Dime los abuelos de la persona con id 1142
+SELECT DISTINCT p.id, p.nombre, p.apellido
+FROM personas p
+WHERE p.id IN (
+    SELECT madre FROM personas WHERE id IN (SELECT madre FROM personas WHERE id = 1142)
+    UNION
+    SELECT padre FROM personas WHERE id IN (SELECT madre FROM personas WHERE id = 1142)
+    UNION
+    SELECT madre FROM personas WHERE id IN (SELECT padre FROM personas WHERE id = 1142)
+    UNION
+    SELECT padre FROM personas WHERE id IN (SELECT padre FROM personas WHERE id = 1142)
+);
+
+-- 10. Dime los nietos de la persona con id 1093
+SELECT p.id, p.nombre, p.apellido
+FROM personas p
+WHERE p.madre IN (SELECT id FROM personas WHERE madre = 1093 OR padre = 1093)
+   OR p.padre IN (SELECT id FROM personas WHERE madre = 1093 OR padre = 1093);
+
+-- 11. Dime la media de numero de hijos por mujer
+SELECT AVG(num_hijos) AS media_hijos
+FROM (
+    SELECT COUNT(*) AS num_hijos
+    FROM personas
+    WHERE madre IS NOT NULL
+    GROUP BY madre
+) AS hijos_por_madre;
+
+-- 12. Dime los 5 granadinos (provincia) que más cobran ordenados por la longitud en letras de su ocupación
+SELECT nombre, apellido, ingresos_anuales, ocupacion
+FROM personas
+WHERE provincia = 'Granada'
+ORDER BY ingresos_anuales DESC, LENGTH(ocupacion) DESC
+LIMIT 5;
+
+-- 13. Dime la provincia con menos ingresos anuales de media
+SELECT provincia, AVG(ingresos_anuales) AS media_ingresos
+FROM personas
+GROUP BY provincia
+ORDER BY media_ingresos ASC
+LIMIT 1;
+
+-- 14. Dime la provincia que tiene a los jubilados con menores ingresos anuales de media
+SELECT provincia, AVG(ingresos_anuales) AS media_ingresos_jubilados
+FROM personas
+WHERE ocupacion = 'Jubilado'
+GROUP BY provincia
+ORDER BY media_ingresos_jubilados ASC
+LIMIT 1;
+
+-- 15. Dime el municipio con más ingresos anuales sin contar a las personas que no cobran nada
+SELECT municipio, AVG(ingresos_anuales) AS media_ingresos
+FROM personas
+WHERE ingresos_anuales > 0
+GROUP BY municipio
+ORDER BY media_ingresos DESC
+LIMIT 1;
+
+-- 16. Dime la media de edad de las personas con algún hijo con nombre empezando por la L
+SELECT AVG(YEAR(CURDATE()) - YEAR(p.fecha_nacimiento)) AS edad_media
+FROM personas p
+WHERE p.id IN (
+    SELECT DISTINCT madre FROM personas WHERE nombre LIKE 'L%' AND madre IS NOT NULL
+    UNION
+    SELECT DISTINCT padre FROM personas WHERE nombre LIKE 'L%' AND padre IS NOT NULL
+);
+
+-- 17. Dime la edad media de las personas que sean hermanas (de padre o de madre) de las personas de Málaga municipio
+SELECT AVG(YEAR(CURDATE()) - YEAR(p.fecha_nacimiento)) AS edad_media
+FROM personas p
+WHERE (p.madre IN (SELECT DISTINCT madre FROM personas WHERE municipio = 'Málaga' AND madre IS NOT NULL)
+    OR p.padre IN (SELECT DISTINCT padre FROM personas WHERE municipio = 'Málaga' AND padre IS NOT NULL))
+  AND p.municipio != 'Málaga';
