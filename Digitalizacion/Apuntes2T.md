@@ -1,10 +1,10 @@
 ## Sistemas basados en la nube 
 
 **Intruccion**
-buscar nube de cloud. 
+*buscar* nube de cloud. 
 diferencias con el disco duro. 
 es un espacio de almacenamiento en linea, como drive o Dropbox.
-Funciona comom una carpeta gigante para guardar acceder y compartir 
+Funciona como una carpeta gigante para guardar acceder y compartir 
 que es la nube?
 los sistemas basados en la nube son sistemas informaticos 
 
@@ -37,7 +37,7 @@ busca *"ACENS"* Monitoreo de españa para almacenamiento de la NUBE.
 
 *ventajas de clound computing* 
 
-1. Escalado de infraestructuras las empresas pueden controlar mass servidores a medida de que los necesitan disponiendo de tanta potencia de procesos de datos como requieran.
+1. Escalado de infraestructuras las empresas pueden controlar mas servidores a medida de que los necesitan disponiendo de tanta potencia de procesos de datos como requieran.
    
 2. Recuperacion tras fallos: las emperesas alojan en la nuve copias de seguridad de sus recursos digitales.
    
@@ -56,13 +56,13 @@ Tipos de contenedores en la nube.
 Sistemas basados en la nube. 
 
 niveles en la nube. 
-Hay tre modelos diferentes para implementar el cloud computing:
+Hay tres modelos diferentes para implementar el cloud computing:
 las *nuber publicas*: constan de proveedores de servicios en la nube externos y ajenos a la empresa, que puede acceder a estos recursos bajo demanda, segun sus necesidades
 las *nubes Privadas*: pertenecen a una sola organizacion, que cuenta con sus propios centros de datos. Proporcionan mas control y seguridad sobre datos.
 las *nubes hibridas*: Combinana modelos de nube publica y privada. Se puede aprovehar los servicios de nube publicas y mantener la seguridad en la arquitecturas de nube privada.
 
 Contenedores de la nube.
-son recursos que incluye todo lo necesario para ejecutar una aplicacion; los hacenn independiente, y trnaferible entre diferentes entornos de desarrollo, prubas, y produccion. 
+son recursos que incluye todo lo necesario para ejecutar una aplicacion; los hacen independiente, y transferible entre diferentes entornos de desarrollo, prubas, y produccion. 
 
 - Infraestructura como servicios (IaaS): Ofrece acceso bajo demanda a servicios de infraestructuta informatica (  computaion, almacenamiento, redes y virtualizacion). se asemeja a los recursos informaticos tradicionales. Ej. GOOGLE COMPUTE ENGINE, AZURE VIRTUAL MACHINES O AMAZON EC2. 
 
@@ -76,3 +76,11 @@ sistemas que utilizan recursos y servicios de computacion disponibles a traves d
 
 tradicional vs. cloud computing. 
 grupos de digitalizacion. grupo 3. 
+ - Pablo.
+ - Ismail.
+ - lucas. 
+ - Eduardo.
+  
+
+
+
