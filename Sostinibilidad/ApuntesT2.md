@@ -3,12 +3,12 @@
 
 **Introduccion** :
 
-Conocemos las consecuencicas negativas que tiene para el emdio ambiente nuestro estilo de vida. 
+Conocemos las consecuencicas negativas que tiene para el medio ambiente nuestro estilo de vida. 
 ¿podemos reducir las necesidades de energia y materiales que conlleva producir todos esos bienes?
 ¿O prolongar su vida util? ¿O poseer menos bienes y contratar mas servicios?
 
 
-ciclo de vida de un producto: PRoducto con caducidad. 
+ciclo de vida de un producto: Producto con caducidad. 
 economia circular: de segunda mano. 
 cual es la relacion entre el ecodiseño y la produccion limpia?
 

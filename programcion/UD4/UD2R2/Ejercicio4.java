@@ -6,8 +6,12 @@ import java.util.Scanner;
 public class Ejercicio4 {
     public static void main(String[] args) {
         Scanner Scanner = new Scanner(System.in);
-        ArrayList<Integer> cantidadDeLibros = new ArrayList<Integer>();
-        ArrayList<String> titulosDeLibros = new ArrayList<String>();
+        ArrayList<Integer> cantidad = new ArrayList<Integer>();
+        ArrayList<String> libros = new ArrayList<String>();
+
+        libros.add("El quijote"); cantidad.add(5);
+        libros.add("la  biblia");
+        Scanner scanner = new Scanner(System.in);
 
         int opcion = 0;
         while (opcion !=4) {
@@ -21,8 +25,9 @@ public class Ejercicio4 {
 
         if (opcion == 1) {
             System.out.print("Ingrese un nuevo libro");
-            String libroNuevo = scanner.nextLine();
-            scanner.nextLine();
+            String libroNuevo = Scanner.nextLine();
+            Scanner.nextLine();
+            System.out.println("ingrese la cantidad");
 
 
         }

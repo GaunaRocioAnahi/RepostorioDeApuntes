@@ -3,7 +3,7 @@
 El derecho del trabajo o derecho laboral es el conjuntos de principio y normas que regulan las relaciones individual y colectiva entre las empresas y lass personas trabajadoras asi como los conflictos que se puden derivar de dichas relaciones. 
 
 La ley laboral basica que regula los derechos y las obligaciones de las empresa y el personal es de estuto de los trabajadores.
-El derecho del trabajo tambien integra normas que no tienen rango de ley, sino que se han acordado entre las empresas y as personas trabajadora, es el caso del convenio colectivo y el contrato de trabajo.
+El derecho del trabajo tambien integra normas que no tienen rango de ley, sino que se han acordado entre las empresas y las personas trabajadora, es el caso del convenio colectivo y el contrato de trabajo.
 
 El derecho laboral se aplica a trabajos personales, voluntarios remunarados, dependientes y por cuenta ajena. El resto de los empleos no se rigen por el derecho laboral, sino que cuenta con su propia normativa, son las relaciones laborales excluidad. 
 - funcionariado.
@@ -38,15 +38,20 @@ en la pagina web del ministerio del trabajadores puede tener las leyes del estat
 
 
  EL hecho de que las personas trabajadoras y las empressas puedan pactar condiciones distintas a las fijadas en el Estatuto de los trabajadores pueden dudas respecto a que norma se debe aplicar.
- En tal caso, se recurre al principio de jerarquia normativa que aplica que en el derecho las normas de rango inferior no pueden contradecir lo dispuesto en una norma de rango superior.
+ En tal caso, se recurre al *principio de jerarquia normativa* que aplica que en el derecho las normas de rango inferior no pueden contradecir lo dispuesto en una norma de rango superior.
 
  Otros principios que tambien 
- 
+ - principio de norma minima: la norma de mayor rango establece el contenido inismo que debe ser representado por las de rango inferior. 
+ - Principio de nomra mas favorable : si existen dos o mas normas que regulan el mismo tema, se aplicara la mas favorable a la persona trabajadora.
+ - Principio de condicion mas beneficoinasa, se deben mantener los acuerdos pactados, auqneu una norma superio estbalezcla condiciones peores.
+ - Principio in dubio pro operari en el caso de que una norma se pueda interpretar de diferentes fromas, se aplicara la mas favorables a la persona trabadora
+ - principio de irrenunciabilidad de los derechos, ningun empleado o emplreada puede renunciar a los derechos que le reconocen las normas. 
+
  **¿quien puede ser contratdo? Derechos de las personas trabajadoras**
 
  requisitos de edad:
 
- - Ser mayor de edad o personas emancipada, sin incacidad por motivos psiquicos.
+ - Ser mayor de edad o personas emancipada, sin incapacidad por motivos psiquicos.
  - Tener mas de 16 años si ambos progenitores das su consentimientos por escrito en el contrato. Estas personas no pueden realizar horas extras ni trabajo nocturno o peligroso.
  - Las personas menores de 16 años solo pueden trabajar en espectulos publicos simpre que ellos no suponga un riesgo para su salud ni impida su formacion.
  - Requisitos de nacionalidad:
@@ -67,20 +72,36 @@ en la pagina web del ministerio del trabajadores puede tener las leyes del estat
 
 * Derecho a formacion
 
-* Derecho a ser promocionada (ascender ) en las empresas, segun las 
+* Derecho a ser promocionada (ascender ) en las empresas, segun los criterios del convenio   
 
-* criterios del convenio. 
+* Derecho a elegir (y ser elegido) representante de los trabajadores para el centro de trabajo
+* Derecho a participar en la negociacion del convenio atraves de los representantes de los tranajadores y trabajadoras.
+* Derecho a la huelga y reunirse en el centro de trabajo.
+* Derecho a reclamar ante la juridiccion laboral, esto es, a poner una demanda en el juzgado de lo Social. 
+* Derecho a afiliarse a un sindicato. 
+  
 
-* Derecho a elegir (y ser representante)
 
 
 
 
+**¿Quienes puede contrarar? Poderes del empresariado**
 
-**¿Quienes puede contrarar? Poders del empresariado**
+para españa se exigen dos requisitos;
+ -  ser mayor de edad
+ -  Tener la nacionalidad española o pertenecer a la ciudadania de la UE. Las personas extranjeras deben cumplir ciertos requisitos.
 
-* Obligaciones del empresariado
-* Facultades del empresariados
+* Obligaciones del empresariado:
+*     - Cumpplir con la normativa laboral. 
+      - dar de alta en la seguridad social a sus empleados y pagar las cuotas correspondiente. 
+      - entregar una copia del contrato a la persona trabajadora, otra al servicio del publico empleo estatal y una copia vasica sin datos personales.
+      - entrefar mediors de proteccion para evitar accidentes laborales.
+      - Ofrecer formacion
+      - informar de las vacantes temporales. 
+* Facultades del empresariados: 
+      - porder de vigilacia y control. Es  la facultad de utilizar medidas para vigilar y controlar que las personas trabajadoras cumplan con sus obligaciones laborales, pero respetando su intimisdad y su dignidad. 
+      - 
+  
 * Poder disiplinario.
 * Poder del direccion. 
 
@@ -91,23 +112,35 @@ la actividad laboral, en ocaciones requiere la formacion de equipos de trabajo p
 
 Tiene sus ventajas y desventajas. 
 
-Ventajas: Incrementa la productivida, el compromiso
+Ventajas: Incrementa la productivida, el compromiso y la responsabilidad
+mejora la satisfaccion y clima laboral
+optimiza la comunicacion
+facilita la resolucion de problemas
 
-desventajas
+desventajas:
+relentixa la toma de decisiones.
+pueden reducir el compromiso de algunos miembros
+dificulta la coordinacion.
+complica  el reparto quitativo de tareas. 
 
 existe una fase del equipo
 
-- Formacion 
-- Tormenta
-- Normalizacion
-- Madurez
-- Disolucion
+- Formacion: Se producen una primera toma de contacto entre los miembros estos se sientan ilucionados y coptimistas. el jefe o la jefa explican el proyecto y sus objetivos. 
+- Tormenta: Surgen las primeras discrepancia y tareas a cada miembro.
+- Madurez:Etapa productiva La jefa o el jefe delegan y trabajan de manera autonoma 
+- Normalizacion: Se asignan roles y tarea a cada miembro. la jefatura o el jefe delegan los miembros trabajan de manera autonoma.
+- Disolucion: se ha alcanzado el objetivo previsto. se cierra el proyecto y se disuelve el quipo de trabajo
 
 **¿como se pueden resolver los conflictos laborales?**
 
-El conflictos es el enfrentamiento entre dos o mas personas como consecuencia de desacuerdos en intereses, deseos o valores. El conflicto laboral ees el tipo de conflicto que tiene lugar en el marco del trabajo.
+El conflictos es el enfrentamiento entre dos o mas personas como consecuencia de desacuerdos en intereses, deseos o valores. El conflicto laboral es el tipo de conflicto que tiene lugar en el marco del trabajo.
 
-Caracteristiva 
+Caracteristica  preventivas en un conflicto laboral son los siguientes. 
+- invetitable debido a la existencia de diferentes intereses dentro de la empresa.
+- Es inherente a la empresa, pues siempre se producen desacuerdos.
+- es util si se utiliza para alcanzar los objetivos.
+- Minimizable simpre que se usen las estrategias adecuadas. 
+- cualquier conflicto puede tener consecuencias positivas y negativas. 
 
 
 **¿Como se pueden resolver los conflictos laborales?**
@@ -139,7 +172,8 @@ pacifico: se utilizaon medios no violentos
 un conflicto laboral atraviesa diversas fases claramente diferenciadas:
 1. fase inicial: el conflicto esta latente. 
 2. Fase de concienticiacion el conflicto se manifiesta.
-3. Dase de 
+3. Fase de intervencion: Se analiza el conflicto y se propone soluciones . 
+4. Fase final: se soluciona el conflicto. 
 
 
 **¿como se ppueden resolver un conflicto laboral?**
@@ -201,3 +235,5 @@ https://bit.ly//3lrN8kV
  
 
  reto profesional... 
+
+ en el estatuto de los trabajadores seccion 3, art 45,46,54,55,56,54 2.A,B,D,F 
