@@ -6,7 +6,7 @@ La ley laboral basica que regula los derechos y las obligaciones de las empresa 
 El derecho del trabajo tambien integra normas que no tienen rango de ley, sino que se han acordado entre las empresas y las personas trabajadora, es el caso del convenio colectivo y el contrato de trabajo.
 
 El derecho laboral se aplica a trabajos personales, voluntarios remunarados, dependientes y por cuenta ajena. El resto de los empleos no se rigen por el derecho laboral, sino que cuenta con su propia normativa, son las relaciones laborales excluidad. 
-- funcionariado.
+  Funcionariado:
 - persona trabajadoreas autonomas.
 - personas trabajadoras a comision 
 - contrato de consecion de franquicia, por hora y servicio.
@@ -34,8 +34,7 @@ en la pagina web del ministerio del trabajadores puede tener las leyes del estat
 
  Son aquellas normas del derecho laboral creadas por organismos internacionales a los que España pertenece o con los que firma acuerdos bilaterales. Se evaluan por encima de las normas nacionales y son de obligados 
 
- **Principio de aplicacion**
-
+ **Principio de aplicacion**196
 
  EL hecho de que las personas trabajadoras y las empressas puedan pactar condiciones distintas a las fijadas en el Estatuto de los trabajadores pueden dudas respecto a que norma se debe aplicar.
  En tal caso, se recurre al *principio de jerarquia normativa* que aplica que en el derecho las normas de rango inferior no pueden contradecir lo dispuesto en una norma de rango superior.
@@ -188,11 +187,18 @@ Existen tres metodos de resolucion de conflicto en los que intervienen una perso
 - arbitraje: una persona neutral interviene resolviendo el problema mediante el dictiacdo de laudo obligatorio.
 
 **Funciones de los representantes**
-
+Las fuinciones de los delegados de personal y del comite de emmpresa son las mismas:
+- Negociar el convenio de empresa
+- Vigilar el cumplimiento de las normas laborales y sobre la prevencion de riesgos.
+- Iniciar demandas colectivas, es decir, denunciar ante la inspeccionn de trabajo o en el juzgado de lo Social la vulneracion de los derechos de varias personas trabajadoras. 
+- Recibir informacion laboral (Contratos, despidos, accidentes, baja medicas, sanciones impuestas..) y economica ( beneficios, perdidas, previsiones) de la empresa.
+- ser consultados y consultadas en la modificaciones colectivas: despidos, traslados, reduccion de jornada. etc. 
+  
 **Garantias de los representantes**
+defender el derecho de todos los compañeros y las compañeras de trabajo puede generar tension en las empresas. 
 son medidas de protectoras que establece el estatuto de los trabajadores, para evitar que los delegadors de personal y los miembros del comite de empresa pueden verse perjudiciales por relizar esas funciones.
 
-Entre medidas fijadas para los las representntes estan: disponen entre quince y cuarenta horas semanales de su jornada de trabajo: no puede ser sancionados ni despedidos por desarrollar sus dunciones hasta un año despues de que consluya su mandato.
+Entre medidas fijadas para los las representntes estan: disponen entre quince y cuarenta horas semanales de su jornada de trabajo: no puede ser sancionados ni despedidos por desarrollar sus funciones hasta un año despues de que consluya su mandato.
 
 
 **Los sindicatos**
@@ -228,6 +234,8 @@ imponer sanciones economicas a la empresa, en caso de que incumplan la normativa
 
 https://bit.ly//3lrN8kV
 
+Un falso autónomo es un trabajador inscrito en el Régimen Especial de Trabajadores Autónomos (RETA) que realiza labores bajo la dirección, horario y medios de una empresa (ajenidad y dependencia), actuando como asalariado pero sin sus derechos. Es fraude laboral porque las empresas eluden cotizaciones sociales, vacaciones y despidos, trasladando los costes al trabajador. 
+
 
 **QUE SE PUEDE HACER ANTES DE DENUNCIAR?**
 
@@ -237,3 +245,81 @@ https://bit.ly//3lrN8kV
  reto profesional... 
 
  en el estatuto de los trabajadores seccion 3, art 45,46,54,55,56,54 2.A,B,D,F 
+
+
+
+ # Contratos
+
+ Los contratos temporales. 
+
+ Contratos formativos para la obtencion de la practica profesional adecuada al nivel de estudios. 
+
+ Requisitos. tener un titulo certificados del sistema de formacion profesional o un titulo de universitario connseguido en los tres años inferiores  5 en el caso persona con discapacidad no haber trabajado por la misma titulacion con un contrato de practica durante 2 alos en ninguna empresa.
+
+  duracion: D 6 meses a un año el periodo de prueba tendra una duracion maxima de mes. 
+
+  salario: La retribucion sera fijada en el convenio para estos contratos, de no haberla sera la establecida para el grupo profecional correspondencia  el salario no podra ser inferior a la retribucion minima establecida para el cnotrato de formacion en alternancia ni al SMI en proporcion al tiempo de trabajo efectivo.
+  
+  Jornada: parcial total. No esta permitido realizar horas extrordinaria, salvo las de fuerza mayor. la jornada laboral incluira la formacion necesarioa para adquirir la practica profesional o para mejorar la competencia digital en la innovacion on en sostenibilidad.  
+
+   *Los contratos formativos estan destinados a favorecer la insercion laboral y la formacion de personas jovenes* 
+
+   ver el convenio sobre lo *contrato de formativo*. convenio a nivel estatal. 
+   contrato de formacion en alternacia
+
+   Requisitos: Sin limites de edad para personas con otra titulacion, pero que no han tenido un contrato formativo para ese nivel de calificaciones en ese sector productivo. menones de 30 años, si cuentan con un certificado de profesionalidad 1 o 2 del sistema nacional de empleo.
+   Duracion: Minima de tres meses, maxima de 2 años. Se permite que el contrato se celebre de forma no continuada es decir que coincida con los periodo de prueba anuales de estudio. No puede establecer un perioso de prueba maxima de un mes
+
+   Formacion : el tiempo de formacion sera de al menos de 35% en el primer año y de un 15% en el segundo. por tanto el tiempo de trabajo no podra superar el 65% ni el 85% den el primer y segundo año respectivamente.
+   
+   Salario: Lo estipulado en el convenio. en el caso contrario, la retribucion no podra ser inferior de 60% el primer año ni el 75% el segundo respcto de la retribucion fijada en el convenio para ese grupo profesional. En ningun caso podra ser inferior al SMI en proporcion al tiempo de trabajo realizado. 
+
+   Jornada. Incluira tiempo de formacion y tiempo de trabajo exacto. 
+
+   *SALARIO MINIMO INTERPROFESIONAL (SMI)*
+
+
+   Otros tipos de contratos contratos a tiempo parcial. contrato de relevo; contrato de trabajo de grupo; contrato de trabajo a distancia.
+
+   en el caso del contrato con una empresa de trabajo temporal, una persona trabajodora firma un contrato con una empresa de trabajo temporal (ETT), pero presta sus servicios en una empresa distinta( empresa usuaria). 
+   las dos empresas, a su vez, formalizan un acuerdo que se denominan contrato de puesta a disposicion 
+   en el queda registrada la cuantia que pagara la empresa usuaria a la ETT por la persona trabajadora cedida. 
+
+
+   que tipos de contratos existen. 
+
+   Duracion: la empresa de trabajo temporal podra celebrar contrato fijo-discontinuo con la persona que vya a ser cedida temporalmente a una empresa usuaria. La ETT tambien podra formalizar un contrato de trabajo con una persona trabajadora para cubrir varios varios empleaos temporales en diferentes empresas usuarias. Estas empresas usuarias podran contratar personal atraves de una ETT. cuando la necesidad temporal de personas trabajadoras coincidencia con un exceso de trabajo imprevesible, o bien con un incremento de trabajo habitual en determinadas fechas, es decir, con los dos supuestos en los que se permite la realizacion de un contrato temporal por circunstancias de la preoduccion. 
+
+   indemnizacion: doce dias por cada año trabajado. 
+
+   limitaciones: la ETT no puede ceder personas trabajadoras para ningunos de los siguientes fines: 
+   - sustituir a  personas.  trabajadoras en huelga en la empresa usuaria
+   - realizar trabajos espacialmente peligrosas
+   - cederas otra ETT
+   - cubirir puestos de trabajao en empresas que en el año anterior tuvieron despidos improcendentes despidos colectivos o renuncias de personas trabajadoras debido a incuplimientos de la empresas
+  derechos de las personas trabajadoras: A las emisma condiciones labprales que si hiberan sifo contratadas directamente por la empresa usuaria 
+ -A utilizar el transporte. el comedor y la guarderia de la empresa usuaria. 
+ - A que la ETT NO LES DESCUENTE. 
+
+
+ Nuevas formas de organixacion de trabajo. 
+ se estan produciendo una serie de cambios en el entorno empresarial y en la jornada laboral que abligan a las empresas a trabsformar sus estructuras productivas y su organizacion del tiempo de trabajo. las importantes:
+ - Nuevas tecnologias: la introduccion de las nuevas tecnologias de la informacion y comunicacion TIC da lugar a organizaciones interactivas que contribuyen a fexibilizar el mercado del trabajo con personas trabajadoras. 
+
+
+
+
+
+
+
+Elementos emergentes en la organizacion del trabajo. 
+Para ser mas eficiente las empresas actuales utilizan un conjunto de elementos que afectan a la organizacion del tiempo de trabajony que tiene una gran transcendencia para el personal entre los mas habitaules se encuentran la flexibilidad productiva y laboral en el teletrabajo. 
+
+flexibilidad en la empresa. 
+
+
+
+
+
+
+
