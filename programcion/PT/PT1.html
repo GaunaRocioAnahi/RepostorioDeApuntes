@@ -1,6 +1,6 @@
 <script>
     // sOLICITAR INFORMACION INICIAL:
-
+//manejo de errores
     let numeroDeEncargos = Number(prompt("Numero de encargo "));
     while (numeroDeEncargos <= 0) {
         numeroDeEncargos = Number(prompt("Numero de encargo "));
@@ -15,7 +15,7 @@
     while (stockDeAcero <= 0) {
         stockDeAcero = Number(prompt("ingrese el stock de Acero:"));
     }
-
+// fin del manejo de errores
     let maderaGastada = 0, maderaAcumulada = 0;
     let aceroGastado = 0, aceroAcumulado = 0;
     let importeCobrado = 0;
