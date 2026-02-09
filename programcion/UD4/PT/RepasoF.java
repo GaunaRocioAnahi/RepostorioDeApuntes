@@ -13,7 +13,7 @@ public class RepasoF {
 
     // Función para mostrar el resultado final
     public static void mensajeAleatorio(String resultado) {
-        System.out.println(">>> RESULTADO: " + resultado.toUpperCase() + " <<<");
+        System.out.println(" RESULTADO: " + resultado.toUpperCase() + " <<<");
         double azar = Math.random();
 
         if (resultado.equals("perfecto")) {
@@ -181,7 +181,16 @@ public class RepasoF {
             } else {
                 System.out.println("Opcion incorrecta");
             }
-        }
 
+        }
+        scanner.close();
     }
 }
+
+
+/// para añadir el control de errores fijate bien en hacerlo dentro del boocle while. despues de mosrtrarMenu();  try{ opcion = nextline();  luego del ultimo else añadimos el catch(Exception e ) {} catch (Exception e) {
+                // Si ocurre un error (meter letras en el menú), caemos aquí
+                //System.out.println("ERROR CRÍTICO: Debes introducir un número entero.");
+                //scanner.nextLine(); // Importante: Limpiar la basura del scanner para no hacer bucle infinito
+                //opcion = 0; // Reiniciamos opción para que el bucle siga
+           // }}}
