@@ -1,0 +1,12 @@
+h2{
+    color: blue;
+}
+
+section{
+    background-image: url("../imagen.jpeg") ;
+    background-size: cover; /*cubre toda la caja*/
+}
+
+p:hover{ /* hover pasa el raton por encima para cambiar*/
+    color: blue;
+}

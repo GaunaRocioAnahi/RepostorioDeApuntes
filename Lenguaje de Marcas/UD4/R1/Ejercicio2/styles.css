@@ -4,13 +4,14 @@ p {
 }
 
 .destacado {
-    background-color:rgba(158, 217, 203, 0.585);
+    background-color:rgba(158, 217, 203, 0.585); /* es para el fondo de color*/
     font-weight: bold;
-    padding : 10px; 
+    padding : 5px; 
 }
 
 #accion {
-    font-size: 24px;
+    font-size: 24px; /* cambia la letra de tamaño*/
     text-align: center;
     color: rgb(112, 112, 186);
+    
 }

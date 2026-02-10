@@ -1,11 +1,12 @@
  *{
-    margin: 2px;
-    padding: 2px;
-    box-sizing: border-box;
+    margin: 0px; /* cuando me piden borrar rellenos*/
+    padding: 0px;
 }
-div >ul > li{
+
+div >ul > li{ /* selector hijos, li es hijo de ul, y ul de div.*/
     color: red;
 }
-div + p {
-    color: blue;
+
+div + p { /*selector hermano con el "+"*/
+    background-color: aqua;/* cambia el color de fondo*/
 }

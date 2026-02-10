@@ -3,11 +3,12 @@ body{
     background: linear-gradient( to right, rgb(250, 250, 250), rgb(137, 202, 224)) ;
 }
 h1{
-    margin: 2 75px 100px;
-    padding: 25px 50px 75px 100px
+    margin:  10px; /* separa de otros elementosentre si, fuera*/
+    padding:  30px; /* dentro, para botones, tarjetas, cajas*/
+    text-align: center; /* alinea el texto. */
 }
 
 p{
-    margin: 25px 50px;
-    padding: 10px 20px;
+    margin: 25px;
+    padding: 10px;
 }
