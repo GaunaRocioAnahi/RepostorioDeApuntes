@@ -3,7 +3,7 @@ package programcion.UD4.Repaso;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class RepasoEj2{
+public class repasoEj2{
     public static void main(String[] args) {
         // 1. HERRAMIENTAS
         Scanner sc = new Scanner(System.in);
