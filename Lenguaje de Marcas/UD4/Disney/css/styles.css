@@ -1,21 +1,39 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
-   
+    box-sizing: border-box; /*asegura que el padding no agrande las cajas*/
 }
+
+
 body{
-     background-color: rgb(249, 182, 249);
+    background-color: rgb(249, 182, 249);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #560566;
 }
-.encabezado {
-  background-color: #ffffff;
-  padding: 1rem 2rem;
-  /* Flexbox para alinear Título a la izq y Menú a la der */
+
+.encabezado{
   display: flex;
+}
+
+.encabezado {
+  background-color: #e655e6cc;
+  padding:15px;
+  /* Flexbox para alinear Título a la izq y Menú a la der */
   justify-content: space-between;
   align-items: center;
   /* Borde decorativo inferior */
-  /*border-bottom: 4px solid #ffca28; /* Amarillo Mickey */
+  border-bottom: 4px solid #ffffff /* Amarillo Mickey */
+
+}
+
+h1, h2, h3{
+margin-bottom: 10px;
+}
+
+button{
+  border: none;
+  padding: 8px;
+
 }
 
 .navegador ul {
@@ -23,15 +41,103 @@ body{
   display: flex; /* Elementos del menú en línea */
   gap: 20px; /* Espacio entre enlaces */
 }
+.navegador li{
+  display: flex;
+  margin: 0 10px;
+}
 
 
 /* Cambio de color al pasar el ratón (Hover) */
 .navegador a:hover {
   color: #e91e63; /* Rosa fuerte */
 }
+.navegador a{
+  text-decoration: none;
+  color: rgb(66, 4, 87);
+  font-weight: bold;
+  padding-bottom: 5px;
+}
 
 /* Clase active (añádela manualmente a un <a class="active"> en tu HTML) */
 .navegador a.active {
-  color: #0d47a1;
-  border-bottom: 2px solid #0d47a1;
+  color: #610da1;
+  border-bottom: 2px solid #720da1;
 }
+
+.hero{
+  /*imagen de fondo*/
+  background-image: url("https://picsum.photos/1200/400");
+  background-size: cover; /*cubre todo el espacio*/
+  background-position: center;
+  height: 300px;/*altura fija*/
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color:white;
+}
+
+.hero button{
+  background-color: #440152;
+  color: white;
+  font-size: 1.1rem;
+  margin-top: 15px;
+  transition: transform 0.3s;
+}
+
+.hero button:hover{
+  background-color: #e91e63;
+  transform: scale(1.1); /*aumenta el tamaño a un 10%*/
+}
+.peliculas{
+  display: flex;
+  justify-content: space-around;
+}
+
+.peliculas img{
+  border-radius:  10px;
+}
+
+.peliculas >h3{
+  font-size: 1.2rem;
+}
+.personajes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.personaje1 {
+  background-color: #ffefd5;
+}
+
+.personaje2 {
+  background-color: #f0e68c;
+}
+
+.personaje3 {
+  background-color: #98fb98;
+}
+
+.personaje4 {
+  background-color: #afeeee;
+}
+
+.personaje img + h3:hover {
+  color: red;
+}
+.eventos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.evento-igual  {
+  background-color: #1c7480;
+}
+
+.evento-diferente {
+  background-color: #ffe4e1;
+}
+
+
