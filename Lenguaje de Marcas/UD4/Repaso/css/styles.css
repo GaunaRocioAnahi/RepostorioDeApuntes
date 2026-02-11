@@ -126,11 +126,11 @@ p {
 
 /*caso hijos*/
 .caso > h2 { 
-    width: 500%; 
-    text-align: center;
+    width: 500%; /*el porcentaje de ancho*/
+    text-align: center;/* alinea el texto ene el texto*/
     font-size: 2em;
     color: #f3701e;
-    margin-bottom: 20px;
+    margin-bottom: 20px;/* se coloca arriba de la seccion*/
 }
 
 .tarjetas {
@@ -170,7 +170,96 @@ p {
      background-color: #ffa54f;    /*  Cambia color al pasar el ratón */
     transform: scale(1.05);       /*  Aumenta un poco el tamaño (efecto de “resalte”) */
 }
+/* ejercicio 5*/
+
+.amenazas{
+    display: flex; /*modo flexible del contenedor*/
+    justify-content: center;/*Centra las tarjetas de  la pantallas*/
+    box-sizing: content-box;
+    flex-wrap: wrap;  /* Permite que bajen a otra fila en pantallas pequeñas */ 
+    flex-direction: row;
+    gap:30px;/*espacio uniforme entre tarjetas*/
+    padding: 20px; /*espacio interno */
+}
+.amenazas h2{
+    width: 500%; 
+    text-align: center;
+    font-size: 2em;
+    color: #f3701e;
+    margin-bottom: 20px;
+}
+
+.tarjetas1{
+    display: flex;
+    background-color: #df6b06;         /*  Fondo de la tarjeta */
+    border: 1px solid #ccc;         /* Borde sutil */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra para efecto “flotante” */
+    padding: 10px;                  /*  Espacio interno */
+    border-radius: 10px;            /*  Bordes redondeados */
+    flex: 1 1 20%;                   /* Tamaño flexible: crece, encoge, ocupa ~20% del contenedor */
+    text-align: center;              /* Centra el contenido dentro de cada tarjeta */
+    gap:20px;
+}
+.tarjetas1 h3 {
+color: #2e0606; /* Color normal */
+    transition: all 0.3s ease; /* Para que el cambio no sea brusco */
+}
+
+/* La magia: Cuando el mouse toca la img, cambia el h3 que le sigue */
+.tarjetas1 img:hover + h3 {
+    color: crimson;           /* Cambia el color del título */
+    transform: scale(0.1);    /* Crece un poquito (opcional) */
+    text-decoration: none; /* Subrayado (opcional) */
+}
 
 
+/* --- PUNTO 2: Estiliza la lista --- */
+/* "Elimina viñetas y estilos por defecto" */
+.campania ul {
+    list-style: none; /* Quita los puntitos (viñetas) */
+    padding: 0;       /* Quita el relleno automático que traen las listas */
+    margin: 0;        /* Quita márgenes externos */
+    
+    /* Extra: Usamos Flexbox para ponerlos uno al lado del otro (opcional pero recomendado) */
+    display: flex;    
+    gap: 20px;
+}
 
+/* --- PUNTO 3 y 4: Diseño común --- */
+/* "Usa selector de tipo combinado (ul > li)" y "Diseña dos eventos con el mismo estilo" */
+.campania ul > li {
+    background-color: #f9f9f9; /* Fondo gris suave */
+    border: 1px solid #ddd;    /* Borde sutil */
+    padding: 20px;             /* Espacio interno */
+    border-radius: 8px;        /* Bordes redondeados */
+    text-align: center;        /* Texto centrado */
+    width: 30%;                /* Para que quepan los 3 en fila */
+}
 
+/* --- PUNTO 5: Estilo diferente --- */
+/* "Diseña el tercer evento con un estilo claramente diferente" */
+/* Usamos la clase que agregamos al HTML para sobrescribir el estilo anterior */
+.campania ul > li.destacado {
+    background-color: #2c3e50; /* Fondo oscuro (Diferente) */
+    color: white;              /* Texto blanco (Diferente) */
+    border: 2px solid #e74c3c; /* Borde rojo (Diferente) */
+    transform: scale(1.05);    /* Un poquito más grande para destacar */
+}
+
+/* Ajuste extra: para que el título del destacado se vea blanco */
+.campania ul > li.destacado h3 {
+    color: #ffd700; /* Dorado para que resalte en el fondo oscuro */
+}
+
+/* --- PUNTO 6: Estiliza la fecha --- */
+/* "Estiliza la fecha como un elemento visual destacado" */
+.campania time {
+    display: inline-block;     /* Necesario para darle padding y fondo */
+    margin-top: 15px;          /* Separarlo del texto de arriba */
+    background-color: #e74c3c; /* Fondo rojo llamativo */
+    color: white;              /* Letra blanca */
+    padding: 5px 15px;         /* Relleno para que parezca un botón/etiqueta */
+    border-radius: 20px;       /* Forma de píldora */
+    font-weight: bold;         /* Letra negrita */
+    font-size: 0.9rem;         /* Tamaño ajustado */
+}
