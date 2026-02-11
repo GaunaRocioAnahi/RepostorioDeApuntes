@@ -1,0 +1,176 @@
+/* el ejercicio me pide resetear el margen y padding cal contenedor principal*/
+.contenedorPrincipal{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;/*ajustamos el modelo de caja*/
+}
+
+body{
+    background-color: rgb(24, 29, 33);
+    
+}
+h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #f3701e
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS';
+    text-transform: uppercase;
+    margin: 2px;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+h3{
+    color: #e8d8c9;
+}
+p {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #e8d8c9;
+}
+
+.encabezado{
+    display: flex; /*contenido alineado*/
+    justify-content: space-between;/* Separa el titulo del menu uno a la izquierda */
+}
+/* para sacar la lista tiene que estar marcado el ul*/
+.nav ul{
+    display: flex;/* hace que los li esten en fila horizontal*/
+    justify-content: space-around;/*espacio entre los enlaces*/
+    align-items: center;/*alinea verticalmente los enlaces*/
+    list-style: none; /* se deja de ver como lista*/
+    gap: 20px; /*espacio entre los enlaces*/    
+}
+
+.nav li{
+    display: flex;
+    margin: 0px;/*elimina el margen por defecto*/
+}
+/*decora los enlaces del nav siempre marancado la "a*/
+.nav a{
+    text-decoration: none; /*quita el subrayado*/
+    color: rgb(223, 193, 158);/*color del enlace*/
+    font-weight: bold;/*destaca visualmente*/
+    transition: color 0.3s;/*Suaviza el cambio de color*/
+}
+/*cambia el color mientras esta el raton por encima*/
+.nav a:hover {
+    color: #f3701e ;
+}
+
+/* resalta enlace activo*/
+.nav a.activo{
+    color: #f3701e;                 /* 🔹 Destaca el enlace activo */
+}
+
+/* 3. Sección principal de impacto (Hero)*/
+
+/* la primera seccion con clase cultura*/
+
+.cultura{
+    display: flex;/*alinea el contenido*/
+    height: 300px;/*altura destaca*/
+    flex-direction: column; /*Alinea verticalmente (titulo, texto, boton)*/
+    justify-content: center;/*Centra verticalmente el contenido dentro de la seccion*/
+    align-items: center;/*centra horizontalmente el contenido*/
+    padding: 20px;/*espacio para que no quede pegado a los bordes*/
+    background-image: url("https://i.pinimg.com/736x/cb/ba/38/cbba38c7b5a46634bfdd55c3c1460de5.jpg");/*imagen relacionada*/
+    background-size: cover;/*cubre toda la seccion*/
+}
+.cultura h1{
+    font-size: 3em;              /*  Título grande, protagonista */
+    font-weight: bold;            /* Destaca más */
+    margin-bottom: 15px;          /* Espacio debajo del título */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /*  Hace que se vea sobre la imagen opcional*/
+}
+
+.cultura p{
+ font-size: 1.2em;             /*  Tamaño más pequeño que el título, actúa como subtítulo */
+    max-width: 600px;             /*  Limita la línea para que sea legible */
+    margin-bottom: 25px;          /*  Espacio entre el texto y el botón */
+}
+
+.boton1{
+    background-color: #f3701e;   /*  Color llamativo para llamar la atención */
+    color: #fff;                  /*  Texto blanco */
+    font-weight: bold;             /* Texto destacado */
+    padding: 12px 25px;           /*  Tamaño suficiente para que se vea como botón */
+    border: none;                 /*  Quita borde por defecto */
+    border-radius: 5px;           /*  Bordes redondeados para estética moderna */
+    cursor: pointer;              /* Cambia el cursor al pasar por encima */
+    transition: all 0.3s;         /*  Suaviza cambios de hover */
+}
+
+.boton1:hover{
+    background-color: #ffa54f;    /*  Cambia color al pasar el ratón */
+    transform: scale(1.05);       /*  Aumenta un poco el tamaño (efecto de “resalte”) */
+}
+
+/* 4 .Sección de recursos o casos reales (tarjetas)*/
+
+
+.caso{
+    display: flex; /**/
+    justify-content: center;
+    box-sizing: content-box;
+    flex-wrap: wrap;                /* Permite que bajen a otra fila en pantallas pequeñas */ 
+    flex-direction: row;
+    gap:30px;/*espacio uniforme entre tarjetas*/
+    padding: 20px; /*espacio interno */
+}
+
+/*caso hijos*/
+.caso > h2 { 
+    width: 500%; 
+    text-align: center;
+    font-size: 2em;
+    color: #f3701e;
+    margin-bottom: 20px;
+}
+
+.tarjetas {
+    background-color: #df6b06;         /*  Fondo de la tarjeta */
+    border: 1px solid #ccc;         /* Borde sutil */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra para efecto “flotante” */
+    padding: 10px;                  /*  Espacio interno */
+    border-radius: 10px;            /*  Bordes redondeados */
+    flex: 1 1 20%;                   /* Tamaño flexible: crece, encoge, ocupa ~20% del contenedor */
+    text-align: center;              /* Centra el contenido dentro de cada tarjeta */
+}
+
+
+.tarjetas img{
+    border-radius: 10px;/*redondea los boder de la imagen*/
+    max-width: 100%; /* Para que no se salga de la tarjeta */
+}
+.tarjeta > h3 {
+    color: white;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+
+.boton2{
+      background-color: #f3701e;   /*  Color llamativo para llamar la atención */
+    color: #fff;                  /*  Texto blanco */
+    font-weight: bold;             /* Texto destacado */
+    padding: 12px 25px;           /*  Tamaño suficiente para que se vea como botón */
+    border: none;                 /*  Quita borde por defecto */
+    border-radius: 5px;           /*  Bordes redondeados para estética moderna */
+    cursor: pointer;              /* Cambia el cursor al pasar por encima */
+    transition: all 0.3s;
+}
+
+.boton2:hover{
+     background-color: #ffa54f;    /*  Cambia color al pasar el ratón */
+    transform: scale(1.05);       /*  Aumenta un poco el tamaño (efecto de “resalte”) */
+}
+
+
+
+
