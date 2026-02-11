@@ -22,8 +22,14 @@ h2 {
     display: flex;
 }
 .justify-content{
+    
+    justify-content: space-around;
+    /*
+    justify-content: flex-start;
+    justify-content: center;
     justify-content: space-between;
-}
+    justify-content: space-between;
+*/}
 
 
 

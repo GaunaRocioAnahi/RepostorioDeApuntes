@@ -18,7 +18,7 @@ h2 {
 
 /* Ejercicio1 */
 
-div{
+.caja{
     width: 250px;
     height: 150px;
     padding: 15px;
@@ -40,11 +40,11 @@ div{
 /* Ejercicio3 */
 
 .borde-personalizado{
-    border-top: 10xp solid blue;
-    border-right: 5xp dashed red;
-    border-bottom: 8px dotted green;
-    border-left: 3px double black;
-    padding: 20px; 
+    border-top: 10px solid blue; /*borde azul arriba*/
+    border-right: 5px dashed red;/* borde puntiado a la derecha*/
+    border-bottom: 8px dotted green;/* borde con puntos abajo */
+    border-left: 3px double black;/* bode izquierdo doble linea negra*/
+    padding: 20px; /* los espacio que hay del borde al texto.*/
 }
 /*Ejercicio 4 */
 
@@ -88,8 +88,27 @@ div{
             align-items: center;     /* Alinea en vertical del texto */
 
             /* Estilos extra de texto */
-           /* font-family: sans-serif;
+            /* font-family: sans-serif;
             font-size: 1.5rem;
             color: white;
             text-align: center;*/
         }
+
+        /* ejemplo mas detallado*/
+
+/*
+ /*       .caja-em-rem {
+ /* font-size: 16px;  /* tamaño base del contenedor */
+ /* padding: 2em;     /* 2 x 16px = 32px */
+ /*   border: 1px solid black;
+/*}/*
+/*
+/*./*caja-em-rem h1 {
+ /* font-size: 2rem;  /* 2 x 16px del html = 32px */
+/*}/*
+/*
+/*./*caja-em-rem p {
+ /* font-size: 1.5em; /* 1.5 x 16px del contenedor = 24px */
+/*
+/**/
+
