@@ -83,7 +83,7 @@ p {
     background-size: cover;/*cubre toda la seccion*/
 }
 .cultura h1{
-    font-size: 3em;              /*  Título grande, protagonista */
+    font-size: 3em;              /*  Título grande */
     font-weight: bold;            /* Destaca más */
     margin-bottom: 15px;          /* Espacio debajo del título */
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /*  Hace que se vea sobre la imagen opcional*/
@@ -118,7 +118,7 @@ p {
     display: flex; /**/
     justify-content: center;
     box-sizing: content-box;
-    flex-wrap: wrap;                /* Permite que bajen a otra fila en pantallas pequeñas */ 
+    flex-wrap: wrap;  /* Permite que bajen a otra fila en pantallas pequeñas */ 
     flex-direction: row;
     gap:30px;/*espacio uniforme entre tarjetas*/
     padding: 20px; /*espacio interno */
