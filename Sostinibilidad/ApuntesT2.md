@@ -139,7 +139,47 @@ Evaluar la produccion limpia de un hotel
 diseñar un hotel turistico sostenible ecodiseño
 buscar la certificacion medioambiental.
 
+Clase del jueves 12/02- 
+
+**Midiendo la sostenibilidad.** 
+
+A la hora de diseñar metas empresariales de la sostenibilidad de desempeño. Esta practiva esta en la base de la concesion de muchos certificados de sostenibilidad y en la identificacion de una inversio socialmente responsable. 
+
+( INVESTIGAR SOBRE LOS CERTIFICADOS ENERGETICOS EN HOGARES O LOCALES. )
+
+(buscar etiquetas. )
+(botellas de platicos y tipo de etiquetados )
+
+(inversion socialmente eresponsable:a Inversión Socialmente Responsable (ISR) es una estrategia que busca alinear los objetivos financieros con valores éticos, ambientales y sociales, seleccionando inversiones que no solo generen rentabilidad sino también un impacto positivo, usando criterios ASG (Ambientales, Sociales y de Gobernanza) para evaluar empresas en sostenibilidad, condiciones laborales y buena gestión, promoviendo un desarrollo más justo y sostenible. )
+
+Medidores de la sostenibilidad de los indicadores de desempeño. 
+
+un indicador de desempeño es un dato o un conjunto de datos que permite medir el rendimiento de una actividad en la relacion con un objetivo o una meta.
+
+el proceso que lleva a una empresa a seleccionar determinados indicadores clave de sostenibilidad requiere tres pasos:
+
+1 fijacion de objetivos para la empresa de material sostenible: Se partira del analisis de cada proceso que se llava a acavo con los ODS y el analisis de los aspectos ASG prioritarios.
+2 Seleccion de indicadores clave de desempeño: Seran comparables (medidos en unidades que puedan expresarse en numeros), obejtivos y especificos
+3 Establecimiento de metas a alcanzar: Seran medibles por indicadores seleccionados. revelantes, alcanzable y con un horizonte temporal definido. 
+
+para generar un indicador de desempeño e incorporarlo al sistema de gestion ambiental de la empresa, es necesario cubrir 4 fases. 
+1 fase indicador tareas: Seleccionaremos una variables que propone un medio sencilllo y fiable para medir el desempeño. ejemplo: Una empresa quiere medir su impacto ambiental y decide medir su emisiones en toneladas de CO2 equivalente
+2 fase formula tareas: Se indicara el modo de procesar los datos recogidos. 
 
 
 
 
+elaboracion del sistema de gestion ambiental proporcionan a la empresa la vision del conjunto del desempeño en sostinibilidad:
+
+el sistema de gestion ambiental es el area de una organizacion que desarrolla e implementa la politica medio ambiental:
+
+(indicadores clave de desempeño ambiental)
+
+(importante: los sistemas de gestion ambiental se rigenpor la norma UNE-EN ISO 14001. norma ISO 14031 establece las directrices basicas para la evaluacion del desempeño ambiental).
+
+
+mejora continua: 
+- 1 .*planear* seleccionar indicadores
+- 2 .*hacer* calcular y analizar
+- 3 .*actuar* tomar desiciones de mejora
+- 4 .*Verificar* logro de metas utilidad de indicadores. 
