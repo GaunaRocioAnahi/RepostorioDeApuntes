@@ -297,7 +297,7 @@ Un falso autónomo es un trabajador inscrito en el Régimen Especial de Trabajad
    - realizar trabajos espacialmente peligrosas
    - cederas otra ETT
    - cubirir puestos de trabajao en empresas que en el año anterior tuvieron despidos improcendentes despidos colectivos o renuncias de personas trabajadoras debido a incuplimientos de la empresas
-  derechos de las personas trabajadoras: A las emisma condiciones labprales que si hiberan sifo contratadas directamente por la empresa usuaria 
+    derechos de las personas trabajadoras: A las emisma condiciones labprales que si hiberan sifo contratadas directamente por la empresa usuaria 
  -A utilizar el transporte. el comedor y la guarderia de la empresa usuaria. 
  - A que la ETT NO LES DESCUENTE. 
 
@@ -320,6 +320,34 @@ flexibilidad en la empresa.
 
 
 
+12/2
 
 
 
+
+En grupo de 3 alumnos y alumnas, diseñad y redactar un panel que relfeje las diferencias modalidades contractuales.
+
+En el mismo debereis exponer tambien las principales clausulas contrac-tuales, asi como las nuevas formas de organizacion del trabajo. Para elaborarlo, podes buscar la informacion en internet y emplear la herramienta Canva para su diseño. 
+Una vez finalizados los paneles, podes organizar una exposicion para el resto de la clase. 
+
+clausulas:
+
+son los aspecto que se acuerdan entre ambas partes como el horario de trabajo, el salario, la duracion de vacaiones, la categoria profesional o el periodo de pruba. 
+ las clausulas son las siguientes:
+
+
+grupo profecional:
+los puestos de trabajos con una titulacion y unas funciones similares se unifican en un mismo grupo profesional. El convenio espesifica las condiciones para cada uno de ellos: requisitos, funciones, horarios, etc. Asimismo, establece el salario minimo de cada grupo o categoria, denominado salario base. 
+
+periodo de prueba: 
+Tiempo durante el cual la empresa compruba que la persona trabajadora esta capacitada para el puesto y esta valora si le interesa ese empleo. el perioso de prueba tiene una serie de caracteristicas:
+ - cualquiera de las dos partes puede dar por finalizada la relacion laboral en cualquier momento, sin alegar motivo alguno y sin obligacion de preavisar quince dias antes. La empresa, ademas no esta obligada a abonar a la persona trabajadora ningua indemnizacion pero si debera abonar el salario por los dias trabajados. 
+   no se puede fijar un periodo de pruba si la persona trabajadora ya realizo esa funcion en la empresa con anterioridad.
+
+pacto de no competencia poscontractual. :
+No se puede realizar la misma actividad para otra empresa durante cierto periodo de tiempo una vez finalizada la relacion laboral a cambio de una compensacion economica. Cabe fijar un periodo de no competencia maximo de dos años para las personas trabajadoras tecnicas y de seis meses para las demas personas trabajadoras
+
+pacto de dedicacion exclusiva: 
+la persona trabaajadora tiene la obligacion de trabajar exclusivamente para la empresa y a no hacerlo para otras compañia del mismo o distinto sector. 
+pacto de permanencia.:
+El acuerdo de permanencia se pede suscribir cuando la empresa ha invertido en la formacion de la persona trabajadora por lo que le interesa asegurarse de que puede contar con ella ( durante un tiempo maximo de dos años) y de que asi la inversion realizada revierte en la empresa.
