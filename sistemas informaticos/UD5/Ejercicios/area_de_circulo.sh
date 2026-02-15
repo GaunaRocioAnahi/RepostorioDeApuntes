@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Declaramos el PI.
+PI= 3.14
+
 area_circulo(){
     #comprobar numero de parametros
 
