@@ -149,7 +149,7 @@ INSERT INTO seguidores (id_seguidor, id_seguido, fecha_seguimiento, estado) VALU
 
 
 -- 3. FULL OUTER JOIN - Todos los registros de ambas tablas
-o;
+
 
 -- 4. Usuarios sin publicaciones
 

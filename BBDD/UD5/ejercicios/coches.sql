@@ -141,3 +141,14 @@ INSERT INTO coches (id_dueño, marca, modelo, año_fabricacion, matricula, color
 (1110, 'Porsche', '911', 2023, '1357GHG', 'Negro'),
 (1111, 'Jaguar', 'F-Pace', 2022, '5432JKK', 'Gris');
 SET FOREIGN_KEY_CHECKS=1;
+-- ejercicio2
+--select coches.marca, personas.nombre, personas.provincia from coches join personas ON coches.id_dueño = personas.id;
+
+
+--ejericicio3
+--select personas.nombre, personas.estado_civil, coches.modelo from personas join  coches on personas.id = coches.id_dueño;
+
+
+--Ejericico4
+--select personas.nombre, personas.apellido, personas.nivel_socioeconomico, coches.modelo from personas join coches on personas.id = coches.id_dueño where personas.nivel_socioeconomico = 'Alto';
+
