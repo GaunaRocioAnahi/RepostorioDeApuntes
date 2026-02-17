@@ -168,7 +168,7 @@ public class RepasoEj1 {
                 } else {
 
                     // PASO 2: MOSTRAR LA LISTA (Para que el usuario elija)
-                    // (Es bueno recordarles qué índice tiene cada uno)
+                    // (recordar qué índice tiene cada uno)
                     System.out.println("Lista actual:");
                     for (int i = 0; i < marcas.size(); i++) {
                         System.out.println(i + " - " + marcas.get(i));
