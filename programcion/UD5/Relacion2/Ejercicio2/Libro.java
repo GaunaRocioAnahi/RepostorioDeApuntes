@@ -3,13 +3,13 @@ package programcion.UD5.Relacion2.Ejercicio2;
 public class Libro {
 
     //atributos de Libros
-    String id;
-    String titulo;
-    String autor;
-    String sinopsis;
-    Boolean disponible;
+    private String id;
+    private String titulo;
+    private String autor;
+    private String sinopsis;
+    private Boolean disponible;
 
-    Libro(String id, String titulo, String autor, String sinopsis, Boolean diponible) {
+    Libro(String id, String titulo, String autor, String sinopsis, boolean disponible) {
         this.id = id;
         this.titulo = titulo;
         this.autor = autor;
@@ -19,6 +19,10 @@ public class Libro {
 
     //Etiqueta 
     @Override
+    public String toString{
+        return
+    }
+    
 
 
 }
