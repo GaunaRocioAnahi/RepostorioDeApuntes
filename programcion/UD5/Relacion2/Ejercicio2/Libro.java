@@ -2,7 +2,7 @@ package programcion.UD5.Relacion2.Ejercicio2;
 
 public class Libro {
 
-    //atributos de Libros
+    // atributos de Libros
     private String id;
     private String titulo;
     private String autor;
@@ -15,14 +15,34 @@ public class Libro {
         this.autor = autor;
         this.sinopsis = sinopsis;
         this.disponible = disponible;
+
     }
 
-    //Etiqueta 
+    // Etiqueta
     @Override
-    public String toString{
-        return
+    public String toString() {
+        return "el ide es: " + id + "titulo: " + titulo + "El autor es: " + autor + "sinopsis:  " + sinopsis
+                + "Disponibilidad : " + disponible;
     }
-    
 
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setTitulo( String titulo ){
+        this.titulo =  titulo; 
+    }
+
+    public String getTitulo( String titulo){
+        return titulo; 
+    }
+
+    public void setSinopsis( String Sinopsis){
+        
+    }
 
 }
