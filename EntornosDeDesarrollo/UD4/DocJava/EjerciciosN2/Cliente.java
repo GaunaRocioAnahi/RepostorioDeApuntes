@@ -18,7 +18,7 @@ public class Cliente {
      *
      * @param id     Identificador único.
      * @param nombre Nombre real del cliente.
-     * @throws IllegalArgumentException Si los datos están vacíos.
+     * @throws  Si los datos están vacíos.
      */
 
     public Cliente(String id, String nombre) {
