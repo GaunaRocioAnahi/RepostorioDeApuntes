@@ -351,3 +351,116 @@ pacto de dedicacion exclusiva:
 la persona trabaajadora tiene la obligacion de trabajar exclusivamente para la empresa y a no hacerlo para otras compañia del mismo o distinto sector. 
 pacto de permanencia.:
 El acuerdo de permanencia se pede suscribir cuando la empresa ha invertido en la formacion de la persona trabajadora por lo que le interesa asegurarse de que puede contar con ella ( durante un tiempo maximo de dos años) y de que asi la inversion realizada revierte en la empresa.
+
+
+UD6
+
+
+
+# Jornada laboral
+
+
+
+
+En esta unidad estudiaras que es la jornada laboral, que es el horario de trabajo si puede reducir o adaptar la jornada laboral;
+que permisos retribudo vacaciones y festivos tienes como puedes conciliar y que son los planes de igualdad. 
+
+que es la jornada laboral?
+
+Jornada laboral es el numero de horas al dia  a la semna o al año que la persona trabajadora dedica a desempeñar si actividad laboral. 
+
+La jornada laboral maxima es de 40hs a la semana en promedio anual, lo que significa que unas semanas se puede exceder esta jornada, siempre que durante otras se compense ese eceso trabajando menos horas, de manera sea de 40 horas semanales al año. 
+
+jornada laboral...
+
+las horas que supere la jornada total se considera horas extras y se cobran como tales. 
+
+jornada regular : - Jornada semanal. 40hs semanales como computo anual ( unas semanas se pueden realizar 42 y 38hs de siempre que la media sean 40 hs semanales al año );
+                  - jornada diaria. 9hs,8hs para los menoes de 18 años y las personas con trabajos nocturnos como medida de proteccion de la salud. 
+                  - descanso minimo jornadas: 12hs, salvo que sea a turnos donde se podra reducir hasta 7hs  en los cambios de turnos.
+                  - DESCANSO durante la jornada. En la jornada continuada 15min cuando la jornada supera las 4:30hs  30 min para menoes de 18 años, 
+                  - Descanso  un dia y medio initerrupumpitdo cabe la posiblidad de acumular en periodos de 14 dias se trabajan 11 y se descansa 3 dias. 
+jornada laboral
+
+
+que es el horario de trabajo?
+
+Es la distribucion de las horas de trabajo y de descanso señalando en momento de inicio y finalizacion. 
+
+La jornada laboral
+
+las empresas deciden los horarios laborares de su plantilla. En ocaciones establecen que las horas de actividad se realicen seguidas mientras otras veces prefieren que el horario sea descontiniuao con una parada para la comida: 
+jornada continua las joras de trabajo se realizan sin iterrupcion.
+Jornada partida hay pausa de al menos una hora.
+Horario estricto o flexible. en funcion de la mayor o menos flexibilidad en las horas de entrada o salida del trabajo. 
+
+Trabajo a turnos,
+Es aque en el que personas trabajadoras rotan en sus horarios sucesivas de manera que desempeña el mismo trabajo pero en horarios distintos. 
+Ninguna personas trabajadoras a turnos puede estar mas de dos semanas consecutivas en el horario de noche salvo que lo soliceite . No es obligatoria una retribucion especial para estas personas trabajadoras, pero muchos convenios coelctivos han fijados un complemento o plus turnicidad. 
+Importante. 
+
+
+El trabajo nocturno:
+es el que se realiza entre las 22hs y las 6hs . se considera personal nocturno a aquel que realiza, como minimoo 3 hs en este horario o al menos un terci de su jornada anual en dicho horario. 
+la jornada nocturna no podra superar las 8hs de media de 15 dias. el personal nocturno tiene un plus especificos (plus de nocturnidad), salvo que ya venga recogido en el salario por ser un trabajo de naturaleza nocturna y no puden realizar horas extras por motivos de urgencia para reparar un siniestro o incidencias en el cambio de turno.
+
+horas extraordinaria:
+
+son aquellas que sobrepasan la jornada ordinaria de trabajo. 
+
+puedn pagarse o compensarse por descanso en los 4 meses siguientes a su realizacion el numero maximo de horas extras es de 80 años. 
+
+Tiene prohibido la realizacoin de horas extraordinarias: los menores de 18 años el personal salvo por motivos de urgencia y los contratos a tiempo parcial salvo fuerza mayor. 
+importante es obligatorio de la empresa entregar a cada persona trabajadora de las horas extraordinaria realizadas durante el mes, normalmente en la nomina. 
+
+
+Puedo reducir o adapatar mi jornada laboral?
+
+las personas trabajadoras podran solicitar la adaptacion de la duracion y la distribucion de su jornada de trabajo cuando necesetan compatibilidad la vida familiar y laboral. Tambien se podra reducir la jornada por;
+Circunstanci personales. 
+- cuidado del lactante hasta qye cumpla de 9 meses. 
+- Guarda legal de un menor de 12 años o una personas con discapacidad que no desempeñe una actividad retribuida. 
+- Cuidado directo del conyugue o pareja de hecho. o un familiar hasta el segundo grado de consanguinidad y afinida d que raciones de edad. accidente o enfermedad, no pueda valerse por si mismo y que no desempeñe actividad retribuida.
+- cuidado, durante la hospitalizacion y el tratamiento continuada, del menor a su cargo hasta los 23 afectado por cancer o enfermedad grave
+- Nacimietno prematuro de hijo o hija que debe permanecer hospitalizado a continuacion del parto
+- victimas de violencia de genero o victima de terrorismo
+
+motivos empresariales 
+por causas economicas, tecnicas organizacion o de produccion ETOP de 10 al 70 de la jornada con proporcional reduccion del sueldo. 
+
+
+Permiso retribuido 
+
+permiso retribuido son aquellos en los que la personas trabajadoras puede ausentarse de la forma temporal de su lugar de trabajo conservando el derecho a retribucion. 
+
+permisos retribuidos. 
+permisos los familiares hasta el segundo grado de consaguinidad son el padre y la madre, los hijos e hijas, nietos, los abuelos y hermanos y hermanas tanto como el propio conyugue. 
+
+
+- Vacaciones:
+  las personas trabajadoras tienen derecho de un minimo de 30 años naturales de vaciones retribuidas, es decir , dos dias y medio al mes. 
+
+  caracteristicas
+  -no se puden sustituir por dinero salvo que el contrato. finalizarse y  no se hubieran disfrutados. 
+  -las personas trabajadoras deberan conocer el periodo de disfrutte dos meses antes del inicio.
+  -las fechas se establecen de comuin acuerdo entre la empresa y las personas trabajadoras.
+- Disfrutan en el mismo año natural. aunque podran disfrutarse al año siguiente si la persona trabajadora esta de baja por IT disfrutando del permiso de maternidad. 
+
+fetivos: 
+
+todas las personas trabajadoras contaran con al mesno de 14 dias festivos al año. De ellos cuatros fiestas comunes a todas las personas trabaajadoras  25 de diciembre, 1 enero, 1 amyo, 12 de octubre.
+
+el resto de los festivos los decide la comunidad autonoma y los ayuntamientos.
+
+La empresa debe elaborar un calendario laboral cada año y exponerlo en un lugar visible del centro de trabajo. en ese calendario se deben señalar los dias festivos. 
+
+
+
+como consiliar ???
+El estatuto de los trabajores no establece medidas concretas sobre la conciliacion por lo que estas dependen de cada empresa y sector profesional. 
+
+No obstante, los convenio colectivos recogen varias posibilidades segun lo que se  haya negociado entre la empresa y plantilla
+
+Algunas de ellas son :
+-Acumular el permiso de lactancia, de manera que no se disfrutaria una hora diaria hasta el menor o la menor cumpliera nueve meses, sino unis quince dias seguidos. 
+ 
