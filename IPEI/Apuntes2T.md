@@ -356,7 +356,7 @@ El acuerdo de permanencia se pede suscribir cuando la empresa ha invertido en la
 UD6
 
 
-
+19/2
 # Jornada laboral
 
 
@@ -464,3 +464,135 @@ No obstante, los convenio colectivos recogen varias posibilidades segun lo que s
 Algunas de ellas son :
 -Acumular el permiso de lactancia, de manera que no se disfrutaria una hora diaria hasta el menor o la menor cumpliera nueve meses, sino unis quince dias seguidos. 
  
+
+
+
+
+
+
+20/2
+
+Apuntes. 
+buscar ( convenio colectivo del software) 1800hs 
+buscar ( convenio colectivo del software del sol) 1440hs 
+buscar ( registro de jornada) 100% digital. 
+
+Posibilidad de distribucion irregular de la jornada 
+
+horario de trabajo. 
+
+es la jornada que se pacta en convenio. cuantas horas se trabaja. horario de acuerdo empresa y trabajador. 
+
+- trabajo a turno: - Rotacion en un mismo puesto (mañana tarde noche)
+                 - No mas de 2 semanas consecutivas turno nocturno, salvoo voluntario
+                 - Los que cursen oficiales preferencia eleccion de turno
+                 - Descanso minimo entre jornada se reduce a 7hs
+- Trabajo nocturno: - Jornada entre las 22 y las 6hs trabajador nocturno.
+                    - No puedes realizarlo:<18 años, asi como embarazas o periodos de lactancia si lo estima la evaluacion de riesgos de su puesto de trabajo.
+                    - medidas: 
+                              - NO Rrealizan horas extras(excepciones).
+                              - Jornadas no superiores de 8 hs de media
+                              - Especial proteccion de su salud
+ 
+ * EJEMPLOS : El panadero con los horarios nocturnos.
+              trabajadores del mar, los marineros.
+
+
+jornada especiales en determinadas actividades: 
+
+Las circunstanci singulares de ciertas actividades hacen que sea necesario establecer una distribucion de la jornada o de los periodos de descanso diferente a la habital. 
+
+*Aplicaciones y distribucion diferentes de la jornada.* | para adaptar la jornada al contexto de determinan actividades. | por ejemplo en comercio y hosteleria se pueden acumular medio dia de descanso en periodos de cuatros semanas|
+
+reducciones y limitaciones de jornadas. | para proteger a la persona trabajadoras|
+comercio hosteleria vigilancia transportes! trabajo  en el campo minas, trabajos expuestos a riesgos ambientales, cmaras frigorificas. !
+ por ejemplos los empleados y empleados expuestos a riesgos ambientales reducen su jornada sin descuento de salario. 
+
+ buscar: trabajo de riesgos. 
+
+ la horas extraordinaria
+
+
+ realizadas por encima de la jornada ordinarias.
+
+ El convenio si se pagan o se compensan por descanso. 
+
+ max 80/hs años  sin contar las compensadas. 
+
+ Prohibido: <18 años y trabajadores nocturnos y a tiempo parcial. 
+
+ voluntaria
+ el trabajador acepta voluntariamente. 
+
+ Obligatoria:
+ se han pactado en convenio
+ Pacto en clausulas del contrato por fuerza mayor no maximo. *Busca tu convenio colectivo.*
+
+
+reduccion ya daptacion de jornada. 
+
+Por ciudado de familiares. 
+todos podran reducir su jornada  "diaria" entre 1/2 y 1/8 por cuidados de familiares.
+<12 años.
+personas con discapacidad.
+familiares que no pueden valerse por si mismo
+<18 años con cancer u otra enfermedad grave. 
+(aqui reduccion minima del 50% pisible subsidio si reducen la jornada ambos)
+-Nuevo horario elegido por trabajador, salvo los convenios lo limiten
+preavisar con antelacion 15 dias. 
+
+
+por lactancia de <19 o 12 meses
+
+.ausencia por 1h/dias
+varias opcion: ausencia, division, entrada o salida en media hora. 
+
+posibilidad de acumular hora de lactancia en jornada completa(convenio o pacto)
+
+desde abril 2019 la pueden pedir ambos (padre y madre)
+
+ si lo solicitan ambos en la misma duracion y regimen se puede ampliar hasta los 12 meses y uno de ellos pueden pedir una prestacion economica. 
+
+
+ por condicion de victima de violencia de genero. 
+ reduccion jornada y salario proporcional.
+ derecho a reordenamiento y adapatacion a un horario flexible. 
+ condicion de victima de violencia de genero: sentencia de condena al agrasor orden de proteccion del juez, resolucion judicial de medidas cautelares, informe del ministerios fiscal. informe de los servicios sociales o espcializados en violencia de genero. 
+
+ Por causas economicas, tecnologicas, organizativas o produccion. 
+
+ Reduccion jornada y salario entre un 10 - 70% 
+ cobro del desempleo en la jornada que no realiza
+ E.R.E. de reduccion de jornada-> periodo 
+
+
+
+
+ permiso retribuidos. 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
