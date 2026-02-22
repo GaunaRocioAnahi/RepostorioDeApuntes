@@ -218,3 +218,59 @@ tamanio_directorio(){
     # Salida exitosa (cumpliendo el requisito general del código de salida 0)
     return 0
 }
+
+puerto_abierto() {
+    # Paso 1: Validamos que nos den host y puerto (2 datos)
+    validar_argumentos 2 $# || return 1
+    
+    local host="$1"
+    local puerto="$2"
+
+    # Paso 2: Comprobamos si la herramienta 'nc' está instalada
+    # command -v busca el programa. Si no lo encuentra (!), damos error.
+    if ! command -v nc >/dev/null 2>&1; then
+        echo "Error: La herramienta 'nc' no está instalada en el sistema." >&2
+        return 1
+    fi
+
+    # Paso 3 y 4: Llamamos a la puerta de forma silenciosa
+    # -z = Solo escanear. -w 2 = Esperar máximo 2 segundos.
+    # Enviamos los mensajes feos a la basura con >/dev/null 2>&1
+    if nc -z -w 2 "$host" "$puerto" >/dev/null 2>&1; then
+        echo "$puerto abierto en $host"
+        return 0 # Código 0 = Éxito
+    else
+        echo "$puerto cerrado en $host"
+        return 1 # Código >0 = Error/Cerrado
+    fi
+}
+
+
+verificar_conectividad() {
+    # Paso 1: Validar que sea exactamente 1 argumento
+    validar_argumentos 1 $# || return 1
+    
+    local host="$1"
+
+    # Paso 2: Lanzamos el ping (-c 1 = un solo toque; -W 2 = 2 segs de límite)
+    # Atrapamos todo el texto resultante en la variable 'resultado_ping'
+    local resultado_ping=$(ping -c 1 -W 2 "$host" 2>/dev/null)
+
+    # Paso 3: Comprobamos la variable secreta $? (0 significa que todo fue bien)
+    if [ $? -eq 0 ]; then
+        # Paso 4: ¡Cirugía de texto!
+        # grep -o 'time=[0-9.]*' busca el trocito "time=24.5"
+        # cut -d= -f2 corta la palabra por el signo igual, y se queda el número "24.5"
+        local latencia=$(echo "$resultado_ping" | grep -o 'time=[0-9.]*' | cut -d= -f2)
+        
+        # Para quitarle los decimales y que quede redondo (ej: 24 ms)
+        latencia=$(printf "%.0f" "$latencia")
+
+        echo "$host responde (latencia: $latencia ms)"
+        return 0
+    else
+        # Si el ping falló ($? no era 0), avisamos
+        echo "$host no responde"
+        return 1
+    fi
+}
