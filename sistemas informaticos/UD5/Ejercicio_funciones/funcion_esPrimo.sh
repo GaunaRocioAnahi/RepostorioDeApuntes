@@ -1,6 +1,7 @@
 #!/bin/bash
 es_primo(){
     n=$1 #guarda el numero a verificar en una variable local.
+    
     if(( n<2 )); then #Los menores que 2 no son primos (0,1 y negativos). si el numero es menor que no muestra el mensaje y termina la funcion con return
     echo "$n no es primo"
     return 
