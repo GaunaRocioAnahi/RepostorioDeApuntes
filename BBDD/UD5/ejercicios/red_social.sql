@@ -1,3 +1,4 @@
+-- Active: 1771269938614@@127.0.0.1@3308
 DROP DATABASE IF EXISTS red_social;
 CREATE DATABASE IF NOT EXISTS red_social CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE red_social;

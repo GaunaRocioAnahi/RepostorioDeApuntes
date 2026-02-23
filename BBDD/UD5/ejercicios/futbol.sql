@@ -1,3 +1,5 @@
+-- Active: 1771269938614@@127.0.0.1@3308
+-- Active: 1771269938614@@127.0.0.1@3308
 DROP DATABASE IF EXISTS futbol;
 CREATE DATABASE IF NOT EXISTS futbol CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE futbol;
@@ -66,11 +68,11 @@ INSERT INTO jugadores (id_equipo, nombre, apellidos, fecha_nacimiento, nacionali
 -- EJERCICIOS DE JOIN
 
 -- 1. LEFT JOIN - Todos los equipos con sus jugadores (si existen)
-
+select jugadores.nombre, jugadores.apellidos, equipos.nombre FROM equipos LEFT JOIN jugadores ON equipos.id_equipo = jugadores.id_equipo;
 
 -- 2. RIGHT JOIN - Todos los jugadores con datos de su equipo
 
-
+Select jugadores.nombre, jugadores.apellidos, equipos.* from equipos right join jugadores on equipos.id_equipo = jugadores.id_equipo;
 
 -- 4. Salario promedio por equipo
 
