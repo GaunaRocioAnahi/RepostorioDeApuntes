@@ -3,9 +3,9 @@ const elementoNuevo = document.createElement("li");
 elementoNuevo.textContent = "Trompetista";
 lista.appendChild(elementoNuevo);
 
-const elementoBateria = lista.querySelector("li");
+const elementoBateria = lista.querySelectorAll("li");
 
-for (const elementoBateria of lista) {
+for (const elementoBateria of lista.querySelectorAll("li")) {
     if (elementoBateria.textContent.includes("bateria")) {
         lista.removeChild(elementoBateria);
     }
