@@ -1,4 +1,4 @@
-package UD5.Relacion2;
+package programcion.UD5.Relacion2.Ejercicio2;
 import java.util.ArrayList;
 import java.util.Arrays;
 

@@ -7,7 +7,7 @@ public class Libro {
     private String titulo;
     private String autor;
     private String sinopsis;
-    private Boolean disponible;
+    private boolean disponible;
 
     Libro(String id, String titulo, String autor, String sinopsis, boolean disponible) {
         this.id = id;
@@ -21,8 +21,8 @@ public class Libro {
     // Etiqueta
     @Override
     public String toString() {
-        return "el ide es: " + id + "titulo: " + titulo + "El autor es: " + autor + "sinopsis:  " + sinopsis
-                + "Disponibilidad : " + disponible;
+        return "el id es: " + id + ", Titulo: " + titulo + ", El autor es: " + autor + ", La sinopsis:  " + sinopsis
+                + ", Disponibilidad: " + disponible;
     }
 
     public void setId(String id) {
@@ -37,12 +37,30 @@ public class Libro {
         this.titulo =  titulo; 
     }
 
-    public String getTitulo( String titulo){
+    public String getTitulo(){
         return titulo; 
     }
 
-    public void setSinopsis( String Sinopsis){
-        
+    public void setAutor( String autor){
+        this.autor = autor;
     }
 
+    public String getAutor(){
+        return autor;
+    }
+
+    public void setSinopsis( String sinopsis){
+        this.sinopsis = sinopsis;
+    }
+
+    public String getSinopsis(){
+        return sinopsis;
+    }
+
+    public void setDisponible(boolean disponible){
+        this.disponible = disponible; 
+    }
+    public boolean isDisponible(){
+        return disponible; 
+    }
 }
