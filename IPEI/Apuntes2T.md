@@ -248,31 +248,36 @@ Un falso autónomo es un trabajador inscrito en el Régimen Especial de Trabajad
 
 
 
+
+
+
+---
+
  # Contratos
 
 
 
  ¿ Que es el contrato de trabajo?
- - Siempre que se trabaja para una empresa debe existir un contrato, aunque este no se redacte por escrito, dado que en todos los casos se tiene que haber llegdo a algun tipo de acuerdo sobre las funciones que se deben desempeñar, el salario, el horario, etc. 
+ - Siempre que se trabaja para una empresa debe existir un contrato, aunque este no se redacte por escrito, dado que en todos los casos se tiene que haber llegado a algun tipo de acuerdo sobre las funciones que se deben desempeñar, el salario, el horario, etc. 
   
-  Por eso cuando no existe un contrato escrito y el empleo dura mas de un mes, el estatuto de los trabajadores (ET) establece que se trata de un contrato verbal indefinido a tiempo completo. En cualquier caso, tanto la empresa como la persona trabajadora estan obligadas a cotizar a la seguridad social para tener cobertura en caso de desempleo, jubikacion, enfermedad o cualquier otra cousa que pueda presentarse. 
+  Por eso cuando no existe un contrato escrito y el empleo dura mas de un mes, el estatuto de los trabajadores (ET) establece que se trata de un contrato verbal indefinido a tiempo completo. En cualquier caso, tanto la empresa como la persona trabajadora estan obligadas a cotizar a la seguridad social para tener cobertura en caso de desempleo, jubilacion, enfermedad o cualquier otra cousa que pueda presentarse. 
 
   *El contrato de trabajo* es un acuerdo entre la empresa y la persona trabajadora en el que se establecen las condiciones laborales de esta. Esta siempre se establecera como un contrato indefinido, salvo que haya circunstancias que justifiquen la necesidad de realizar un contrato temporal. Los motivos por los que se estudia un contrato temporal solo pueden ser para cubrir imprevistos de la produccion o para la sustitucion de personas trabajadoras.
 
   - Sujetos a la relacion laboral: son personas trabajadoras y las empresas.
   - **A la persona trabajadora** Es una persona fisica que desempeña su labor voluntariamente bajo la organizacion y direccion de la empresa y que cede el fruto de su trabajo a cambio de un salario. Los siguientes tipos de personas pueden ser calificadas como personas trabajadoras. 
-  - menores de 18 años.
+  - mayores de 18 años.
   - Los menoes de 18 años y mayores de 16 años no emancipados, siempre que cuenten con el consentimiento de sus padres o tutores.
-  - Los menores de 18 años y menores de 16 años emancipados legalmente (por matrimonio, poc concesion judicial o de quienes ejerzan la patria potestad) o emancipados de hecho( si viven de manera independiente de sus projenitores y oposicion de estos)
+  - Los menores de 18 años y menores de 16 años emancipados legalmente (por matrimonio, por concesion judicial o de quienes ejerzan la patria potestad) o emancipados de hecho( si viven de manera independiente de sus projenitores y oposicion de estos)
   - Excepcionalmente, los menores de 16 años pueden intervenir en espectaculos publicos, siempre que el trabajo no perjudique su salud, ni su formacion profesional y humana, con autorizacion previa de la autoridad laboral.
   - las personas extranjeras ciudadanas de un pais de la union europea, en las mismas condiciones que las personas con nacionalidad españolas
   - personas extranjeras no ciudadanas de un pais de la union europea, siempre que tengan una autorizacion de residencia y trabajo.
-  - las peronas trabajadoras menores de edad no podran realizar horas extraordinarias ni trabajo nocturnos. Ademas tienen derrecho a una especial proteccion de su seguridad y salud en el trabajo. 
+  - las personas trabajadoras menores de edad no podran realizar horas extraordinarias ni trabajo nocturnos. Ademas tienen derecho a una especial proteccion de su seguridad y salud en el trabajo. 
   - **La empresa** Puede ser una persona fisica o juridica, o una comunidad de bienes(colectivo de personas sin personalidad juridica; por ejemplo una comunidad de vecinos o de herederos ) son personas fisicas los empresarios y empresarias individuales y juridicas, las sociedades en sus diversas clases ( civiles y mercantiles)
   el empresario o empresaria debe tener mas de 18 años si es menor de edad, puede considerarse como tal a traves de sus guardadores en caso de sucesiones de empresa por fallecimiento de los padres. 
 
   *Formato del contrato* 
-  Puede ser escrito o verbarl, actualmente, todos los contratos laborales deben aclararse por escrito, a xcepcion de los siguientes:
+  Puede ser escrito o verbal, actualmente, todos los contratos laborales deben aclararse por escrito, a xcepcion de los siguientes:
 
   - el contrato indefinido ordinario.
   - El contrato por circustancias de la produccion a tiempo completo, cuya duracion sea inferior a 4 semanas.
@@ -297,17 +302,24 @@ Un falso autónomo es un trabajador inscrito en el Régimen Especial de Trabajad
 
    *Periodo de prueba*
    Tiempo durante el cual la empresa comprueba que la persona trabajadora esta capacitada para el puesto y esta valora si le interesa ese empleo. El periodo de prueba tiene una serie de caracteristicas: 
-     Cualquiera de las dos partes puede dar por finalizada la relacion laboral en cualquier momento, sin alegar motivo alguno y sin obligacion de preavisar quince dias antes. La empresa, ademas, no esta obligada a abonar a la persona trabajadora ninguna indemnizacion, pero si debera abonar el salario por los dias trabajados. 
-    No se puede fijar un periodo de prueba si la persona trabajadora ya realizo esas funciones en la emprea con anterioridad. 
 
-    *pacto de no competencia poscontractual* No se puede realizar la misma actividad para otra empresa durante cierto periodo de tiempo una vez finalizada la relacion laboral a cambio de la compensacion economica. Cabe fijar un periodo de no competencia maximo de dos años para las personas trabajadoras tecnicas y de 6 meses para las demas personas trabajadoras. 
+   Cualquiera de las dos partes puede dar por finalizada la relacion laboral en cualquier momento, sin alegar motivo alguno y sin obligacion de preavisar quince dias antes. La empresa, ademas, no esta obligada a abonar a la persona trabajadora ninguna indemnizacion, pero si debera abonar el salario por los dias trabajados. 
+    No se puede fijar un periodo de prueba si la persona trabajadora ya realizo esas funciones en la empresa con anterioridad. 
 
-    *Pacto de dedicacion exclusiva* La persona trabajadora tiene la obligacion de trabajar exclusivamente para la empresa y a no hacerlo para otras compañias del mismo o distinto sector. 
+*pacto de no competencia poscontractual* No se puede realizar la misma actividad para otra empresa durante cierto periodo de tiempo una vez finalizada la relacion laboral a cambio de la compensacion economica. Cabe fijar un periodo de no competencia maximo de dos años para las personas trabajadoras tecnicas y de 6 meses para las demas personas trabajadoras. 
 
-    *Pacto de permanencia* El acuerdo de permanencia se puede suscribir cuando la empresa ha invertido en la formacion de la persona trabajadora, por lo que interesa asegurarse de que puede contar con ella( durante un tiempo maximo de dos años). y de que, asi, la inversion realizada revierte en la empresa. 
-    ¿Como es un contrato de trabajo¿
-    Los contratos de trabajos teine eque ajustarse a unos modelos elaborados por el ministerio de trabajo y economia social. En ellos se presentan notas aclaratorias a pie de pagina sobre cuestiones legales que el ET ha establecido. El resultado es un contrato largo y dificil de entender por algunas personas lo firman sin haberlo leido. sin embargo, debes tener precausion, puesto que el contrato es una norma laboral y por lo tanto quien lo firma tiene la obligacion de cumplirlo.
-**¿que tipos de contratos existen?
+*Pacto de dedicacion exclusiva* La persona trabajadora tiene la obligacion de trabajar exclusivamente para la empresa y a no hacerlo para otras compañias del mismo o distinto sector. 
+
+*Pacto de permanencia* El acuerdo de permanencia se puede suscribir cuando la empresa ha invertido en la formacion de la persona trabajadora, por lo que interesa asegurarse de que puede contar con ella( durante un tiempo maximo de dos años). y de que, asi, la inversion realizada revierte en la empresa. 
+
+
+**¿Como es un contrato de trabajo?**
+
+Los contratos de trabajos tiene eque ajustarse a unos modelos elaborados por el ministerio de trabajo y economia social. En ellos se presentan notas aclaratorias a pie de pagina sobre cuestiones legales que el ET ha establecido. El resultado es un contrato largo y dificil de entender por algunas personas lo firman sin haberlo leido. sin embargo, debes tener precausion, puesto que el contrato es una norma laboral y por lo tanto quien lo firma tiene la obligacion de cumplirlo.
+
+**¿que tipos de contratos existen?**
+
+
 -LOS CONTRATOS DE TRABAJO se pueden clasificar segun su duracion en los siguientes tipos: 
 
 *Contrato indefinido*: la persona trabajadora figura fija en la empresa. Es el contrato de trabajo habitual salvo que haya circunstancia que justifiquen la firma de un contrato temporal
@@ -337,9 +349,10 @@ Tiene la siguiente caracteristicas:
    - Indemnizacion  :  No hay indemnizacion por fin de contrato, ya que este es indefinido.
   
   ¿Y si el contrato fuera ilegal?
+
   Cuando se comete una irregularidad en la contratacion y la persona trabajadora reclama en los tribunales, la justicia convierte esa relacion laboral en un contrato indefinido a jornada completa. 
   Las situaciones en las que se pueden cometer en un fraude de ley son las siguientes personas. 
-  - La persona trabajadora no ha sifo dada de alta en la seguridad social. 
+  - La persona trabajadora no ha sido dada de alta en la seguridad social. 
   - El contrato no cumple las condiciones que marca la ley o excede la duracion maxima posible. 
   - El contrato no se ha firmado. Este hecho solo se permite en dos supuestos, en el caso de una persona trabajadora indefinida o en un contrato eventual inferior a cuatro semanas. En ambos casos, las personas trabajadora tiene que estar dada de alta y cotizando en la Seguridad Social.
   - La persona trabajadora encadenada contratos temporales, tanto si son circuntancias de la produccion como si se trata de contratos firmados con una empresa de trabajo temporal. Es decir, si durante dos años ha firmado dos o mas contratos temporales hasta sumar un total de dieciochos meses trabajados, incluso en diferentes puestos de trabajo o en otra empresa del mismo grupo. El procedimiento para solicitar ser indefinido se explica en el ladillo importante. 
@@ -347,6 +360,7 @@ Tiene la siguiente caracteristicas:
 
 
  **Los contratos temporales.** 
+
  hay varios tipos de contratos temporales segun las caracteristicas del puesto que se quiera cubrir, todos pueden realizarse a jornada total o parcial salvo el contrato de fomracion que debe ser a tiempo completo. 
  *Contrato temporal por la circunstancias de la produccion*: Se puede utilizar en 2 circunstancias:
   - Para atender un pico  de trabajo imprevisible como la acumulacion de tareas, el axceso inusual de pedidos, etc. por ejemplo, en un verano especialemente caluroso se disparan las ventas de aires acondicionados y tanto las fabricas como las tiendas de electrodomesticos deben incrementar su plantilla para responder a esta demanda inusual.
@@ -408,16 +422,46 @@ Permite contratar a personas trabajadoras sin la cualificacion profesional neces
    *SALARIO MINIMO INTERPROFESIONAL (SMI)*
  pagina 257. 
 
-   Otros tipos de contratos contratos a tiempo parcial. contrato de relevo; contrato de trabajo de grupo; contrato de trabajo a distancia.
+   Otros tipos de contratos contratos: 
+   *a tiempo parcial*:  Es aquel que se celebra para la prestacion de servicios durante un numero de horas al dia, a la semana, al mes o al año inferior a la jornada laboral de una persona trabajadora a tiempo completo. Tiene como finalidad posibilitar el trabajo de un mayor numero de personas.
 
-   en el caso del contrato con una empresa de trabajo temporal, una persona trabajodora firma un contrato con una empresa de trabajo temporal (ETT), pero presta sus servicios en una empresa distinta( empresa usuaria). 
-   las dos empresas, a su vez, formalizan un acuerdo que se denominan contrato de puesta a disposicion 
-   en el queda registrada la cuantia que pagara la empresa usuaria a la ETT por la persona trabajadora cedida. 
+   Su duracion es temporal para los casos legalmente permitidos o indefinida para los siguientes casos:
+   - Contrato indefinido ordinario.
+   - Contrato fijos-discontinuos
+  
+   *contrato de relevo*: 
+   Tiene como como finalidad emplear a una persona en situacion de desempleo o con un contrato de duracion determinada para sustituir parcialmente a alguien de la empresa que accede a la pension de jubilacion de formacion parcial. Su duracion es indefinida o como minimo, igual a la del tiempo que falta a la persona sustituida para alcanzar la edad de jubilacion. 
+
+   *contrato de trabajo de grupo*: 
+   Su finalidad es celebrar un contrato con un grupo de personas trabajadores considerar en su totalidad, por ejemplo, en el caso de un conjunto musical.
+
+   *contrato de trabajo a distancia*: 
+   Consiste en la realizacion del trabjao en el domicilio de la persona trabajadora o en lugar elegido por esta, durante toda su jornada o parte de ella con caracte regular. 
+
+   Una modalidad espafecica es el teletrabajo que es aquel trabajo a distancia que se llava a cabo mediante el uso exclusivo o previamente de medios y sistemas informaticos, telematicos y telecomunicacion. El trabajo a distancia tiene las siguientes caracteristicas:
+
+   - Debe realizarse al menos un 30% de la jornada bajo esta modalidad, dentro del perioso de referencia de tres meses o un porcentaje equivalente.
+   - Los y las menores de 18 años con contrato para la practica profesional o contrato para la formacion en alternancia podran trabajar si el %50 de la jornada es presencial. 
+   - El trabajo a distancia debe ser siempre voluntario, tanto para la empresa como para la persona trabajadora. 
+   - El acuerdo debe recogerse por escrito antes de que se inicie el trabajo a distancia o bien en un momento posterior, siendo reversible en cualquier momento.
+   - El acuerdo del trabajo a distancia debe incluir una serie de aspectos como la duracion del contrato, el lugar de la presentacion, los gastos de la persona trabajadora que deben ser abonados por la empresa, etc.  
+   - Las personas que trabajan a distancia tienen derecho a que se les faciliten los medios necesarios, asi como atencion ante las dificultades tecnicas
+   - Las personas trabajadoras a distancia teinene los mismos derechos que las que prestan sus servicios en el centro del trabajo de la empresa, salvo aquellos que sean inherentes a realizacion de prestacion laboral en el mismo de manera presencial.
+   - En los contratos a distancia se debe respetar el derecho a desconexion digital. 
+
+
+   en el caso del *contrato con una empresa de trabajo temporal*:
+    una persona trabajodora firma un contrato con una empresa de trabajo temporal (ETT), pero presta sus servicios en una empresa distinta( empresa usuaria). 
+   las dos empresas, a su vez, formalizan un acuerdo que se denominan contrato de puesta a disposicion .
+   en el queda registrada la cuantia que pagara la empresa usuaria a la ETT por la persona trabajadora cedida. esat firma el contrato con la ETT, de manera que ella es la responsable de todos los aspectos formales, como contratar, abonar el salario. Ingresar las cuotas de la seguridad social, entregar el finiquito, etc. Por su parte, la empresa usuaria es la responsable de la organizacion del trabajo, lo que significa que es quien decide la jornada laboral y el horario de trabajo. Entrega el uniforme y pone a disposicion de la persona trabajadora los medios de proteccion necesarios etc. 
+
+   La ETT no puede impedir que la mepresa usuaria contrate a la persona trabajadora directamente cuadno finalice su contrato con ella. 
 
 
    que tipos de contratos existen. 
 
-   Duracion: la empresa de trabajo temporal podra celebrar contrato fijo-discontinuo con la persona que vya a ser cedida temporalmente a una empresa usuaria. La ETT tambien podra formalizar un contrato de trabajo con una persona trabajadora para cubrir varios varios empleaos temporales en diferentes empresas usuarias. Estas empresas usuarias podran contratar personal atraves de una ETT. cuando la necesidad temporal de personas trabajadoras coincidencia con un exceso de trabajo imprevesible, o bien con un incremento de trabajo habitual en determinadas fechas, es decir, con los dos supuestos en los que se permite la realizacion de un contrato temporal por circunstancias de la preoduccion. 
+   Duracion: la empresa de trabajo temporal podra celebrar contrato fijo-discontinuo con la persona que vaya a ser cedida temporalmente a una empresa usuaria. 
+   La ETT tambien podra formalizar un contrato de trabajo con una persona trabajadora para cubrir varios varios empleaos temporales en diferentes empresas usuarias. Estas empresas usuarias podran contratar personal atraves de una ETT. cuando la necesidad temporal de personas trabajadoras coincidencia con un exceso de trabajo imprevesible, o bien con un incremento de trabajo habitual en determinadas fechas, es decir, con los dos supuestos en los que se permite la realizacion de un contrato temporal por circunstancias de la preoduccion. 
 
    indemnizacion: doce dias por cada año trabajado. 
 
@@ -426,12 +470,13 @@ Permite contratar a personas trabajadoras sin la cualificacion profesional neces
    - realizar trabajos espacialmente peligrosas
    - cederas otra ETT
    - cubirir puestos de trabajao en empresas que en el año anterior tuvieron despidos improcendentes despidos colectivos o renuncias de personas trabajadoras debido a incuplimientos de la empresas
-    derechos de las personas trabajadoras: A las emisma condiciones labprales que si hiberan sifo contratadas directamente por la empresa usuaria 
+  - derechos de las personas trabajadoras: A las emisma condiciones labprales que si hiberan sifo contratadas directamente por la empresa usuaria 
  -A utilizar el transporte. el comedor y la guarderia de la empresa usuaria. 
- - A que la ETT NO LES DESCUENTE. 
+ - A que la ETT NO LES DESCUENTe una parte del salario por formarlas o contratarlas
+ - Acudir a los o las representantes de personal de la empresa usuaria.
 
 
- Nuevas formas de organixacion de trabajo. 
+ Nuevas formas de organizacion de trabajo. 
  se estan produciendo una serie de cambios en el entorno empresarial y en la jornada laboral que abligan a las empresas a trabsformar sus estructuras productivas y su organizacion del tiempo de trabajo. las importantes:
  - Nuevas tecnologias: la introduccion de las nuevas tecnologias de la informacion y comunicacion TIC da lugar a organizaciones interactivas que contribuyen a fexibilizar el mercado del trabajo con personas trabajadoras. 
 
@@ -445,6 +490,12 @@ Elementos emergentes en la organizacion del trabajo.
 Para ser mas eficiente las empresas actuales utilizan un conjunto de elementos que afectan a la organizacion del tiempo de trabajony que tiene una gran transcendencia para el personal entre los mas habitaules se encuentran la flexibilidad productiva y laboral en el teletrabajo. 
 
 flexibilidad en la empresa. 
+Flexividad en el tiempo de trabajo.
+
+La dsitribucion flexible del tiempo de trabajo se materializan en un conjunto de medidas que permiten a la empresa proporiciona a la plantilla la oportunidad de compaginar mejor su vida laboral y personal para, de esta manera aumentar su motivacion y productividad. 
+
+Algunas medidas de flexibilidad en la distribucion del tiempo de trabajo son:
+
 
 
 
