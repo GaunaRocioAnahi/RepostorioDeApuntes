@@ -250,34 +250,163 @@ Un falso autónomo es un trabajador inscrito en el Régimen Especial de Trabajad
 
  # Contratos
 
- Los contratos temporales. 
 
- Contratos formativos para la obtencion de la practica profesional adecuada al nivel de estudios. 
 
- Requisitos. tener un titulo certificados del sistema de formacion profesional o un titulo de universitario connseguido en los tres años inferiores  5 en el caso persona con discapacidad no haber trabajado por la misma titulacion con un contrato de practica durante 2 alos en ninguna empresa.
-
-  duracion: D 6 meses a un año el periodo de prueba tendra una duracion maxima de mes. 
-
-  salario: La retribucion sera fijada en el convenio para estos contratos, de no haberla sera la establecida para el grupo profecional correspondencia  el salario no podra ser inferior a la retribucion minima establecida para el cnotrato de formacion en alternancia ni al SMI en proporcion al tiempo de trabajo efectivo.
+ ¿ Que es el contrato de trabajo?
+ - Siempre que se trabaja para una empresa debe existir un contrato, aunque este no se redacte por escrito, dado que en todos los casos se tiene que haber llegdo a algun tipo de acuerdo sobre las funciones que se deben desempeñar, el salario, el horario, etc. 
   
-  Jornada: parcial total. No esta permitido realizar horas extrordinaria, salvo las de fuerza mayor. la jornada laboral incluira la formacion necesarioa para adquirir la practica profesional o para mejorar la competencia digital en la innovacion on en sostenibilidad.  
+  Por eso cuando no existe un contrato escrito y el empleo dura mas de un mes, el estatuto de los trabajadores (ET) establece que se trata de un contrato verbal indefinido a tiempo completo. En cualquier caso, tanto la empresa como la persona trabajadora estan obligadas a cotizar a la seguridad social para tener cobertura en caso de desempleo, jubikacion, enfermedad o cualquier otra cousa que pueda presentarse. 
+
+  *El contrato de trabajo* es un acuerdo entre la empresa y la persona trabajadora en el que se establecen las condiciones laborales de esta. Esta siempre se establecera como un contrato indefinido, salvo que haya circunstancias que justifiquen la necesidad de realizar un contrato temporal. Los motivos por los que se estudia un contrato temporal solo pueden ser para cubrir imprevistos de la produccion o para la sustitucion de personas trabajadoras.
+
+  - Sujetos a la relacion laboral: son personas trabajadoras y las empresas.
+  - **A la persona trabajadora** Es una persona fisica que desempeña su labor voluntariamente bajo la organizacion y direccion de la empresa y que cede el fruto de su trabajo a cambio de un salario. Los siguientes tipos de personas pueden ser calificadas como personas trabajadoras. 
+  - menores de 18 años.
+  - Los menoes de 18 años y mayores de 16 años no emancipados, siempre que cuenten con el consentimiento de sus padres o tutores.
+  - Los menores de 18 años y menores de 16 años emancipados legalmente (por matrimonio, poc concesion judicial o de quienes ejerzan la patria potestad) o emancipados de hecho( si viven de manera independiente de sus projenitores y oposicion de estos)
+  - Excepcionalmente, los menores de 16 años pueden intervenir en espectaculos publicos, siempre que el trabajo no perjudique su salud, ni su formacion profesional y humana, con autorizacion previa de la autoridad laboral.
+  - las personas extranjeras ciudadanas de un pais de la union europea, en las mismas condiciones que las personas con nacionalidad españolas
+  - personas extranjeras no ciudadanas de un pais de la union europea, siempre que tengan una autorizacion de residencia y trabajo.
+  - las peronas trabajadoras menores de edad no podran realizar horas extraordinarias ni trabajo nocturnos. Ademas tienen derrecho a una especial proteccion de su seguridad y salud en el trabajo. 
+  - **La empresa** Puede ser una persona fisica o juridica, o una comunidad de bienes(colectivo de personas sin personalidad juridica; por ejemplo una comunidad de vecinos o de herederos ) son personas fisicas los empresarios y empresarias individuales y juridicas, las sociedades en sus diversas clases ( civiles y mercantiles)
+  el empresario o empresaria debe tener mas de 18 años si es menor de edad, puede considerarse como tal a traves de sus guardadores en caso de sucesiones de empresa por fallecimiento de los padres. 
+
+  *Formato del contrato* 
+  Puede ser escrito o verbarl, actualmente, todos los contratos laborales deben aclararse por escrito, a xcepcion de los siguientes:
+
+  - el contrato indefinido ordinario.
+  - El contrato por circustancias de la produccion a tiempo completo, cuya duracion sea inferior a 4 semanas.
+  La persona trabajadora puede exigir en cualquier momento que la empresa realice el contrato por escrito. es un derecho de la persona trabajadora por lo que la empresa no puede negarselo a hacerlo. 
+
+  ¿Me perjudica si no se formaliza el contrato o no se comunica a las oficinas de empleo?
+
+  -si la empresa no formaliza el contrato por escrito la persona queda desprotegida, ya que, en caso de accidente, enfermedad, desempleo etc. no cobraria prestacion alguna de la seguridad social durante el periodo de inactividad. Ademas, el tiempo trabajando no computaria para su jubilacion y si quisiera denunciar ante el juzgado de lo social, seria mas dificl demotrar que trabaja en esa empresa. 
+
+  ¿Y si no me entregan el contrato no me informan de los elementos esenciales del contrato?
+
+  Cualquier persona debe firmar el contrato antes de comenzar a trabajar. Una copia se queda la empresa, otra se entrega a la persona trabajadora, una tercera, al servicio publico de empleo estatal y una mas( una copia basica sin datos personales) a los representantes de los trabajadores.
+  En ocaciones, las empresas pueden demorarse en proporcionar la copia del contrato a la persona trabajadora, en tal caso esta puede solicitarla.
+
+  ¿Cuales son las clausulas de un contrato de trabajo?
+
+  **Las clasulas de un contrato de trabajo** son los aspectos que se acuerdan entre ambas partes, como el horario de trabajo, el salario, la duracion de las vacaciones, la categoria profesional o el periodo de prueba. 
+  *las clausulas* mas importante recogidas en el contrato de las siguentes:
+
+   *Grupo profesional*
+   Los puestos de trabajo son una titulacion y unas funciones similares se unifican en un mismo grupo profesional. El convenio especifica las condiciones diferentes para cada uno de ellos: requisitos, funciones, horarios etc. Asimismo, establece el salario minimo de cada grupo o categoria, denominado salario base. 
+
+   *Periodo de prueba*
+   Tiempo durante el cual la empresa comprueba que la persona trabajadora esta capacitada para el puesto y esta valora si le interesa ese empleo. El periodo de prueba tiene una serie de caracteristicas: 
+     Cualquiera de las dos partes puede dar por finalizada la relacion laboral en cualquier momento, sin alegar motivo alguno y sin obligacion de preavisar quince dias antes. La empresa, ademas, no esta obligada a abonar a la persona trabajadora ninguna indemnizacion, pero si debera abonar el salario por los dias trabajados. 
+    No se puede fijar un periodo de prueba si la persona trabajadora ya realizo esas funciones en la emprea con anterioridad. 
+
+    *pacto de no competencia poscontractual* No se puede realizar la misma actividad para otra empresa durante cierto periodo de tiempo una vez finalizada la relacion laboral a cambio de la compensacion economica. Cabe fijar un periodo de no competencia maximo de dos años para las personas trabajadoras tecnicas y de 6 meses para las demas personas trabajadoras. 
+
+    *Pacto de dedicacion exclusiva* La persona trabajadora tiene la obligacion de trabajar exclusivamente para la empresa y a no hacerlo para otras compañias del mismo o distinto sector. 
+
+    *Pacto de permanencia* El acuerdo de permanencia se puede suscribir cuando la empresa ha invertido en la formacion de la persona trabajadora, por lo que interesa asegurarse de que puede contar con ella( durante un tiempo maximo de dos años). y de que, asi, la inversion realizada revierte en la empresa. 
+    ¿Como es un contrato de trabajo¿
+    Los contratos de trabajos teine eque ajustarse a unos modelos elaborados por el ministerio de trabajo y economia social. En ellos se presentan notas aclaratorias a pie de pagina sobre cuestiones legales que el ET ha establecido. El resultado es un contrato largo y dificil de entender por algunas personas lo firman sin haberlo leido. sin embargo, debes tener precausion, puesto que el contrato es una norma laboral y por lo tanto quien lo firma tiene la obligacion de cumplirlo.
+**¿que tipos de contratos existen?
+-LOS CONTRATOS DE TRABAJO se pueden clasificar segun su duracion en los siguientes tipos: 
+
+*Contrato indefinido*: la persona trabajadora figura fija en la empresa. Es el contrato de trabajo habitual salvo que haya circunstancia que justifiquen la firma de un contrato temporal
+
+*Contratos temporales* contratos de duracion determinada formalizados por que se necesita cubrir aumentos imprevistos de la produccion o bien por que se necesita sustituir a una persona trabajadora.
+
+
+**Contrato indefinido**
+Una actividad laboral permanente requiere de una persona trabajadora fija, como por ejemplo, en el caso del dependiente de una tienda. 
+
+
+Un contrato indefinido es un acuerdo de trabajo en el que no existe fecha de finalizacion, por tanto, permanece vigente hasta que la empresa o la persona trabajadora deciden terminar la relacion laboral. 
+
+Tiene la siguiente caracteristicas:
+ - Duracion : indefinida
+ - Jornada :  a tiempo total o parcial
+ - Indemnizacion :  No hay indemnizacion por fin de contrato, ya que no este es indefinido. 
+  
+
+  **Los contratos fijos-discontinuos**
+
+  Los contratos fijos-discontinuos se aplican en trabajos estacionales o de temporada, como la recogidas de fruta. Tambien puede realizarse cuando el trabajo es intermintente, como en el caso de un conductor escolar que durante los periodos vacaionales no trabaja. 
+
+  Sus caracteristicas son las siguientes:
+   - Duracion : Indefinida.
+   - Jornada : A tiempo toral o parcial
+   - Indemnizacion  :  No hay indemnizacion por fin de contrato, ya que este es indefinido.
+  
+  ¿Y si el contrato fuera ilegal?
+  Cuando se comete una irregularidad en la contratacion y la persona trabajadora reclama en los tribunales, la justicia convierte esa relacion laboral en un contrato indefinido a jornada completa. 
+  Las situaciones en las que se pueden cometer en un fraude de ley son las siguientes personas. 
+  - La persona trabajadora no ha sifo dada de alta en la seguridad social. 
+  - El contrato no cumple las condiciones que marca la ley o excede la duracion maxima posible. 
+  - El contrato no se ha firmado. Este hecho solo se permite en dos supuestos, en el caso de una persona trabajadora indefinida o en un contrato eventual inferior a cuatro semanas. En ambos casos, las personas trabajadora tiene que estar dada de alta y cotizando en la Seguridad Social.
+  - La persona trabajadora encadenada contratos temporales, tanto si son circuntancias de la produccion como si se trata de contratos firmados con una empresa de trabajo temporal. Es decir, si durante dos años ha firmado dos o mas contratos temporales hasta sumar un total de dieciochos meses trabajados, incluso en diferentes puestos de trabajo o en otra empresa del mismo grupo. El procedimiento para solicitar ser indefinido se explica en el ladillo importante. 
+  
+
+
+ **Los contratos temporales.** 
+ hay varios tipos de contratos temporales segun las caracteristicas del puesto que se quiera cubrir, todos pueden realizarse a jornada total o parcial salvo el contrato de fomracion que debe ser a tiempo completo. 
+ *Contrato temporal por la circunstancias de la produccion*: Se puede utilizar en 2 circunstancias:
+  - Para atender un pico  de trabajo imprevisible como la acumulacion de tareas, el axceso inusual de pedidos, etc. por ejemplo, en un verano especialemente caluroso se disparan las ventas de aires acondicionados y tanto las fabricas como las tiendas de electrodomesticos deben incrementar su plantilla para responder a esta demanda inusual.
+   En el caso de la duracion maxima del contrato sera 6 meses, pero el convenio colectivo puede ampliarlo a doce. 
+  - Para responder a un exceso de trabajo previsible y que tenga una duracion reducida y delimitada, como en el incremento estacional de el trabajo, la temporada alta de facturacion, etc. 
+   en este caso, la duracion maxima sera de 90 dias no continuados por cada año natural. 
+   Ademas a principio de año, las empresas estan obligadas a informar a los representantes de los trabajadores de la estimacion que consideran necesaria de este tipo de contratos para cubrir incrementos previsibles de trabajo de ese año. 
+
+   -duracion : 6 meses(ampliable por convenio de 12 meses) en el caso de demanda improvista o 90 dias por año en caso de exceso de trabajo previsible.
+   -Jornada  :  A tiempo total o parcial
+   - Indemnizacion :  Doce dias de salario por cada año trabajado. 
+  
+  **Contrato de sustitucion**
+  Puede ser utilizado en los 3 tipos de situaciones siguientes: 
+1.  sustituir a una persona trabajadora con derecho a reserva de puesto de trabajo. Por ejemplo, si se encuentra de baja por enfermesdad o por nacimiento de hijo o hija, o si se disfruta de sus vacaiones anuales. Puede firmarse 15 dias antes de aucentarse la persona trabajadora en cuestion, para que quien se incorpore pueda conocer mejor sus funciones y mejore asi si desempeño.
+
+2.Completar la jordnada reducida de otra persona trabajadora que ha solicitado reduccion de su jornada laboral. Por ejemplo, para el cuidado de un hijo menor de 12 años o de un familiar hasta segundo grado de consanguinidad que sea dependiente o para el cuidado de un hijo menor hospitalizado debido a una enfermedad grave. 
+3. cubrir temporalmente un puesto de trabajo durante el proceso de seleccion. En este caso, el contrato tendra una duracion maxima de 3 meses. 
+   en todos los supuestos, en el contrato se debe especificar el nombre de la persona sustituida y la causa de la sustitucion
+
+   -Duracion : Hasta que se incorpora la persona sustituida, o tres meses si se utiliza para cubrir una vacante durante un proceso de seleccion
+   -Jornada : A tiempo total o parcial
+   - indemnizacion : no tiene indemnizacion.
+
+
+
+
+ **Contratos formativos** para la obtencion de la practica profesional adecuada al nivel de estudios. 
+ Esta modalidad sirve para contratar a una persona trabajadora con titulacion pero sin experiencia. La empresa elaborara un plan formativo para esa persona trabajadora en el que se especifique el contenido de la practica profesional y tl tutor o tutora asignado contara con la formacion o experiencia adecuada.
+
+ *Requisitos: * tener un titulo certificados del sistema de formacion profesional o un titulo de universitario connseguido en los tres años inferiores  5 en el caso persona con discapacidad no haber trabajado por la misma titulacion con un contrato de practica durante 2 años en ninguna empresa.
+
+  *duracion:* De 6 meses a un año el periodo de prueba tendra una duracion maxima de mes. 
+
+  *salario:* La retribucion sera fijada en el convenio para estos contratos, de no haberla sera la establecida para el grupo profecional correspondente.  el salario no podra ser inferior a la retribucion minima establecida para el contrato de formacion en alternancia ni al SMI en proporcion al tiempo de trabajo efectivo.
+  
+  *Jornada:* parcial o total. No esta permitido realizar horas extrordinaria, salvo las de fuerza mayor. 
+  la jornada laboral incluira la formacion necesarioa para adquirir la practica profesional o para mejorar la competencia digital en la innovacion o en sostenibilidad.  
 
    *Los contratos formativos estan destinados a favorecer la insercion laboral y la formacion de personas jovenes* 
 
    ver el convenio sobre lo *contrato de formativo*. convenio a nivel estatal. 
    contrato de formacion en alternacia
 
-   Requisitos: Sin limites de edad para personas con otra titulacion, pero que no han tenido un contrato formativo para ese nivel de calificaciones en ese sector productivo. menones de 30 años, si cuentan con un certificado de profesionalidad 1 o 2 del sistema nacional de empleo.
-   Duracion: Minima de tres meses, maxima de 2 años. Se permite que el contrato se celebre de forma no continuada es decir que coincida con los periodo de prueba anuales de estudio. No puede establecer un perioso de prueba maxima de un mes
+**Contrato de formacion en alternancia**
 
-   Formacion : el tiempo de formacion sera de al menos de 35% en el primer año y de un 15% en el segundo. por tanto el tiempo de trabajo no podra superar el 65% ni el 85% den el primer y segundo año respectivamente.
+Permite contratar a personas trabajadoras sin la cualificacion profesional necesaria para ese puesto de trabajo. Para ello, una parte de la jornada se desarrolla estudiando en un centro formativo reconocido y la otra parte, en el centro de trabajao. Al finalizar el contrato, la persona trabajadora recibe el titulo correspondiente.
+
+   *Requisitos:* Sin limites de edad para personas con otra titulacion, pero que no han tenido un contrato formativo para ese nivel de cualificaciones en ese sector productivo. 
+   Menones de 30 años, si cuentan con un certificado de profesionalidad 1 o 2 del sistema nacional de empleo.
+   *Duracion:* Minima de tres meses, maxima de 2 años. Se permite que el contrato se celebre de forma no continuada es decir que coincida con los periodo de prueba anuales de estudio. No puede establecer un periodo de prueba maxima de un mes
+
+   *Formacion :* el tiempo de formacion sera de al menos de 35% en el primer año y de un 15% en el segundo. por tanto el tiempo de trabajo no podra superar el 65% ni el 85% en el primer y segundo año respectivamente.
    
-   Salario: Lo estipulado en el convenio. en el caso contrario, la retribucion no podra ser inferior de 60% el primer año ni el 75% el segundo respcto de la retribucion fijada en el convenio para ese grupo profesional. En ningun caso podra ser inferior al SMI en proporcion al tiempo de trabajo realizado. 
+   *Salario:* Lo estipulado en el convenio. en el caso contrario, la retribucion no podra ser inferior de 60% el primer año ni el 75% el segundo respcto de la retribucion fijada en el convenio para ese grupo profesional. En ningun caso podra ser inferior al SMI en proporcion al tiempo de trabajo realizado. 
 
-   Jornada. Incluira tiempo de formacion y tiempo de trabajo exacto. 
+   Jornada. Incluira tiempo de formacion y tiempo de trabajo efectivo. 
 
    *SALARIO MINIMO INTERPROFESIONAL (SMI)*
-
+ pagina 257. 
 
    Otros tipos de contratos contratos a tiempo parcial. contrato de relevo; contrato de trabajo de grupo; contrato de trabajo a distancia.
 
