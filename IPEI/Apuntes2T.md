@@ -751,6 +751,52 @@ desde abril 2019 la pueden pedir ambos (padre y madre)
  permiso retribuidos. 
  
 
+26/02
+
+
+**Planes de igualdad**
+
+
+Con la ley de igualdad efectiva de mujer de hombre del 2007, aparecieron los planes de igualdad y su obligatoria implantacion en empresas de una plantilla de cincuenta y mas personas trabajadoras y voluntaria para las demas empresas. 
+
+
+*El plan de igualdad* es un conjunto de medidas dirigidas a alcanzar la igualdad de trato y de oportunidades entre mujeres y hombre y a eliminar la discriminacion por razon de sexo. 
+
+Con caracter previo, se elaborara un diagnostico negociado, en su caso, con la representacion legal de las personas trabajadoras, que contendra al menos las siguientes materias. 
+
+- Proceso de seleccion y contratacion
+- Clasificacion profesional ( c1, c2, auxiliares, tecnico, administrativos, formacion).
+- Formacion.
+- Promocion profesional.
+- Condiciones de trabajos, incluida la auditoria salarial entre mujeres y hombre. ( vigilar la cuenta en comaparativa siendo mujer y hombre).
+- Ejercicios corresponsable de los derechos de la vida personal , familiar y laboral. (conciliacion, ET. y convenio laboral).
+- Infrarrepresentacion femenina. 
+- Retribuciones. 
+- Prevencion del acoso sexual y por razon de genero. (buscar para si le afecta al hombre? a cualquier persona. ).
+
+
+ reto profesional. 
+
+jornada laboral:
+horario de trabajo:
+horas extraorndinaria:
+vaciones y descansos:
+medidas de conciliacion laboral, familiar y personal:
+permisos retribuidos:
+planes de igualdad.:  
+
+
+estatuto de los trabajadores/ convenio colectivo. 
+
+
+
+
+
+
+
+
+
+
 
 
 
