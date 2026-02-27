@@ -1,11 +1,11 @@
 #!/bin/bash
 #funcion de validar elemento y cada vez que querramos validar una funcion usaremos la misma. 
 validar_argumentos() {
-    if [ "$2" -ne "$1" ]; then
+    if [ "$2" -ne "$1" ]; then #Compara argumentos recibidos /= de argumentos esperados
         echo "Error: Hay que pasar $1 argumento/s." >&2
-        return 1
+        return 1 #devuelve 1 = algo fue mal
     fi
-    return 0
+    return 0 #devuelve 0 = todo bien
 }
 
 
@@ -61,7 +61,7 @@ buscar_archivos_grandes(){
     #Usamos find y guardamos lo que encuentre en una variable resultados
     #$() ejecuta el comadno silenciosamente y atrapa el texto que genera. c es por que este nuermo esta medidos en bytes
 
-    local resultados=$(find "$ruta" -type f -size + "$bytes"c)
+    local resultados=$(find "$ruta" -type f -size +"$bytes"c)
 
     #con -z verificamos si el texto esta vacio.
 
@@ -84,7 +84,7 @@ buscar_por_extension(){
     # podemos hacer variables. como (ruta=$1), (extension=$2), (contar=$3). o no usarlas y usar directamente los que son el $ con el numero correspondiente a esa variable. 
 
     local ruta=$1
-    local extesion=$2
+    local extension=$2
     local contar=$3
 
     if [ ! -d "$ruta" ]; then
@@ -98,9 +98,9 @@ buscar_por_extension(){
 
     #verificamos con -z si esta vacio
 
-    if [ -z "$resutlados" ]; then
+    if [ -z "$resultados" ]; then
     #si esta vacio y nos pideeron contar, devolvemos un 0.
-        if [ "$contar" = "-c"]; then 
+        if [ "$contar" = "-c" ]; then 
             echo "0"
         else 
             echo "No se encontraron archivos con la extension .$extension"
@@ -135,13 +135,15 @@ fi
 #comprobamos si el texto NO(!) coincide (=~) con el formato correcto, seria como un detector de mentiras. 
 
 if [[ ! "$1" =~ ^[0-7]{3,4}$ ]]; then
+
+ # cmod $@ --> comprobar para que me de calido. buscar ennn cloude. 
     echo "Error: Formato de permiso invalido. Debe ser de 3 o 4 numeros"
     return 1
 fi
 
 #Si todo esta bien aplicamos el comadno chmod y avisamos.
 chmod "$1" "$2"
-echo "permiso de '$1' cambiados a $1" 
+echo "Permisos de '$2' cambiados a $1" 
 }
 
 obtener_propietario(){
@@ -169,19 +171,20 @@ obtener_propietario(){
 
 respaldo(){
     validar_argumentos 1 $# || return 1
-    if [ ! -e "$1" ]; then 
+    local archivo="$1"
+    if [ ! -e "$archivo" ]; then 
         echo "Error El fichero o directorio '$archivo' no existe " >&2
         return 1
     fi
 
     # Paso 2: Guardar el dato en una variable para conseguir la fecha de hoy 
     # EL +%f le dice a date que no de el formato del año mes dia.
-    local fecha=$(date +%F)
+    local fecha=$(date +%Y%m%d_%H%M%S)
 
     #pega las palbras para crear el nombre de l copia.
     #Usamos {} para que bash no se confunda con el guion bajo
 
-
+#local nuevo_nombre="${archivo}.bak-${fecha}"
 
     local nuevo_nombre="${archivo}_${fecha}.bak"
     

@@ -91,6 +91,23 @@ Crea una función que devuelva el n-ésimo número de la serie de Fibonacci. La 
 
 ---
 
+## **14. Función `sumatorio`**
+
+Crea una funcion que sume todos los números de 1 al numero pasado como primer argumento.
+Si lo haces en eficiencia lineal O(n), lo tienes bien, pero la gracia de este ejercicio es intentar hacerlo de manera inmediata, lo que se llama O(1). Una manera de calcularlo, que dé igual lo grande que sea el número, se haga de manera "inmediata".
+
+Al igual que para sumatorio, ¿Se podría hacer para el factorial?
+
+---
+
+## **15. Función `raiz cuadrada`**
+
+Crea una funcion, en el lenguaje que mas te guste, que calcule m cifras decimales de la raiz cuadrada de un numero dado. No uses funciones como sqrt o pow, calcula tu mismo la raíz cuadrada.
+
+---
+
+---
+
 ## Requisitos Generales
 
 - Cada función debe validar que recibe el número correcto de argumentos
