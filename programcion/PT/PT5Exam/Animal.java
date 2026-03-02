@@ -1,28 +1,32 @@
 package programcion.PT.PT5Exam;
 
-public class Animal {
+public final class Animal {
+
+    //Declaramos los atributos del animal.
 
     private String nombre;
     private String codigo;
-    private int cantidadDeEjemplares;
+    private int cantidad;
     private double precio;
 
     public static int cantidadAnimales = 0;
 
-    public Animal(String nombre, int cantidadDeEjemplares, double precio) {
-        setCodigo("Animal" + cantidadAnimales);
+    public Animal(String nombre, int cantidad, double precio) {
+        setCodigo("ANM-" + cantidadAnimales);
         setNombre(nombre);
-        setCantidadDeEjemplares(cantidadAnimales);
+        setCantidad(cantidadAnimales);
         setPrecio(precio);
+
+
         cantidadAnimales++;
     }
-
+// --- GETTER Y SETTERS
     public String getCodigo() {
         return codigo;
     }
 
     public void setCodigo(String codigo) {
-        if (!codigo.isEmpty() && !codigo.equals(null)) {
+        if (codigo != null && !codigo.isEmpty()) {
             this.codigo = codigo;
         } else {
             this.codigo = "-1";
@@ -34,23 +38,23 @@ public class Animal {
     }
 
     public void setNombre(String nombre) {
-        if (!nombre.isEmpty() && !nombre.equals(null)) {
-            this.nombre = nombre;
+        if (nombre!= null && !nombre.trim().isEmpty()) {
+            this.nombre = nombre.trim();
         } else {
             this.nombre = "-1";
         }
     }
 
-    public int getCantidadDeEjemplares() {
-        return cantidadDeEjemplares;
+    public int getCantidad() {
+        return cantidad;
     }
 
-    public void setCantidadDeEjemplares(int cantidadDeEjemplares) {
-        if (cantidadDeEjemplares > 0) {
-            this.cantidadDeEjemplares = cantidadDeEjemplares;
+    public void setCantidad(int cantidad) {
+        if (cantidad >=  0) {
+            this.cantidad = cantidad;
 
         } else {
-            this.cantidadDeEjemplares = -1;
+            this.cantidad = -1;
         }
     }
 
@@ -59,7 +63,7 @@ public class Animal {
     }
 
     public void setPrecio(double precio) {
-        if (precio > 0) {
+        if (precio >= 0) {
             this.precio = precio;
         } else {
             this.precio = -1;
@@ -68,6 +72,9 @@ public class Animal {
 
     //----- METODOS DE MOSTRAR PARA USAR EN EL toString
     public String mostrarCodigo() {
+
+        //operador ternario, simil a un if else. 
+        //si hay un error mostramos un aviso, sino, mostramos el formato exacto.,
         return codigo.equals("-1")?"[Codigo del ejemplar MAL introducido.]":"Codigo: "+ codigo; 
     }
 
@@ -76,14 +83,21 @@ public class Animal {
     }
 
     public String mostrarEjemplares(){
-        return cantidadDeEjemplares == -1? "[Cantidad ejemplares mal introducidos. Cmabiar]":"Existe: "+cantidadDeEjemplares; 
+        return cantidad == -1? "[Cantidad ejemplares mal introducidos. Cmabiar]":"Existe: "+cantidad; 
     }
 
     public String mostrarPecio(){
-        return precio == -1? "[Precio del ejemplar Mal introducido. Cambiar]":"[El precio es: "+ precio;
+        return precio == -1? "[Precio del ejemplar Mal introducido. Cambiar]":"El precio es: "+ precio;
     }
+
+
+    //   ---TOSTRING FINAL ----
+
     @Override
     public String toString(){
-        return mostrarCodigo()+ " | " +mostrarNombre()+" | "+ mostrarEjemplares()+" | "+mostrarPecio()+"\n";
+
+        //El resultado final sera exactamente el que pide el enunciado.
+
+        return mostrarCodigo()+ " | " +mostrarNombre()+" | "+ mostrarEjemplares()+" | "+mostrarPecio();
     }
 }
