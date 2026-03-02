@@ -39,9 +39,6 @@ public class Zoologico {
     //3. Agregar ejemplares a un animal
     //4. Retirar ejemplares de un animal
     //5. Eliminar un animal
-
-
-    
     ///   ---------- METODOS DEL MENÙ ------
     
     // 1. Muestra todos los animales. 
@@ -115,7 +112,7 @@ public class Zoologico {
         //si animal actual no es null
         if (animalActual != null) {
             coleccion.remove(coleccion.get(coleccion.indexOf(animalActual)));
-            
+
             AnimalEliminado = true;
         } else {
 
