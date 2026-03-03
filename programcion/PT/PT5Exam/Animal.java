@@ -12,7 +12,7 @@ public final class Animal {
     public static int cantidadAnimales = 0;
 
     public Animal(String nombre, int cantidad, double precio) {
-        setCodigo("ANM-" + cantidadAnimales);
+        setCodigo(Faker.codigoAnimal());
         setNombre(nombre);
         setCantidad(cantidadAnimales);
         setPrecio(precio);

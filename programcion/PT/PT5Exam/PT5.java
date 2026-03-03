@@ -30,10 +30,10 @@ public class PT5 {
                 + "   4. Retirar ejemplares de un animal.\n"
                 + "   5. Eliminar un animal\n"
                 + "   6. Salir.\n";
-        // creamos y llenamos el array de animales. 
+        // creamos y llenamos el array de animales. 1
         ArrayList<Animal> animales = new ArrayList<>();
         for (int i = 0; i < MAXANIMALES; i++) {
-            animales.add(new Animal("ANIMAL" + i, i + 15, i + 23 * i * 0.35));
+            animales.add(new Animal(Faker.nombreAnimal(), Faker.cantidadAnimal(), Faker.precioAnimal()));
         }
         // creamos el objeto zoologico usando el constructor de zoologico que recibe un array de animales.
         Zoologico zoo1 = new Zoologico(animales);
@@ -90,7 +90,9 @@ public class PT5 {
                 //Buscamos al animal, para saber si existe. 
                 animalEncontrado = zoo1.buscarAnimal(codigoABuscar);
 
-                if (animalEncontrado != null) {
+                if (animalEncontrado == null) {
+            1
+            
                     // CUMPLE : "Si no existe: Animal no encontrado"
                     System.out.println("Animal no encontrado.");
                 }else{
