@@ -91,8 +91,6 @@ public class PT5 {
                 animalEncontrado = zoo1.buscarAnimal(codigoABuscar);
 
                 if (animalEncontrado == null) {
-            1
-            
                     // CUMPLE : "Si no existe: Animal no encontrado"
                     System.out.println("Animal no encontrado.");
                 }else{
