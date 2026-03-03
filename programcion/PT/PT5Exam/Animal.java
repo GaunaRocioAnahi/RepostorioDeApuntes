@@ -9,18 +9,15 @@ public final class Animal {
     private int cantidad;
     private double precio;
 
-    public static int cantidadAnimales = 0;
+
 
     public Animal(String nombre, int cantidad, double precio) {
         setCodigo(Faker.codigoAnimal());
         setNombre(nombre);
-        setCantidad(cantidadAnimales);
+        setCantidad(cantidad);
         setPrecio(precio);
-
-
-        cantidadAnimales++;
     }
-// --- GETTER Y SETTERS
+// --- GETTER Y SETTERS1
     public String getCodigo() {
         return codigo;
     }
