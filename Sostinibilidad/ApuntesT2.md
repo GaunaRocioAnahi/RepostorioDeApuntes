@@ -183,3 +183,92 @@ mejora continua:
 - 2 .*hacer* calcular y analizar
 - 3 .*actuar* tomar desiciones de mejora
 - 4 .*Verificar* logro de metas utilidad de indicadores. 
+
+5/03/2026
+
+
+Midiendo la sostenibilidad. 
+
+A la hora de diseeñar metas empresiariales de sostenibilidad, se ha de establecer un conjunto de indicadores de desempeño. 
+
+
+los indicadores de desempeño. permite medir el rendimiento de una actividad en la relacion con un objetivo. o una meta. 
+
+- El proceso que lleva una empresa a seleccionar determinados indicadores claves de sostenibilidad requiere 3 pasos:
+
+- Fijacion de objetivos para la empresa en materia de sostenibilidad. / Se partira del analisis de cada proceso que se llava a cabo, con los ODS. 
+- seleccion de indicadores de desempeño/
+- establecimiento de metas a alcanzar /
+
+
+para uq generar un indicador desempeño e incorporarlo al sistema de gestion ambiental de la empresa es necesario cubrir 4 fases:
+
+- 1 indicador: tareas: seleccionaremos una variable que proporcione un medio sencillo y fiable para medir el desempeaño. Ejemplo: Una empresa quiere medir su impacto ambiental. y decide medir sus emiciones en toneladas anuales de CO2 equivalante
+- 2 formula: tareas: 
+- 3 valores objetivo:tareas:
+- 4 Seguimiento: tareas:
+
+EVALUACION DEL DESEMPEÑO 
+mas alla de los indicadores ambiental propocionan a la empresa la vision de conjunto del desempeño en sostenibilidad. 
+
+- El sistema de gestion ambiental es el area de una organizacion que desarrolla e implementa la politica medioambiental. 
+  los sistemas de gestion ambiental se rigen en la norma UNE-EN ISO 140001 
+  LA norma ISO 14031 establece las directrices basicas para evaluacion del desempeño del ambiental. 
+
+  -MEJORA CONTINUA. 1Planear seleccionar indicadores 2. hacer calcular y analizar 3. Verificar logro de metas Utilidad de indicadores. 4. ACTuar, tomar decisiones de mejoras. 
+
+ buscar: Eleccion de indicadores clave de desempeño.
+
+ ejemplos:
+           elementos no contaminantes. con materias primas.
+          automosion
+
+ertificados de sostenibilidad, 
+como puede una pempresa transmitir al mercado y a la sociedad su compromiso con la sostenibilidad?, Aparte de utilizar sus propias herramienta de comunicacion, puede obtener certidficado de sostenibilidad.
+
+
+                       || TIpos I de etiquetas:   ||  tipo II autodeclaracion ambientales :  || tipo III declaracion de producto:
+Normas reguladoras :      UNE-EN ISO 14024             UNE-EN ISO 14021                         UNE-EN ISO 14025
+Definicion:            tipo I:Desarrolladas por instituciones externas, conceden licencias que autorizan el uso de ecoetiquetas.
+                       tipo II: Declaraciones que hacen  las propias empresas sobre un aspecto medioambiental de su producto sin verificarcion externa.
+                       tipo III: Son conjuntos de datos e informacion acerca del ciclo de vida de un producto concreto, El mas extendido es EPD. 
+
+
+
+
+ejemplos: etiquetas: ecolabel. 
+         etiquetas: cfc free. 
+         etiquetas : epd the international EPD SYSTEM. 
+
+ certificados de sostenibilidad:
+
+ Aparte de los tres tipos de indicadpres amteropres exiten otras etiquetas otorgadas en referencias a criterios como el origen de las madera, la agricultura o la energia. Sus requisitos son parecidos a los de tipo I reflejos en las normas ISO.( ecoetiquetas ) 
+
+ buscar: bosques sostenibles. 
+
+- Certificado certificados FSC  de gestion forestal. que certifica El producto proviene de bosques sostenibles. quien certifica: El consejo de Administracion Forestal (FSC por sus siglas en ingles). Se trata de una ONG con sucursales en España y muchos otros paises.
+
+- Certificado eficiencia energica de edificios: quien certifica? La cantidad de energia necesaria para mantener adecuadamente climatizado un edificio. 
+- quie certifica? El ccertificado autorizado por secretaria de estados de la energias( ministerios para la transicion ecologica y reto demografico).
+  
+- Certificado de pesca sostenible que certifica? El pescado ha sido captrado mediante pesca practicas de pesca sostenibles. 
+  quien certifica? un auditor independiente de acuerdo con los estanderes fijados por los estanderes fijados por la ONG Marine Stewardship council. 
+
+Buscar obtencion de la etiquetas ecologica europea. 
+
+
+inversion socialmente responsable. 
+
+cada ves mas las personas que se preocupan por el impacto en la sostenibilidad de los productos y servicios financieros que contratan. 
+
+Las acciones y titulos de deuda publica esta siendo calificados coomo inversiones socialmente responsables, lo que ademas, mejora la posicion financiera de las entidades que las han emitido.
+
+que es invertid?
+invertir consiste en destinar una cantidad de dinero a un fin determinado con la esperanza de obtener mas dinero en un futuro. 
+
+hay tres elementos que forman el analisis financiaro de una inversion.
+
+restabilidad : Relacion entre el beneficio que se obtiene inversion y la cantidad de dinero invertida en ella
+reisgo probabilidad de que no se cumplan las espectativas de restabilidad mal resultado
+liquidez rapidez o facilidad con la que una inversion puede convertirse en dinero de vuelta en el bolsillo del inversor. 
+
