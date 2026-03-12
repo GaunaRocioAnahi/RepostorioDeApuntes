@@ -272,3 +272,4 @@ restabilidad : Relacion entre el beneficio que se obtiene inversion y la cantida
 reisgo probabilidad de que no se cumplan las espectativas de restabilidad mal resultado
 liquidez rapidez o facilidad con la que una inversion puede convertirse en dinero de vuelta en el bolsillo del inversor. 
 
+hola rocio, que mala, tienes la pinza
