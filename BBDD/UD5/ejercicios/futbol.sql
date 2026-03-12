@@ -76,8 +76,13 @@ Select jugadores.nombre, jugadores.apellidos, equipos.* from equipos right join 
 
 -- 4. Salario promedio por equipo
 
+select equipos.nombre, AVG (jugadores.salario_anual)
+from equipos join jugadores on  equipos.id_equipo = jugadores.id_jugador group by equipos.id_equipo;
 
 -- 5. Equipos sin jugadores registrados
+
+select equipos.nombre, equipos.ciudad
+from equipos left join jugadores on  equipos.id_equipo = jugadores.id_equipo  where jugadores.id_jugador is null;
 
 -- 6. Jugadores por posición en cada equipo
 

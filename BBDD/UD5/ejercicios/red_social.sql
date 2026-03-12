@@ -145,9 +145,12 @@ INSERT INTO seguidores (id_seguidor, id_seguido, fecha_seguimiento, estado) VALU
 
 -- 1. LEFT JOIN - Todos los usuarios con sus publicaciones (si existen)
 
+select usuarios.id_usuario, publicaciones.descripcion
+ from usuarios left join publicaciones on publicaciones.id_usuario = usuarios.id_usuario;
 
 -- 2. RIGHT JOIN - Todas las publicaciones con datos del usuario
-
+select publicaciones.descripcion, usuarios.nombre_usuario, usuarios.nombre_completo, usuarios.email, usuarios.password, usuarios.foto_perfil, usuarios.biografía, usuarios.ubicacion, usuarios.sitio_web, usuarios.cuenta_verificada, usuarios.fecha_creacion, usuarios.estado
+from usuarios right join publicaciones on usuarios.id_usuario = publicaciones.id_usuario;
 
 -- 3. FULL OUTER JOIN - Todos los registros de ambas tablas
 
@@ -158,6 +161,7 @@ select usuario.* from usuario LEFT join publicacion on usuario.id_usuario =publi
 -- 5. Publicaciones sin usuario asociado (datos orfanos)
 la misma que la anterior con RIGHT;
 -- 6. Publicaciones más populares con datos del creador
+
 
 
 -- 7. Usuarios activos y su actividad en publicaciones

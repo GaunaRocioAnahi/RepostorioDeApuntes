@@ -65,15 +65,35 @@ INSERT INTO detalle_pedido (id, id_pedido, id_producto, cantidad) VALUES
 
 -- Ejemplo 1: JOIN
 -- Obtener nombres de clientes y los detalles de sus pedidos
+select cliente.nombre, pedido.id_pedido, pedido.cantidad, detalle_pedido.id_pedido 
+from cliente join pedido on cliente.id = pedido.id_cliente 
+join detalle_pedido on pedido.id = detalle_pedido.id_pedido;
 
 -- Ejemplo 2: JOIN con detalles de productos
 -- Obtener los productos en cada pedido
+select cliente.nombre, pedido.id, pedido.fecha, detalle_pedido.cantidad, producto.nombre, producto.precio
+from cliente join pedido on cliente.id = pedido.id_cliente 
+join detalle_pedido ON pedido.id = detalle_pedido.id_pedido 
+join producto on detalle_pedido.id_pedido = producto.id;
 
 -- Ejemplo 3: JOIN con filtro
 -- Obtener clientes que han realizado pedidos mayores a 100
+-- Preguntar si hablamos de producto o precios.
+
+select cliente.nombre, pedido.id, pedido.total, detalle_pedido.cantidad
+from cliente join pedido on cliente.id = pedido.id_cliente
+join detalle_pedido on pedido.id = detalle_pedido.id_pedido where pedido.total>100;
 
 -- Ejemplo 4: JOIN con funciones de agregación
 -- Obtener el total gastado por cada cliente
 
+select cliente.nombre, SUM(pedido.total) AS total_gastado
+from cliente join pedido on cliente.id = pedido.id_cliente 
+group by cliente.id;
+
 -- Ejemplo 5: JOIN con múltiples uniones
 -- Obtener el detalle completo de cada pedido con información del cliente y productos
+select cliente.id, cliente.nombre, cliente.email, pedido.id, pedido.id_cliente, pedido.fecha, pedido.total, detalle_pedido.id, detalle_pedido.id_producto, detalle_pedido.cantidad, producto.precio, producto.nombre, producto.id
+from cliente join pedido on cliente.id = pedido.id_cliente
+join detalle_pedido on pedido.id = detalle_pedido.id_pedido
+join producto on detalle_pedido.id_pedido = producto.id;
