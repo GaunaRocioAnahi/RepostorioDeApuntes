@@ -268,7 +268,142 @@ invertir consiste en destinar una cantidad de dinero a un fin determinado con la
 
 hay tres elementos que forman el analisis financiaro de una inversion.
 
-restabilidad : Relacion entre el beneficio que se obtiene inversion y la cantidad de dinero invertida en ella
-reisgo probabilidad de que no se cumplan las espectativas de restabilidad mal resultado
-liquidez rapidez o facilidad con la que una inversion puede convertirse en dinero de vuelta en el bolsillo del inversor. 
+`restabilidad` : Relacion entre el beneficio que se obtiene inversion y la cantidad de dinero invertida en ella
+`reisgo` :probabilidad de que no se cumplan las espectativas de restabilidad mal resultado
+`liquidez`: rapidez o facilidad con la que una inversion puede convertirse en dinero de vuelta en el bolsillo del inversor. 
+
+12/3
+
+buscar el podcast *las cuentas que da la vida* *inversion sostenible*
+
+la inversion social y medioambiente responsable. 
+la inversion soscialemtee responsable valore conjuntamente la rentabilidad, el trabajo y la liquidez de una inversion con su impacto en los aspectos ambientales, sociales y de buen gobierno de la empresa destinataria de los fondos.
+
+Los siguientes son los elementos de analisis de inversiones sociales responsables:
+
+Analisis financiero: -rentabilidad
+                     - Riesgo
+                     - Liquides 
+>>> inversion socialmente socialmente responsable.<<< - Aspecto, aspecto sociales, aspecto de gobernanza >>>analisis de  sostenibilidad
+
+
+Regulacion y certificacion de la inversion socialmante responsable
+
+Existe certificaciones de niver europeo y español, emitidos de acuerdo con normas emitidas por la cominision europea 
+
+
+Los indicadores del ISR y el rating ASG. 
+
+Diversas entidades han propuestos indicadores de inversion social y medioambiantalmente responsable para orientar a los inversores.
+Los indicadores ISR mas importantes son los siguientes:
+
+
+- De exclusion (screening negativo). Empresas que se dedican a actividades abiertamente incompatibles con las ODS y la sostenibilidad(armas, energias, no renovables, adicciones, ETC)
+- Indice selectivos(screening positivos) Empresas que se dedican a actividades especialemte vinculadas con la sostenibilidad y el cumplimiento de laos ODS
+- Indices de integracion de aspectos ASG. Titulos de empresas que cumplen con los criterios ASG de acuerdo con los estanderes fijados por las agencias que han creado y gestionan esos indices (MSCI o Standard & poor's, por ejemplo).
+
+Importante las finanzas sostenibles incluyen tambien producto como los fondos los fondos solidarios o los bonos verdes... *Buscar bonos verdes*
+En españa, la principal plataforma que promueve de inversion socialmente responsable es Spaninsif. >> buscar en la pagina de que se trata.
+
+
+TIPOS DE AGENTES:
+ -  instituciones publicas de gobierno: ejemplo comision europesa, ministerio para la transicion Ecologica y el Reto demografico, Consejerias de Medio Ambiente de las CCAA. funcion crean leyes y toman decisiones de gobierno y gestion diaria. 
+ -  Organismos supervisores: entidades publicas encargadas de reglamentan y de asegurar la sostenibilidad, ejemplos: comision nacional del mercado de valores, banco de españa, agencias de medio ambiente autonomicas.
+ -  Organizaciones normalizadoras: Crean normas especializadas que regulas actividades y proceso concreto. 
+ -  Entidades certificadoras
+ -  consultoriasmedioambientales
+ -  agencias de calificacion.
+  
+
+  Ud6
+  el plan sostenibilidad y otros documentos. 
+
+  aprenderemos a aplicar los conocimientos adquiridos con vision de conjuntos en un documento esencial: el plan de sostenibilidad aprenderas como se relacionan con los informes de sostenibilidad y estudiaremos la evaluacion de impacto ambiental.
+
+  Menciona algun estandar de presentacion de la informacion een materia
+
+  La empresa de mensajeria de Rafa ha realizado muchas acciones en pro de la sostenibilidad pero con los que nos cuenta. ¿como podemos saber si han sido eficaces? ¿Aque aspecto ASG se refiere? ¿cual crees que es la actividad mas 
+
+
+  la informacion no financiera de las organizaciones:
+
+  Desde hace mas de siglo y medio la ley obliga a las empresas a compartir sus grupos de interes datos e indicadores esenciales sobre su desempeño economico y financiero, como el valor de su patrimonio, el importe de sus beneficios o el valumen y la naturaleza de sus deudas 
+  ADEMAS de ello, las empresas tienen obligaciones cada vez mas concretas  de informe no finaciero, relativa a todos los aspectos relacionados con las sostinibilidad. 
+  Los estanderes de informes no financiero 
+  los acuerdos internaciones al respecto estan dando lugar a la creacion de la primeras nomras
+  El estandar de informe no financiero mas importante fue creado por global reporting initiave gri. 
+
+
+  Dicho informes de sostenibilidad debe estar elaborados de acuerdo con las Normas Europedas de informacion sobre sostebilidad (NEIS, ESRS por sus siglas en ingles)
+  la principal norma española en materia de informe no financiero es la ley 11/2018 de informacion no financiera y dicersidad. 
+
+  Buscar ISO 26000
+
+
+19/03
+
+
+# El plan de sostenibilidad. 
+
+De acuerdo con el principio de doble materialidad, una cuestion o un aspecto de la empresa o institucion es significativa, o material, si se da una o las dos condiciones siguientes: 
+- Afecta A LAS PERSONAS O AL MEDIO HAMBIENTE ( MATERIALIDAD DE IMPACTO, de la empresa hacia su entorno)
+- Afecta al desempeño financiero de la organizacion (MATERIALIDAD financiera , del entorno hacia la empresa).
+ 
+ 
+ entorno.
+Asunto real o probable positivo o negativo. causado directamente o mediante relaciones comerciales.:<<< materialidad de impacto
+
+Asunto real o probable positivo (oportunidad) o negativo( amenaza):<<< Materialidad financiera
+
+2.3 Priorizando iniciativas: matriz de impacto y factibilidad.
+
+Una vez se han formulado propuesta de iniativas, se puede construir una matriz en la que se especifique tanto su impacto en materia ASG como su factibilidad o facilidad de implementacion. 
+
+buscar : empresa nike. 
+
+¿sabias que? La directiva 2022/2424 habla de doble significatividad, una expresion cada vez mas utilizada, frente a doble importancia relativa. 
+
+construccion de una matriz de materialidad y revelancia
+
+construccion de una matriz de impacto y factibilidad. 
+
+las memorias de sostenibilidad y los informes de impacto ambiental
+
+los informes o memorias de sostenibilidad.
+
+las organizaciones deben compartir mayor variedad de informacion sobre su desempeño ASG de la qie se plasma en el estado no financiero (no obligatorio para pequeñas empresas). Por eso, son cada vez mas habituales los informes y memorias de sostenibilidad. 
+
+`un informe de sostebilidad o memoria de sostenibilidad es un documento que refleja a los resultados de una organizacion en materia de sostenibilidad durante un año`
+
+Si la empresa ha llevado a cabo un plan director de sostenibilidad, en la memoria pueden compararse los resultados obtenidos con lo que se habia planificado.
+
+Ademas, la memoria de sostenibilidad es muy eficaz como herramienta de comunicacion de la politicas de sostenibiliad de la empresa de cada as sus grupos de interes. 
+
+**importante**
+El caracter numerico y descriptivo del estado no financiero lo convierte en un documento demasiado complicado para transmitir las acciones de sostenibilidad de una forma transparente y sencilla 
+Analisis de una memoria de sostenibilidad.
+
+
+Estudios y declaraciones de impacto hambiental 
+
+la ley exige un procedimiento administrativo de evaluacion de impacto ambiental. El primer paso de este procedimiento es la redaccion de un estudio de impacto ambiental. 
+`el estudio de impacto ambiental, es un documento que contiene la informacion necesaria para valorar impactos medioambientales, y evitarlos, minimizarlos o compensarlos.`
+
+Los estudios de impacto ambiental deben ser remitidos a la autoridad medioambiental, quien, en un plazo de 3 meses, emitira una declaracion de impacto. 
+
+**importante** 
+Las declaraciones de impacto ambiental ley 21/2013 de Evaluacion Ambiental, que fija el contenido que deben tener los informes y las declaraciones de impacto ambiental. 
+
+Promotor: estudio de impacto ambiental. (empresa) 
+- El proyecto y las acciones que impacta. 
+- alternativa y justificacion de la opcion elegida.
+- Efectos ambientales y riesgos de seguridad.
+- Medidas de prevencion, correccion y compensacion.
+
+Autoridad ambiental.
+- Declaracion e informe de impacto ambiental.
+- determina los efectos del proyecto sobre el medio ambiente.
+- establece bajo que condiciones puede llevarse a cabo. 
+
+
 

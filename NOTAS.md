@@ -72,3 +72,42 @@ Entonos de desarrollo: 14/02/2026:
 
 * Repasar JSDocs. 
   
+# oraciones claves para Identificar relaciones
+
+
+Si el texto dice... "X es un tipo de Y" / "X e Y son Z"
+Relación,   Herencia
+Símbolo    Flecha triangular vacía ($\rightarrow$)
+
+si el texto dice "X está compuesto por Y" / "Si muere X, muere Y"
+relacion Composición
+Simbolo: Rombo Negro (◆) en el Todo
+
+si el textp dice:"X tiene uno o varios Y" / "X está formado por Y"
+relacion: Agregación
+simbolo: Rombo Blanco (◇) en el Todo
+
+si el texto dice: "X se relaciona con Y" / "X pertenece a Y"
+relacion: Asociacion.
+simbolo linea simple
+si el texto dice: "X usa puntualmente a Y" / "X necesita a Y para un método"
+relacion: Dependencia linea discontinua con flecha
+
+
+
+
+
+
+La frase de "Propiedades Comunes"
+El texto menciona que varios objetos comparten datos, pero no menciona al "padre" como algo que funcione de forma independiente.
+
+Frase: "Tanto los Enemigos como los Personajes comparten un nivel de energía, posición y capacidad ofensiva..."
+
+Identificación: Aquí el enunciado no te da el nombre del padre, pero te está obligando a crear una clase abstracta (por ejemplo, SerVivo o Ente) para no repetir atributos.
+
+3. La frase de "Inexistencia de Instancia"
+A veces el texto es muy directo y te dice que el concepto general no se registra por sí solo.
+
+Frase: "No se pueden realizar préstamos de Material genérico; todo préstamo debe ser de un Libro o un Periódico."
+
+Identificación: Si "no se puede" crear el objeto genérico, es {abstract}.

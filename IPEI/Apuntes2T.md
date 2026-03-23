@@ -547,9 +547,9 @@ que **permisos retribuido vacaciones y festivos** tienes como puedes conciliar y
 
 Jornada laboral es el numero de horas al dia  a la semana o al año que la persona trabajadora dedica a desempeñar su actividad laboral. 
 
-La jornada laboral maxima es de 40hs a la semana en promedio anual, lo que significa que unas semanas se puede exceder esta jornada, siempre que durante otras se compense ese exceso trabajando menos horas, de manera que la media  sea de 40 horas semanales al año. 
+La jornada laboral maxima es de 40hs a la semana en promedio anual, lo que significa que unas semanas se puede exceder esta jornada, siempre que durante otras se compense ese exceso trabajando menos horas, de manera que la media  sea de 40 horas semanales al a
 Ejemplo: empresa de bolsa de oro, que durante unos meses se pudieran trabajar menos horas. y otros meses compensando la jornada laboral. 
-
+ño. 
 siempre y cuando la horas extras laborales no superen a 80hs. se pueden pagar o darlas en descanso.
 
 jornada laboral especiales ajustan los horarios laborales segun los horarios laborales segun cada sector.
@@ -645,7 +645,7 @@ cuidado de una hija de un menos hasta 8, 11 semana continuada.
 los primos cuartos los tios terceros. 
 
   **Vacaciones:**
-  Las personas trabajadoras tienen derecho de un *minimo de 30 años naturales de vaciones retribuidas*, es decir , dos dias y medio al mes. 
+  Las personas trabajadoras tienen derecho de un *minimo de 30 dias naturales de vaciones retribuidas*, es decir , dos dias y medio al mes. 
 
   Caracteristicas:
 
@@ -822,7 +822,234 @@ planes de igualdad.:
 estatuto de los trabajadores/ convenio colectivo. 
 
 
+12/03
 
+# salario
+
+En que consiste el salario y la nomina. 
+
+en esta unidad estudiaremos en que consiste el salario y que es la nomina. 
+
+que conceptos integran el salario. ¿que es una nomina? 
+
+
+- si tiene una deuda con asienda o seguridad social. te quitan y reflejada de la  nomina. 
+
+-que conceptos integran el salario. cotizaciones, IRPF, complementos. 
+
+impuesto de la persona fisica.
+
+¿una nomina que partes componen?
+
+
+reto profesional.
+Al empezar a trabajar a elena le dijeron que iba a cobrar un salario que no se corresponde con el que le han ingresado en su cuenta a final de mes. Al entegrarle la nomina hay algunas 
+
+ # El salario:
+es el pago periodico que recibe una persona a cambio del trabajo realizado. Tambien incluye el bono de los tiempos de descanso (fines de semana, vaciones, etc.)
+Esta constituido por la totalidad de las percepciones economicas, en dinero y especie, de una persona trabajadora por la prestacion de sus servicios laborales. 
+
+Igualdad salarial. Todas las empresas, independientemente de sus tamaño, deben llevar un registro salarial que refleje el valor promedio de los sueldos. desglosando salario, base y complementos por grupo profesional, categoria, nivel y puesto, incluidos altos cargos y de¡iferenciando por genero. 
+
+
+**clasificacion del salario.**
+
+retribuye el trabajo efectivo y los periodos de descanso computables como trabajo(dias de descanso, vaciones, permisos retribuidos, etc) Podemos distinguir:
+
+Segun la forma de pago:
+
+- *En dinero:* es aquel percibido en moneda de curso legal, que se paga en efectivo o por transferencia bancaria.
+  
+- *En especie:* Es remunetacion que no consiste en una cantidad de dinero. Puede tratarse de una vivenda, un coche, un telefono movil. etc. siempre que sean productos, objetos o servicios destinados al disfrute personal del trabajador, no herramientas necesarias para el trabajo (...). no puede superar el 30%
+
+segun forma de calculo: Segun el metodo de calculo utilizado, podemos distinguir:
+salario por unidad de tiempo, por unidad de obra o mixto:
+
+Por unidad de tiempo:
+La forma de calcular el salario depende de la duracion del servicio.
+independientemente de la cantidad de obra que se vaya realizado, pudiendo se por horas, dias, semanas o meses, de acuerdo con lo establecido en el convenio colectivo o en el contratato de trabajo. 
+entraria aqui tambien el salario a comision (art 29.2ET) qye nace tras la finalizacion de un negocio o venta de donde haya intervenido el trabajador.
+- por unidad de obra: se calcula teniendo en cuenta el rendimiento efectivo del trabajador, en cuanto a cantidad y calidad de trabajo realizado independientemente del tiempo que hay aintervenido para ello. 
+  Esta forma de calculo solo es aplicable para aquellos trabajos que se puedan cuantificar (medir, pensar, contar,...) y viene 
+
+  salario mixto aunque no se recogen expresamente en el art 26.3 de ET, existente un tercer sistema que es la combinacion de los anteriores. El salario mixto es una salario por unidad de tiempo al que adicona un salario por unidad de obra (prima, incentivo... etc) condicionado al real y efectivo rendimiento del trabajador.
+  NOVEDADES EN LA RETRIBUCION. LAS STOCK OPTIONS
+
+  En las politicas retribuivas actuales se observa una tendencia crecente hacia sistema mixtos que convimnan retribucion fija y variable. entre las formaulas de retribucion variable adquieren especial relevancia los mecanismos de participacion en el capital de la empresa como las stock pction utilizando por grandes compañas como google, meta o indetex, asi como numerosas 
+  Stock options. consiste en el derecho concedidos por la empresa al trabajador para adquirir un determinado numero de acciones de la comañia(o de otra vinculada) a un precio previamente fijado valor de mercado de la accion es superior al precio fijado, el trabajador obtiene un beneficio economico por la diferencia.
+ **su finalidad es doble:** 
+  Incentivar el rendimiento y la consecucion de objetivos empresariales.
+  Favorecer la permenencia del trabajador en la empresa mediante periodos de maduracion.
+  Junto a las stock options, Existen otras formulas de tretribucion variable moderna. como los planes de acciones restringidas RSU, los bonus vinculados a objetivos (MBO), la participacion en benificios o los sitemas de retribucion flexible.
+  Desde el punto de vista laboral, cuando tengan caracter retributo y este vinculadas a la presetacion de servicios, Las stock option poseen naturaleza salarial, por lo que deberan tenerse en cuneta, en su caso para el calculo de la indemnizacion por despido. 
+
+
+  **salario bruto y salario neto.** 
+
+corresponde a la cantidad total que la empresa paga al trabajador antes de que se produzcan las deducciones, mientras que el salario neto, o liquido, es la cantidad que percibe el trabajador, una vez desconectadas esas cantidades que sirven para pagar la seguridad scocial a Hacienda.
+
+**Estructura del salario**
+
+la estructura salarial comprende el salario base o salario de contratacion y en su caso los complementeod salariales. 
+
+salario base del grupo profesional o salario de contratacion: retribucion por unidad de tiempo.
++
+Complementos salariales:
+cantidades que se fijan en funcion de las caracteristicas personales, de las condiciones del puesto de trabajo y los resultados de la empresa. 
+= salario bruto:
+suma de los importante que corresponden a la persona trabajadora antes de aplicar las deducciones. 
+
+
+principio de compensacion en beneficio del trabajador. 
+
+
+**salario minimo**
+
+el salario minimo es interprofesional por que se aplica a todos los sectores de actividad ya sea en la industria, en los servicios o en la agricultura. 
+el salario minimo interprofesional SMI es el sueldo minimo que cualquier trabajador a tiempo completo cobrara en el pais en el que ejerce su actividad, sin importar la profesion. 
+esta cantidad la decide cada gobierno teniendo en cuenta el coste de vida, la evolucion de los precios y la situacion economica general. 
+En españa, el gobierno establece en enero cual sera el SMI para ese año y publica tres cifras: el SMI diario, el SMI mensual y el SMI anual. 
+el salario minimo interprofesional es inembargable, es decir, en caso de que la trabajadora tenga deudas y le sean reclamadas, la justicia puede ordenar que se le retenga la cantidad de salario que se supore el SMI. se exceptua el pafo de las pensiones a los hijos e hijas o al exconyuge en caso de divorcio. 
+
+
+
+El SMI para 2026 es de 40,70€/dia, en 1221€/mes (14 pagas) 1424,50€(12pagas) o 17.084€/años. para empleados del hogar la hora sera fijada como minimo en 9.55€/hora. 
+
+ y si la empresa no tiene para pagarme?
+
+ el fondo de garantia Salaria (FOGASA) es un organismo autonomo del Ministerio de trabajo y economia social.
+ en el caso de insolvencia o concurso de acreedores de la empresa , este fondo garantiza el pago de los salarios y las indemnizaciones tomando en consideracion unos topes maximo
+
+ se trata de una responsabilidad subsidiaria, por lo que, primero se venden todos los bienes de la empresa  y, si no son sufientes para que las personas trabajadoras pueda cobrar, se acude al FOGASA para que realice el pago. 
+
+ El SMI es un identificaddor que se mide en bruto. por lo tanto los 1211€ mensuales en catorce pagas representan el total de la devagos de la nominas antes de aplicar las retenciones y cotizaciones correspondientes. 
+
+ El fogasa se financia con las aportaciones de la empresa pero no de las personas trabajadoras ( 0.2% de la base de cotizacion). 
+
+
+¿que es la nomina?
+
+a grandes rasgos, podemos simplicar la nomina agrupando 
+
+
+devengos
+
+las percepciones no salariales, o extrasalariales, son percepciones que compensen los gastos de la persona trabajadora a consecuencia del trabajo, la falta de ingresos durante ciertas suspenciones o en caso de despido, traslado o fin de contrato. Este tipo incluyen los siguientes conceptos:
+indemnizaciones o suplidos, compensan a la persona trabajadoras por los gastos derivados de la actividad laboral; por ejemplo, el plus transporte. En el recibo de la nomina  se reflejan en concepto de <<indemnizacion  o suplidos>>
+-prestaciones e indemnizaciones de la seguridad Social., son cobros de una persona trabajadoras cuando esta de baja por enfermedad, nacimiento de hijo, riesgo e el embarazo o lactancia, etc. 
+
+Indemnizacion por traslado, suspenciones o despidos, son cantidades adicionales percibidas por las personas trabajadoras en caso de traslado, despido o fin  de contrato temporal
+
+- deducciones
+las deducciones son las cantidades que se descuentan a la personas trabajadoras. cotizacion a la seguridad social; retencion a cuenta de IRPF ; otras deducciones 
+
+BUSCAR DEVENGOS. 
+
+
+base de contizacion 
+Apartir de los devengos se calculan unas bases A estas bases se les aplica un tipo de pocentajeobteniendo asi la cuota o cantidad que se descuenta
+
+
+
+como se calcula la base de cotizacion?
+
+
+cuota de la seguridad socia = base de cotizacion x tipo de cotizacion
+cuota de retencion = base de retencion x tipo de retencion
+
+
+
+Para calcular las deducciones para la seguridad social, hya que descontar dos cuotas (tres, si se realizaron horas extras) y determinar la aportacion de la empresa (cuota empresarial). 
+
+base de cotizacion por contingencias comunes (BCCC)
+
+Se utiliza para cotizar y tener derecho prestacion de la Seguridad Seocial como la asistencia sanitaria, la incapacidad temporal o permanente por accion no laboral o enfermedad comun, el nacimiento de hijo, la orfandad, la viudedad y jubilacion.
+
+
+
+BCCC = Salario base + complementos salariales (*) y no salariales (**) + prorrata pagas extras
+
+
+(*) No se incluyen las horas extras y las pagas extras siempre aparecen prorrateadas, independientemente de como se cobre
+
+
+(**) Alguna s percepciones no salariales estan exentas de cotizar a la seguridad social si no superan unos determinados limites. El exceso sobre dicho limites se omputara en la base de cotizacion a la seguridad social de acuerdo con la tabla 7.1
+
+
+
+
+*Base de cootizacion* 
+
+base de cotizacion por contingencia profecionales BCCP
+cubre el desempleo y la formacion gratuita por parte del Servicio publico de empleo estatal. La cuota empresarial, ademas, cubre los accidentes de trabajao y las enfermedades profecionales.
+
+BCCP = BCCP+ horas extraordinarias
+
+
+Base de cotizacion por horas extraordinaria (BCHExtras)
+Equivale a los devengos por horas extras 
+
+BCHExtras = HExtras.
+
+una vez calculadas las bases, hay que comprobar que los resultados obtenidos estan dentro de esos margenes. En caso contrario, se tomara la cifra que propone la seguridad social. 
+
+
+cuotas de cotizacion Una vez obtenidas las bases, se aplica los tipos o porcentajes de cotizacion a la seguridad social obtener las cuotas. 
+
+
+Tipos de cotizacion al regimen General de la seguridad social 
+
+en la web de la seguridad social, puedes encontrar informacion sobre las bases y los tipos de cotizacion de visgentes puede indentificar las tarifas que han de papgar las empresas por AT y EP, divididas en incapacidad temporal (IT) e invalidez, muerte y supervivencia (IMS) :
+
+HTTP:// www.seg-social.es /wps/portal/wss/internet/Inicio. 
+
+
+Mecanismo de equidad internacional (MEI) 
+
+
+IRPF:
+
+
+finalmente, calculamos la base de impuesto de la resta de persona fisicas IRPF teniendo en cuenta los rendimientos integros de la persona trbajadora y exceptuando los siguientes conceptos, que estan exentos de retencion fiscal.
+
+las indemnizaciones por despido no superiores a 180.00€, cese en el puesto de trabajo, traslado, extincion del contrato y fallecimiento, siempre que no excedan de la cuantia legalmente establecida.
+
+
+los gastos de locomocion , siempre que esten debidamente justificados y dentro de los limites que aparecen en la tabla 
+las asignaciones para gastos de manutencion y estancia, siempre que no superen los limites establecidos en el regimiento del IRPF y que figuran en la tabla  
+
+El salario en especie de los siguientes supuestos: tiques restaurante de hasta 11€ por dia habil: Seguro medico de hasta un maximo de 500€  al año por cada persona asegura o 1500€ sies discapacitada; servicio educativos a hijos y ches que  guarderia sin limite de cantidad tarjetas de transporte publicos. 
+
+
+el porcentaje o tipo de retencion lo acumula. la administracion tributaria para, posteriormente, informar a la empresa. Los calculos se realizan en funcion  de la renta anual de la persona trabajadora cuanto mayor sea el salario mas tendra que pagar y de situacion familiar. 
+
+
+estudiar la nomina... diferencias las partes. 
+
+
+19/03
+
+
+
+clasificacion del salario 
+Segun forma de calculo: Segun el metodo de calculo utliizado, podemos distinguir:
+
+-por unidad de tiempo:
+ La forma de calcular el salario depende de la duracion del servicio, independientemente de la cantidad de obra que se haya, pudiendo ser por horas, dias, semanas o meses, de acuerdo con lo establecido en el convenio colectivo o en el contrato de trabajo. 
+entraria aqui tambien el salario a comision (art. 29.2ET), que nace tras la finalizacion de un negocio o venta donde haya intervenido el trabajador.
+
+-Por unidad de obra: 
+Se calcula teniendo en cuenta el rendimiento efectivo del trabajador, en cuanto a cantidad y calidad de trabajo realizado independientemente del tiempo que haya intervenido para ello.
+Esta forma de calculo solo es aplicable para aquellos trabajos que se pueden cuantificar (medir, pesar, contar,...) y viene regulada en los convenios colectivos, donde se fija el rendimeinto minimo exigible y la forma de calcularlo. 
+
+
+impren indicador de renta de multiple. buscar... para ayuda y subensiones. 
+salario minimo interprofesional
+
+embargabilidad del salario. 
+
+disposicion 11637 del boe núm273 de 2014 descargar... y traerlo. para recargarlo. 
+bases minima y maxima // topes min y max. 
 
 
 
