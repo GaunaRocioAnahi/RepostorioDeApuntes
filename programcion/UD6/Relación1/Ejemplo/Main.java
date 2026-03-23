@@ -1,4 +1,4 @@
-package UD6.Ejemplo;
+package UD6.Relación1.Ejemplo;
 
 public class Main {
     public static void main(String[] args) {
