@@ -1,0 +1,39 @@
+{
+  "alumnos": [
+    {
+      "id": "1",
+      "nombre": "Cristian",
+      "edad": 30,
+      "profe_fav_id": 1
+    },
+    {
+      "id": "2",
+      "nombre": "Raul",
+      "edad": 19,
+      "profe_fav_id": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Rocio",
+      "edas": 30,
+      "profe_fav_id": 1
+    }
+  ],
+  "profes": [
+    {
+      "id": "1",
+      "nombre": "Paco",
+      "asignaturas": [
+        {
+          "titulo": "Sistemas",
+          "curso": 1
+        },
+        {
+          "titulo": "Bases",
+          "curso": 1
+        }
+      ]
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

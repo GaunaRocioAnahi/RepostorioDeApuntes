@@ -1,0 +1,21 @@
+{
+    "personas": [
+    {
+        "id":1,
+        "nombre": "Laura",
+        "edad": 28,
+        "coches": [
+            { "marca": "Toyata", "modelo": "Yaris" },
+            { "marca": "Ford", "modelo": "Fiesta"}
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "Marcos",
+        "edad": 35,
+        "coches" : [
+            {"marca": "BMW", "modelo": "Serie 3"}
+        ] 
+    } 
+    ]
+}
