@@ -31,45 +31,41 @@ package es.stemgranada.ed.testing.calculadora;
  */
 
 // Se ejecuta antes de cada test. Permite preparar el entorno.
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.BeforeEach;
-
-// Permite asignar un nombre más legible al test en el reporte.
 import org.junit.jupiter.api.DisplayName;
-
-// Marca un método como prueba unitaria.
 import org.junit.jupiter.api.Test;
-
-/*
- * Importaciones específicas para pruebas parametrizadas.
- */
-
-// Indica que el método se ejecutará varias veces con distintos valores.
 import org.junit.jupiter.params.ParameterizedTest;
-
-// Fuente de datos simple basada en una lista de valores.
+import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
-// Fuente de datos basada en pares o múltiples valores (formato CSV).
-import org.junit.jupiter.params.provider.CsvSource;
-
-/*
- * Importación estática de las assertions.
- * Permite usar assertEquals, assertTrue, assertThrows, etc.
- * sin escribir Assertions.assertEquals(...)
- */
-import static org.junit.jupiter.api.Assertions.*;
+//PASO 1- Nombre de la clase = clase +Test 
+// ----- NO NECESITA SER PÚBLICA EN JUnit 5 -----
 
 class CalculadoraTest {
-
+    
+    /// PASO 2 -  DECLARAR EL OBJETO COMO APTRIBUTO DE LA CLASE
+    /// ---- ( FUERA DE LOS METODOS, COMPARTIDO POR TODOS LOS TESTS)---
+    
     private Calculadora calculadora;
 
+    /// PASO 3 -@BeforeEach: se ejecuta ANTES de cada @Test 
+    ///        GARANTIZA QUE CADA TEST EMPIZA CON OBJETO LIMPIO
+    ///        EVITA REPETIR "new Calculadora()" en cada mètodo
+
     @BeforeEach
-    void inicializar() {
+    void setUp() {
         calculadora = new Calculadora();
     }
 
     // PRUEBAS DE SUMA
 
+    ///  PASO 4+6 - Un @Test por comportamietno, nombre descriptivo :
+    ///  método_resultado_condición
+    /// 
     @Test
     @DisplayName("La suma de 2 y 3 debe ser 5")
     void sumar_devuelve5_si2Mas3() {
@@ -88,10 +84,49 @@ class CalculadoraTest {
         assertEquals(5, resultado);
     }
 
+    @Test
+    void sumar_devuelveNegativo_siAmbosSonNegativos(){
+        int resultado = calculadora.sumar ( -4, -6);
+        assertEquals(-10, resultado);
+    }
+
+    // RESTAR
+
+    @Test 
+    void restar_devuelve2_si5Menos3(){
+        int resultado = calculadora.restar(5, 3);
+        assertEquals(2, resultado);
+    }
+    @Test
+    void  restar_devuelveNegativo_siResultadoEsNegativo(){
+        int resultado = calculadora.restar(3,10);
+        assertEquals(-7, resultado);
+    }
+
+    // MULTIPLICAR
+
+
+    @Test 
+    void multiplicar_devuelve12_si3por4(){
+        int resultado = calculadora.multiplicar(3, 4);
+        assertEquals(12, resultado);
+    }
+
+    @Test 
+    void multiplicar_devuelve0_siUnFactorEsCero(){
+        int resultado = calculadora.multiplicar(99, 0);
+        assertEquals(0,resultado);
+    }
+
+    @Test 
+    void multiplicar_devuelvePositivo_siAmbosNegativos(){
+        int resultado = calculadora.multiplicar(-3, -4);
+        assertEquals(12, resultado);
+    }
+
     // PRUEBAS DE DIVISIÓN
 
-    @Test
-    @DisplayName("La división 10 / 2 debe ser 5")
+    @Test 
     void dividir_devuelve5_si10Entre2() {
 
         double resultado = calculadora.dividir(10, 2);
@@ -102,7 +137,6 @@ class CalculadoraTest {
     }
 
     @Test
-    @DisplayName("Dividir entre cero debe lanzar excepción")
     void dividir_lanzaExcepcion_siDivisorEsCero() {
 
         // Se comprueba que al ejecutar este método
@@ -115,7 +149,6 @@ class CalculadoraTest {
     // PRUEBAS DE POTENCIA
 
     @Test
-    @DisplayName("2 elevado a 3 debe ser 8")
     void potencia_devuelve8_siBase2_yExponente3() {
 
         double resultado = calculadora.potencia(2, 3);
@@ -124,7 +157,6 @@ class CalculadoraTest {
     }
 
     @Test
-    @DisplayName("Exponente negativo debe lanzar excepción")
     void potencia_lanzaExcepcion_siExponenteNegativo() {
 
         // Se verifica que el método no acepta exponentes negativos
