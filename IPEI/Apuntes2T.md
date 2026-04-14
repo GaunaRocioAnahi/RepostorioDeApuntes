@@ -1053,8 +1053,29 @@ bases minima y maxima // topes min y max.
 
 
 
+26/3
+contingencias : contingencia bruto: 
+empresario :contingencia bruto: 26.6% | MEI : 0.75% | contigencia profecionales : IT 0.75, msi:0.80
+trabajador : contingencia bruto: 47%  | MEI : 0.15%
+
+fogasa es para la empresa 0.20%  trabajador nada.
+fp= 0.60 empresa y el trabajador: 0.10%
+desempleo = para la empresa depende de la duracion del contrato. duracion determinada 5.50% contrato indefinido. 
+1.55% trabajo.  
+contrato de determinada 6.7% empresa. | el trabajador 1.6% 
+
+restos de horas extras. empresario : 23.6% trabajador 4.7%
+hora extras fm empresario 12% | trabajador 2% 
+total de cuotas de  seguridad social: 
+cuota de IRPF 1555- 10% = 155
 
 
+
+para hallar el 
+seguridad social - IRPF = SALARIO NETO. 
+
+
+1 salario bruto: base + complementos = total devengado
 
 
 
