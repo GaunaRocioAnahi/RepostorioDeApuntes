@@ -21,7 +21,7 @@ async function obtenerPokemon(nombreOId) {
 function mostrarPokemon(datos) {
     const contenedor = document.getElementById("pokemon-info");
     let tipos = '', stats = ''
-    let game_indices= ''
+    let games= ''
 
     //Tipos
     for (const tipo of datos.types) {
@@ -34,8 +34,8 @@ function mostrarPokemon(datos) {
     }
 
     //game
-    for ( const game of game_indices){
-        game_indices += `<li>${game.game_index} || ${game.version.name}</li>`
+    for ( const game of datos.game_indices){
+        games += `<li>${game.game_index} || ${game.version.name}</li>`
     }
 
     contenedor.innerHTML = `
@@ -46,7 +46,7 @@ function mostrarPokemon(datos) {
         <p><strong>Peso:</strong> ${datos.weight / 10} kg</p>
         <p><strong>Tipos:</strong>${tipos}</p>
         <p><strong>Stats:</strong></p>
-        <p><strong>Juego:</strong> ${game_indices}</p>
+        <p><strong>Juego:</strong> ${games}</p>
         <p><strong>Experiencia Base:</strong>${datos.base_experience}</p>
         <ul>
             ${stats}
