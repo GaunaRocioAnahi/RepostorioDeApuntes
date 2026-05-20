@@ -1018,13 +1018,13 @@ las indemnizaciones por despido no superiores a 180.00€, cese en el puesto de 
 los gastos de locomocion , siempre que esten debidamente justificados y dentro de los limites que aparecen en la tabla 
 las asignaciones para gastos de manutencion y estancia, siempre que no superen los limites establecidos en el regimiento del IRPF y que figuran en la tabla  
 
-El salario en especie de los siguientes supuestos: tiques restaurante de hasta 11€ por dia habil: Seguro medico de hasta un maximo de 500€  al año por cada persona asegura o 1500€ sies discapacitada; servicio educativos a hijos y ches que  guarderia sin limite de cantidad tarjetas de transporte publicos. 
+El salario en especie de los siguientes supuestos: tiques restaurante de hasta 11€ por dia habil: Seguro medico de hasta un maximo de 500€  al año por cada persona asegura o 1500€ sies discapacitada; servicio educativos a hijos y ches que  guarderia sin limite de cantidad tarjetas de transporte publicos.
 
 
-el porcentaje o tipo de retencion lo acumula. la administracion tributaria para, posteriormente, informar a la empresa. Los calculos se realizan en funcion  de la renta anual de la persona trabajadora cuanto mayor sea el salario mas tendra que pagar y de situacion familiar. 
+el porcentaje o tipo de retencion lo acumula. la administracion tributaria para, posteriormente, informar a la empresa. Los calculos se realizan en funcion  de la renta anual de la persona trabajadora cuanto mayor sea el salario mas tendra que pagar y de situacion familiar.
 
 
-estudiar la nomina... diferencias las partes. 
+estudiar la nomina... diferencias las partes.
 
 
 19/03
@@ -1035,26 +1035,26 @@ clasificacion del salario
 Segun forma de calculo: Segun el metodo de calculo utliizado, podemos distinguir:
 
 -por unidad de tiempo:
- La forma de calcular el salario depende de la duracion del servicio, independientemente de la cantidad de obra que se haya, pudiendo ser por horas, dias, semanas o meses, de acuerdo con lo establecido en el convenio colectivo o en el contrato de trabajo. 
+ La forma de calcular el salario depende de la duracion del servicio, independientemente de la cantidad de obra que se haya, pudiendo ser por horas, dias, semanas o meses, de acuerdo con lo establecido en el convenio colectivo o en el contrato de trabajo.
 entraria aqui tambien el salario a comision (art. 29.2ET), que nace tras la finalizacion de un negocio o venta donde haya intervenido el trabajador.
 
--Por unidad de obra: 
+-Por unidad de obra:
 Se calcula teniendo en cuenta el rendimiento efectivo del trabajador, en cuanto a cantidad y calidad de trabajo realizado independientemente del tiempo que haya intervenido para ello.
-Esta forma de calculo solo es aplicable para aquellos trabajos que se pueden cuantificar (medir, pesar, contar,...) y viene regulada en los convenios colectivos, donde se fija el rendimeinto minimo exigible y la forma de calcularlo. 
+Esta forma de calculo solo es aplicable para aquellos trabajos que se pueden cuantificar (medir, pesar, contar,...) y viene regulada en los convenios colectivos, donde se fija el rendimeinto minimo exigible y la forma de calcularlo.
 
 
-impren indicador de renta de multiple. buscar... para ayuda y subensiones. 
+Impren indicador de renta de multiple. buscar... para ayuda y subensiones.
 salario minimo interprofesional
 
-embargabilidad del salario. 
+embargabilidad del salario.
 
-disposicion 11637 del boe núm273 de 2014 descargar... y traerlo. para recargarlo. 
-bases minima y maxima // topes min y max. 
+disposicion 11637 del boe núm273 de 2014 descargar... y traerlo. para recargarlo.
+bases minima y maxima // topes min y max.
 
 
 
 26/3
-contingencias : contingencia bruto: 
+contingencias : contingencia bruto:
 empresario :contingencia bruto: 26.6% | MEI : 0.75% | contigencia profecionales : IT 0.75, msi:0.80
 trabajador : contingencia bruto: 47%  | MEI : 0.15%
 
@@ -1079,27 +1079,123 @@ seguridad social - IRPF = SALARIO NETO.
 
 
 
+14/05/2026
 
 
+ ## modificacion, suspencion del contrato.
+la susspencion del contrato de trabajo consiste en la interrupcion temporal de la relacion laboral, es decir, que la persona trabajadora no acudira a su puesto de trabajo y tampoco recibira el salario, aunque en algunos caso puede cobrar prestacion de la seguridad social. 
+~*causa de suspencion:*~
+Las causa para la suspension del contrato de trabajo son las siguientes: 
+- Acuerdo entre las partes
+- Motivos pactados en el contrato 
+- Incapacidad laboral.
+- Nacimiento o adopcion de un menor de 6 años
+- Riesgo durante el embarazo o la lactancia
+- Privacion de libertad, mientras no exista una sentencia condenatoria.
+- Fuerza mayor temporal
+- Suspencion de empleo y sueldo por razones de disciplinas. Ejercicio del derecho de huelga.
+- Causas economicas, tecnicas, organizativas o de produccion. ETOP. 
+- Ejercicio del derecho de huelga
+- Cierra patronal o cierre legal de la empresa
+- Decision de la trabajadora por ser victima de violencia de genero 
+- Por excedencia. / 
+  
+llamado de ser servicio publico (15:38hs) se reserva.
 
 
+Excedencia :
+es un tipo de suspencion de contrato de larga duracion solicitada por la persona trabajadora. Se trata de un derecho, por lo que la empresa no puede negarse a concederla, pero la persona trabajadora debe notificar por escrito la fecha de inicio y avisar de su reincorporacion con una antelacion de 30 dias. Del mismo modo, la empresa debera responder por escrito a la solicitud.
+Duracion el tiempo de excedencia no se cobra el salario ni se percibe prestacion alguna de la seguridad social. Lo habitual es que se liquiden las cantidades pendientes de pago antes de iniciarse la suspencion. 
 
 
+¿Que es una suspension de contrato?
+
+...
+
+¿Que es la extincion del contrato?
+ la empresa y la persona trabajadora puede finalizar la relacion laboral en cualquier momento, pero debe ajustarse a las causas en el Estatuto de los Trabajadores. 
+ La exticion del contrato de trabajo implica la finalizacion de la relacion laboral y con ella, la desaparicion de la obligacion de ambas partes. 
+ El contrato puede finalizar por las siguientes causas: 
+
+  Por valuntad de la persona trabajadora: - dimesion
+                                        - Abandono 
+                                        - Incumplimentio de la empresa
+  Por voluntad de la empresa: -Despido disciplinario
+                              - Despido por causa objetivas
+                              - Despido colectivo
+                              - Despido por fuerza mayor
+  Por otras causas: - Mutuo acuerdo
+                    - Por acuerdos recogidos en el contrato
+                    - Finalizacion del contrato temporal
+                    - Muerte, jubilacion o incapacidad del empresario o empresaria o de la persona trabajadora
+                    - Por fuerza mayor
+                    - Por la extincion de la personalidad juridica de la empresa 
+                    - Trabajadora victima de violencia de género.
+
+¿Sabias que? La extincion del contrato de trabajo debe ser comunicada por la empresa a la persona trabajadora junto con la propuesta de liquidacion de la cantidad adeudadas, lo que se conoce como finiquito. 
+por voluntad de la persona trabajadora
+
+La persona trabajadora puede poner fin  a su relacion laboral, sin necesidad de justificarlo o por un incumplimiento de la empresa: 
+- Dimension de la persona trabajadora : La persona trabajadora finaliza el contrato sin necesidad de justificarlo, aunque debe preavisar por escrito; en caso de no hacerlo, debe abonar esos dias a la empresa. No tendra derecho a indemnizacion ni a prestacion por desempleo. 
+- Abandono de la empresa trabajadora: La persona se marcha de la empresa sin avisar ni ofrecer una justificacion. La empresa puede denunciarla por daños y prejuicios, si esto se producen. 
+Incumplimiento grave de la empresa: La perosona trabajadora puede solicitar la extincion del contrato tribunales cuando la empresa no cumpla lo pactado. Hasta que haya sentencia, debe mantenerse en su puesto de trabajao; de lo contrario, se considera dimision. Si el juzgado le da la razon declarara el despido improcedente y la persona trabajadora tendra derecho a una indemnizacion de 33 dias por cada año trabajado, con un maximo de 24 meses. 
 
 
+Por voluntad de la empresa despido
+Cuando la empresa finaliza el contrato de fomra unilateral se produce un despido, Para que sea legal, tiene que ajustarse a los moticos establecidos en la ley.
+A. Despedo disciplinario.
+Es la sancion maxima que puede ponerse a una persona trabajadora cuando comente una falta muy grave
+la empresa tiene que entregar una carta de despido, donde consten los hechos y la fecha en que tendra efecto el despido.
+
+B . Despido por causa objetivas
+Se basa en circustancia ajenas a la voluntad de la persona trabajadora y de la empresa. La empresa tiene que entregar carta de despedo, Debe preavisar con 15 dias de antelacion a la persona trabajadora. La persona trabajadora dispone de las 6 horas a la semana para buscar otro trabajo.Junto a la carta debe entregarle una indemnizacion de 20 dias de salario por año con un maximo de 12 meses. 
+
+C. despido colectivo 
+Finalizacion de una perioso de 90 dias que afecta, al menos a diez personas trabajadoras en la empresa que ocupen a menos de 100; el 10% de la planilla de una empresa que tenga entre 100 y 300 personas trabajadora; treinta personas trabajadoras en empresas que ocupen a mas de 300
+
+la empresa debe comunicar a la autoridad laboral del inicio y la finalizacion del expediente de regulacion de empleo(ERE) La autoridad laboral deja de ser competente para autorizar extinciones de contratos por despidos colectivos, excepo en casos de fuerza mayor. 
+La empresa debe indemnizar a las personas trabajadoras con 20 dias de salario por año con un maximo de 12 meses. 
+
+el ERE es un expediente de regulacion de empleo que consiste en la apertura de un periodo de consultas, en la que las personas trabajadoras nefociaran previamente a la formalizavion de los despidos. 
+
+por otras causas. 
+
+Existen otras causas independientes de la voluntad de la persona trabajadora y de la empresa o por acuerdo entre ellas: 
+
+Por mutuo acuerdo: la persona ttrabajadora no tiene derecho a indemnizacion ni a la prestacion por desempleo:
+por acuerdo recogidos con el contrato: la persona trabajadoras no tiene derecho  una indemnizacion, por si a solicitar la prestacion por desempleo
+finalizacion del contrato temporal: la persona trabajadora tiene derecho a solicitar la prestacion por desempleo y en algunos casos, como en el contrato eventual, a recibir  una indemnizacion
+muerte incapacidad pemanente o jubitacion de la persona trabajadora: en el caso de muerte natural, la empresa pagara quince dias de indemnizacion a sus herederos y herederas. Si se trata de incapacidad o jubilacion, el personal pasara a cobrar la pension correspondiendete de la seguridad social, por lo que no tiene derecho a la prestacion desempleo
+Muerte, incapacidad permanente o jubilaciondel empresario o empresaria: la persona trabajadora recibira una idemnizacion de 30 dias de salario y puede solicitar la prestacion por desempleo. 
+
+reclamacion del despido ante el juzgado. 
+La persona que no este de acuerdo con su despido en el plazo de 20 dias habiles. 
+previamente , debe haber acudido al Servicio de Mediacion, Arbitraje y conciliacion (SMAC) O ( CMAC).
+Una vez celebrando el juicio, el juzgado podra dictar una de las siguientes sentencias:
+
+Despido procedente: se confirma el despido y se mantiene sus efectos. La persona trabajadora no cobrara indemnizacion alguna.
+Despido improcedente: se da la razon a la persona trabajadora. La empresa debe optar, durante un periodo de 5 dias entre readmitirla y abonar los salarios de tramitacion(es decir, los salarios no cobrados desde se produjo el despido hasta la fehca de la sentencia) o despedirla con la indemnizacion de 33 dias por cada año trabajado, con un maximo de 24 meses. 
+
+Despido nulo: se produce cuando se dan los siguientes motivos: despidos de trabajadoras victimas de violencia de genero: despido de personas trabajadoras durante el periodo de nacimiento y cuidado del menos o la menor
+ODS Naciones Unidas impulsa un crecimiento economico inclusivo y sostenido que permita crear empleos decendentes. Por su parte, la legislacion debe construibuir a la mejora de las condiciones de vida de las personas trabajadoras regulando la extencion de los contratos de trabajos.
+buscar: despido inprocedentes. 
+
+como calculamos la indemnizacion?
+
+El calculo de la indemnizacion requiere seguir los siguientes pasos:
+
+1.Calcular el salario diario: 
+Salario diario = salario anual / 365
+
+2.Comprobar el numero de dias de indemnizacion que corresponden a la persona trabajadoras en funcion de la modalidad de extincion o modificacion utilizada por la empresa.
+3.calcular la indemnizacion: indemnizacion = salario x numero de dias de indemnizacion x años trabajados
+4.Comprobar el limite = limite de indemnizacion = antiguedad x dias de indemnizacion(el resultado no debe superar los dias que establece la indemnizacion).
+claves y consejos ( El salario diario, que se utiliza para calcular la indemnizacion, sera el cociente de dividir todas las percepciones salariales del año.( es decir , doce pagas mensuales mas las pagas extras 356 dias))
 
 
+finiquito ver averiguar y para ? que sirve? Buscar mas info. 
 
 
-
-
-
-
-
-
-
-
-
-
-
+en la empresa de MotoSport, situada en Badajoz, se estan produciendo varias modificaciones en los puestos de trabajo de su personal, debido a una nueva organizacion de la empresa. 
+Paula va a ser trasladada a las opficionas que la empresa ca a abrir en sevilla. de manera definitiva deresa cambair de recidencia... 
 
