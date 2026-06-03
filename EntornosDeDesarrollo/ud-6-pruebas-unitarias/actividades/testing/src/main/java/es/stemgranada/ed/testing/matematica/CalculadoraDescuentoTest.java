@@ -1,10 +1,6 @@
 package es.stemgranada.ed.testing.matematica;
 // importaciones. 
 
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.DisplayName;// sirve pra ponerle nombre a los test en los reportes. 
-import static org.junit.jupiter.api.Assertions.*; //Aserciones son metodos que comparan lo que esperas con lo que realmente devuelve el codigo. 
-
 public class CalculadoraDescuentoTest {
 
     public double calcularDescuento(double precio, int porcentaje) {
