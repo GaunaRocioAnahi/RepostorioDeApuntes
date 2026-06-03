@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://i.pinimg.com/736x/a7/a3/4f/a7a34ff84bc7c89e2d6ddd71bd3085c4.jpg" type="logo_icon">
+    <title>Buscar personajes | R&M Wiki</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="brand">
+            <span class="brand__logo">
+                <a href="../index.html">
+                    <img src="https://i.pinimg.com/736x/a7/a3/4f/a7a34ff84bc7c89e2d6ddd71bd3085c4.jpg" alt="logo">
+                </a>
+            </span>
+            <h1 class="brand__name">R&M Wiki</h1>
+        </div>
+        <nav class="site-nav">
+            <a class="site-nav__link" href="../index.html">Inicio</a>
+            <a class="site-nav__link" href="sobre_nosotros.html">Sobre nosotros</a>
+            <a class="site-nave__link" href="buscar_personajes.html">Buscar personajes</a>
+        </nav>
+    </header>
+
+    <main class="main-busqueda">
+
+        <div class="-card">
+            <section class="busqueda">
+                
+                <h2>Buscar personaje por nombre o id</h2>
+                <input type="text" id="busqueda-personaje" class="input-card" placeholder="Escribe un nombre o un id">
+                <button id="btn-buscar">Buscar</button>
+                
+
+                <div id="resultado-busqueda"></div>
+                <p id="error-busqueda"></p>
+            </section>
+
+            <section class="aleatorio">
+                <h2>Personaje aleatorio</h2>
+                <button id="btn-aleatorio">Mostrar personaje aleatorio</button>
+
+                <div id="resultado-aleatorio"></div>
+                <p id="error-aleatorio"></p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer__links">
+            <a href="#" class="site-footer__link">Instagram</a>
+            <a href="#" class="site-footer__link">X</a>
+            <a href="#" class="site-footer__link">YouTube</a>
+        </div>
+        <p class="site-footer__text">Contacto: contacto@rmwiki.com</p>
+    </footer>
+</body>
+
+</html>

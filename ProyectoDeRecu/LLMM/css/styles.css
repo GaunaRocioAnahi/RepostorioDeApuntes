@@ -1,0 +1,686 @@
+
+/* ========= ESTILOS GENERALES PARA TODOS LOS HTML ========= */
+* {
+    margin: 0;           /* Quita el margen exterior predeterminado de todos los elementos */
+    padding: 0;          /* Quita el relleno interior predeterminado de todos los elementos */
+    box-sizing: border-box; /* El padding y border no suman al ancho, entran dentro */
+}
+
+
+/* ========= BODY SE APLICA A TODOS LOS HTML ============== */
+body {
+    font-family: sans-serif;    /* Fuente para todo el texto de la página */
+    color: #96d749;           /* Color de texto predeterminado: verde lima del universo Rick & Morty */
+    background: rgb(33, 25, 49);       /* Fondo morado oscuro cuando no hay imagen de fondo */
+    background-repeat: no-repeat;     /* La imagen de fondo NO se repite en mosaico */
+    background-position: center;      /* La imagen de fondo se centra horizontal y verticalmente */
+    background-size: cover;           /* La imagen cubre toda el área del body sin dejar huecos */
+    background-attachment: fixed;     /* El fondo queda fijo al hacer scroll (efecto parallax) */
+    min-height: 100vh;                 /* El body ocupa al menos el 100% de la altura de la ventana */
+}
+
+
+/* ============================================================
+    CONTAINER — Contenedor principal de contenido
+    Centra el contenido y le da un ancho controlado. APLICADO A TODOS LOS HTML
+   ============================================================ */
+.container {
+    width: 100%;          /* El contenedor */
+    max-width:1500px;
+    margin: 30px auto;   /* 30px de margen vertical y centrado horizontal automático */
+}
+
+
+/* ============================================================
+    HEADER —  MENU - Barra de navegación superior DE TODOS LOS HTML
+   ============================================================ */
+.site-header {
+    background: #000000;      /* Fondo negro */
+    color: #96d749;           /* Color de texto */
+    padding: 15px;               /* Espaciado interior */
+    display: flex;           /* Activa Flexbox: logo y nav quedan en la misma fila */
+    justify-content: space-between;  /* Logo a la izquierda, nav a la derecha */
+    text-decoration: none;       /* Quita subrayado */
+}
+
+/* .brand — Contenedor del logo + nombre*/
+.brand {
+    display: flex;        /* Alinea el Logo e imagen en línea horizontal */
+    align-items: center;  /* Los centra verticalmente entre sí */
+    gap: 2px;             /* Espacio mínimo entre el logo y el texto */
+    width: 300px;         /* Ancho fijo para el área de la marca */
+    height: auto;         /* La altura se adapta proporcionalmente */
+    margin-left: 50px;    /* Aleja la marca del borde izquierdo */
+}
+
+/* .brand__logo img. La imagen/logo dentro de la marca */
+.brand__logo img {
+    width: 50px;    /* Ancho fijo  para el logo */
+    height: auto;   /* Mantiene la proporción original de la imagen */
+    display: block; /* Elimina el espacio extra que los navegadores añaden bajo imágenes inline */
+}
+
+
+/* ============================================================
+    NAVEGACIÓN — Links del menú - Aplicado a TODOS LOS HTML. 
+   ============================================================ */
+.site-nav {
+    display: flex;             /* Los links quedan en fila horizontal */
+    justify-content: center;   /* Los centra horizontalmente dentro del nav */
+    gap: 40px;                 /* separación entre cada link */
+    padding: 15px 0;           /* Espacio vertical  arriba y abajo */
+    text-decoration: none;     /* Sin subrayado en el contenedor */
+}
+
+/* Links del menú en estado normal */
+.site-nav a {
+    color: #96d749; 
+    text-decoration: none; 
+    transition: color 0.3s ease; /* Animacion de 0.3s al cambiar de color en el hover*/
+}
+
+/* Links del menú al pasar el ratón */
+.site-nav a:hover {
+    color: #ffffff; /* Cambia a blanco al hacer hover */
+}
+
+
+/* ============================================================
+    GRID DE TARJETAS — Página principal (índix)
+   ============================================================ */
+.grid {
+    display:flex;         /* Las tarjetas se colocan en fila */
+    flex-wrap: wrap;       /* Si no caben, saltan a la siguiente línea */
+    gap: 2rem;             /* Separación de 2rem entre tarjetas (horizontal y vertical) */
+    padding: 2rem;         /* Espacio interior en el contenedor del grid */
+    max-width: 1500px;     /* Ancho máximo para evitar que se estire en pantallas grandes */
+    margin: 0 auto;        /* Centra el grid horizontalmente en la página */
+    justify-content: center;
+}
+
+
+/* ============================================================
+    TARJETA (.card) — Se aplica al Index.html y a buscar_personaje.html
+   ============================================================ */
+.card {
+    height: auto;  /* La altura se adapta al contenido */
+    min-height: 380px;  /* Altura mínima para que todas las tarjetas tengan tamaño similar */
+    background-image: url(https://i.pinimg.com/1200x/5a/9b/2d/5a9b2df4c3b38e5cf774bfa517034a8d.jpg); 
+    background-size: cover;
+    background-position: center;
+    width: 250px;  /* Ancho fijo de 250px para cada tarjeta */
+    padding: 15px;   /* Espacio interior de 15px */
+    overflow: hidden;   /* Recorta cualquier contenido que se salga de las esquinas redondeadas */
+    display: flex;  /* Activa Flexbox para organizar los hijos en columna */
+    flex-direction: column;   /* Los elementos internos se apilan verticalmente */
+    transition: transform 0.5s ease; /* Animación suave de 0.5s para el efecto hover de transform */
+    border-radius: 8px;   /* Esquinas redondeadas de 8px */
+    color: #000000;    /* Color de texto negro dentro de la tarjeta */
+    box-shadow: 0 0px 8px rgb(0, 238, 255); /* Sombra exterior azul cian (efecto neón) */
+    border: 2px solid #97ce4c;
+}
+
+/* Esto se activa cuando el boton de añadir favorito se guarda*/
+.card.favorito {
+
+    border: 3px solid #ffe600;
+
+    box-shadow: 0 0 15px #ffe600;
+
+    transform: scale(1.02);
+}
+
+/* Tarjeta al pasar el ratón — Efecto de elevación y escala */
+.card:hover {
+    transform: translateY(-10px);           /* Sube la tarjeta 10px (primer transform, sobreescrito por el siguiente) */
+    box-shadow: 0 8px 10px rgba(0, 255, 247, 0.948); /* Sombra más intensa en hover */
+}
+
+/* Imagen dentro de la tarjeta */
+.card img {
+    width: 100%; /* La imagen ocupa el 100% del ancho de la tarjeta */
+    height: 200px;        /* Altura fija para la foto del personaje */
+    object-fit: cover;    /* La foto no se deforma */
+    object-position: top; /* Muestra la parte de arriba de la imagen */
+}
+
+/* Título dentro de la tarjeta (índice) */
+.card h2 {
+    margin: 10px 0; /* 10px de margen arriba y abajo del título */
+
+}
+
+/* Cuerpo de la tarjeta — Contiene descripción y botones */
+.card__body {
+    display: flex;          /* Apila los elementos internos */
+    flex-direction: column; /* En columna vertical */
+    padding: 0.5rem;        /* Pequeño espacio interior */
+    gap: 0.8rem;            /* 0.8rem de separación entre cada elemento hijo */
+    flex-grow: 1;           /* Ocupa el espacio restante de la tarjeta para empujar botones al fondo */
+}
+
+
+/* ============================================================
+    BOTONES DE TARJETA- Se aplica en index.html y buscar_personaje.html 
+    .btn-detalle lleva a la pagina de detalle del personaje
+    .btn-fav agrega  o quita de favoritos, JS cambia el estilo
+   ============================================================ */
+    .btn-detalle,
+    .btn-fav{
+       width: 90%;              /* Ambos botones con el mismo ancho (90% del contenedor) */
+       padding: 0.8rem;         /* Espacio interior cómodo */
+       border-radius: 8px;      /* Esquinas redondeadas */
+       border: none;            /* Sin borde visible */
+       font-family: sans-serif; /* Fuente sans-serif */
+       font-size: 1rem;         /* Tamaño de fuente estándar */
+       font-weight: bold;       /* Texto en negrita */
+       cursor: pointer;         /* Cursor de mano al pasar por encima */
+       transition: all 0.3s ease; /* Animación suave de 0.3s para todos los cambios en hover */
+       text-align: center;      /* Texto centrado */
+       text-decoration: none;   /* Sin subrayado (por si se usa como <a>) */
+       margin-top: 15px !important; /* Margen superior forzado con !important */
+    }
+    
+    .oculto{
+        display: none;
+    }
+
+    .btn-ficha{
+    display: block;                         /* Ocupa todo el ancho de su contenedor */
+    margin-bottom: 15px;                    /* Espacio debajo del botón */
+    margin-top: 15px;                       /* Espacio encima del botón */
+    width: 100%;                            /* Ancho completo */
+    padding: 12px 25px;                     /* Espaciado interior: 12px vertical, 25px horizontal */
+    text-align: center;                     /* Texto centrado */
+    filter: drop-shadow(0 0 4px #00f915); /* Sombra exterior verde neón */
+    background: rgb(0, 238, 255);          /* Fondo cian brillante */
+    color: rgb(3, 0, 7);                   /* Texto casi negro */
+    text-decoration: none;                  /* Sin subrayado */
+    text-transform: uppercase;             /* Texto en mayúsculas */
+    font-family: sans-serif;              /* Fuente sans-serif */
+    font-weight: bold;                     /* Negrita */
+    border-radius: 5px;                    /* Esquinas ligeramente redondeadas */
+    transition: all 0.3s ease;            /* Animación suave para el hover */
+
+}
+    /* Botón "Agregar a Favoritos" */
+    .btn-fav {
+        background-color: #97ce4c; /* Fondo verde claro */
+        color: #24282f;            /* Texto oscuro para contraste */
+}
+
+/* Botón "Ver Detalle" */
+.btn-detalle {
+    background-color: #00b0c8; /* Fondo azul cian */
+    color: white;              /* Texto blanco */
+    margin-top: auto;          /* Empuja el botón al fondo dentro del flex container */
+}
+
+/* Hover compartido para ambos botones */
+.btn-detalle:hover,
+.btn-fav:hover {
+    filter: brightness(1.2);                       /* Aclara el color del botón en un 20% */
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.4);  /* Sombra cian tipo sci-fi */
+    transform: translateY(-2px);                   /* Levanta ligeramente el botón */
+}
+
+/* Selector con error tipográfico original — conservado sin cambios */
+.btn-detalle:hover .btn-fav {
+    color: #0d0d0d;
+    background: #96d749;
+    filter: brightness(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Estado "marcado como favorito" — clase aplicada por JS */
+.es-favorito {
+    box-shadow: 0 0 20px rgba(247, 223, 30, 0.6); /* Resplandor dorado alrededor de la tarjeta */
+    border: 2px solid #f7df1e;                     /* Borde dorado visible */
+}
+
+/* Botón favorito cuando la tarjeta está marcada como favorita */
+.es-favorito .btn-fav {
+    background-color: #f7df1e; /* Fondo amarillo/dorado */
+    color: #000;               /* Texto negro para contraste */
+}
+
+/* ============================================================
+FOOTER — Pie de página- PARA TODOS LOS HTML
+barra inferior oscura con links de redes y contacto
+   ============================================================ */
+.site-footer {
+    background: #0b0f1a;                              /* Fondo azul muy oscuro/negro */
+    color: #97ce4c;                                   /* Texto verde lima */
+    padding: 40px 0;                                  /* 40px arriba y abajo , sin espacio lateral */
+    text-align: center;                               /* Todo el contenido centrado */
+    border-top: 1px solid rgba(151, 206, 76, 0.3);       /* */
+    margin-top: 50px;                                 /* Separa el footer del contenido de arriba */
+}
+
+/* Links dentro del footer */
+.site-footer a {
+    color: #97ce4c;        /* Color verde lima para los links */
+    margin: 0 10px;        /* Separación horizontal de 10px entre links */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s; /* Animación suave del color al hacer hover */
+}
+
+/* Links del footer al pasar el ratón */
+.site-footer a:hover {
+    color: #ffffff; /* Cambia a blanco en hover */
+}
+
+
+/* ============================================================
+SECCIÓN DE BÚSQUEDA — Se aplica en buscar_personaje.html
+Pantalla completa con imagen de fondo y formulario centrado
+   ============================================================ */
+.main-busqueda {
+    min-height: 100vh;                                               /* Ocupa al menos toda la altura de la pantalla */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); /* Capa oscura semitransparente sobre la imagen (nota: hay un error tipográfico "regba" en el original, corregido aquí visualmente pero respetando la intención) */
+    background-image: url(https://i.pinimg.com/1200x/b5/9f/9a/b59f9a85fb640534071e0c39312a559f.jpg); /* Imagen de fondo (sobrescribe el gradient anterior por ser la misma propiedad) */
+    background-size: cover;              /* La imagen cubre toda el área */
+    background-position: center;        /* La imagen se centra */
+    background-attachment: fixed;       /* El fondo no se mueve al hacer scroll */
+    background-repeat: no-repeat;       /* La imagen no se repite */
+    display: flex;                       /* Activa Flexbox para centrar el formulario */
+    justify-content: center;            /* Centra horizontalmente */
+    align-items: center;                /* Centra verticalmente */
+    padding: 20px;                       /* Espacio interior de 20px */
+}
+
+/* Tarjeta de cristal para el buscador */
+.-card {
+    background: rgba(255, 255, 255, 0.1);  /* Fondo blanco muy transparente (efecto glassmorphism) */
+    backdrop-filter: blur(12px);           /* Desenfoca el fondo detrás de la tarjeta (cristal esmerilado) */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Borde blanco semitransparente */
+    border-radius: 20px;                   /* Esquinas muy redondeadas */
+    padding: 40px;                         /* Espacio interior generoso */
+    width: 100%;                           /* Ancho completo del contenedor padre */
+    max-width: 450px;                      /* Nunca supera los 450px de ancho */
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5); /* Sombra profunda debajo de la tarjeta */
+    text-align: center;                    /* Contenido centrado */
+}
+
+/* Título dentro de la tarjeta del buscador */
+.-card h2 {
+    font-family: sans-serif;    /* Fuente sans-serif */
+    color: #040600;             /* Texto verde lima */
+    margin-bottom: 20px;        /* Espacio debajo del título */
+    text-transform: uppercase;  /* Texto en mayúsculas */
+}
+
+/* Input principal del buscador (estilo grande) */
+.input--card {
+    width: 100%;                         /* Ocupa todo el ancho disponible */
+    padding: 12px;                       /* Espaciado interior cómodo */
+    margin-top: 20px;                    /* Espacio encima del input */
+    background: rgba(255, 255, 255, 0.5); /* Fondo blanco semitransparente */
+    border-radius: 8px;                  /* Esquinas redondeadas */
+    color: white;                        /* Texto blanco */
+    font-family: sans-serif;             /* Fuente sans-serif */
+    font-size: 1.5rem;                   /* Texto grande (1.5rem) */
+    outline: none;                       /* Sin borde de foco predeterminado del navegador */
+    transition: all 0.3s ease;          /* Animación suave para todos los cambios */
+}
+
+/* Input secundario del buscador (estilo compacto) */
+.input-card {
+    width: 100%;                          /* Ancho completo */
+    max-width: 100%;                      /* No supera su contenedor */
+    font-size: 1rem;                      /* Tamaño de fuente estándar */
+    font-family: sans-serif;             /* Fuente sans-serif */
+    padding: 10px;                        /* Espacio interior */
+    text-align: center;                   /* Texto centrado dentro del input */
+    background: rgba(255, 255, 255, 0.5); /* Fondo blanco semitransparente */
+    border: 2px solid rgba(150, 215, 73, 0.4); /* Borde verde semitransparente */
+    border-radius: 8px;                   /* Esquinas redondeadas */
+    color: #000000;                       /* Texto negro */
+    outline: none;                        /* Sin borde de foco del navegador */
+    transition: 0.3s ease;               /* Animación suave */
+    margin-bottom: 20px;                  /* Espacio debajo del input */
+}
+
+/* Efecto al hacer foco en .input--card */
+.input--card:focus {
+    border-color: #96d749;                        /* Borde verde al enfocar */
+    background: rgba(0, 255, 255, 0.1);           /* Fondo cian muy tenue */
+    box-shadow: 0 0 10px rgba(150, 215, 73, 0.2); /* Sombra verde suave al enfocar */
+}
+
+/* Botones de buscar y aleatorio */
+#btn-buscar,
+#btn-aleatorio {
+    width: 100%;                /* Ocupa todo el ancho disponible */
+    padding: 12px;              /* Espacio interior cómodo */
+    background-color: #96d749; /* Fondo verde lima */
+    color: #0b0f1a;            /* Texto azul muy oscuro para contraste */
+    border: none;              /* Sin borde */
+    border-radius: 8px;        /* Esquinas redondeadas */
+    font-family: sans-serif;   /* Fuente sans-serif */
+    font-weight: bold;         /* Texto en negrita */
+    transition: 0.1s;          /* Animación muy rápida (0.1s) */
+}
+
+/* Hover de los botones de búsqueda */
+#btn-buscar:hover,
+#btn-aleatorio:hover {
+    background-color: #00b0c8;                      /* Cambia a azul cian */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* Sombra blanca suave */
+}
+
+/* Contenedores de resultados del buscador */
+#resultado-busqueda,
+#resultado-aleatorio {
+    margin-top: 20px;          /* Espacio encima del resultado */
+    display: flex;             /* Flexbox para centrar la tarjeta resultado */
+    justify-content: center;   /* Centra el resultado horizontalmente */
+}
+
+
+
+
+/* ============================================================
+BOTÓN GENÉRICO (.btn) — se aplica en buscar_personaje.html y detalle.html
+Botón de accion principal con efecto 
+   ============================================================ */
+.btn {
+    display: block;                         /* Ocupa todo el ancho de su contenedor */
+    margin-bottom: 15px;                    /* Espacio debajo del botón */
+    margin-top: 15px;                       /* Espacio encima del botón */
+    width: 100%;                            /* Ancho completo */
+    padding: 12px 25px;                     /* Espaciado interior: 12px vertical, 25px horizontal */
+    text-align: center;                     /* Texto centrado */
+    filter: drop-shadow(0 0 4px #00f915); /* Sombra exterior verde neón */
+    background: rgb(0, 238, 255);          /* Fondo cian brillante */
+    color: rgb(3, 0, 7);                   /* Texto casi negro */
+    text-decoration: none;                  /* Sin subrayado */
+    text-transform: uppercase;             /* Texto en mayúsculas */
+    font-family: sans-serif;              /* Fuente sans-serif */
+    font-weight: bold;                     /* Negrita */
+    border-radius: 5px;                    /* Esquinas ligeramente redondeadas */
+    transition: all 0.3s ease;            /* Animación suave para el hover */
+}
+
+/* Hover del botón genérico */
+.btn:hover {
+    color: #0d0d0d;      /* Texto oscuro en hover */
+    background: #96d749; /* Fondo cambia a verde lima */
+}
+
+
+
+
+
+/* ============================================================
+DETALLE — Se aplica en detalle.html
+Imagen a la izquierda y datos a la derecha en pantalla grande
+   ============================================================ */
+
+
+
+.detail {
+    display: flex;            /* Activa Flexbox */
+    flex-direction: row;   /* Apila los elementos verticalmente */
+    align-items: flex-start;      /* Centra horizontalmente */
+    justify-content: center;  /* Centra verticalmente */
+    gap: 60px;                /* 60px de separación entre cada bloque */
+    max-width: 1000px;        /* Ancho máximo de 1000px */
+    width: 100%;              /* Ancho completo hasta el máximo */
+    margin: 0 auto;           /* Centra el bloque en la página */
+}
+
+/* Imagen del detalle de personaje */
+.detail__img {
+    width: 100%;           /* La imagen ocupa el 100% de su contenedor */
+    height: auto;          /* Altura proporcional al ancho */
+    border-radius: 10px;   /* Esquinas redondeadas */
+    object-fit: cover;     /* La imagen cubre el área sin deformarse (recorta si es necesario) */
+    flex-shrink: 0;        /* Impide que la imagen se encoja en el flex container */
+}
+
+/* Título principal del personaje en la página de detalle */
+.detail__tittle {
+    font-family: sans-serif; /* Fuente sans-serif */
+    font-size: 2.5rem;       /* Tamaño grande: 2.5 veces el tamaño base */
+    font-weight: 700;        /* Negrita fuerte */
+    color: #96d749;          /* Verde lima */
+    margin: 0 0 15px 0;      /* Solo margen inferior de 15px */
+    letter-spacing: 2px;     /* 2px de separación entre cada letra */
+}
+
+/* Descripción del personaje */
+.detail__desc {
+    font-family: sans-serif; /* Fuente sans-serif */
+    font-size: 0.95rem;      /* Tamaño ligeramente pequeño */
+    font-weight: 300;        /* Peso ligero de la fuente */
+    line-height: 1.8;        /* Interlineado de 1.8 para mejor lectura */
+    color: #aaaaaa;          /* Gris claro */
+    margin-bottom: 25px;     /* Espacio debajo de la descripción */
+    max-width: 480px;        /* Limita el ancho del texto para mejor legibilidad */
+}
+
+/* Lista de datos/estadísticas del personaje */
+.detail__facts {
+    list-style: none;          /* Sin bullets (puntos) predeterminados */
+    padding: 0;                /* Sin padding interior */
+    margin: 0 0 30px 0;        /* Solo margen inferior de 30px */
+    border-left: 2px solid #96d749; /* Línea vertical verde a la izquierda de la lista */
+    padding-left: 15px;        /* Espacio para que el texto no quede pegado a la línea */
+}
+
+/* Cada elemento de la lista de datos */
+.detail__facts li {
+    font-family: sans-serif;    /* Fuente sans-serif */
+    font-size: 0.9rem;          /* Tamaño ligeramente pequeño */
+    color: #cccccc;             /* Gris claro */
+    padding: 4px 0;             /* 4px de espacio vertical entre items */
+    letter-spacing: 0.5px;      /* Ligero espaciado entre letras para mejor lectura */
+}
+
+/* Etiquetas en negrita dentro de la lista (ej: "Estado:", "Especie:") */
+.detail__facts strong {
+    color: #96d749; /* Verde lima para destacar las etiquetas */
+}
+
+
+/* ============================================================
+SOBRE NOSOTROS- Se aplica en sobrenosotros.html
+Fondo con imagen de Rick & Morty
+   ============================================================ */
+.pagina-nos {
+    background-image: url('https://i.pinimg.com/1200x/de/08/09/de0809c39b210cf433c569d2f66571df.jpg'); /* Imagen de fondo con Rick y Morty */
+    background-size: cover;             /* La imagen cubre toda el área */
+    background-position: center right;  /* Se enfoca en la parte derecha de la imagen */
+    background-attachment: fixed;       /* El fondo queda fijo al hacer scroll */
+    background-repeat: no-repeat;       /* La imagen no se repite */
+    background-color: #111;             /* Color de respaldo oscuro mientras carga la imagen */
+}
+
+/* Contenedor de la sección "Sobre Nosotros" */
+.pagina-nos .container-nos {
+    align-self: flex-start;  /* Se alinea al inicio del eje cruzado (arriba) en el flex padre */
+    margin-top: 50px;        /* Espacio superior de 50px */
+    margin-bottom: 50px;     /* Espacio inferior de 50px */
+    margin-left: 8%;         /* Empuja el contenido hacia la izquierda de la pantalla */
+    width: 100%;             /* Ancho completo */
+    max-width: 450px;        /* Máximo de 450px para mantener el diseño de panel */
+    flex-grow: 1;            /* Ocupa el espacio disponible entre header y footer */
+}
+
+/* Panel de cristal de "Sobre Nosotros" */
+.about {
+    background: rgba(0, 0, 0, 0.7); /* Fondo negro semitransparente */
+    padding: 40px;                   /* Espacio interior generoso */
+    border-radius: 15px;             /* Esquinas muy redondeadas */
+    border: 1px solid #2a2a2a;       /* Borde sutil oscuro */
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.5); /* Sombra exterior muy grande (efecto de halo oscuro) */
+    color: #cccccc;                  /* Texto gris claro */
+}
+
+/* Título principal del panel "Sobre Nosotros" */
+.about__title {
+    color: #96d749;      /* Verde lima */
+    font-size: 2.5rem;   /* Tamaño grande */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    text-align: center;  /* Título centrado */
+}
+
+/* Subtítulos dentro del panel */
+.about__subtitle {
+    color: #96d749;           /* Verde lima */
+    font-size: 1.8rem;        /* Tamaño mediano-grande */
+    margin-top: 40px;         /* Espacio encima del subtítulo */
+    margin-bottom: 20px;      /* Espacio debajo del subtítulo */
+    border-bottom: 2px solid #96d749; /* Línea verde debajo del subtítulo */
+    padding-bottom: 5px;      /* Espacio entre el texto y la línea */
+}
+
+/* Lista de contenidos en "Sobre Nosotros" */
+.about__list {
+    margin-left: 20px;   /* Indenta la lista hacia la derecha */
+    margin-bottom: 30px; /* Espacio debajo de la lista */
+    line-height: 1.6;    /* Interlineado cómodo para lectura */
+}
+
+/* Párrafos dentro del panel */
+.about p {
+    margin: 10px 0; /* 10px de margen vertical entre párrafos */
+}
+
+/* Listas dentro del panel */
+.about ul {
+    margin-left: 20px; /* Indenta las listas hacia la derecha */
+    margin-top: 10px;  /* Espacio encima de cada lista */
+}
+
+/* Cada item de la lista */
+.about__list li {
+    margin-bottom: 12px; /* Espacio entre cada item de la lista */
+}
+
+/* Texto en negrita dentro de la lista (datos destacados) */
+.about__list b {
+    color: #00e5ff; /* Azul cian eléctrico para destacar información clave */
+}
+
+
+/* ============================================================
+FORMULARIO DE CONTRIBUCIÓN - Se aplica en cointribuir.html
+Campos para que el usuario envie un nuevo personaje
+   ============================================================ */
+.form {
+       display: flex;          /* Flexbox vertical para apilar los campos */
+       flex-direction: column; /* Los campos se apilan uno debajo del otro */
+       gap: 24px;              /* 24px de separación entre cada campo/sección */
+}
+
+   /* Cada campo individual del formulario */
+.form__field {
+       display: flex;          /* Flexbox vertical */
+       flex-direction: column; /* Label encima, input debajo */
+       gap: 8px;               /* 8px de separación entre el label y el input */
+}
+
+   /* Etiqueta de cada campo */
+    .form__label {
+       font-family: sans-serif;  /* Fuente sans-serif */
+       color: #96d749;           /* Verde lima */
+       font-size: 0.8rem;        /* Tamaño pequeño */
+       letter-spacing: 1.5px;   /* Separación entre letras (estilo "UPPERCASE") */
+       text-transform: uppercase; /* Texto en mayúsculas */
+    }
+   /* Contenedor principal del formulario */
+
+.form input,
+.form select,
+.form textarea {
+    padding: 8px;             /* Espacio interior de 8px */
+    margin: 10px 0;           /* 10px de margen vertical entre campos */
+    width: 100%;              /* El campo ocupa el 100% del ancho del contenedor */
+    background: #1a1a1a;      /* Fondo gris muy oscuro */
+    border: 1px solid #2a2a2a; /* Borde gris oscuro sutil */
+    border-radius: 4px;       /* Esquinas ligeramente redondeadas */
+    color: #e0e0e0;           /* Texto gris claro */
+    font-size: 0.95rem;       /* Tamaño de fuente ligeramente pequeño */
+    outline: none;            /* Elimina el borde de foco predeterminado del navegador */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Animación suave del borde y sombra al enfocar */
+    font-family: sans-serif;  /* Fuente sans-serif */
+}
+
+/* Foco en los campos del formulario */
+.form__input:focus,
+.form__select:focus,
+.form__textarea:focus {
+    border-color: #96d749;                        /* Borde verde al enfocar */
+    box-shadow: 0 0 8px rgba(150, 215, 73, 0.2); /* Sombra verde suave al enfocar */
+}
+
+/* Opciones del select con fondo oscuro */
+.form__select option {
+    background: #1a1a1a; /* Fondo oscuro en el menú desplegable del select */
+}
+
+/* Fieldset para agrupar opciones (ej: spoiler sí/no) */
+.form__fieldset {
+    border: 1px solid #2a2a2a; /* Borde sutil oscuro alrededor del grupo */
+    border-radius: 4px;        /* Esquinas redondeadas */
+    padding: 16px 20px;        /* Espacio interior: 16px vertical, 20px horizontal */
+    align-items: center;       /* Centra verticalmente los elementos hijos */
+    flex-wrap: wrap;           /* Los elementos se envuelven si no caben en una línea */
+    display: flex;             /* Flexbox para organizar los radio buttons en fila */
+    gap: 20px;                 /* 20px de separación entre cada radio button */
+}
+
+/* Leyenda del fieldset */
+.form__legend {
+    font-family: sans-serif;  /* Fuente sans-serif */
+    color: #96d749;           /* Verde lima */
+    font-size: 0.8rem;        /* Tamaño pequeño */
+    letter-spacing: 1.5px;   /* Separación entre letras */
+    padding: 0 8px;           /* Espacio horizontal para que no quede pegado al borde */
+}
+
+/* Contenedor de cada opción radio */
+.form__radio {
+    align-items: center;  /* Centra el círculo del radio y su etiqueta verticalmente */
+    display: flex;        /* En línea horizontal */
+    gap: 8px;             /* 8px de espacio entre el radio y su texto */
+    cursor: pointer;      /* Cursor de mano al pasar por encima */
+    color: #aaaaaa;       /* Texto gris claro */
+    font-size: 0.95rem;   /* Tamaño de fuente estándar */
+}
+
+/* El input de tipo radio dentro de .form__radio */
+.form__radio input[type="radio"] {
+    accent-color: #96d749; /* Color del radio cuando está seleccionado (verde lima) */
+    width: 16px;           /* Ancho del control de radio */
+    height: 16px;          /* Alto del control de radio */
+    cursor: pointer;       /* Cursor de mano */
+}
+
+
+/* ============================================================
+    HERO DE PÁGINA - Se aplica en index.html y contribuir.html
+    Bloque de encabezado con título y subtítulo del formulario.
+   ============================================================ */
+.page-hero {
+    margin-bottom: 40px; /* Espacio debajo del bloque hero antes del formulario */
+}
+
+/* Título principal del hero */
+.page-hero__title {
+    font-family: sans-serif; /* Fuente sans-serif */
+    font-size: 2.5rem;       /* Tamaño grande */
+    color: #96d749;          /* Verde lima */
+    margin-bottom: 8px;      /* Pequeño espacio debajo del título */
+}
+
+/* Subtítulo del hero — Nota: falta el punto inicial (.) en el selector original, conservado */
+page-hero__subtitle {
+    color: #aaaaaa;      /* Gris claro */
+    font-weight: 300;    /* Fuente ligera */
+    font-size: 1rem;     /* Tamaño estándar */
+}
+
+
